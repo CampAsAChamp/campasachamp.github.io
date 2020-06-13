@@ -1,0 +1,163 @@
+.landing-page {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.15fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr;
+    grid-template-areas:
+        "nav nav"
+        "name-intro profile-pic"
+        "contact-me profile-pic";
+}
+
+nav {
+    background: #95f871;
+    grid-area: nav;
+}
+#name-intro {
+    background: #4dfc10;
+    grid-area: name-intro;
+}
+
+#profile-pic {
+    background: #3bb30f;
+    grid-area: profile-pic;
+}
+
+#contact-me {
+    background: #267409;
+    grid-area: contact-me;
+}
+
+.about-me {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1.15fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "about-me-images about-me-text";
+}
+
+#about-me-images {
+    background: #e58282;
+    grid-area: about-me-images;
+}
+
+#about-me-text {
+    background: #aa6161;
+    grid-area: about-me-text;
+}
+
+.experience {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5.5fr;
+    grid-template-areas:
+        "experience-header experience-header experience-header"
+        "card1 card2 card3";
+}
+
+#experience-header {
+    background: #d8f485;
+    grid-area: experience-header;
+}
+
+#card1 {
+    background: #a3b864;
+    grid-area: card1;
+}
+
+#card2 {
+    background: #748347;
+    grid-area: card2;
+}
+
+#card3 {
+    background: #4b552e;
+    grid-area: card3;
+}
+
+.skills {
+    /* background: #828acf; */
+    display: grid;
+    height: 75vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7.5fr;
+    grid-template-areas:
+        "skills-header"
+        "skills-content";
+}
+
+#skills-header {
+    background: #828acf;
+    grid-area: skills-header;
+}
+
+#skills-content {
+    background: #6970a8;
+    grid-area: skills-content;
+}
+
+.graphic-design {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 17fr;
+    grid-template-areas:
+        "graphic-design-header"
+        "graphic-design-content";
+}
+
+#graphic-design-header {
+    background: #e18ce2;
+    grid-area: graphic-design-header;
+}
+
+#graphic-design-content {
+    background: #9f64a0;
+    grid-area: graphic-design-content;
+}
+
+.software-projects {
+    /* background: #877c60; */
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-areas:
+        "software-projects-header"
+        "software-projects-card1"
+        "software-projects-card2"
+        "software-projects-card3"
+        "software-projects-card4"
+        "software-projects-card5"
+        "software-projects-card6";
+}
+
+#software-projects-header {
+    background: #ad9f7c;
+}
+
+#software-projects-card1 {
+    background: #877c60;
+    grid-area: software-projects-card1;
+}
+#software-projects-card2 {
+    background: #776d55;
+    grid-area: software-projects-card2;
+}
+#software-projects-card3 {
+    background: #464032;
+    grid-area: software-projects-card3;
+}
+#software-projects-card4 {
+    background: #3f3a2d;
+    grid-area: software-projects-card4;
+}
+#software-projects-card5 {
+    background: #25221b;
+    grid-area: software-projects-card5;
+}
+#software-projects-card6 {
+    background: #14130e;
+    grid-area: software-projects-card6;
+}
