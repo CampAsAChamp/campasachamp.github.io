@@ -22,7 +22,7 @@ p {
     font-size: 28px;
 }
 
-.landing-page {
+.landing-page-container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1.15fr 1fr;
@@ -47,12 +47,24 @@ nav {
     grid-area: profile-pic;
 }
 
+#profile-pic img {
+    height: 500px;
+    width: 500px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* TODO: Center photo vertically as well */
+}
+
 #contact-me {
     background: #267409;
     grid-area: contact-me;
 }
 
-.about-me {
+.about-me-container {
     display: grid;
     height: 90vh;
     grid-template-columns: 1.15fr 1fr;
@@ -70,7 +82,7 @@ nav {
     grid-area: about-me-text;
 }
 
-.experience {
+.experience-container {
     display: grid;
     height: 90vh;
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,7 +112,7 @@ nav {
     grid-area: card3;
 }
 
-.skills {
+.skills-container {
     display: grid;
     height: 75vh;
     grid-template-columns: 1fr;
@@ -120,7 +132,7 @@ nav {
     grid-area: skills-content;
 }
 
-.graphic-design {
+.graphic-design-container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -140,7 +152,7 @@ nav {
     grid-area: graphic-design-content;
 }
 
-.software-projects {
+.software-projects-container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -190,7 +202,7 @@ nav {
 }
 
 @media only screen and (max-width: 800px) {
-    .landing-page {
+    .landing-page-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3.1fr 2.6fr 1.2fr;
         grid-template-areas:
@@ -200,7 +212,7 @@ nav {
             "contact-me";
     }
 
-    .about-me {
+    .about-me-container {
         grid-template-columns: 1fr;
         grid-template-rows: 4.6fr 4.2fr;
         grid-template-areas:
@@ -208,7 +220,7 @@ nav {
             "about-me-text";
     }
 
-    .experience {
+    .experience-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5.2fr 5.2fr 5.2fr;
         grid-template-areas:
@@ -218,7 +230,7 @@ nav {
             "card3";
     }
 
-    .skills {
+    .skills-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 4.5fr;
         grid-template-areas:
@@ -226,7 +238,7 @@ nav {
             "skills-content";
     }
 
-    .graphic-design {
+    .graphic-design-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 6fr;
         grid-template-areas:
@@ -234,7 +246,7 @@ nav {
             "graphic-design-content";
     }
 
-    .software-projects {
+    .software-projects-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr;
         grid-template-areas:
