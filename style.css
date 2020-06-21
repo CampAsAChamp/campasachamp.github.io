@@ -59,6 +59,15 @@ nav {
     outline: none;
 }
 
+.card {
+    background: #ffffff;
+    margin: 30px;
+    padding: 40px 35px;
+
+    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
 .contact-me-button {
     background: #6c63ff;
 }
