@@ -1,31 +1,62 @@
 body {
     font-family: "Nunito", sans-serif;
+    color: #707070;
 }
 
 h1 {
     font-weight: 900;
-    font-size: 96px;
+    font-size: 6.5vw;
+    line-height: 131px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 h2 {
     font-weight: 900;
     font-size: 50px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 h3 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 p {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 28px;
+}
+
+nav {
+    background: #95f871;
+    grid-area: nav;
+}
+
+.button {
+    border-radius: 1000px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    font: 900 large "Nunito";
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact-me-button {
+    background: #6c63ff;
 }
 
 .landing-page-container {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1.15fr 1fr;
+    /* height: 100vh; */
+    grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr 4fr 3fr;
     grid-template-areas:
         "nav nav"
@@ -33,14 +64,19 @@ p {
         "contact-me profile-pic";
 }
 
-nav {
-    background: #95f871;
-    grid-area: nav;
-}
-#name-intro {
+#name-intro-container {
+    /* background: #ff00ff; */
     background: #4dfc10;
+    padding-left: 250px;
+    padding-top: 20px;
     grid-area: name-intro;
 }
+
+/* #name-intro-text {
+    display: inline;
+    padding-left: 100px;
+    background: #ff00ff;
+} */
 
 #profile-pic {
     background: #3bb30f;
@@ -48,8 +84,7 @@ nav {
 }
 
 #profile-pic img {
-    height: 500px;
-    width: 500px;
+    width: 60%;
 }
 
 .center {
@@ -62,6 +97,7 @@ nav {
 #contact-me {
     background: #267409;
     grid-area: contact-me;
+    padding-left: 250px;
 }
 
 .about-me-container {
@@ -75,6 +111,16 @@ nav {
 #about-me-images {
     background: #e58282;
     grid-area: about-me-images;
+}
+
+#desk-illustration {
+    width: 30%;
+    display: block;
+}
+
+#grad-cap-illustration {
+    width: 30%;
+    display: block;
 }
 
 #about-me-text {
