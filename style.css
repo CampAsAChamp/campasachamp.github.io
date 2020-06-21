@@ -5,7 +5,10 @@ body {
 
 h1 {
     font-weight: 900;
-    font-size: 6.5vw;
+    /* font-size: 6.5vw; */
+    font-size: 96px;
+    /* font-size: 6.25vw; */
+
     line-height: 131px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -14,12 +17,16 @@ h1 {
 h2 {
     font-weight: 900;
     font-size: 50px;
+    /* font-size: 3.25vw; */
+
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 h3 {
     font-weight: 700;
+    /* font-size: 2.35vw; */
+
     font-size: 36px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -27,11 +34,14 @@ h3 {
 
 p {
     font-weight: 400;
+    /* font-size: 1.85vw; */
     font-size: 28px;
+    line-height: 38px;
 }
 
 nav {
-    background: #95f871;
+    /* background: #95f871; */
+    border: 5px solid #95f871;
     grid-area: nav;
 }
 
@@ -65,21 +75,15 @@ nav {
 }
 
 #name-intro-container {
-    /* background: #ff00ff; */
-    background: #4dfc10;
+    border: 5px solid #4dfc10;
+
     padding-left: 250px;
     padding-top: 20px;
     grid-area: name-intro;
 }
 
-/* #name-intro-text {
-    display: inline;
-    padding-left: 100px;
-    background: #ff00ff;
-} */
-
 #profile-pic {
-    background: #3bb30f;
+    border: 5px solid #3bb30f;
     grid-area: profile-pic;
 }
 
@@ -95,7 +99,8 @@ nav {
 }
 
 #contact-me {
-    background: #267409;
+    border: 5px solid #267409;
+
     grid-area: contact-me;
     padding-left: 250px;
 }
@@ -109,22 +114,29 @@ nav {
 }
 
 #about-me-images {
-    background: #e58282;
+    border: 5px solid #e58282;
+
     grid-area: about-me-images;
 }
 
-#desk-illustration {
-    width: 30%;
+#grad-cap-illustration {
+    position: relative;
+    width: 50%;
     display: block;
 }
 
-#grad-cap-illustration {
-    width: 30%;
+#desk-illustration {
+    position: relative;
+    width: 50%;
     display: block;
+    left: 300px;
 }
 
 #about-me-text {
-    background: #aa6161;
+    padding-top: 150px;
+    padding-right: 50px;
+    border: 5px solid #aa6161;
+
     grid-area: about-me-text;
 }
 
@@ -139,22 +151,26 @@ nav {
 }
 
 #experience-header {
-    background: #d8f485;
+    border: 5px solid #d8f485;
+
     grid-area: experience-header;
 }
 
 #card1 {
-    background: #a3b864;
+    border: 5px solid #a3b864;
+
     grid-area: card1;
 }
 
 #card2 {
-    background: #748347;
+    border: 5px solid #748347;
+
     grid-area: card2;
 }
 
 #card3 {
-    background: #4b552e;
+    border: 5px solid #4b552e;
+
     grid-area: card3;
 }
 
@@ -169,12 +185,14 @@ nav {
 }
 
 #skills-header {
-    background: #828acf;
+    border: 5px solid #828acf;
+
     grid-area: skills-header;
 }
 
 #skills-content {
-    background: #6970a8;
+    border: 5px solid #6970a8;
+
     grid-area: skills-content;
 }
 
@@ -189,12 +207,14 @@ nav {
 }
 
 #graphic-design-header {
-    background: #e18ce2;
+    border: 5px solid #e18ce2;
+
     grid-area: graphic-design-header;
 }
 
 #graphic-design-content {
-    background: #9f64a0;
+    border: 5px solid #9f64a0;
+
     grid-area: graphic-design-content;
 }
 
@@ -214,36 +234,43 @@ nav {
 }
 
 #software-projects-header {
-    background: #ad9f7c;
+    border: 5px solid #ad9f7c;
+    grid-area: software-projects-header;
 }
 
 #software-projects-card1 {
-    background: #877c60;
+    border: 5px solid #877c60;
+
     grid-area: software-projects-card1;
 }
 
 #software-projects-card2 {
-    background: #776d55;
+    border: 5px solid #776d55;
+
     grid-area: software-projects-card2;
 }
 
 #software-projects-card3 {
-    background: #464032;
+    border: 5px solid #464032;
+
     grid-area: software-projects-card3;
 }
 
 #software-projects-card4 {
-    background: #3f3a2d;
+    border: 5px solid #3f3a2d;
+
     grid-area: software-projects-card4;
 }
 
 #software-projects-card5 {
-    background: #25221b;
+    border: 5px solid #25221b;
+
     grid-area: software-projects-card5;
 }
 
 #software-projects-card6 {
-    background: #14130e;
+    border: 5px solid #14130e;
+
     grid-area: software-projects-card6;
 }
 
