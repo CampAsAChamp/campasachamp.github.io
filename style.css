@@ -39,8 +39,12 @@ p {
     line-height: 38px;
 }
 
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
 nav {
-    /* background: #95f871; */
     border: 5px solid #95f871;
     grid-area: nav;
     text-align: center;
@@ -68,7 +72,7 @@ nav {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr 4fr 3fr;
+    grid-template-rows: 1fr 4fr 2fr;
     grid-template-areas:
         "nav nav"
         "name-intro profile-pic"
@@ -106,7 +110,7 @@ nav {
 
 .about-me-container {
     display: grid;
-    height: 90vh;
+    /* height: 90vh; */
     grid-template-columns: 1.15fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "about-me-images about-me-text";
@@ -141,7 +145,7 @@ nav {
 .experience-container {
     border: 5px solid #1b420c;
     display: grid;
-    height: 90vh;
+    /* height: 90vh; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 5.5fr;
     grid-template-areas:
@@ -157,7 +161,8 @@ nav {
 .card {
     background: #ffffff;
     margin: 30px;
-    padding: 40px 35px;
+    padding: 20px;
+    position: relative;
 
     box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -178,6 +183,67 @@ nav {
     grid-area: card3;
 }
 
+.primary-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 5px solid #694148;
+}
+
+.thumbnail {
+    border: 5px solid #c44b5f;
+}
+
+.employer {
+    font-family: "Nunito", sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    color: #ce1126;
+    border: 5px solid #832434;
+}
+
+.location {
+    border: 5px solid #572e35;
+}
+
+.secondary-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 5px solid #c9a7ad;
+}
+
+.position {
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    border: 5px solid #f07c90;
+}
+
+.duration {
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* right: 16px; */
+    border: 5px solid #a3727b;
+}
+
+.supporting-text {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    border: 5px solid #b9a2a6;
+
+    /* padding-bottom: 28px; */
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    /* line-height: 1.5; */
+}
+
+.languages-bar {
+    border: 5px solid #eccdd3;
+}
 .skills-container {
     display: grid;
     /* height: 75vh; */
@@ -204,13 +270,14 @@ nav {
 
 .skills-row {
     border: 5px solid #515baf;
+    justify-content: center;
 
     display: flex;
 }
 
-#skills-row1 .graphic-design-container {
+.graphic-design-container {
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 17fr;
     grid-template-areas:
