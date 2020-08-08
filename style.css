@@ -43,6 +43,7 @@ nav {
     /* background: #95f871; */
     border: 5px solid #95f871;
     grid-area: nav;
+    text-align: center;
 }
 
 .button {
@@ -57,15 +58,6 @@ nav {
     color: #ffffff;
     cursor: pointer;
     outline: none;
-}
-
-.card {
-    background: #ffffff;
-    margin: 30px;
-    padding: 40px 35px;
-
-    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
 }
 
 .contact-me-button {
@@ -85,7 +77,6 @@ nav {
 
 #name-intro-container {
     border: 5px solid #4dfc10;
-
     padding-left: 250px;
     padding-top: 20px;
     grid-area: name-intro;
@@ -109,7 +100,6 @@ nav {
 
 #contact-me {
     border: 5px solid #267409;
-
     grid-area: contact-me;
     padding-left: 250px;
 }
@@ -124,7 +114,6 @@ nav {
 
 #about-me-images {
     border: 5px solid #e58282;
-
     grid-area: about-me-images;
 }
 
@@ -150,6 +139,7 @@ nav {
 }
 
 .experience-container {
+    border: 5px solid #1b420c;
     display: grid;
     height: 90vh;
     grid-template-columns: 1fr 1fr 1fr;
@@ -161,31 +151,36 @@ nav {
 
 #experience-header {
     border: 5px solid #d8f485;
-
     grid-area: experience-header;
+}
+
+.card {
+    background: #ffffff;
+    margin: 30px;
+    padding: 40px 35px;
+
+    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
 
 #card1 {
     border: 5px solid #a3b864;
-
     grid-area: card1;
 }
 
 #card2 {
     border: 5px solid #748347;
-
     grid-area: card2;
 }
 
 #card3 {
     border: 5px solid #4b552e;
-
     grid-area: card3;
 }
 
 .skills-container {
     display: grid;
-    height: 75vh;
+    /* height: 75vh; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 7.5fr;
     grid-template-areas:
@@ -195,17 +190,25 @@ nav {
 
 #skills-header {
     border: 5px solid #828acf;
+    text-align: center;
 
     grid-area: skills-header;
 }
 
 #skills-content {
     border: 5px solid #6970a8;
-
     grid-area: skills-content;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
-.graphic-design-container {
+.skills-row {
+    border: 5px solid #515baf;
+
+    display: flex;
+}
+
+#skills-row1 .graphic-design-container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -217,19 +220,19 @@ nav {
 
 #graphic-design-header {
     border: 5px solid #e18ce2;
-
     grid-area: graphic-design-header;
 }
 
 #graphic-design-content {
     border: 5px solid #9f64a0;
-
     grid-area: graphic-design-content;
 }
 
 .software-projects-container {
+    border: 5px solid #585240;
+
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
     grid-template-areas:
@@ -247,39 +250,43 @@ nav {
     grid-area: software-projects-header;
 }
 
+.software-projects-cards {
+    background: #ffffff;
+    height: 20vh;
+    margin: 30px;
+    padding: 40px 35px;
+
+    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
 #software-projects-card1 {
     border: 5px solid #877c60;
-
     grid-area: software-projects-card1;
 }
 
 #software-projects-card2 {
     border: 5px solid #776d55;
-
     grid-area: software-projects-card2;
 }
 
 #software-projects-card3 {
     border: 5px solid #464032;
-
     grid-area: software-projects-card3;
 }
 
 #software-projects-card4 {
     border: 5px solid #3f3a2d;
-
     grid-area: software-projects-card4;
 }
 
 #software-projects-card5 {
     border: 5px solid #25221b;
-
     grid-area: software-projects-card5;
 }
 
 #software-projects-card6 {
     border: 5px solid #14130e;
-
     grid-area: software-projects-card6;
 }
 
