@@ -57,7 +57,7 @@
         </section>
         <section class="card" id="card1">
             <div class="primary-title">
-                <div class="employer">Raytheon Intelligence & Space</div>
+                <div class="employer card-title" id="raytheon-title">Raytheon Intelligence & Space</div>
                 <div class="thumbnail experience-thumbnail">
                     <img src="./assets/Company Logos/Raytheon_Technologies_logo.svg" alt="thumbnail for Raytheon"
                         width="50" height="50" class="center">
@@ -78,13 +78,16 @@
                         (July 2020); Recognition Award for collaboration (June 2020).</li>
                 </ul>
             </div>
-            <div class="languages-bar" id="raytheon-language-bar">
-                <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon" width="40"
-                    height="40">
-                <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon" width="40"
-                    height="40">
-                <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon" width="40"
-                    height="40">
+            <div class="bottom-bar">
+                <div class="languages-bar" id="raytheon-language-bar">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                </div>
+                <button type="button" class="button view-more-button" id="raytheon-button">View More</button>
             </div>
         </section>
         <section class="card" id="card2">Card 2</section>
@@ -97,57 +100,60 @@
             <h2>Skills & Technologies</h2>
         </section>
         <section id="skills-content">
-            <section id="skills-row1" class="skills-row">
+            <section class="skills-row">
                 <figure>
-                    <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
                     <figcaption>C++</figcaption>
                 </figure>
                 <figure>
-                    <img id="c_icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
                     <figcaption>C</figcaption>
                 </figure>
                 <figure>
-                    <img id="java_icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
                     <figcaption>Java</figcaption>
                 </figure>
                 <figure>
-                    <img id="python_icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg" alt="Python Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg"
+                        alt="Python Icon">
                     <figcaption>Python</figcaption>
                 </figure>
             </section>
-            <section id="skills-row2" class="skills-row">
+            <section class="skills-row">
                 <figure>
-                    <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
                     <figcaption>C++</figcaption>
                 </figure>
                 <figure>
-                    <img id="c_icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
                     <figcaption>C</figcaption>
                 </figure>
                 <figure>
-                    <img id="java_icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
                     <figcaption>Java</figcaption>
                 </figure>
                 <figure>
-                    <img id="python_icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg" alt="Python Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg"
+                        alt="Python Icon">
                     <figcaption>Python</figcaption>
                 </figure>
             </section>
-            <section id="skills-row3" class="skills-row">
+            <section class="skills-row">
                 <figure>
-                    <img id="cplusplus_icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon">
                     <figcaption>C++</figcaption>
                 </figure>
                 <figure>
-                    <img id="c_icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/c-plain.svg" alt="C Icon">
                     <figcaption>C</figcaption>
                 </figure>
                 <figure>
-                    <img id="java_icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/java-plain.svg" alt="Java Icon">
                     <figcaption>Java</figcaption>
                 </figure>
                 <figure>
-                    <img id="python_icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg" alt="Python Icon">
+                    <img class="skills-icon" src="./assets/Purple Dev Icons/python-plain-wordmark.svg"
+                        alt="Python Icon">
                     <figcaption>Python</figcaption>
                 </figure>
             </section>
@@ -171,16 +177,46 @@
     </section>
 
 
-    <section class="software-projects-container">
-        <section id="software-projects-header">
+    <section class="sw-projects-container">
+        <section id="sw-projects-header">
             <h2>Software Projects</h2>
         </section>
-        <section class="software-projects-cards" id="software-projects-card1">SW Projects Card 1</section>
-        <section class="software-projects-cards" id="software-projects-card2">SW Projects Card 2</section>
-        <section class="software-projects-cards" id="software-projects-card3">SW Projects Card 3</section>
-        <section class="software-projects-cards" id="software-projects-card4">SW Projects Card 4</section>
-        <section class="software-projects-cards" id="software-projects-card5">SW Projects Card 5</section>
-        <section class="software-projects-cards" id="software-projects-card6">SW Projects Card 6</section>
+        <section class="sw-projects-cards" id="sw-projects-card1">
+            <div class="primary-title">
+                <div class="sw-project-title card-title">Quantum Mechanical Keyboard Firmware</div>
+                <div class="languages-bar">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                    <img class="languages-item" src="./assets/Purple Dev Icons/cplusplus-plain.svg" alt="C++ Icon"
+                        width="40" height="40">
+                </div>
+            </div>
+            <div class="sw-projects-info">
+                <img class="sw-projects-img" src="./assets/Projects/keyboards.jpg" alt="QMK Picture" height="240"
+                    width="400">
+                <div class="sw-projects-text supporting-text">
+                    <ul>
+                        <li>Custom keyboard firmware written in C for keyboards with Atmel micro controllers. Used for
+                            building your own keyboard, and provides extended functionality with features such as
+                            macros,
+                            custom function layers, double tap shortcut keys, and emulating mouse movement.</li>
+                        <li>Wrote a beginner’s guide and tutorial for how to set up a keyboard with custom firmware
+                            which
+                            has had over 300 visitors. </li>
+                    </ul>
+                    <div class="button-holder">
+                        <button type="button" class="button view-more-button sw-projects-button">View More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sw-projects-cards" id="sw-projects-card2">SW Projects Card 2</section>
+        <section class="sw-projects-cards" id="sw-projects-card3">SW Projects Card 3</section>
+        <section class="sw-projects-cards" id="sw-projects-card4">SW Projects Card 4</section>
+        <section class="sw-projects-cards" id="sw-projects-card5">SW Projects Card 5</section>
+        <section class="sw-projects-cards" id="sw-projects-card6">SW Projects Card 6</section>
     </section>
 
 </body>
