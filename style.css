@@ -56,6 +56,7 @@ nav {
     border: 5px solid #95f871;
     grid-area: nav;
     text-align: center;
+    z-index: 2;
 }
 
 .button {
@@ -89,16 +90,25 @@ nav {
         "contact-me profile-pic";
 }
 
+#landing-blob {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
 #name-intro-container {
     border: 5px solid #4dfc10;
     padding-left: 250px;
     padding-top: 20px;
+
     grid-area: name-intro;
 }
 
 #profile-pic {
     border: 5px solid #3bb30f;
     grid-area: profile-pic;
+    z-index: 2;
 }
 
 #profile-pic img {
@@ -120,6 +130,8 @@ nav {
 
 .about-me-container {
     display: grid;
+    background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.png");
+    background-repeat: no-repeat;
     /* height: 90vh; */
     grid-template-columns: 1.15fr 1fr;
     grid-template-rows: 1fr;
@@ -311,6 +323,8 @@ nav {
 #skills-content {
     border: 5px solid #6970a8;
     grid-area: skills-content;
+    background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
+    background-repeat: no-repeat;
     /* margin-left: auto; */
     /* margin-right: auto; */
 }
@@ -348,6 +362,10 @@ nav {
 
 .sw-projects-container {
     border: 5px solid #585240;
+
+    background-image: url("./assets/Organic_Shapes/Bottom\ Wave.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
 
     display: grid;
     /* height: 100vh; */
@@ -437,6 +455,12 @@ nav {
 #sw-projects-card6 {
     border: 5px solid #14130e;
     grid-area: sw-projects-card6;
+}
+
+#bottom-wave {
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 800px) {
