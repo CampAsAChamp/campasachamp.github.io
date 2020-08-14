@@ -59,6 +59,27 @@ nav {
     z-index: 2;
 }
 
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+#logo {
+    float: left;
+}
+
 .button {
     border-radius: 1000px;
     border: none;
