@@ -224,6 +224,11 @@ nav ul li a {
     grid-area: experience-header;
 }
 
+.experience-thumbnail {
+    height: 50px;
+    width: 50px;
+}
+
 .card {
     background: #ffffff;
     margin: 30px;
@@ -353,6 +358,8 @@ nav ul li a {
 
 .languages-item {
     margin: 0px 7px;
+    width: 40px;
+    height: 40px;
 }
 
 .view-more-button {
@@ -384,6 +391,8 @@ nav ul li a {
     border: 5px solid #6970a8;
     grid-area: skills-content;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
+    /* background-size: 600px; */
+    /* height: 10%; */
     background-repeat: no-repeat;
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -418,6 +427,27 @@ nav ul li a {
 #graphic-design-content {
     border: 5px solid #9f64a0;
     grid-area: graphic-design-content;
+    padding: 0 auto;
+    /* margin: auto 0; */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+/* Create four equal columns that sit next to each other */
+.column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 5px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .sw-projects-container {
@@ -464,6 +494,8 @@ nav ul li a {
 .sw-projects-img {
     /* display: inline; */
     padding-right: 20px;
+    height: 240px;
+    width: 400px;
 }
 
 .sw-projects-text {
@@ -523,7 +555,7 @@ nav ul li a {
     z-index: 1;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .landing-page-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3.1fr 2.6fr 1.2fr;
@@ -568,6 +600,12 @@ nav ul li a {
             "graphic-design-content";
     }
 
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
     .sw-projects-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr;
@@ -579,5 +617,13 @@ nav ul li a {
             "sw-projects-card4"
             "sw-projects-card5"
             "sw-projects-card6";
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 }
