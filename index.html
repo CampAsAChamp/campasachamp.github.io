@@ -14,6 +14,31 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="scroll-to-top-button" title="Go to top">Scroll to Top</button>
+
+
+    <script>
+        var mybutton = document.getElementById("scroll-to-top-button");
+        var scrollLength = 800; // In pixels
+
+        // When the user scrolls down to the scroll length from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > scrollLength || document.documentElement.scrollTop > scrollLength) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
     <section class="landing-page-container">
 
         <nav>
@@ -30,13 +55,20 @@
             <img id="landing-blob" src="./assets/Organic_Shapes/Hero Image Blob Shape.svg" alt="">
             <h1>Nick <br> Schneider</h1>
             <h3>Software Engineer and UI/UX Designer</h3>
-            <p>I write code and have a passion for design</p>
+            <p>Making things pretty is my job</p>
         </section>
         <section id="profile-pic">
             <img src="./assets/vector avatar.svg" alt="Flat Profile Picture" class="center">
         </section>
-        <section id="contact-me">
-            <button type="button" class="button contact-me-button">Contact Me</button>
+        <section id="contact-me-container">
+            <div id="contact-me-bar">
+                <button type="button" class="button contact-me-button">Contact Me</button>
+                <div id="contact-me-socials">
+                    <img src="./assets/Monochrome Dev Icons/Github Logo.svg" class="contact-me-item" alt="Github Icon">
+                    <img src="./assets/Monochrome Dev Icons/linkedin.svg" class="contact-me-item" alt="LinkedIn Icon">
+                </div>
+            </div>
+            <div class="mouse"></div>
         </section>
     </section>
 
@@ -118,8 +150,6 @@
                     <img class="languages-item" src="./assets/Purple Dev Icons/nodejs-original.svg" alt="NodeJS Icon">
                     <img class="languages-item" src="./assets/Purple Dev Icons/javascript-plain.svg"
                         alt="Javascript Icon">
-                    <img class="languages-item" src="./assets/Purple Dev Icons/mysql-plain-wordmark.svg"
-                        alt="MySQL Icon">
                     <img class="languages-item" src="./assets/Purple Dev Icons/html5-plain-wordmark.svg"
                         alt="HTML Icon">
                     <img class="languages-item" src="./assets/Purple Dev Icons/css3-plain-wordmark.svg" alt="CSS Icon">
@@ -227,12 +257,12 @@
                 <figure>
                     <img class="skills-icon" src="./assets/Purple Dev Icons/illustrator-plain.svg"
                         alt="Adobe Illustrator Icon">
-                    <figcaption>Illustrator</figcaption>
+                    <figcaption>Adobe Illustrator</figcaption>
                 </figure>
                 <figure>
                     <img class="skills-icon" src="./assets/Purple Dev Icons/photoshop-plain.svg"
                         alt="Adobe Photoshop Icon">
-                    <figcaption>Photoshop</figcaption>
+                    <figcaption>Adobe Photoshop</figcaption>
                 </figure>
                 <figure>
                     <img class="skills-icon" src="./assets/Purple Dev Icons/Adobe_XD_CC_icon.svg" alt="Adobe XD Icon">

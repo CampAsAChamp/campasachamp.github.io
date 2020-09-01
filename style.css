@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Nunito", sans-serif;
     color: #707070;
@@ -120,18 +126,18 @@ nav ul li a {
 
 .contact-me-button {
     font-size: 26px;
-    padding: 15px 32px;
+    padding: 20px 32px;
 }
 
 .landing-page-container {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-rows: 1fr 4fr 4fr;
     grid-template-areas:
         "nav nav"
         "name-intro profile-pic"
-        "contact-me profile-pic";
+        "contact-me-container profile-pic";
 }
 
 #landing-blob {
@@ -166,16 +172,120 @@ nav ul li a {
     /* TODO: Center photo vertically as well */
 }
 
-#contact-me {
+#contact-me-container {
     border: 5px solid #267409;
-    grid-area: contact-me;
+    grid-area: contact-me-container;
     padding-left: 250px;
+}
+
+#contact-me-bar {
+    display: flex;
+    align-items: center;
+    /* border: 5px solid #33a31d; */
+    /* margin: 0 25px; */
+
+    /* padding-right: 40px; */
+}
+
+#contact-me-socials {
+    margin: 0 50px;
+
+    /* border: 5px solid #502263; */
+}
+
+.contact-me-item {
+    /* border: 5px solid #502263; */
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+#scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.mouse {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 26px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 40px;
+    height: 60px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mouse::after {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+    -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+    transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+    -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+
+@-webkit-keyframes scroll {
+    0%,
+    20% {
+        -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+        transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+    }
+    10% {
+        -webkit-transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
+        transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
+        transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
+        opacity: 0.01;
+    }
+}
+
+@keyframes scroll {
+    0%,
+    20% {
+        -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+        transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+    }
+    10% {
+        -webkit-transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
+        transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
+        transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
+        opacity: 0.01;
+    }
 }
 
 .about-me-container {
     display: grid;
     background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.png");
     background-repeat: no-repeat;
+    background-size: cover;
     /* height: 90vh; */
     grid-template-columns: 1.15fr 1fr;
     grid-template-rows: 1fr;
@@ -191,7 +301,7 @@ nav ul li a {
     border: 5px solid #a05e5e;
 
     position: relative;
-    /* width: 50%; */
+    width: 50%;
     display: block;
 }
 
@@ -199,9 +309,9 @@ nav ul li a {
     border: 5px solid #851313;
 
     position: relative;
-    /* width: 50%; */
+    width: 50%;
     display: block;
-    left: 300px;
+    left: 30%;
 }
 
 #about-me-text {
@@ -235,6 +345,10 @@ nav ul li a {
 
 .card {
     background: #ffffff;
+    /* width: 90%; */
+    /* height: 60%; */
+    /* height: 625px; */
+    /* width: 500px; */
     margin: 30px;
     padding: 20px;
     position: relative;
@@ -338,11 +452,15 @@ nav ul li a {
     font-family: "Nunito", sans-serif;
     font-size: 15px;
     border: 1px solid #b9a2a6;
-
+    /* margin: 1em 0; */
     /* padding-bottom: 28px; */
     /* padding-left: 16px;
     padding-right: 16px; */
     /* line-height: 1.5; */
+}
+
+.supporting-text li {
+    margin: 1em 0;
 }
 
 .bottom-bar {
@@ -410,6 +528,7 @@ nav ul li a {
 }
 
 .skills-icon {
+    /* margin: 0 50px; */
     /* text-align: center; */
 }
 
@@ -574,7 +693,7 @@ nav ul li a {
             "nav"
             "profile-pic"
             "name-intro"
-            "contact-me";
+            "contact-me-container";
     }
 
     .about-me-container {
