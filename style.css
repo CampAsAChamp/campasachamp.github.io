@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Nunito", sans-serif;
     color: #707070;
