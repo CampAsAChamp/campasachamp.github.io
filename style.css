@@ -413,7 +413,7 @@ nav ul li a {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1fr;
-    grid-template-rows: 0fr 17fr;
+    grid-template-rows: 0fr 13fr;
     grid-template-areas:
         "graphic-design-header"
         "graphic-design-content";
