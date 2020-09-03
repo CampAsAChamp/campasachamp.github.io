@@ -72,7 +72,23 @@
                     </a>
                 </div>
             </div>
-            <div class="mouse"></div>
+            <div class="mouse" id="mouse-scroll-indicator"></div>
+            <script>
+                var mouseIndicator = document.getElementById("mouse-scroll-indicator");
+                var scrollLength = 100; // In pixels
+
+                // When the user scrolls down to the scroll length from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > scrollLength || document.documentElement.scrollTop > scrollLength) {
+                        mouseIndicator.style.opacity = 0;
+                    }
+                    else {
+                        mouseIndicator.style.opacity = 1;
+                    }
+                }
+            </script>
         </section>
     </section>
 

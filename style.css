@@ -231,7 +231,9 @@ nav ul li a {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.75s;
 }
+
 .mouse::after {
     background-color: black;
     border-radius: 100%;
@@ -245,8 +247,8 @@ nav ul li a {
     opacity: 1;
     -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
     transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
-    -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
-    animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) 5;
+    animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) 5;
 }
 
 @-webkit-keyframes scroll {
