@@ -205,7 +205,7 @@ nav ul li a {
 }
 
 #scroll-to-top-button {
-    display: none;
+    display: block;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -218,6 +218,9 @@ nav ul li a {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    opacity: 0;
+    transition: 0.75s;
+    transition-timing-function: ease-in-out;
 }
 
 .mouse {
