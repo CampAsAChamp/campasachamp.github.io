@@ -20,7 +20,8 @@
     <section class="landing-page-container">
 
         <nav>
-            <a href="#" id="logo"><img src="./assets/S Logo.svg" width="54" height="85"></a>
+            <a id="logo" onclick="scrollToTop()"><img src="./assets/S Logo.svg" width="54" height="85"></a>
+            <!-- TODO: Add underline when hovering on list items -->
             <ul>
                 <li><a href="#about-me-images">About Me</a></li>
                 <li><a href="#experience-header">Experience</a></li>
@@ -33,13 +34,15 @@
             <img id="landing-blob" src="./assets/Organic_Shapes/Hero Image Blob Shape.svg" alt="">
             <h1>Nick <br> Schneider</h1>
             <h3>Software Engineer and UI/UX Designer</h3>
-            <p>Making things pretty is my job</p>
+            <p>If you are going to make something, make it pretty</p>
         </section>
         <section id="profile-pic">
             <img src="./assets/vector avatar.svg" alt="Flat Profile Picture" class="center">
         </section>
         <section id="contact-me-container">
             <div id="contact-me-bar">
+                <!-- TODO: Modal & animation -->
+                <!-- https://codepen.io/matthewvincent/pen/reLPQZ -->
                 <button type="button" class="button contact-me-button">Contact Me</button>
                 <div id="contact-me-socials">
                     <a href="https://www.linkedin.com/in/nick-schneider-la/">
@@ -81,6 +84,8 @@
                 function scrollToTop() {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
+                    mybutton.style.opacity = 0;
+
                 }
             </script>
 
@@ -97,10 +102,12 @@
         </section>
         <section id="about-me-text">
             <h2>About Me</h2>
+            <!-- TODO: Add location icon next to Los Angeles -->
             <p>Hey I’m Nick, a software engineer and UI/UX designer based in Los Angeles.</p>
-            <p>I graduated from the <strong>University of California, Irvine</strong> in 2019 with a <strong>B.S. in
-                    Computer Science</strong> and have been working full time as a Software Engineer at <strong>Raytheon
-                    Intelligence & Space.</strong></p>
+            <p>I graduated from the <strong>University of California, Irvine</strong> 🎓 in 2019 with a <strong>B.S. in
+                    Computer Science</strong> 💻 and have been working full time as a Software Engineer at
+                <strong>Raytheon
+                    Intelligence & Space 🚀</strong></p>
         </section>
     </section>
 
@@ -164,6 +171,7 @@
             <div class="bottom-bar">
                 <div class="languages-bar" id="id-tech-language-bar">
                     <img class="languages-item" src="./assets/Green Dev Icons/nodejs-original.svg" alt="NodeJS Icon">
+                    <img class="languages-item" src="./assets/Green Dev Icons/express-original.svg" alt="Express Icon">
                     <img class="languages-item" src="./assets/Green Dev Icons/javascript-plain.svg"
                         alt="Javascript Icon">
                     <img class="languages-item" src="./assets/Green Dev Icons/html5-plain-wordmark.svg" alt="HTML Icon">
