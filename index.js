@@ -3,6 +3,9 @@ window.onscroll = function () {
     hideElement();
 };
 
+// Global variable to track if the user has scrolled passed the mouse scroll indicator
+var passed = false;
+
 function hideElement() {
     var mybutton = document.getElementById("scroll-to-top-button");
     let scrollLength = 800; // In pixels
@@ -16,10 +19,11 @@ function hideElement() {
         mybutton.style.opacity = 0;
     }
 
-    if (document.body.scrollTop > mouseScrollLength || document.documentElement.scrollTop > mouseScrollLength) {
-        mouseIndicator.style.opacity = 0;
-    } else {
-        mouseIndicator.style.opacity = 1;
+    if (!passed) {
+        if (document.body.scrollTop > mouseScrollLength || document.documentElement.scrollTop > mouseScrollLength) {
+            mouseIndicator.style.opacity = 0;
+            passed = true;
+        }
     }
 }
 
