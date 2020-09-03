@@ -517,12 +517,16 @@ nav ul li a {
     height: 40px;
 }
 
-.view-more-button {
-    /* display: block; */
-    /* position: absolute; */
-    padding: 7px 14px;
-    /* float: right; */
-    /* vertical-align: bottom; */
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #806114;
+    /* border: 50px solid #3b3da5; */
+}
+
+.view-more-button img {
+    width: 40px;
+    height: 40px;
 }
 
 .skills-container {
@@ -677,16 +681,23 @@ nav ul li a {
     /* height: 100vh; */
 }
 
-.sw-projects-text .button-holder {
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid #806114;
-}
-
 .sw-projects-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    /* position: absolute; */
+    /* padding: 10px 600px; */
     /* position: absolute;
     right: 0;
     bottom: 0; */
+}
+
+.sw-projects-button img {
+    /* padding-left: 10px; */
+    height: 40px;
+    width: 40px;
 }
 
 #sw-projects-card1 {
