@@ -349,13 +349,14 @@ nav ul li a {
 
 .card {
     background: #ffffff;
-    /* width: 90%; */
+    /* width: 100%; */
     /* height: 60%; */
     /* height: 625px; */
     /* width: 500px; */
     margin: 30px;
     padding: 20px;
     position: relative;
+    /* box-sizing: border-box; */
 
     box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -456,6 +457,8 @@ nav ul li a {
     font-family: "Nunito", sans-serif;
     font-size: 15px;
     border: 1px solid #b9a2a6;
+    /* position: relative; */
+    margin-bottom: 100px;
     /* margin: 1em 0; */
     /* padding-bottom: 28px; */
     /* padding-left: 16px;
@@ -468,6 +471,16 @@ nav ul li a {
 }
 
 .bottom-bar {
+    /* width: 100% - 20px; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    /* box-sizing: content-box; */
+
+    position: absolute;
+    bottom: 20px;
+    /* left: 0px; */
+    /* top: ; */
+    /* margin-top: 50px; */
     display: flex;
     align-items: center;
     border: 1px solid #532a32;
