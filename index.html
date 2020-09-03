@@ -9,6 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;0,800;0,900;1,400&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
     <link rel="icon" type="image/svg+xml" href="./assets/Purple S Logo.svg">
     <title>Nick's Website</title>
 </head>
@@ -54,42 +55,6 @@
                 </div>
             </div>
             <div class="mouse" id="mouse-scroll-indicator"></div>
-
-            <!-- TODO: Change from inline Javascript -->
-            <script>
-                var mybutton = document.getElementById("scroll-to-top-button");
-                let scrollLength = 800; // In pixels
-
-                var mouseIndicator = document.getElementById("mouse-scroll-indicator");
-                let mouseScrollLength = 100; // In pixels
-                // When the user scrolls down to the scroll length from the top of the document, show the button
-                window.onscroll = function () { hideButton() };
-
-                function hideButton() {
-                    if (document.body.scrollTop > scrollLength || document.documentElement.scrollTop > scrollLength) {
-                        mybutton.style.opacity = 1;
-                    } else {
-                        mybutton.style.opacity = 0;
-                    }
-
-                    if (document.body.scrollTop > mouseScrollLength || document.documentElement.scrollTop > mouseScrollLength) {
-                        mouseIndicator.style.opacity = 0;
-                    }
-                    else {
-                        mouseIndicator.style.opacity = 1;
-                    }
-                }
-
-                // When the user clicks on the button, scroll to the top of the document
-                function scrollToTop() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                    mybutton.style.opacity = 0;
-
-                }
-            </script>
-
-
         </section>
     </section>
 
@@ -103,7 +68,7 @@
         <section id="about-me-text">
             <h2>About Me</h2>
             <!-- TODO: Add location icon next to Los Angeles -->
-            <p>Hey I’m Nick, a software engineer and UI/UX designer based in Los Angeles.</p>
+            <p>Hey I’m Nick, a software engineer and UI/UX designer based in Los Angeles</p>
             <p>I graduated from the <strong>University of California, Irvine</strong> 🎓 in 2019 with a <strong>B.S. in
                     Computer Science</strong> 💻 and have been working full time as a Software Engineer at
                 <strong>Raytheon
