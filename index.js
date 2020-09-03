@@ -1,9 +1,9 @@
 // When the user scrolls down to the scroll length from the top of the document, show the button
 window.onscroll = function () {
-    hideButton();
+    hideElement();
 };
 
-function hideButton() {
+function hideElement() {
     var mybutton = document.getElementById("scroll-to-top-button");
     let scrollLength = 800; // In pixels
 
