@@ -59,6 +59,12 @@ p {
 ul {
     padding-left: 0;
     list-style-position: inside;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+li {
+    margin-bottom: 1em;
 }
 
 figure {
@@ -232,7 +238,7 @@ nav ul li a {
 }
 
 .mouse {
-    border: 4px solid black;
+    border: 4px solid #2f2e41;
     border-radius: 26px;
     position: absolute;
     bottom: 0%;
@@ -317,6 +323,14 @@ nav ul li a {
     grid-area: about-me-images;
 }
 
+#about-me-images img {
+    transition: transform 0.5s; /* Animation */
+}
+
+#about-me-images img:hover {
+    transform: scale(1.1);
+}
+
 #grad-cap-illustration {
     border: 5px solid #a05e5e;
 
@@ -376,6 +390,11 @@ nav ul li a {
 
     box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    transition: transform 0.5s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 #card1 {
@@ -422,24 +441,12 @@ nav ul li a {
     color: #ce1126;
 }
 
-#raytheon-button {
-    background: #ce1126;
-}
-
 #id-tech-title {
     color: #006633;
 }
 
-#id-tech-button {
-    background: #006633;
-}
-
 #reazon-title {
     color: #00acee;
-}
-
-#reazon-button {
-    background: #00acee;
 }
 
 .location {
@@ -475,15 +482,12 @@ nav ul li a {
     border: 1px solid #b9a2a6;
     /* position: relative; */
     margin-bottom: 100px;
+    margin-top: 1em;
     /* margin: 1em 0; */
     /* padding-bottom: 28px; */
     /* padding-left: 16px;
     padding-right: 16px; */
     /* line-height: 1.5; */
-}
-
-.supporting-text li {
-    margin: 1em 0;
 }
 
 .bottom-bar {
@@ -680,6 +684,10 @@ nav ul li a {
 
     /* height: 100vh; */
 }
+
+/* .sw-projects-text li { */
+/* margin: 1em 0; */
+/* } */
 
 .sw-projects-button {
     display: flex;
