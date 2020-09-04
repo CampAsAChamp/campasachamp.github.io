@@ -426,7 +426,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin-bottom: 1em;
     border: 1px solid #694148;
 }
 
@@ -547,6 +547,8 @@ nav ul li a {
     display: grid;
     border: 5px solid #a53b82;
     margin-top: 150px;
+    background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
+    background-repeat: no-repeat;
 
     /* height: 75vh; */
     grid-template-columns: 1fr;
@@ -566,10 +568,8 @@ nav ul li a {
 #skills-content {
     border: 5px solid #6970a8;
     grid-area: skills-content;
-    background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
     /* background-size: 600px; */
     /* height: 10%; */
-    background-repeat: no-repeat;
     padding-bottom: 150px;
 
     /* margin-left: auto; */
@@ -672,6 +672,11 @@ nav ul li a {
 
     box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+}
+
+.sw-project-title {
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .sw-projects-info {
