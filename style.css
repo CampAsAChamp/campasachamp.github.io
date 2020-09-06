@@ -134,10 +134,10 @@ nav ul li a {
     border-radius: 1000px;
     border: none;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     font: 900 large "Nunito";
     font-size: 21px;
-    margin: 4px 2px;
+    margin: 5px;
 
     color: #ffffff;
     cursor: pointer;
@@ -151,7 +151,36 @@ nav ul li a {
 
 #contact-me-button {
     font-size: 26px;
-    padding: 20px 32px;
+    padding: 15px;
+    width: 225px;
+
+    /* transition: all 0.5s; */
+    color: white;
+}
+
+#contact-me-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#contact-me-button span::after {
+    content: "\00bb"; /*Makes an arrow >> */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#contact-me-button:hover span {
+    padding-right: 20px;
+}
+
+#contact-me-button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /* The Modal (background) */
@@ -636,11 +665,6 @@ nav ul li a {
     /* border: 50px solid #3b3da5; */
 }
 
-.view-more-button img {
-    width: 40px;
-    height: 40px;
-}
-
 #skills-container {
     display: grid;
     border: 5px solid #a53b82;
@@ -812,6 +836,8 @@ nav ul li a {
     align-items: center;
     height: 60px;
     width: 200px;
+    transition: 0.5s;
+    transform: scale(1.1);
     /* position: absolute; */
     /* padding: 10px 600px; */
     /* position: absolute;
