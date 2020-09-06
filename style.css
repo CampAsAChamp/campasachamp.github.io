@@ -18,6 +18,12 @@ a {
 body {
     font-family: "Nunito", sans-serif;
     color: #707070;
+    /* position: relative; */
+    margin: 0;
+    /* padding-left: 1em; */
+}
+
+.page-container {
 }
 
 h1 {
@@ -198,7 +204,7 @@ nav ul li a {
     }
 }
 
-.landing-page-container {
+#landing-page-container {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
@@ -214,6 +220,15 @@ nav ul li a {
     /* width: 50%; */
     top: 0px;
     right: 0px;
+    z-index: -1;
+}
+
+#bottom-wave {
+    position: absolute;
+    /* display: block; */
+    width: 100%;
+    bottom: 0;
+    /* float: left; */
     z-index: -1;
 }
 
@@ -380,7 +395,7 @@ nav ul li a {
     }
 }
 
-.about-me-container {
+#about-me-container {
     border: 5px solid #323d99;
     padding-bottom: 150px;
     padding-top: 100px;
@@ -433,7 +448,7 @@ nav ul li a {
     grid-area: about-me-text;
 }
 
-.experience-container {
+#experience-container {
     border: 5px solid #1b420c;
     display: grid;
     /* height: 90vh; */
@@ -610,7 +625,7 @@ nav ul li a {
     height: 40px;
 }
 
-.skills-container {
+#skills-container {
     display: grid;
     border: 5px solid #a53b82;
     margin-top: 150px;
@@ -655,7 +670,7 @@ nav ul li a {
     /* text-align: center; */
 }
 
-.graphic-design-container {
+#graphic-design-container {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1fr;
@@ -704,12 +719,13 @@ nav ul li a {
     /* flex-grow: 4; default 0 */
 }
 
-.sw-projects-container {
+#sw-projects-container {
     border: 5px solid #585240;
+    position: relative; /* For the background image */
 
-    background-image: url("./assets/Organic_Shapes/Bottom\ Wave.png");
+    /* background-image: url("./assets/Organic_Shapes/Bottom\ Wave.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom left; */
 
     display: grid;
     /* height: 100vh; */
@@ -820,14 +836,14 @@ nav ul li a {
     grid-area: sw-projects-card6;
 }
 
-#bottom-wave {
+/* #bottom-wave {
     left: 0px;
     bottom: 0px;
     z-index: -1;
-}
+} */
 
 @media screen and (max-width: 800px) {
-    .landing-page-container {
+    #landing-page-container {
         grid-template-columns: 1fr;
         /* grid-template-rows: 0fr 2fr 2.6fr; */
         grid-template-areas:
@@ -840,7 +856,7 @@ nav ul li a {
         padding-left: 0;
     }
 
-    .about-me-container {
+    #about-me-container {
         padding: 30px 0;
         grid-template-columns: 1fr;
         grid-template-rows: 4.6fr 4.2fr;
@@ -849,7 +865,7 @@ nav ul li a {
             "about-me-text";
     }
 
-    .experience-container {
+    #experience-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5.2fr 5.2fr 5.2fr;
         grid-template-areas:
@@ -859,7 +875,7 @@ nav ul li a {
             "card3";
     }
 
-    .skills-container {
+    #skills-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 4.5fr;
         grid-template-areas:
@@ -867,7 +883,7 @@ nav ul li a {
             "skills-content";
     }
 
-    .graphic-design-container {
+    #graphic-design-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 6fr;
         grid-template-areas:
@@ -881,7 +897,7 @@ nav ul li a {
         max-width: 50%;
     }
 
-    .sw-projects-container {
+    #sw-projects-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr;
         grid-template-areas:
