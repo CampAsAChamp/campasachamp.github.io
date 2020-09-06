@@ -24,6 +24,7 @@ body {
 }
 
 .page-container {
+    padding: 0 1em;
 }
 
 h1 {
@@ -206,6 +207,8 @@ nav ul li a {
 
 #landing-page-container {
     display: grid;
+    border: 5px solid #ad37ca;
+
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr;
@@ -672,6 +675,8 @@ nav ul li a {
 
 #graphic-design-container {
     display: grid;
+    border: 5px solid #fc8e10;
+
     /* height: 100vh; */
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 13fr;
