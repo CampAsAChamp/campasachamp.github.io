@@ -240,10 +240,10 @@ nav ul li a {
 #landing-page-container {
     display: grid;
     border: 5px solid #ad37ca;
-
+    margin-bottom: 150px;
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr; */
     grid-template-areas:
         "nav nav"
         "name-intro profile-pic";
