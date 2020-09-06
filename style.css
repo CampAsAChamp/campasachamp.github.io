@@ -1,4 +1,4 @@
-/* TODO: Organize CSS */
+/* TODO: Organize CSS into multiple files*/
 /* TODO: Add CSS variables */
 
 * {
@@ -91,7 +91,7 @@ nav {
     border: 5px solid #95f871;
     grid-area: nav;
     text-align: center;
-    z-index: 2;
+    /* z-index: 2; */
     padding-right: 100px;
 }
 
@@ -134,9 +134,62 @@ nav ul li a {
     background: #6c63ff;
 }
 
-.contact-me-button {
+#contact-me-button {
     font-size: 26px;
     padding: 20px 32px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
 }
 
 .landing-page-container {
@@ -179,7 +232,7 @@ nav ul li a {
 #profile-pic {
     border: 5px solid #3bb30f;
     grid-area: profile-pic;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 #profile-pic img {
@@ -756,7 +809,7 @@ nav ul li a {
 #bottom-wave {
     left: 0px;
     bottom: 0px;
-    z-index: 1;
+    z-index: -1;
 }
 
 @media screen and (max-width: 800px) {
@@ -768,6 +821,10 @@ nav ul li a {
             "profile-pic"
             "name-intro"
             "contact-me-container";
+    }
+
+    #name-intro-container {
+        padding-left: 0;
     }
 
     .about-me-container {
