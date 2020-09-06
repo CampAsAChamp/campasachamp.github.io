@@ -246,8 +246,8 @@ nav ul li a {
 
 #background-logo {
     position: absolute;
-    height: 1138px;
-    width: 723px;
+    /* height: 1138px; */
+    width: 50%;
     opacity: 0.1;
     z-index: -1;
     right: 0px;
@@ -409,7 +409,7 @@ nav ul li a {
 
 #about-me-container {
     border: 5px solid #323d99;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     margin-top: 50px;
     padding-top: 50px;
     /* margin-bottom: 200px; */
@@ -644,7 +644,7 @@ nav ul li a {
 #skills-container {
     display: grid;
     border: 5px solid #a53b82;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-top: 50px;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
     background-repeat: no-repeat;
@@ -669,7 +669,7 @@ nav ul li a {
     grid-area: skills-content;
     /* background-size: 600px; */
     /* height: 10%; */
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -707,7 +707,7 @@ nav ul li a {
 #graphic-design-content {
     border: 5px solid #9f64a0;
     grid-area: graphic-design-content;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     /* padding: 0 auto; */
 }
 
