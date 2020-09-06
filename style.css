@@ -100,11 +100,13 @@ nav ul {
     list-style-type: none;
     float: right;
     margin: 30px 0;
+    /* vertical-align: middle; */
     /* padding: 40px 0; */
 }
 
 nav ul li {
     float: left;
+    margin-bottom: 0;
 }
 
 nav ul li a {
@@ -134,6 +136,10 @@ nav ul li a {
     background: #6c63ff;
 }
 
+.button:hover {
+    /* transform: scale(1.1); */
+}
+
 #contact-me-button {
     font-size: 26px;
     padding: 20px 32px;
@@ -159,7 +165,7 @@ nav ul li a {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
     animation-duration: 0.4s;
@@ -196,11 +202,10 @@ nav ul li a {
     display: grid;
     /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
         "nav nav"
-        "name-intro profile-pic"
-        "contact-me-container profile-pic";
+        "name-intro profile-pic";
 }
 
 #landing-blob {
@@ -259,6 +264,7 @@ nav ul li a {
 }
 
 #contact-me-bar {
+    margin-top: 75px;
     display: flex;
     align-items: center;
     /* border: 5px solid #33a31d; */
@@ -271,6 +277,14 @@ nav ul li a {
     margin: 0 50px;
 
     /* border: 5px solid #502263; */
+}
+
+#contact-me-socials img {
+    transition: transform 0.5s; /* Animation */
+}
+
+#contact-me-socials img:hover {
+    transform: scale(1.1);
 }
 
 .contact-me-item {
@@ -815,12 +829,11 @@ nav ul li a {
 @media screen and (max-width: 800px) {
     .landing-page-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 3.1fr 2.6fr 1.2fr;
+        /* grid-template-rows: 0fr 2fr 2.6fr; */
         grid-template-areas:
             "nav"
             "profile-pic"
-            "name-intro"
-            "contact-me-container";
+            "name-intro";
     }
 
     #name-intro-container {
@@ -828,6 +841,7 @@ nav ul li a {
     }
 
     .about-me-container {
+        padding: 30px 0;
         grid-template-columns: 1fr;
         grid-template-rows: 4.6fr 4.2fr;
         grid-template-areas:
