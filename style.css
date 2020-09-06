@@ -25,6 +25,7 @@ body {
 
 .page-container {
     padding: 0 1em;
+    /* margin: 0 1em; */
 }
 
 h1 {
@@ -95,6 +96,7 @@ figure figcaption {
 }
 
 nav {
+    /* padding: 0; */
     border: 5px solid #95f871;
     grid-area: nav;
     text-align: center;
@@ -224,6 +226,13 @@ nav ul li a {
     top: 0px;
     right: 0px;
     z-index: -1;
+}
+
+#about-me-blob {
+    /* padding: 0; */
+    position: absolute;
+    z-index: -1;
+    width: 50%;
 }
 
 #bottom-wave {
@@ -401,12 +410,16 @@ nav ul li a {
 #about-me-container {
     border: 5px solid #323d99;
     padding-bottom: 150px;
-    padding-top: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
     /* margin-bottom: 200px; */
     display: grid;
     background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    /* z-index: -1; */
+    /* background-size: cover; */
     /* height: 90vh; */
     grid-template-columns: 1.15fr 1fr;
     grid-template-rows: fr;
@@ -631,10 +644,11 @@ nav ul li a {
 #skills-container {
     display: grid;
     border: 5px solid #a53b82;
-    margin-top: 150px;
+    padding-top: 100px;
+    margin-top: 50px;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
     background-repeat: no-repeat;
-
+    background-size: cover;
     /* height: 75vh; */
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 7.5fr;
