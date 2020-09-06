@@ -106,7 +106,7 @@ nav {
 }
 
 nav ul {
-    border: 5px solid #798d72;
+    /* border: 5px solid #798d72; */
     list-style-type: none;
     float: right;
     margin: 30px 0;
@@ -122,9 +122,35 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 0 30px;
+    margin: 0 30px;
+    /* padding: 0 30px; */
+    position: relative;
+    display: block;
     font-weight: 900;
     font-size: 26px;
+    transition: 0.5s;
+}
+
+nav ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0%;
+    background: #f2d541;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+nav ul li a:hover {
+    color: #f2d541;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 #logo {
@@ -168,6 +194,7 @@ nav ul li a {
 
 #contact-me-button span::after {
     content: "\00bb"; /*Makes an arrow >> */
+    color: #f2d541;
     position: absolute;
     opacity: 0;
     top: 0;
@@ -360,8 +387,8 @@ nav ul li a {
     font-size: 18px;
     border: 2px solid #14130e;
     outline: none;
-    background-color: #6c63ff;
-    color: white;
+    background-color: #f2d541;
+    color: black;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
@@ -760,7 +787,13 @@ nav ul li a {
     vertical-align: middle;
     width: 100%;
     border-radius: 10px;
+
+    transition: 0.5s;
     /* flex-grow: 4; default 0 */
+}
+
+.column img:hover {
+    transform: scale(1.1);
 }
 
 #sw-projects-container {
