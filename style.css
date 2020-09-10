@@ -885,8 +885,8 @@ nav ul li a:hover::after {
 
 .sw-projects-button-row {
     display: flex;
-    /* justify-content: flex-end; */
-    justify-content: space-between;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
     border: 5px solid #148019;
     /* border: 50px solid #3b3da5; */
 }
