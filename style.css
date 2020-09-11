@@ -954,6 +954,28 @@ nav ul li a:hover::after {
         display: none;
     }
 
+    nav {
+        padding: 0;
+    }
+
+    h1 {
+        /* overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto; */
+        font-size: 24px;
+    }
+
+    h3 {
+        /* overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto; */
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
     figure {
         /* border: 4px solid green; */
         /* margin: 20px; adjust as needed */
@@ -975,10 +997,38 @@ nav ul li a:hover::after {
         /* font-size: 26px; */
     }
 
+    .page-container {
+        padding: 0 1em;
+        /* overflow:hidden; */
+
+        /* margin: 0 1em; */
+    }
+
+    .center {
+        margin: 0 0;
+    }
+
+    .languages-bar {
+        flex-wrap: wrap;
+    }
+
+    #contact-me-socials {
+        margin: 0 0;
+    }
+
+    .contact-me-item {
+        margin: 0 0;
+    }
+
     #landing-page-container {
+        /* overflow:hidden; */
+        /* overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto; */
         margin-bottom: 50px;
+        /* width: 100%; */
         grid-template-columns: 1fr;
-        /* grid-template-rows: 0fr 2fr 2.6fr; */
+        /* grid-template-rows: 1fr 2fr 2.6fr; */
         grid-template-areas:
             "nav"
             "profile-pic"
@@ -986,6 +1036,9 @@ nav ul li a:hover::after {
     }
 
     #name-intro-container {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
         padding-left: 0;
     }
 
@@ -1028,8 +1081,8 @@ nav ul li a:hover::after {
     }
 
     .skills-icon {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         /* margin: 0 20px; */
     }
 
