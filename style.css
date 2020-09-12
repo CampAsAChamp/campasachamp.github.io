@@ -171,6 +171,9 @@ COMPONENTS
     /* margin: 0 1em; */
 }
 
+.section-header {
+}
+
 .button {
     border-radius: 1000px;
     border: none;
@@ -1058,8 +1061,12 @@ RESPONSIVE STYLING
         /* margin: 0 1em; */
     }
 
+    #profile-pic img {
+        width: 80%;
+    }
+
     .center {
-        margin: 0 0;
+        /* margin: 0 0; */
     }
 
     .languages-bar {
