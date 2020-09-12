@@ -66,29 +66,6 @@ li {
     margin-bottom: 1em;
 }
 
-figure {
-    border: 5px solid green;
-
-    /* Remove the user-agent default style */
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
-
-figure img {
-    border: 5px solid red;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-figure figcaption {
-    border: 5px solid blue;
-    text-align: center;
-    font-weight: 900;
-    font-size: 26px;
-}
-
 nav {
     border: 5px solid #95f871;
     text-align: center;
@@ -167,8 +144,6 @@ COMPONENTS
     cursor: pointer;
     outline: none;
     background: #6c63ff;
-
-    transition: 0.5s;
 }
 
 .modal {
@@ -274,7 +249,7 @@ IMAGES
     cursor: pointer;
     border-radius: 50%;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 #scroll-to-top-button:hover {
@@ -449,7 +424,7 @@ LANDING PAGE SECTION
 }
 
 #contact-me-socials img {
-    transition: transform 0.5s; /* Animation */
+    transition: transform 0.25s; /* Animation */
 }
 
 #contact-me-socials img:hover {
@@ -491,7 +466,7 @@ ABOUT ME SECTION
 }
 
 #about-me-images img {
-    transition: transform 0.5s; /* Animation */
+    transition: transform 0.25s; /* Animation */
 }
 
 #about-me-images img:hover {
@@ -712,6 +687,26 @@ SKILLS & TECHNOLOGIES SECTION
 }
 
 .skills-icon {
+    border: 5px solid green;
+    margin: 0 20px;
+    /* Remove the user-agent default style */
+    /* margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0; */
+}
+
+.skills-icon img {
+    border: 5px solid red;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.skills-icon figcaption {
+    border: 5px solid blue;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
 }
 
 /* 
@@ -767,7 +762,7 @@ GRAPHIC DESIGN SECTION
     border-radius: 10px;
     vertical-align: middle;
 
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .column img:hover {
@@ -862,7 +857,7 @@ SW PROJECTS SECTION
     align-items: center;
     padding: 8px;
     width: 150px;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 .sw-projects-button:hover {
     transform: scale(1.1);
