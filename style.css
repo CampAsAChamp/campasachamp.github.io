@@ -230,9 +230,14 @@ IMAGES
     float: left;
 }
 
+#logo img {
+    height: 8vh;
+}
+
 #landing-blob {
     position: absolute;
-    /* width: 80%; */
+    width: 50%;
+    /* height: 100%; */
     top: 0px;
     right: 0px;
     z-index: -1;
@@ -382,12 +387,10 @@ LANDING PAGE SECTION
 }
 
 #profile-pic img {
-    width: 60%;
-    transition: transform 0.5s; /* Animation */
+    /* width: 60%; */
 }
 
 #profile-pic img:hover {
-    transform: scale(1.1);
 }
 
 .center {
@@ -934,6 +937,8 @@ RESPONSIVE STYLING
 */
 
 @media screen and (max-width: 1100px) {
+    #logo img {
+    }
     body {
         overflow-x: hidden;
     }
@@ -952,9 +957,10 @@ RESPONSIVE STYLING
         right: 0;
         height: 88vh;
         top: 12vh;
-        background-color: #6c63ff;
+        background-color: rgb(108, 99, 255, 0.85);
         display: flex;
         flex-direction: column;
+        width: 50%;
         /* justify-content: center; */
         align-items: center;
         transform: translateX(100%);
@@ -970,30 +976,31 @@ RESPONSIVE STYLING
         cursor: pointer;
     }
 
-    .toggle .line1 {
+    .toggle #line1 {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
-    .toggle .line2 {
+    .toggle #line2 {
         opacity: 0;
     }
-    .toggle .line3 {
+    .toggle #line3 {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 48px;
+        line-height: 65px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     figure {
@@ -1013,6 +1020,10 @@ RESPONSIVE STYLING
         font-size: small;
     }
 
+    #landing-blob {
+        width: 60%;
+        /* height: 100%; */
+    }
     #profile-pic img {
         width: 80%;
     }
@@ -1027,7 +1038,9 @@ RESPONSIVE STYLING
     #contact-me-socials {
         margin: 0 0;
     }
-
+    #contact-me-bar {
+        justify-content: space-between;
+    }
     .contact-me-item {
         margin: 0 0;
     }
