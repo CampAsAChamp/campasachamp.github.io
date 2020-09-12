@@ -14,8 +14,10 @@ function hideElement() {
     let mouseScrollLength = 100; // In pixels
 
     if (document.body.scrollTop > scrollLength || document.documentElement.scrollTop > scrollLength) {
+        // mybutton.style.display = "block";
         mybutton.style.opacity = 1;
     } else {
+        // mybutton.style.display = "none";
         mybutton.style.opacity = 0;
     }
 
@@ -61,3 +63,28 @@ window.onload = function () {
         }
     };
 };
+
+const navSlide = () => {
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector("nav ul");
+    const navLinks = document.querySelectorAll("nav li");
+
+    burger.addEventListener("click", () => {
+        // Toggle Nav
+        nav.classList.toggle("nav-active");
+
+        // Animate links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = "";
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 4 + 0.25}s`;
+            }
+        });
+
+        // Burger animation
+        burger.classList.toggle("toggle");
+    });
+};
+
+navSlide();
