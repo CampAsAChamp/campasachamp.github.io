@@ -728,7 +728,7 @@ EXPERIENCE SECTION
     display: flex;
     align-items: center;
     /* padding: 0 10px; */
-    border: 1px solid #eccdd3;
+    border: 5px solid #eccdd3;
 }
 
 .languages-item {
