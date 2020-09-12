@@ -745,7 +745,7 @@ GRAPHIC DESIGN SECTION
 }
 
 .row {
-    /* border: 5px solid #64a091; */
+    border: 5px solid #64a091;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* or space-around */
@@ -755,7 +755,7 @@ GRAPHIC DESIGN SECTION
 
 /* Create four equal columns that sit next to each other */
 .column {
-    /* border: 5px solid #727e09; */
+    border: 5px solid #727e09;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
