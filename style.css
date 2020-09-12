@@ -24,18 +24,12 @@ a {
 body {
     font-family: "Nunito", sans-serif;
     color: #707070;
-    /* position: relative; */
     margin: 0;
-
-    /* padding-left: 1em; */
 }
 
 h1 {
     font-weight: 900;
-    /* font-size: 6.5vw; */
     font-size: 96px;
-    /* font-size: 6.25vw; */
-
     line-height: 131px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -44,16 +38,12 @@ h1 {
 h2 {
     font-weight: 900;
     font-size: 50px;
-    /* font-size: 3.25vw; */
-
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 h3 {
     font-weight: 700;
-    /* font-size: 2.35vw; */
-
     font-size: 36px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -61,7 +51,6 @@ h3 {
 
 p {
     font-weight: 400;
-    /* font-size: 1.85vw; */
     font-size: 28px;
     line-height: 38px;
 }
@@ -78,8 +67,8 @@ li {
 }
 
 figure {
-    border: 4px solid green;
-    /* margin: 20px; adjust as needed */
+    border: 5px solid green;
+
     /* Remove the user-agent default style */
     margin-block-start: 0;
     margin-block-end: 0;
@@ -88,28 +77,24 @@ figure {
 }
 
 figure img {
-    border: 4px solid red;
-    /* padding: 0 10px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    border: 5px solid red;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 figure figcaption {
-    border: 4px solid blue;
+    border: 5px solid blue;
     text-align: center;
     font-weight: 900;
     font-size: 26px;
 }
 
 nav {
-    /* padding: 0; */
     border: 5px solid #95f871;
-    grid-area: nav;
     text-align: center;
-    /* z-index: 2; */
     padding-right: 50px;
+
+    grid-area: nav;
 }
 
 nav ul {
@@ -117,8 +102,6 @@ nav ul {
     list-style-type: none;
     float: right;
     margin: 30px 0;
-    /* vertical-align: middle; */
-    /* padding: 40px 0; */
 }
 
 nav li {
@@ -130,7 +113,6 @@ nav li a {
     color: white;
     text-decoration: none;
     margin: 0 30px;
-    /* padding: 0 30px; */
     position: relative;
     display: block;
     font-weight: 900;
@@ -168,7 +150,6 @@ COMPONENTS
 
 .page-container {
     padding: 0 1em;
-    /* margin: 0 1em; */
 }
 
 .section-header {
@@ -178,7 +159,6 @@ COMPONENTS
     border-radius: 1000px;
     border: none;
     text-align: center;
-    /* display: inline-block; */
     font: 900 large "Nunito";
     font-size: 18px;
     margin: 5px;
@@ -191,33 +171,29 @@ COMPONENTS
     transition: 0.5s;
 }
 
-/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    left: 0;
+    top: 0;
+    z-index: 1; /* Sit on top */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
+    width: 50%; /* Could be more or less, depending on screen size */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
     animation-duration: 0.4s;
 }
 
-/* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -232,7 +208,6 @@ COMPONENTS
     cursor: pointer;
 }
 
-/* Add Animation */
 @keyframes animatetop {
     from {
         top: -300px;
@@ -251,38 +226,32 @@ IMAGES
 */
 
 #logo {
-    float: left;
     border: 5px solid red;
+    float: left;
 }
 
 #landing-blob {
     position: absolute;
-    /* height: 100%; */
-    /* width: 50%; */
     top: 0px;
     right: 0px;
     z-index: -1;
 }
 
 #about-me-blob {
-    /* padding: 0; */
     position: absolute;
-    z-index: -1;
     width: 50%;
+    z-index: -1;
 }
 
 #bottom-wave {
     position: absolute;
-    /* display: block; */
     width: 100%;
     bottom: 0;
-    /* float: left; */
     z-index: -1;
 }
 
 #background-logo {
     position: absolute;
-    /* height: 1138px; */
     width: 50%;
     opacity: 0.1;
     z-index: -1;
@@ -291,15 +260,13 @@ IMAGES
 
 #scroll-to-top-button {
     display: block;
+    height: 75px;
+    width: 75px;
     position: fixed;
     bottom: 20px;
     right: 15px;
     z-index: 99;
     font-size: 30px;
-    height: 75px;
-    width: 75px;
-    /* font-weight: 900; */
-    /* border: 2px solid #14130e; */
     outline: none;
     background-color: #f2d541;
     color: black;
@@ -308,7 +275,6 @@ IMAGES
     border-radius: 50%;
     opacity: 0;
     transition: 0.5s;
-    /* transition-timing-function: ease-in-out; */
 }
 
 #scroll-to-top-button:hover {
@@ -318,11 +284,11 @@ IMAGES
 .mouse {
     border: 4px solid #2f2e41;
     border-radius: 26px;
+    width: 40px;
+    height: 60px;
     position: absolute;
     bottom: 0%;
     left: 50%;
-    width: 40px;
-    height: 60px;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -333,13 +299,13 @@ IMAGES
     background-color: black;
     border-radius: 100%;
     content: "";
+    opacity: 1;
+    width: 4px;
+    height: 4px;
     position: absolute;
     top: 5px;
     left: 50%;
     margin-left: -2px;
-    width: 4px;
-    height: 4px;
-    opacity: 1;
     -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
     transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
     -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
@@ -389,12 +355,12 @@ LANDING PAGE SECTION
 */
 
 #landing-page-container {
-    display: grid;
     border: 5px solid #ad37ca;
+    display: grid;
     margin-bottom: 150px;
-    /* height: 100vh; */
     grid-template-columns: 1.5fr 1fr;
     /* grid-template-rows: 1fr; */
+
     grid-template-areas:
         "nav nav"
         "name-intro profile-pic";
@@ -410,14 +376,13 @@ LANDING PAGE SECTION
 
 #profile-pic {
     border: 5px solid #3bb30f;
+
     grid-area: profile-pic;
-    /* z-index: 2; */
 }
 
 #profile-pic img {
-    transition: transform 0.5s; /* Animation */
-
     width: 60%;
+    transition: transform 0.5s; /* Animation */
 }
 
 #profile-pic img:hover {
@@ -433,41 +398,37 @@ LANDING PAGE SECTION
 
 #contact-me-container {
     border: 5px solid #267409;
-    grid-area: contact-me-container;
     padding-left: 250px;
+
+    grid-area: contact-me-container;
 }
 
 #contact-me-bar {
-    margin-top: 75px;
+    border: 5px solid #33a31d;
     display: flex;
     align-items: center;
-    /* border: 5px solid #33a31d; */
-    /* margin: 0 25px; */
-
-    /* padding-right: 40px; */
+    margin-top: 75px;
 }
 
 #contact-me-button {
     font-size: 26px;
-    padding: 15px;
     width: 200px;
-
-    /* transition: all 0.5s; */
+    padding: 15px;
     color: white;
 }
 
 #contact-me-button span {
-    cursor: pointer;
     display: inline-block;
     position: relative;
+    cursor: pointer;
     transition: 0.5s;
 }
 
 #contact-me-button span::after {
-    content: "\00bb"; /*Makes an arrow >> */
+    content: "\00bb"; /* Makes an arrow >> */
     color: #f2d541;
-    position: absolute;
     opacity: 0;
+    position: absolute;
     top: 0;
     right: -20px;
     transition: 0.5s;
@@ -483,9 +444,8 @@ LANDING PAGE SECTION
 }
 
 #contact-me-socials {
+    border: 5px solid #502263;
     margin: 0 50px;
-
-    /* border: 5px solid #502263; */
 }
 
 #contact-me-socials img {
@@ -497,7 +457,7 @@ LANDING PAGE SECTION
 }
 
 .contact-me-item {
-    /* border: 5px solid #502263; */
+    border: 5px solid red;
     margin-right: 25px;
     width: 50px;
     height: 50px;
@@ -511,25 +471,22 @@ ABOUT ME SECTION
 
 #about-me-container {
     border: 5px solid #323d99;
+    display: grid;
     padding-bottom: 100px;
     margin-top: 50px;
     padding-top: 50px;
-    /* margin-bottom: 200px; */
-    display: grid;
     background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.png");
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* z-index: -1; */
-    /* background-size: cover; */
-    /* height: 90vh; */
+    /* grid-template-rows: fr; */
     grid-template-columns: 1.15fr 1fr;
-    grid-template-rows: fr;
     grid-template-areas: "about-me-images about-me-text";
 }
 
 #about-me-images {
     border: 5px solid #e58282;
+
     grid-area: about-me-images;
 }
 
@@ -543,25 +500,23 @@ ABOUT ME SECTION
 
 #grad-cap-illustration {
     border: 5px solid #a05e5e;
-
+    display: block;
     position: relative;
     width: 50%;
-    display: block;
 }
 
 #desk-illustration {
     border: 5px solid #851313;
-
+    display: block;
     position: relative;
     width: 50%;
-    display: block;
     left: 30%;
 }
 
 #about-me-text {
+    border: 5px solid #aa6161;
     padding-top: 150px;
     padding-right: 50px;
-    border: 5px solid #aa6161;
 
     grid-area: about-me-text;
 }
@@ -575,7 +530,7 @@ EXPERIENCE SECTION
 #experience-container {
     border: 5px solid #1b420c;
     display: grid;
-    /* height: 90vh; */
+
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0fr 5.5fr;
     grid-template-areas:
@@ -585,6 +540,7 @@ EXPERIENCE SECTION
 
 #experience-header {
     border: 5px solid #d8f485;
+
     grid-area: experience-header;
 }
 
@@ -595,17 +551,12 @@ EXPERIENCE SECTION
 
 .card {
     background: #ffffff;
-    /* width: 100%; */
-    /* height: 60%; */
-    /* height: 625px; */
-    /* width: 500px; */
+    position: relative;
     margin: 30px;
     padding: 20px;
-    position: relative;
-    /* box-sizing: border-box; */
 
-    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     transition: transform 0.5s; /* Animation */
 }
 
@@ -629,11 +580,11 @@ EXPERIENCE SECTION
 }
 
 .experience-title-container {
+    border: 5px solid #694148;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1em;
-    border: 5px solid #694148;
 }
 
 .thumbnail {
@@ -641,18 +592,18 @@ EXPERIENCE SECTION
 }
 
 .card-title {
+    border: 1px solid #832434;
     font-family: "Nunito", sans-serif;
     font-size: 21px;
     font-weight: 900;
-    border: 1px solid #832434;
 }
 
 .employer {
 }
 
 .raytheon {
-    /* color: #ce1126; */
 }
+
 #raytheon-title {
     color: #ce1126;
 }
@@ -670,71 +621,51 @@ EXPERIENCE SECTION
 }
 
 .secondary-title {
+    border: 1px solid #c9a7ad;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border: 1px solid #c9a7ad;
 }
 
 .position {
+    border: 1px solid #f07c90;
     font-family: "Nunito", sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: #707070;
-    border: 1px solid #f07c90;
 }
 
 .duration {
-    /* display: inline-block; */
-    /* position: absolute; */
-    /* right: 16px; */
     border: 1px solid #a3727b;
 }
 
 .supporting-text {
+    border: 1px solid #b9a2a6;
     font-family: "Nunito", sans-serif;
     font-size: 15px;
-    border: 1px solid #b9a2a6;
-    /* position: relative; */
     margin-bottom: 100px;
     margin-top: 1em;
-    /* margin: 1em 0; */
-    /* padding-bottom: 28px; */
-    /* padding-left: 16px;
-    padding-right: 16px; */
-    /* line-height: 1.5; */
 }
 
 .bottom-bar {
-    /* width: 100% - 20px; */
-    /* width: 100%; */
-    /* box-sizing: border-box; */
-    /* box-sizing: content-box; */
-
-    position: absolute;
-    bottom: 20px;
-    /* left: 0px; */
-    /* top: ; */
-    /* margin-top: 50px; */
+    border: 1px solid #532a32;
     display: flex;
     align-items: center;
-    border: 1px solid #532a32;
-
     justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
 }
 
 .languages-bar {
     display: flex;
     align-items: center;
-    /* padding: 0 10px; */
     border: 5px solid #eccdd3;
 }
 
 .languages-item {
-    margin: 0px 7px;
     width: 40px;
     height: 40px;
+    margin: 0px 7px;
 }
 
 /* 
@@ -744,16 +675,16 @@ SKILLS & TECHNOLOGIES SECTION
 */
 
 #skills-container {
-    display: grid;
     border: 5px solid #a53b82;
+    display: grid;
     padding-top: 50px;
     margin-top: 50px;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 75vh; */
-    grid-template-columns: 1fr;
+
     /* grid-template-rows: 0fr 7.5fr; */
+    grid-template-columns: 1fr;
     grid-template-areas:
         "skills-header"
         "skills-content";
@@ -768,25 +699,19 @@ SKILLS & TECHNOLOGIES SECTION
 
 #skills-content {
     border: 5px solid #6970a8;
-    grid-area: skills-content;
-    /* background-size: 600px; */
-    /* height: 10%; */
     padding-bottom: 100px;
 
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    grid-area: skills-content;
 }
 
 .skills-row {
     border: 5px solid #515baf;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .skills-icon {
-    /* margin: 0 50px; */
-    /* text-align: center; */
 }
 
 /* 
@@ -796,11 +721,10 @@ GRAPHIC DESIGN SECTION
 */
 
 #graphic-design-container {
-    display: grid;
     border: 5px solid #fc8e10;
-
+    display: grid;
     margin-bottom: 100px;
-    /* height: 100vh; */
+
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 13fr;
     grid-template-areas:
@@ -810,13 +734,14 @@ GRAPHIC DESIGN SECTION
 
 #graphic-design-header {
     border: 5px solid #e18ce2;
+
     grid-area: graphic-design-header;
 }
 
 #graphic-design-content {
     border: 5px solid #9f64a0;
+
     grid-area: graphic-design-content;
-    /* padding: 0 auto; */
 }
 
 .row {
@@ -834,18 +759,15 @@ GRAPHIC DESIGN SECTION
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-
-    /* margin: 0 auto; */
 }
 
 .column img {
-    margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
+    margin-top: 8px;
     border-radius: 10px;
+    vertical-align: middle;
 
     transition: 0.5s;
-    /* flex-grow: 4; default 0 */
 }
 
 .column img:hover {
@@ -860,16 +782,11 @@ SW PROJECTS SECTION
 
 #sw-projects-container {
     border: 5px solid #585240;
+    display: grid;
     position: relative; /* For the background image */
 
-    /* background-image: url("./assets/Organic_Shapes/Bottom\ Wave.png");
-    background-repeat: no-repeat;
-    background-position: bottom left; */
-
-    display: grid;
-    /* height: 100vh; */
+    /* grid-template-rows: 0fr 3fr 3fr 3fr 3fr 3fr 3fr; */
     grid-template-columns: 1fr;
-    grid-template-rows: 0fr 3fr 3fr 3fr 3fr 3fr 3fr;
     grid-template-areas:
         "sw-projects-header"
         "sw-projects-card1"
@@ -882,21 +799,20 @@ SW PROJECTS SECTION
 
 #sw-projects-header {
     border: 5px solid #ad9f7c;
+
     grid-area: sw-projects-header;
 }
 
 .card-content {
     border: 5px solid #2ceeeeea;
-    /* display: flex; */
 }
 
 .sw-projects-cards {
-    background: #ffffff;
     width: 85%;
-    /* height: 20vh; */
     margin: 30px auto;
     padding: 40px;
 
+    background: #ffffff;
     box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
@@ -904,34 +820,30 @@ SW PROJECTS SECTION
 .sw-projects-title-container {
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
 }
 .sw-project-title {
     border: 5px solid #af812c;
-
     font-size: 32px;
     font-weight: 800;
 }
 
 .sw-projects-content {
-    display: flex;
     border: 5px solid #2c4baf;
+    display: flex;
 }
 
 .sw-projects-img {
-    /* display: inline; */
-    /* padding-right: 20px; */
     height: 240px;
     width: 400px;
 }
 
 .sw-projects-info-container {
-    margin-left: 20px;
+    border: 5px solid #ac3727;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 5px solid #ac3727;
     width: 100%;
+    margin-left: 20px;
 }
 
 .sw-projects-text {
@@ -939,11 +851,9 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-button-row {
+    border: 5px solid #148019;
     display: flex;
     justify-content: flex-end;
-    /* justify-content: space-between; */
-    border: 5px solid #148019;
-    /* border: 50px solid #3b3da5; */
 }
 
 .sw-projects-button {
@@ -951,21 +861,14 @@ SW PROJECTS SECTION
     justify-content: space-around;
     align-items: center;
     padding: 8px;
-    /* height: 60px; */
     width: 150px;
     transition: 0.5s;
-    /* position: absolute; */
-    /* padding: 10px 600px; */
-    /* position: absolute;
-    right: 0;
-    bottom: 0; */
 }
 .sw-projects-button:hover {
     transform: scale(1.1);
 }
 
 .sw-projects-button img {
-    /* padding-left: 10px; */
     height: 21px;
     width: 21px;
 }
@@ -1005,6 +908,7 @@ SW PROJECTS SECTION
 RESPONSIVE STYLING
 ==========================
 */
+
 @media screen and (max-width: 1100px) {
     #scroll-to-top-button {
         display: none;
@@ -1015,16 +919,10 @@ RESPONSIVE STYLING
     }
 
     h1 {
-        /* overflow-wrap: break-word;
-        word-wrap: break-word;
-        hyphens: auto; */
         font-size: 24px;
     }
 
     h3 {
-        /* overflow-wrap: break-word;
-        word-wrap: break-word;
-        hyphens: auto; */
         font-size: 22px;
     }
 
@@ -1033,31 +931,16 @@ RESPONSIVE STYLING
     }
 
     figure {
-        /* border: 4px solid green; */
-        /* margin: 20px; adjust as needed */
     }
 
     figure img {
-        /* border: 4px solid red; */
-        /* padding: 0 10px; */
-        /* margin-left: auto; */
-        /* margin-right: auto; */
-        /* margin-left: 50px; */
-        /* margin-right: 15px; */
     }
 
     figure figcaption {
-        /* border: 4px solid blue; */
-        /* text-align: center; */
-        /* font-weight: 900; */
-        /* font-size: 26px; */
     }
 
     .page-container {
         padding: 0 10px;
-        /* overflow:hidden; */
-
-        /* margin: 0 1em; */
     }
 
     #profile-pic img {
@@ -1065,7 +948,6 @@ RESPONSIVE STYLING
     }
 
     .center {
-        /* margin: 0 0; */
     }
 
     .languages-bar {
@@ -1081,14 +963,10 @@ RESPONSIVE STYLING
     }
 
     #landing-page-container {
-        /* overflow:hidden; */
-        /* overflow-wrap: break-word;
-        word-wrap: break-word;
-        hyphens: auto; */
         margin-bottom: 50px;
-        /* width: 100%; */
-        grid-template-columns: 1fr;
+
         /* grid-template-rows: 1fr 2fr 2.6fr; */
+        grid-template-columns: 1fr;
         grid-template-areas:
             "nav"
             "profile-pic"
@@ -1096,15 +974,13 @@ RESPONSIVE STYLING
     }
 
     #name-intro-container {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        hyphens: auto;
         padding-left: 0;
     }
 
     #about-me-container {
         padding: 0 1em;
         margin-bottom: 50px;
+
         grid-template-columns: 1fr;
         grid-template-rows: 4.6fr;
         grid-template-areas:
@@ -1117,8 +993,8 @@ RESPONSIVE STYLING
     }
 
     #experience-container {
-        grid-template-columns: 1fr;
         /* grid-template-rows: 1fr 5.2fr 5.2fr 5.2fr; */
+        grid-template-columns: 1fr;
         grid-template-areas:
             "experience-header"
             "card1"
@@ -1133,8 +1009,8 @@ RESPONSIVE STYLING
     #skills-container {
         margin-top: 0;
 
-        grid-template-columns: 1fr;
         /* grid-template-rows: 1fr 4.5fr; */
+        grid-template-columns: 1fr;
         grid-template-areas:
             "skills-header"
             "skills-content";
@@ -1147,17 +1023,14 @@ RESPONSIVE STYLING
     .skills-icon {
         height: 50px;
         width: 50px;
-        /* margin: 0 20px; */
     }
 
     .skills-row {
-        /* width: 100%; */
-        /* justify-content: flex-start; */
     }
 
     #graphic-design-container {
-        grid-template-columns: 1fr;
         /* grid-template-rows: 1fr 6fr; */
+        grid-template-columns: 1fr;
         grid-template-areas:
             "graphic-design-header"
             "graphic-design-content";
@@ -1170,8 +1043,8 @@ RESPONSIVE STYLING
     }
 
     #sw-projects-container {
-        grid-template-columns: 1fr;
         /* grid-template-rows: 1fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr 5.3fr; */
+        grid-template-columns: 1fr;
         grid-template-areas:
             "sw-projects-header"
             "sw-projects-card1"
@@ -1185,7 +1058,6 @@ RESPONSIVE STYLING
     .sw-projects-cards {
         width: 100%;
         padding: 20px;
-        /* width: 750px; */
     }
 
     /* Blue */
@@ -1194,9 +1066,6 @@ RESPONSIVE STYLING
         align-items: center;
         justify-content: space-between;
         height: 100%;
-
-        /* Remove the padding and margin */
-        /* height: calc(100% - 40px - 30px); */
     }
 
     /* Red */
@@ -1208,10 +1077,6 @@ RESPONSIVE STYLING
 
     /* Black */
     .sw-projects-text {
-        /* align-items: center; */
-        /* height: 100%; */
-
-        /* justify-content: space-between; */
     }
 
     .sw-projects-title-container {
@@ -1220,18 +1085,13 @@ RESPONSIVE STYLING
     }
 
     .sw-projects-img {
-        /* display: inline; */
-        /* padding-right: 20px; */
         height: calc(240px / 2);
         width: calc(400px / 2);
     }
 
     .experience-title-container {
-        /* flex-direction: column; */
-        /* align-items: flex-start; */
     }
 
-    /* .sw-projects-button-row */
     .card-content {
         display: flex;
         flex-direction: column;
@@ -1240,8 +1100,6 @@ RESPONSIVE STYLING
     }
 
     .languages-item {
-        /* height: 30px; */
-        /* width: 30px; */
     }
 }
 
