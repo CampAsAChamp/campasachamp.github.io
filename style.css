@@ -109,11 +109,11 @@ nav {
     grid-area: nav;
     text-align: center;
     /* z-index: 2; */
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 nav ul {
-    /* border: 5px solid #798d72; */
+    border: 5px solid #798d72;
     list-style-type: none;
     float: right;
     margin: 30px 0;
@@ -121,12 +121,12 @@ nav ul {
     /* padding: 40px 0; */
 }
 
-nav ul li {
+nav li {
     float: left;
     margin-bottom: 0;
 }
 
-nav ul li a {
+nav li a {
     color: white;
     text-decoration: none;
     margin: 0 30px;
@@ -138,7 +138,7 @@ nav ul li a {
     transition: 0.5s;
 }
 
-nav ul li a::after {
+nav a::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -151,11 +151,11 @@ nav ul li a::after {
     transform-origin: right;
 }
 
-nav ul li a:hover {
+nav a:hover {
     color: #f2d541;
 }
 
-nav ul li a:hover::after {
+nav a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -189,10 +189,6 @@ COMPONENTS
     background: #6c63ff;
 
     transition: 0.5s;
-}
-
-.button:hover {
-    transform: scale(1.1);
 }
 
 /* The Modal (background) */
@@ -256,6 +252,7 @@ IMAGES
 
 #logo {
     float: left;
+    border: 5px solid red;
 }
 
 #landing-blob {
@@ -957,12 +954,14 @@ SW PROJECTS SECTION
     /* height: 60px; */
     width: 150px;
     transition: 0.5s;
-    transform: scale(1.1);
     /* position: absolute; */
     /* padding: 10px 600px; */
     /* position: absolute;
     right: 0;
     bottom: 0; */
+}
+.sw-projects-button:hover {
+    transform: scale(1.1);
 }
 
 .sw-projects-button img {
