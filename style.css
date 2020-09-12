@@ -805,10 +805,6 @@ SW PROJECTS SECTION
     grid-area: sw-projects-header;
 }
 
-.card-content {
-    border: 5px solid #2ceeeeea;
-}
-
 .sw-projects-cards {
     width: 85%;
     margin: 30px auto;
