@@ -529,6 +529,9 @@ EXPERIENCE SECTION
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #ffffff;
     position: relative;
     margin: 30px;
@@ -628,11 +631,11 @@ EXPERIENCE SECTION
 
 .bottom-bar {
     border: 1px solid #532a32;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* position: absolute; */
+    /* bottom: 20px; */
 }
 
 .languages-bar {
@@ -1112,10 +1115,10 @@ RESPONSIVE STYLING
     }
 
     .card-content {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
 
-        height: 100%;
+        /* height: 100%; */
     }
 
     .languages-item {
