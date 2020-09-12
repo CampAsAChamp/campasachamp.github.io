@@ -1,6 +1,12 @@
 /* TODO: Organize CSS into multiple files*/
 /* TODO: Add CSS variables */
 
+/* 
+==========================
+GLOBAL STYLES
+==========================
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -22,11 +28,6 @@ body {
     margin: 0;
 
     /* padding-left: 1em; */
-}
-
-.page-container {
-    padding: 0 1em;
-    /* margin: 0 1em; */
 }
 
 h1 {
@@ -159,8 +160,15 @@ nav ul li a:hover::after {
     transform-origin: left;
 }
 
-#logo {
-    float: left;
+/* 
+==========================
+COMPONENTS
+==========================
+*/
+
+.page-container {
+    padding: 0 1em;
+    /* margin: 0 1em; */
 }
 
 .button {
@@ -182,41 +190,6 @@ nav ul li a:hover::after {
 
 .button:hover {
     transform: scale(1.1);
-}
-
-#contact-me-button {
-    font-size: 26px;
-    padding: 15px;
-    width: 200px;
-
-    /* transition: all 0.5s; */
-    color: white;
-}
-
-#contact-me-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-#contact-me-button span::after {
-    content: "\00bb"; /*Makes an arrow >> */
-    color: #f2d541;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-#contact-me-button:hover span {
-    padding-right: 20px;
-}
-
-#contact-me-button:hover span:after {
-    opacity: 1;
-    right: 0;
 }
 
 /* The Modal (background) */
@@ -272,16 +245,14 @@ nav ul li a:hover::after {
     }
 }
 
-#landing-page-container {
-    display: grid;
-    border: 5px solid #ad37ca;
-    margin-bottom: 150px;
-    /* height: 100vh; */
-    grid-template-columns: 1.5fr 1fr;
-    /* grid-template-rows: 1fr; */
-    grid-template-areas:
-        "nav nav"
-        "name-intro profile-pic";
+/* 
+==========================
+IMAGES
+==========================
+*/
+
+#logo {
+    float: left;
 }
 
 #landing-blob {
@@ -316,74 +287,6 @@ nav ul li a:hover::after {
     opacity: 0.1;
     z-index: -1;
     right: 0px;
-}
-
-#name-intro-container {
-    border: 5px solid #4dfc10;
-    padding-left: 250px;
-    padding-top: 20px;
-
-    grid-area: name-intro;
-}
-
-#profile-pic {
-    border: 5px solid #3bb30f;
-    grid-area: profile-pic;
-    /* z-index: 2; */
-}
-
-#profile-pic img {
-    transition: transform 0.5s; /* Animation */
-
-    width: 60%;
-}
-
-#profile-pic img:hover {
-    transform: scale(1.1);
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* TODO: Center photo vertically as well */
-}
-
-#contact-me-container {
-    border: 5px solid #267409;
-    grid-area: contact-me-container;
-    padding-left: 250px;
-}
-
-#contact-me-bar {
-    margin-top: 75px;
-    display: flex;
-    align-items: center;
-    /* border: 5px solid #33a31d; */
-    /* margin: 0 25px; */
-
-    /* padding-right: 40px; */
-}
-
-#contact-me-socials {
-    margin: 0 50px;
-
-    /* border: 5px solid #502263; */
-}
-
-#contact-me-socials img {
-    transition: transform 0.5s; /* Animation */
-}
-
-#contact-me-socials img:hover {
-    transform: scale(1.1);
-}
-
-.contact-me-item {
-    /* border: 5px solid #502263; */
-    margin-right: 25px;
-    width: 50px;
-    height: 50px;
 }
 
 #scroll-to-top-button {
@@ -479,6 +382,133 @@ nav ul li a:hover::after {
     }
 }
 
+/* 
+==========================
+LANDING PAGE SECTION
+==========================
+*/
+
+#landing-page-container {
+    display: grid;
+    border: 5px solid #ad37ca;
+    margin-bottom: 150px;
+    /* height: 100vh; */
+    grid-template-columns: 1.5fr 1fr;
+    /* grid-template-rows: 1fr; */
+    grid-template-areas:
+        "nav nav"
+        "name-intro profile-pic";
+}
+
+#name-intro-container {
+    border: 5px solid #4dfc10;
+    padding-left: 250px;
+    padding-top: 20px;
+
+    grid-area: name-intro;
+}
+
+#profile-pic {
+    border: 5px solid #3bb30f;
+    grid-area: profile-pic;
+    /* z-index: 2; */
+}
+
+#profile-pic img {
+    transition: transform 0.5s; /* Animation */
+
+    width: 60%;
+}
+
+#profile-pic img:hover {
+    transform: scale(1.1);
+}
+
+.center {
+    /* TODO: Center photo vertically as well */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-me-container {
+    border: 5px solid #267409;
+    grid-area: contact-me-container;
+    padding-left: 250px;
+}
+
+#contact-me-bar {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    /* border: 5px solid #33a31d; */
+    /* margin: 0 25px; */
+
+    /* padding-right: 40px; */
+}
+
+#contact-me-button {
+    font-size: 26px;
+    padding: 15px;
+    width: 200px;
+
+    /* transition: all 0.5s; */
+    color: white;
+}
+
+#contact-me-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#contact-me-button span::after {
+    content: "\00bb"; /*Makes an arrow >> */
+    color: #f2d541;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#contact-me-button:hover span {
+    padding-right: 20px;
+}
+
+#contact-me-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#contact-me-socials {
+    margin: 0 50px;
+
+    /* border: 5px solid #502263; */
+}
+
+#contact-me-socials img {
+    transition: transform 0.5s; /* Animation */
+}
+
+#contact-me-socials img:hover {
+    transform: scale(1.1);
+}
+
+.contact-me-item {
+    /* border: 5px solid #502263; */
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+/* 
+==========================
+ABOUT ME SECTION
+==========================
+*/
+
 #about-me-container {
     border: 5px solid #323d99;
     padding-bottom: 100px;
@@ -535,6 +565,12 @@ nav ul li a:hover::after {
 
     grid-area: about-me-text;
 }
+
+/* 
+==========================
+EXPERIENCE SECTION
+==========================
+*/
 
 #experience-container {
     border: 5px solid #1b420c;
@@ -701,6 +737,12 @@ nav ul li a:hover::after {
     height: 40px;
 }
 
+/* 
+==============================
+SKILLS & TECHNOLOGIES SECTION
+==============================
+*/
+
 #skills-container {
     display: grid;
     border: 5px solid #a53b82;
@@ -746,6 +788,12 @@ nav ul li a:hover::after {
     /* margin: 0 50px; */
     /* text-align: center; */
 }
+
+/* 
+==========================
+GRAPHIC DESIGN SECTION
+==========================
+*/
 
 #graphic-design-container {
     display: grid;
@@ -803,6 +851,12 @@ nav ul li a:hover::after {
 .column img:hover {
     transform: scale(1.1);
 }
+
+/* 
+==========================
+SW PROJECTS SECTION
+==========================
+*/
 
 #sw-projects-container {
     border: 5px solid #585240;
@@ -943,12 +997,11 @@ nav ul li a:hover::after {
     grid-area: sw-projects-card6;
 }
 
-/* #bottom-wave {
-    left: 0px;
-    bottom: 0px;
-    z-index: -1;
-} */
-
+/* 
+==========================
+RESPONSIVE STYLING
+==========================
+*/
 @media screen and (max-width: 1100px) {
     #scroll-to-top-button {
         display: none;
