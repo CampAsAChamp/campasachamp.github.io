@@ -66,12 +66,16 @@ li {
     margin-bottom: 1em;
 }
 
+header {
+    border: 5px solid #2454ac;
+
+    grid-area: header;
+}
+
 nav {
     border: 5px solid #95f871;
     text-align: center;
     padding-right: 50px;
-
-    grid-area: nav;
 }
 
 nav ul {
@@ -337,7 +341,7 @@ LANDING PAGE SECTION
     /* grid-template-rows: 1fr; */
 
     grid-template-areas:
-        "nav nav"
+        "header header"
         "name-intro profile-pic";
 }
 
@@ -914,11 +918,15 @@ RESPONSIVE STYLING
     }
 
     h1 {
+        font-size: 36px;
+    }
+
+    h2 {
         font-size: 24px;
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     p {
@@ -936,6 +944,10 @@ RESPONSIVE STYLING
 
     .page-container {
         padding: 0 10px;
+    }
+
+    .section-header {
+        font-size: small;
     }
 
     #profile-pic img {
@@ -963,7 +975,7 @@ RESPONSIVE STYLING
         /* grid-template-rows: 1fr 2fr 2.6fr; */
         grid-template-columns: 1fr;
         grid-template-areas:
-            "nav"
+            "header"
             "profile-pic"
             "name-intro";
     }
@@ -1016,8 +1028,20 @@ RESPONSIVE STYLING
     }
 
     .skills-icon {
-        height: 50px;
-        width: 50px;
+        /* height: 50px; */
+
+        /* padding: 0 0; */
+        /* margin: 0 0; */
+    }
+
+    .skills-icon img {
+        /* height: 50px; */
+        /* width: 50px; */
+        /* margin: 0 0; */
+    }
+
+    .skills-icon figcaption {
+        font-size: 16px;
     }
 
     .skills-row {
