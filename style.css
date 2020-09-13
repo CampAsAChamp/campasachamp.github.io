@@ -962,7 +962,7 @@ RESPONSIVE STYLING
 
     nav {
         padding: 0;
-        min-height: 12vh;
+        height: 12vh;
     }
 
     nav ul {
