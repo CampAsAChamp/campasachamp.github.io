@@ -288,7 +288,7 @@ IMAGES
     box-shadow: 2px 5px 10px grey;
     cursor: pointer;
     border-radius: 50%;
-    /* opacity: 0; */
+    opacity: 0;
     transition: 1s;
 }
 
@@ -612,6 +612,7 @@ EXPERIENCE SECTION
     border: 1px solid #832434;
     font-family: "Nunito", sans-serif;
     /* font-size: 1.313rem; */
+
     font-weight: 900;
 }
 
@@ -1018,6 +1019,7 @@ RESPONSIVE STYLING
 
     h2 {
         font-size: 2.333rem;
+        line-height: 38px;
     }
 
     h3 {
@@ -1121,6 +1123,10 @@ RESPONSIVE STYLING
         /* position: initial; */
     }
 
+    .card-title {
+        font-size: 1.333rem;
+    }
+
     #skills-container {
         /* margin-top: 0; */
         padding-top: 0;
@@ -1165,6 +1171,7 @@ RESPONSIVE STYLING
     }
 
     .skills-caption {
+        font-size: 3vw;
         /* font-size: 20px; */
     }
 
