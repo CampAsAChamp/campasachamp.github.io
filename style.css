@@ -7,11 +7,14 @@ GLOBAL STYLES
 ==========================
 */
 
-* {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 html {
+    box-sizing: border-box;
     font-size: 16px;
 }
 
@@ -554,29 +557,6 @@ EXPERIENCE SECTION
     grid-area: experience-header;
 }
 
-.experience-thumbnail {
-    height: 50px;
-    width: 50px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #ffffff;
-    position: relative;
-    margin: 30px;
-    padding: 20px;
-
-    border-radius: 30px;
-    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
-    transition: transform 0.5s; /* Animation */
-}
-
-.card:hover {
-    transform: scale(1.1);
-}
-
 #card1 {
     border: 5px solid #a3b864;
     grid-area: card1;
@@ -590,6 +570,30 @@ EXPERIENCE SECTION
 #card3 {
     border: 5px solid #4b552e;
     grid-area: card3;
+}
+
+.experience-thumbnail {
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    background: #ffffff;
+    position: relative;
+    margin: 30px;
+    padding: 20px;
+    font-size: 1.125rem;
+
+    border-radius: 30px;
+    box-shadow: 0px 19px 39px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .experience-title-container {
@@ -607,7 +611,7 @@ EXPERIENCE SECTION
 .card-title {
     border: 1px solid #832434;
     font-family: "Nunito", sans-serif;
-    font-size: 1.313rem;
+    /* font-size: 1.313rem; */
     font-weight: 900;
 }
 
@@ -643,7 +647,7 @@ EXPERIENCE SECTION
 .position {
     border: 1px solid #f07c90;
     font-family: "Nunito", sans-serif;
-    font-size: 1.125rem;
+    /* font-size: 1.125rem; */
     font-weight: 600;
     color: #707070;
 }
@@ -655,7 +659,7 @@ EXPERIENCE SECTION
 .supporting-text {
     border: 1px solid #b9a2a6;
     font-family: "Nunito", sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin-bottom: 100px;
     margin-top: 1em;
 }
@@ -673,6 +677,10 @@ EXPERIENCE SECTION
     display: flex;
     align-items: center;
     border: 5px solid #eccdd3;
+}
+.card .languages {
+    position: absolute;
+    bottom: 20px;
 }
 
 .languages-item {
@@ -884,7 +892,8 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-text {
-    border: 5px solid #000000;
+    border: 5px solid black;
+    font-size: 1.125rem;
 }
 
 .sw-projects-button-row {
@@ -1003,20 +1012,20 @@ RESPONSIVE STYLING
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         line-height: 65px;
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 2.333rem;
     }
 
     h3 {
-        font-size: 1.125rem;
+        font-size: 1.5rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.333rem;
         line-height: 22px;
     }
 
@@ -1052,6 +1061,7 @@ RESPONSIVE STYLING
 
     .languages-bar {
         flex-wrap: wrap;
+        position: static;
     }
 
     #contact-me-socials {
@@ -1108,6 +1118,7 @@ RESPONSIVE STYLING
 
     .card {
         margin: 10px 0;
+        /* position: initial; */
     }
 
     #skills-container {
