@@ -966,7 +966,7 @@ RESPONSIVE STYLING
     }
 
     nav ul {
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 88vh;
         top: 12vh;
