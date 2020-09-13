@@ -1233,6 +1233,9 @@ RESPONSIVE STYLING
         flex-direction: column;
         align-items: flex-start;
     }
+    .sw-project-title {
+        font-size: 1.5rem;
+    }
 
     .sw-projects-img {
         width: auto;
@@ -1245,7 +1248,18 @@ RESPONSIVE STYLING
     .experience-title-container {
     }
 
+    .languages-bar {
+        /* width: 50%; */
+    }
     .languages-item {
+        /* font-size: 0.1em; */
+        /* width: 0.5em; */
+        /* height: 10%; */
+        transform: scale(0.75);
+        /* width: 50%; */
+        /* height: 50%; */
+        /* width: 25px; */
+        /* height: 25px; */
     }
 }
 
