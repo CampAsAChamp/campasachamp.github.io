@@ -159,6 +159,7 @@ COMPONENTS
 }
 
 .section-header {
+    text-transform: uppercase;
 }
 
 .button {
@@ -168,6 +169,7 @@ COMPONENTS
     font: 900 large "Nunito";
     font-size: 1.125rem;
     margin: 5px;
+    text-transform: uppercase;
 
     color: #ffffff;
     cursor: pointer;
@@ -730,20 +732,10 @@ SKILLS & TECHNOLOGIES SECTION
 .skills-icon {
     display: flex;
     flex-direction: column;
-    flex-shrink: 4;
 
     align-content: center;
     border: 5px solid green;
     margin: 0 50px;
-    /* width: auto; */
-    /* max-width: 100%; */
-    /* height: auto; */
-    /* width: 100%; */
-    /* Remove the user-agent default style */
-    /* margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0; */
 }
 
 .skills-icon img {
@@ -752,7 +744,7 @@ SKILLS & TECHNOLOGIES SECTION
     /* margin-right: 15px; */
 }
 
-.skills-icon div {
+.skills-caption {
     border: 5px solid blue;
     text-align: center;
     font-weight: 900;
@@ -904,18 +896,19 @@ SW PROJECTS SECTION
 .sw-projects-button {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 8px;
-    width: 150px;
+    /* align-items: center; */
+    padding: 10px 15px;
+    /* width: 150px; */
     transition: 0.25s;
 }
 .sw-projects-button:hover {
     transform: scale(1.1);
 }
 
-.sw-projects-button img {
+.github-button-icon {
     height: 21px;
     width: 21px;
+    margin-left: 10px;
 }
 
 #sw-projects-card1 {
@@ -955,7 +948,8 @@ RESPONSIVE STYLING
 */
 
 @media screen and (max-width: 1100px) {
-    #logo img {
+    html {
+        font-size: 12px;
     }
 
     body {
@@ -988,6 +982,9 @@ RESPONSIVE STYLING
 
     nav li {
         opacity: 0;
+    }
+
+    #logo img {
     }
 
     .burger {
@@ -1156,7 +1153,7 @@ RESPONSIVE STYLING
         margin: 0;
     }
 
-    .skills-icon div {
+    .skills-caption {
         /* font-size: 20px; */
     }
 
