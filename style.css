@@ -11,6 +11,10 @@ GLOBAL STYLES
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: "Nunito", sans-serif;
     color: #707070;
@@ -19,7 +23,7 @@ body {
 
 h1 {
     font-weight: 900;
-    font-size: 96px;
+    font-size: 6rem;
     line-height: 131px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -27,21 +31,21 @@ h1 {
 
 h2 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 3.125rem;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 38px;
 }
 
@@ -91,7 +95,7 @@ nav li a {
     /* position: relative; */
     /* display: block; */
     font-weight: 900;
-    font-size: 26px;
+    font-size: 1.625rem;
     transition: 0.5s;
 }
 
@@ -162,7 +166,7 @@ COMPONENTS
     border: none;
     text-align: center;
     font: 900 large "Nunito";
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 5px;
 
     color: #ffffff;
@@ -197,7 +201,7 @@ COMPONENTS
 .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 
@@ -272,7 +276,7 @@ IMAGES
     bottom: 20px;
     right: 15px;
     z-index: 99;
-    font-size: 30px;
+    font-size: 1.875rem;
     outline: none;
     background-color: #f2d541;
     color: black;
@@ -415,7 +419,7 @@ LANDING PAGE SECTION
 }
 
 #contact-me-button {
-    font-size: 26px;
+    font-size: 1.625rem;
     width: 200px;
     padding: 15px;
     color: white;
@@ -601,7 +605,7 @@ EXPERIENCE SECTION
 .card-title {
     border: 1px solid #832434;
     font-family: "Nunito", sans-serif;
-    font-size: 21px;
+    font-size: 1.313rem;
     font-weight: 900;
 }
 
@@ -637,7 +641,7 @@ EXPERIENCE SECTION
 .position {
     border: 1px solid #f07c90;
     font-family: "Nunito", sans-serif;
-    font-size: 17px;
+    font-size: 1.125rem;
     font-weight: 600;
     color: #707070;
 }
@@ -649,7 +653,7 @@ EXPERIENCE SECTION
 .supporting-text {
     border: 1px solid #b9a2a6;
     font-family: "Nunito", sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     margin-bottom: 100px;
     margin-top: 1em;
 }
@@ -716,8 +720,10 @@ SKILLS & TECHNOLOGIES SECTION
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* align-content: space-between; */
     /* flex-shrink: 4; */
 
+    /* justify-content: space-around; */
     /* width: 100%; */
 }
 
@@ -728,10 +734,10 @@ SKILLS & TECHNOLOGIES SECTION
 
     align-content: center;
     border: 5px solid green;
-    /* margin: 0 20px; */
-    width: auto;
-    max-width: 100%;
-    height: auto;
+    margin: 0 50px;
+    /* width: auto; */
+    /* max-width: 100%; */
+    /* height: auto; */
     /* width: 100%; */
     /* Remove the user-agent default style */
     /* margin-block-start: 0;
@@ -746,11 +752,11 @@ SKILLS & TECHNOLOGIES SECTION
     /* margin-right: 15px; */
 }
 
-.skills-icon figcaption {
+.skills-icon div {
     border: 5px solid blue;
     text-align: center;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 /* 
@@ -858,7 +864,7 @@ SW PROJECTS SECTION
 }
 .sw-project-title {
     border: 5px solid #af812c;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -1000,30 +1006,21 @@ RESPONSIVE STYLING
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 3rem;
         line-height: 65px;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     p {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 22px;
-    }
-
-    figure {
-    }
-
-    figure img {
-    }
-
-    figure figcaption {
     }
 
     .page-container {
@@ -1135,27 +1132,32 @@ RESPONSIVE STYLING
         padding-bottom: 0;
     }
 
+    .skills-row {
+        /* transform: scale(0.5); */
+        /* flex-shrink: 4; */
+    }
+
     .skills-icon {
         /* transform: scale(0.75); */
         /* width: 33%; */
         /* height: 33%; */
         margin: 0;
+        height: 25%;
+        width: 25%;
     }
 
     .skills-icon img {
         /* width: auto; */
-        /* max-width: 100%; */
-        /* height: auto; */
-        /* height: 50px; */
-        /* width: 50px; */
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        /* height: 25%; */
+        /* width: 25%; */
         margin: 0;
     }
 
-    .skills-icon figcaption {
-        /* font-size: 16px; */
-    }
-
-    .skills-row {
+    .skills-icon div {
+        /* font-size: 20px; */
     }
 
     #graphic-design-container {
