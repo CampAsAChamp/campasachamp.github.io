@@ -66,20 +66,15 @@ ul {
 li {
     margin-bottom: 1em;
 }
-
 nav {
-    /* border: 5px solid orange; */
     display: flex;
     justify-content: space-between;
     grid-area: nav;
     align-items: center;
     height: 12vh;
-    /* text-align: center; */
-    /* padding-right: 50px; */
 }
 
 nav ul {
-    /* border: 5px solid #798d72; */
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -87,18 +82,16 @@ nav ul {
 }
 
 nav li {
-    /* Overwrite the global value set */
+    float: left;
     margin-bottom: 0;
 }
 
-nav li a {
+nav a {
     color: white;
     text-decoration: none;
-    /* margin: 0 30px; */
-    /* position: relative; */
-    /* display: block; */
     font-weight: 900;
     font-size: 1.625rem;
+    position: relative;
     transition: 0.5s;
 }
 
