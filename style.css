@@ -71,7 +71,7 @@ nav {
     justify-content: space-between;
     grid-area: nav;
     align-items: center;
-    height: 12vh;
+    height: 8vh;
 }
 
 nav ul {
@@ -418,7 +418,6 @@ LANDING PAGE SECTION
 
 #contact-me-button {
     font-size: 1.625rem;
-    width: 200px;
     padding: 15px;
     color: white;
 }
