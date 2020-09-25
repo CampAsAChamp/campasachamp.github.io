@@ -992,7 +992,7 @@ RESPONSIVE STYLING
     nav ul {
         position: fixed;
         right: 0;
-        height: 100vh;
+        height: 100%;
         padding: 20px 0;
         /* overflow: hidden; */
         top: 0;
