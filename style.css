@@ -73,7 +73,7 @@ li {
     margin-bottom: 1em;
 }
 nav {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
     grid-area: nav;
@@ -82,7 +82,7 @@ nav {
 }
 
 nav ul {
-    border: 5px solid green;
+    /* border: 5px solid green; */
 
     display: flex;
     justify-content: space-around;
