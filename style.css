@@ -67,7 +67,7 @@ li {
     margin-bottom: 1em;
 }
 nav {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
     grid-area: nav;
@@ -87,6 +87,7 @@ nav ul {
 nav li {
     float: left;
     margin-bottom: 0;
+    animation: navLinkFade 0.5s ease forwards;
 }
 
 nav a {
@@ -596,7 +597,7 @@ EXPERIENCE SECTION
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 .thumbnail {
@@ -630,7 +631,8 @@ EXPERIENCE SECTION
 }
 
 .location {
-    /* border: 1px solid #572e35; */
+    margin-bottom: 50px;
+    /* border: 5px solid #572e35; */
 }
 
 .secondary-title {
@@ -963,6 +965,10 @@ RESPONSIVE STYLING
         overflow-x: hidden;
     }
 
+    #mouse-scroll-indicator {
+        display: none;
+    }
+
     #scroll-to-top-button {
         display: none;
     }
@@ -975,20 +981,25 @@ RESPONSIVE STYLING
     nav ul {
         position: fixed;
         right: 0;
-        height: 88vh;
-        top: 12vh;
-        background-color: rgb(108, 99, 255, 0.85);
+        height: 100vh;
+        top: 0;
+        background-color: rgb(108, 99, 255, 0.95);
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         /* justify-content: center; */
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        z-index: 1;
     }
 
     nav li {
         opacity: 0;
+    }
+
+    nav a {
+        font-size: 3rem;
     }
 
     #logo img {
@@ -997,6 +1008,7 @@ RESPONSIVE STYLING
     .burger {
         display: block;
         cursor: pointer;
+        z-index: 99;
     }
 
     .toggle #line1 {
