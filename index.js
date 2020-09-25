@@ -73,6 +73,12 @@ const navSlide = () => {
         item.addEventListener("click", () => {
             nav.classList.toggle("nav-active");
             burger.classList.toggle("toggle");
+
+            const scrollY = document.body.style.top;
+            document.body.style.position = "";
+            document.body.style.top = "";
+            window.scrollTo(0, parseInt(scrollY || "0") * -1);
+            toggle = true;
         });
     }
 
