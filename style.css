@@ -1075,16 +1075,16 @@ RESPONSIVE STYLING
         position: static;
     }
 
-    #contact-me-socials {
-        margin: 0 0;
-    }
-
     #contact-me-bar {
         justify-content: space-between;
     }
 
-    .contact-me-item {
+    #contact-me-socials {
         margin: 0 0;
+    }
+
+    .contact-me-item {
+        margin: 0 5px;
     }
 
     #landing-page-container {
