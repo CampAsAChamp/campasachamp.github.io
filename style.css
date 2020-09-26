@@ -403,17 +403,15 @@ LANDING PAGE SECTION
 }
 
 #profile-pic {
-    width: auto;
-    height: auto;
-    max-width: 60%;
-    /* width: 50%; */
+    max-width: 80%;
+    /* height: auto; */
+    padding: 0 2rem;
 }
 
 #profile-pic:hover {
 }
 
 .center {
-    /* TODO: Center photo vertically as well */
     display: block;
     margin: 2rem auto;
 }
