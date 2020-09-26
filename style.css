@@ -899,27 +899,29 @@ SW PROJECTS SECTION
     /* border: 5px solid #2ceeeeea; */
 }
 
-.sw-projects-img {
-    /* border: 5px solid #ad29b9; */
-    display: block;
-    margin: 0 auto;
-    /* height: auto; */
-    max-height: 100%;
-    max-width: 100%;
-    /* object-fit: cover; */
-    /* max-height: 240px; */
-    /* max-width: 400px; */
-    /* height: 240px; */
-    /* width: 400px; */
-    border-radius: 30px;
-}
-
 .sw-projects-img-container {
     /* border: 5px solid #8b8311; */
     height: 250px;
     width: 600px;
     /* max-width: 300px; */
     /* max-height: 300px; */
+}
+
+.sw-projects-img {
+    object-fit: cover;
+    /* border: 5px solid #ad29b9; */
+    /* display: block; */
+    /* margin: 0 auto; */
+    height: 100%;
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+    /* object-fit: cover; */
+    /* max-height: 240px; */
+    /* max-width: 400px; */
+    /* height: 240px; */
+    /* width: 400px; */
+    width: 100%;
+    border-radius: 30px;
 }
 
 .sw-projects-info-container {
