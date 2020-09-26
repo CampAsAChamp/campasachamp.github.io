@@ -435,7 +435,7 @@ LANDING PAGE SECTION
 
 #contact-me-button {
     font-size: 1.625rem;
-    padding: 15px;
+    padding: 15px 20px;
     color: white;
 }
 
@@ -747,6 +747,7 @@ SKILLS & TECHNOLOGIES SECTION
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
     /* align-content: space-between; */
     /* flex-shrink: 4; */
 
