@@ -73,7 +73,7 @@ li {
     margin-bottom: 1em;
 }
 nav {
-    /* border: 5px solid red; */
+    border: 5px solid red;
     display: flex;
     justify-content: space-between;
     grid-area: nav;
@@ -82,12 +82,12 @@ nav {
 }
 
 nav ul {
-    /* border: 5px solid green; */
+    border: 5px solid green;
 
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 50%;
+    width: 45%;
 }
 
 nav li {
@@ -100,7 +100,9 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: 900;
-    font-size: 1.625rem;
+    /* font-size: 1.625rem; */
+    font-size: 1.5vw;
+
     position: relative;
     transition: 0.5s;
 }
@@ -123,6 +125,7 @@ nav a:hover {
 }
 
 nav a:hover::after {
+    /* Moves the underline bar */
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -921,6 +924,7 @@ SW PROJECTS SECTION
     /* width: 150px; */
     transition: 0.25s;
 }
+
 .sw-projects-button:hover {
     transform: scale(1.1);
 }
@@ -1109,6 +1113,10 @@ RESPONSIVE STYLING
         margin: 0 5px;
     }
 
+    #contact-me-socials img:hover {
+        transform: none;
+    }
+
     #landing-page-container {
         margin-bottom: 50px;
 
@@ -1139,6 +1147,10 @@ RESPONSIVE STYLING
         padding-top: 25px;
     }
 
+    #about-me-images img:hover {
+        transform: none;
+    }
+
     #experience-container {
         /* grid-template-rows: 1fr 5.2fr 5.2fr 5.2fr; */
         grid-template-columns: 1fr;
@@ -1152,6 +1164,11 @@ RESPONSIVE STYLING
     .card {
         margin: 10px 0;
         /* position: initial; */
+    }
+
+    .card:hover {
+        /* Removes the hover animation on mobile */
+        transform: none;
     }
 
     .card-title {
@@ -1221,6 +1238,10 @@ RESPONSIVE STYLING
         max-width: 50%;
     }
 
+    .column img:hover {
+        transform: none;
+    }
+
     #sw-projects-container {
         margin-bottom: 0;
 
@@ -1239,6 +1260,10 @@ RESPONSIVE STYLING
     .sw-projects-cards {
         width: 100%;
         padding: 20px;
+    }
+
+    .sw-projects-cards:hover {
+        transform: none;
     }
 
     /* Blue */
@@ -1275,6 +1300,10 @@ RESPONSIVE STYLING
         height: auto;
         /* height: calc(240px / 2); */
         /* width: calc(400px / 2); */
+    }
+
+    .sw-projects-button:hover {
+        transform: none;
     }
 
     .experience-title-container {
