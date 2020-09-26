@@ -875,13 +875,13 @@ SW PROJECTS SECTION
     justify-content: space-between;
 }
 .sw-project-title {
-    border: 5px solid #af812c;
+    /* border: 5px solid #af812c; */
     font-size: 2rem;
     font-weight: 800;
 }
 
 .sw-projects-content {
-    border: 5px solid #2c4baf;
+    /* border: 5px solid #2c4baf; */
     margin-top: 10px;
     display: flex;
 }
@@ -906,7 +906,7 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-img-container {
-    border: 5px solid #8b8311;
+    /* border: 5px solid #8b8311; */
     height: 360px;
     width: 600px;
     /* max-width: 300px; */
@@ -914,7 +914,7 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-info-container {
-    border: 5px solid #ac3727;
+    /* border: 5px solid #ac3727; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -928,7 +928,7 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-button-row {
-    border: 5px solid #148019;
+    /* border: 5px solid #148019; */
     display: flex;
     justify-content: flex-end;
 }
