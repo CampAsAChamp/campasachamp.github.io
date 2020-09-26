@@ -385,7 +385,7 @@ LANDING PAGE SECTION
 
     grid-template-areas:
         "nav nav"
-        "name-intro profile-pic";
+        "name-intro profile-pic-container";
 }
 
 #name-intro-container {
@@ -396,27 +396,26 @@ LANDING PAGE SECTION
     grid-area: name-intro;
 }
 
-#profile-pic {
+#profile-pic-container {
     /* border: 5px solid #3bb30f; */
 
-    grid-area: profile-pic;
+    grid-area: profile-pic-container;
 }
 
-#profile-pic img {
+#profile-pic {
     width: auto;
     height: auto;
-    max-width: 100%;
-    /* width: 80%; */
+    max-width: 60%;
+    /* width: 50%; */
 }
 
-#profile-pic img:hover {
+#profile-pic:hover {
 }
 
 .center {
     /* TODO: Center photo vertically as well */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2rem auto;
 }
 
 #contact-me-container {
@@ -1149,7 +1148,7 @@ RESPONSIVE STYLING
         grid-template-columns: 1fr;
         grid-template-areas:
             "nav"
-            "profile-pic"
+            "profile-pic-container"
             "name-intro";
     }
 
