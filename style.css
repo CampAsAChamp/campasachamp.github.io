@@ -1117,7 +1117,7 @@ RESPONSIVE STYLING
     }
 
     .languages-bar {
-        position: static;
+        /* position: static; */
     }
 
     #contact-me-bar {
