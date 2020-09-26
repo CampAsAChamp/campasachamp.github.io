@@ -1134,6 +1134,10 @@ RESPONSIVE STYLING
         margin: 0 5px;
     }
 
+    #contact-me-button {
+        padding: 10px 15px;
+    }
+
     #contact-me-socials img:hover {
         transform: none;
     }
