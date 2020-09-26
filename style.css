@@ -41,6 +41,7 @@ h1 {
 h2 {
     font-weight: 900;
     font-size: 3.125rem;
+
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -73,7 +74,7 @@ li {
     margin-bottom: 1em;
 }
 nav {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
     grid-area: nav;
@@ -82,7 +83,7 @@ nav {
 }
 
 nav ul {
-    border: 5px solid green;
+    /* border: 5px solid green; */
 
     display: flex;
     justify-content: space-around;
@@ -389,7 +390,7 @@ LANDING PAGE SECTION
 
 #name-intro-container {
     /* border: 5px solid #4dfc10; */
-    padding-left: 250px;
+    padding-left: 25%;
     padding-top: 20px;
 
     grid-area: name-intro;
@@ -402,7 +403,10 @@ LANDING PAGE SECTION
 }
 
 #profile-pic img {
-    /* width: 60%; */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    /* width: 80%; */
 }
 
 #profile-pic img:hover {
@@ -583,8 +587,9 @@ EXPERIENCE SECTION
 }
 
 .card {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
+    /* display: flex;
     justify-content: space-between; */
     background: #ffffff;
     position: relative;
@@ -614,7 +619,7 @@ EXPERIENCE SECTION
 }
 
 .card-title {
-    /* border: 1px solid #832434; */
+    /* border: 5px solid #832434; */
     font-family: "Nunito", sans-serif;
     font-size: 1.35rem;
 
@@ -645,14 +650,14 @@ EXPERIENCE SECTION
 }
 
 .secondary-title {
-    /* border: 1px solid #c9a7ad; */
+    /* border: 5px solid #c9a7ad; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .position {
-    /* border: 1px solid #f07c90; */
+    /* border: 5px solid #f07c90; */
     font-family: "Nunito", sans-serif;
     /* font-size: 1.125rem; */
     font-weight: 600;
@@ -660,14 +665,14 @@ EXPERIENCE SECTION
 }
 
 .duration {
-    /* border: 1px solid #a3727b; */
+    /* border: 5px solid #a3727b; */
 }
 
 .supporting-text {
-    /* border: 1px solid #b9a2a6; */
+    /* border: 5px solid #b9a2a6; */
     font-family: "Nunito", sans-serif;
     /* font-size: 1rem; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     margin-top: 1em;
 }
 
@@ -682,7 +687,10 @@ EXPERIENCE SECTION
 
 .languages-bar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    position: static;
+    margin-top: auto;
     /* border: 5px solid #eccdd3; */
 }
 .card .languages {
@@ -882,7 +890,7 @@ SW PROJECTS SECTION
 
 .sw-projects-content {
     /* border: 5px solid #2c4baf; */
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
 }
 
@@ -907,7 +915,7 @@ SW PROJECTS SECTION
 
 .sw-projects-img-container {
     /* border: 5px solid #8b8311; */
-    height: 360px;
+    height: 250px;
     width: 600px;
     /* max-width: 300px; */
     /* max-height: 300px; */
@@ -919,7 +927,7 @@ SW PROJECTS SECTION
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .sw-projects-text {
@@ -1103,18 +1111,10 @@ RESPONSIVE STYLING
         /* height: 100%; */
     }
 
-    #profile-pic img {
-        width: auto;
-        max-width: 100%;
-        height: auto;
-        /* width: 80%; */
-    }
-
     .center {
     }
 
     .languages-bar {
-        flex-wrap: wrap;
         position: static;
     }
 
