@@ -1209,6 +1209,7 @@ RESPONSIVE STYLING
 
     #skills-header {
         text-align: left;
+        margin-bottom: 1rem;
     }
 
     #skills-content {
@@ -1218,6 +1219,7 @@ RESPONSIVE STYLING
     .skills-row {
         /* transform: scale(0.5); */
         /* flex-shrink: 4; */
+        margin-bottom: 5rem;
     }
 
     .skills-icon {
