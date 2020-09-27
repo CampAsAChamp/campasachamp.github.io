@@ -654,6 +654,7 @@ EXPERIENCE SECTION
 }
 
 .location {
+    margin-top: 10px;
     margin-bottom: 50px;
     /* border: 5px solid #572e35; */
 }
@@ -1221,6 +1222,11 @@ RESPONSIVE STYLING
 
     .card-title {
         font-size: 1.5rem;
+    }
+
+    .location {
+        margin-bottom: 30px;
+        /* border: 5px solid #572e35; */
     }
 
     #skills-container {
