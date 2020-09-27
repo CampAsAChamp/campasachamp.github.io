@@ -223,9 +223,10 @@ COMPONENTS
 .modal-content {
     font-size: 2rem;
     width: 50%; /* Could be more or less, depending on screen size */
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid var(--off-grey-color);
+    border-radius: 30px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
@@ -235,13 +236,14 @@ COMPONENTS
 .close {
     color: black;
     float: right;
-    font-size: 1.75rem;
+    font-size: 3rem;
     font-weight: bold;
+    transition: 0.5s ease-out;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: var(--purple-color);
     text-decoration: none;
     cursor: pointer;
 }
@@ -433,6 +435,18 @@ LANDING PAGE SECTION
 }
 
 #profile-pic:hover {
+}
+
+#modal-profile-pic-container {
+}
+
+#modal-profile-pic {
+    border: 1rem solid var(--purple-color);
+    border-radius: 1000px;
+    margin: 0 auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
 }
 
 #contact-me-container {
@@ -1103,8 +1117,6 @@ RESPONSIVE STYLING
     }
 
     p {
-        font-size: 1.5rem;
-        line-height: 22px;
     }
 
     .page-container {
@@ -1117,9 +1129,16 @@ RESPONSIVE STYLING
     }
 
     .modal-content {
+        word-wrap: break-word;
+        font-size: 1.35rem;
         width: 80%; /* Could be more or less, depending on screen size */
         margin: 15% auto; /* 15% from the top and centered */
         padding: 20px;
+    }
+
+    #modal-profile-pic {
+        border-width: 0.5rem;
+        max-width: 80%;
     }
 
     #landing-blob {
@@ -1180,6 +1199,8 @@ RESPONSIVE STYLING
     #about-me-text {
         padding-top: 25px;
         padding-right: 0;
+        font-size: 1.5rem;
+        line-height: 22px;
     }
 
     #about-me-images img:hover {
