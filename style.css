@@ -715,6 +715,10 @@ EXPERIENCE SECTION
     margin-right: 20px;
 }
 
+.languages-item:last-child {
+    margin: 0;
+}
+
 /* 
 ==============================
 SKILLS & TECHNOLOGIES SECTION
@@ -1372,9 +1376,13 @@ RESPONSIVE STYLING
         /* width: 50%; */
         /* max-width: 50%; */
         /* height: 50%; */
-        margin-right: 10px;
+        margin-right: 14px;
         width: 30px;
         height: 30px;
+    }
+
+    .languages-item:last-child {
+        margin: 0;
     }
 
     .languages-item img {
