@@ -699,7 +699,7 @@ EXPERIENCE SECTION
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    position: static;
+    /* position: static; */
     margin-top: auto;
     /* border: 5px solid #eccdd3; */
 }
@@ -713,7 +713,7 @@ EXPERIENCE SECTION
     width: 40px;
     height: 40px;
     /* margin: 0px 7px; */
-    margin-right: 7px;
+    margin-right: 20px;
 }
 
 /* 
@@ -832,12 +832,12 @@ GRAPHIC DESIGN SECTION
     /* border: 5px solid #727e09; */
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 .column img {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 10px;
     border-radius: 10px;
     vertical-align: middle;
 
@@ -906,8 +906,13 @@ SW PROJECTS SECTION
 
 .sw-projects-content {
     /* border: 5px solid #2c4baf; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
+}
+
+.sw-projects-cards .languages-bar {
+    margin: 10px 0;
+    /* width: 50%; */
 }
 
 .card-content {
@@ -1134,10 +1139,6 @@ RESPONSIVE STYLING
     .center {
     }
 
-    .languages-bar {
-        /* position: static; */
-    }
-
     #contact-me-bar {
         justify-content: space-between;
     }
@@ -1326,7 +1327,7 @@ RESPONSIVE STYLING
 
     /* Blue */
     .sw-projects-content {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -1374,18 +1375,21 @@ RESPONSIVE STYLING
     .experience-title-container {
     }
 
-    .languages-bar {
-        /* width: 50%; */
-    }
     .languages-item {
         /* font-size: 0.1em; */
         /* width: 0.5em; */
         /* height: 10%; */
-        transform: scale(0.75);
+        /* transform: scale(0.75); */
         /* width: 50%; */
+        /* max-width: 50%; */
         /* height: 50%; */
-        /* width: 25px; */
-        /* height: 25px; */
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .languages-item img {
+        /* width: 15%; */
     }
 }
 
