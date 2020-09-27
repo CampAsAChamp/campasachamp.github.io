@@ -220,6 +220,7 @@ COMPONENTS
 }
 
 .modal-content {
+    font-size: 2rem;
     width: 50%; /* Could be more or less, depending on screen size */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -764,7 +765,7 @@ SKILLS & TECHNOLOGIES SECTION
     /* width: 100%; */
 }
 
-.skills-icon {
+.skills-icon-container {
     display: flex;
     flex-direction: column;
 
@@ -773,7 +774,7 @@ SKILLS & TECHNOLOGIES SECTION
     margin: 0 50px;
 }
 
-.skills-icon img {
+.skills-icon {
     /* border: 5px solid red; */
     /* margin-left: 15px; */
     /* margin-right: 15px; */
@@ -1243,7 +1244,7 @@ RESPONSIVE STYLING
         margin-bottom: 5rem;
     }
 
-    .skills-icon {
+    .skills-icon-container {
         /* transform: scale(0.75); */
         /* width: 33%; */
         /* height: 33%; */
@@ -1252,7 +1253,7 @@ RESPONSIVE STYLING
         width: 25%;
     }
 
-    .skills-icon img {
+    .skills-icon {
         /* width: auto; */
         max-width: 100%;
         height: auto;
