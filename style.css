@@ -16,7 +16,8 @@ GLOBAL STYLES
     --id-tech-color: #006633;
 
     --thumbnail-size: 40px;
-
+    --rounded-button-corners-size: 1000px;
+    --rounded-component-corners-size: 40px;
     --animation-duration: 0.5s;
 }
 
@@ -162,7 +163,7 @@ nav a:hover::after {
 .line {
     width: 25px;
     height: 5px;
-    border-radius: 1000px;
+    border-radius: var(--rounded-button-corners-size);
     background-color: white;
     margin: 5px;
     transition: all 0.5s ease;
@@ -194,7 +195,7 @@ COMPONENTS
 }
 
 .button {
-    border-radius: 1000px;
+    border-radius: var(--rounded-button-corners-size);
     border: none;
     text-align: center;
     font: 900 large "Nunito";
@@ -227,7 +228,7 @@ COMPONENTS
     margin: 10% auto; /* 15% from the top and centered */
     padding: 40px;
     border: 1px solid var(--off-grey-color);
-    border-radius: 30px;
+    border-radius: var(--rounded-component-corners-size);
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
@@ -322,7 +323,7 @@ IMAGES
     color: black;
     box-shadow: 2px 5px 10px grey;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 50%; /* Creates a circle */
     opacity: 0;
     transition: 1s;
 }
@@ -333,7 +334,7 @@ IMAGES
 
 .mouse {
     border: 4px solid #2f2e41;
-    border-radius: 26px;
+    border-radius: var(--rounded-button-corners-size);
     width: 40px;
     height: 60px;
     position: absolute;
@@ -446,7 +447,7 @@ LANDING PAGE SECTION
 
 #modal-profile-pic {
     border: 1rem solid var(--purple-color);
-    border-radius: 1000px;
+    border-radius: 100%;
     margin: 0 auto;
     display: block;
     max-width: 30%;
@@ -634,7 +635,7 @@ EXPERIENCE SECTION
     padding: 35px;
     font-size: 1.125rem;
 
-    border-radius: 30px;
+    border-radius: var(--rounded-component-corners-size);
     /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25); */
 
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
@@ -905,7 +906,7 @@ SW PROJECTS SECTION
 
     background: white;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    border-radius: var(--rounded-component-corners-size);
     transition: transform 0.5s; /* Animation */
 }
 
@@ -947,20 +948,11 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-img {
-    object-fit: cover;
     /* border: 5px solid #ad29b9; */
-    /* display: block; */
-    /* margin: 0 auto; */
+    object-fit: cover;
     height: 100%;
-    /* max-height: 100%; */
-    /* max-width: 100%; */
-    /* object-fit: cover; */
-    /* max-height: 240px; */
-    /* max-width: 400px; */
-    /* height: 240px; */
-    /* width: 400px; */
     width: 100%;
-    border-radius: 30px;
+    border-radius: var(--rounded-component-corners-size);
 }
 
 .sw-projects-info-container {
