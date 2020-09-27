@@ -16,7 +16,6 @@ GLOBAL STYLES
     --id-tech-color: #006633;
 
     --thumbnail-size: 40px;
-    --nav-bar-height: 12vh;
 
     --animation-duration: 0.5s;
 }
@@ -136,7 +135,7 @@ nav a::after {
     height: 3px;
     top: 100%;
     left: 0%;
-    background: #f2d541;
+    background: var(--yellow-color);
     transition: transform 0.5s;
     transform: scaleX(0);
     transform-origin: right;
@@ -224,7 +223,7 @@ COMPONENTS
     width: 50%; /* Could be more or less, depending on screen size */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid var(--off-grey-color);
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
@@ -612,7 +611,7 @@ EXPERIENCE SECTION
     flex-direction: column;
     /* display: flex;
     justify-content: space-between; */
-    background: #ffffff;
+    background: white;
     position: relative;
     margin: 30px;
     padding: 35px;
@@ -883,7 +882,7 @@ SW PROJECTS SECTION
     font-weight: 400;
     font-size: 1.125rem;
 
-    background: #ffffff;
+    background: white;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     transition: transform 0.5s; /* Animation */
@@ -1037,7 +1036,6 @@ RESPONSIVE STYLING
 
     nav {
         padding: 0;
-        height: 12vh;
     }
 
     nav ul {
