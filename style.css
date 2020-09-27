@@ -155,13 +155,14 @@ nav a:hover::after {
     transform: translateX(0%);
 }
 
-.burger {
+.hamburger-menu {
     display: none;
 }
 
-.burger div {
+.line {
     width: 25px;
-    height: 3px;
+    height: 5px;
+    border-radius: 1000px;
     background-color: white;
     margin: 5px;
     transition: all 0.3s ease;
@@ -424,17 +425,14 @@ LANDING PAGE SECTION
 }
 
 #profile-pic {
+    display: block;
+    margin: 2rem auto;
     max-width: 80%;
     /* height: auto; */
     padding: 0 2rem;
 }
 
 #profile-pic:hover {
-}
-
-.center {
-    display: block;
-    margin: 2rem auto;
 }
 
 #contact-me-container {
@@ -1072,20 +1070,20 @@ RESPONSIVE STYLING
     #logo img {
     }
 
-    .burger {
+    .hamburger-menu {
         display: block;
         cursor: pointer;
         z-index: 99;
     }
 
     .toggle #line1 {
-        transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(-45deg) translate(-8px, 6px);
     }
     .toggle #line2 {
         opacity: 0;
     }
     .toggle #line3 {
-        transform: rotate(45deg) translate(-5px, -6px);
+        transform: rotate(45deg) translate(-8px, -6px);
     }
 
     h1 {
@@ -1129,15 +1127,12 @@ RESPONSIVE STYLING
         /* height: 100%; */
     }
 
-    .center {
-    }
-
     #contact-me-bar {
         justify-content: space-between;
     }
 
     #contact-me-socials {
-        margin: 0 0;
+        margin: 0;
     }
 
     .contact-me-item {

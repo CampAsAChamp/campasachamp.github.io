@@ -65,23 +65,9 @@ window.onload = function () {
 };
 
 const navSlide = () => {
-    const burger = document.querySelector(".burger");
+    const burger = document.querySelector(".hamburger-menu");
     const nav = document.querySelector("nav ul");
     const navLinks = document.querySelectorAll("nav li");
-
-    function addClickListener(item) {
-        item.addEventListener("click", () => {
-            nav.classList.toggle("nav-active");
-            burger.classList.toggle("toggle");
-
-            const scrollY = document.body.style.top;
-            document.body.style.position = "";
-            document.body.style.top = "";
-            window.scrollTo(0, parseInt(scrollY || "0") * -1);
-            toggle = true;
-        });
-    }
-
     var toggle = new Boolean(true);
 
     navLinks.forEach(addClickListener);
@@ -116,6 +102,19 @@ const navSlide = () => {
         // Burger animation
         burger.classList.toggle("toggle");
     });
+
+    function addClickListener(item) {
+        item.addEventListener("click", () => {
+            nav.classList.toggle("nav-active");
+            burger.classList.toggle("toggle");
+
+            const scrollY = document.body.style.top;
+            document.body.style.position = "";
+            document.body.style.top = "";
+            window.scrollTo(0, parseInt(scrollY || "0") * -1);
+            toggle = true;
+        });
+    }
 };
 
 navSlide();
