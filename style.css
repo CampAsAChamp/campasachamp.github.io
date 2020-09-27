@@ -922,6 +922,7 @@ SW PROJECTS SECTION
     /* border: 5px solid #af812c; */
     font-size: 2rem;
     font-weight: 800;
+    line-height: 1;
 }
 
 .sw-projects-content {
