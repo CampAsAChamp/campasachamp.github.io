@@ -35,31 +35,38 @@ function hideElement() {
 window.onload = function () {
     // your code
 
-    var modal = document.getElementById("myModal");
+    var modal_bg = document.getElementsByClassName("modal-bg")[0];
+    var modal_content = document.getElementsByClassName("modal-content")[0];
 
     // Get the button that opens the modal
     var btn = document.getElementById("contact-me-button");
 
-    // Get the <span> element that closes the modal
+    // Get the (X) <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks on the button, open the modal
     btn.onclick = function () {
-        console.log("Opened");
-        modal.style.display = "block";
+        modal_bg.classList.add("show");
+        modal_content.classList.add("show");
+
+        // modal_bg.style.display = "block";
     };
 
-    // When the user clicks on <span> (x), close the modal
+    // When the user clicks on (X) <span>, close the modal
     span.onclick = function () {
-        console.log("Closed");
+        modal_bg.classList.remove("show");
+        modal_content.classList.remove("show");
 
-        modal.style.display = "none";
+        // modal_bg.style.display = "none";
     };
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == modal_bg) {
+            modal_bg.classList.remove("show");
+            modal_content.classList.remove("show");
+
+            // modal_bg.style.display = "none";
         }
     };
 };

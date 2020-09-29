@@ -209,30 +209,37 @@ COMPONENTS
     background: var(--purple-color);
 }
 
-.modal {
-    display: none; /* Hidden by default */
+.modal-bg {
+    /* display: none; Hidden by default */
     position: fixed; /* Stay in place */
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     left: 0;
-    top: 0;
+    top: -100%;
+    opacity: 0;
     z-index: 1; /* Sit on top */
     background-color: black; /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+    transition: top 0.5s, opacity 0.5s;
+}
+
+.modal-bg.show {
+    top: 0;
+    opacity: 1;
 }
 
 .modal-content {
     position: relative;
     font-size: 2rem;
     width: 50%; /* Could be more or less, depending on screen size */
-    margin: 10% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 10% from the top and centered */
     padding: 40px;
     border: 1px solid var(--off-grey-color);
     border-radius: var(--rounded-component-corners-size);
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation-name: animatetop;
-    animation-duration: 0.5s;
+    /* animation-name: animatetop; */
+    /* animation-duration: 1.5s; */
 }
 
 .close {
@@ -253,7 +260,7 @@ COMPONENTS
     cursor: pointer;
 }
 
-@keyframes animatetop {
+/* @keyframes animatetop {
     from {
         top: -300px;
         opacity: 0;
@@ -262,7 +269,7 @@ COMPONENTS
         top: 0;
         opacity: 1;
     }
-}
+} */
 
 /* 
 ==========================
