@@ -827,7 +827,7 @@ GRAPHIC DESIGN SECTION
     margin-bottom: 100px;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 0fr 13fr;
+    /* grid-template-rows: 0fr 13fr; */
     grid-template-areas:
         "graphic-design-header"
         "graphic-design-content";
@@ -848,10 +848,12 @@ GRAPHIC DESIGN SECTION
 .row {
     /* border: 5px solid #64a091; */
     display: flex;
+    /* display: none; */
+
     flex-wrap: wrap;
     justify-content: space-between; /* or space-around */
 
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 /* Create four equal columns that sit next to each other */
@@ -873,6 +875,10 @@ GRAPHIC DESIGN SECTION
 
 .column img:hover {
     transform: scale(1.1);
+}
+
+#main-carousel {
+    display: none;
 }
 
 /* 
@@ -1279,6 +1285,7 @@ RESPONSIVE STYLING
         /* width: 33%; */
         /* height: 33%; */
         margin: 0 10px;
+        margin-bottom: 10px;
         /* height: 25%; */
         width: 25%;
     }
@@ -1299,7 +1306,7 @@ RESPONSIVE STYLING
     }
 
     #graphic-design-container {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         /* grid-template-rows: 1fr 6fr; */
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -1307,14 +1314,41 @@ RESPONSIVE STYLING
             "graphic-design-content";
     }
 
+    #graphic-design-header {
+        margin-bottom: 15px;
+    }
+
     /* Responsive layout - makes a two column-layout instead of four columns */
+    .row {
+        display: none;
+    }
+
     .column {
+        /* display: none; */
         flex: 50%;
         max-width: 50%;
     }
 
     .column img:hover {
         transform: none;
+    }
+
+    #main-carousel {
+        display: block;
+    }
+
+    .flickity-viewport {
+        transition: height 0.2s;
+    }
+
+    .carousel-cell {
+        width: 100%;
+    }
+
+    .carousel-cell img {
+        height: 100%;
+        width: 100%;
+        border-radius: var(--rounded-component-corners-size);
     }
 
     #sw-projects-container {

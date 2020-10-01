@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;0,800;0,900;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="./assets/Purple S Logo.svg">
     <title>Nick's Website</title>
@@ -285,6 +286,22 @@
                     <img src="./assets/Projects/Water Color Popsicles.png">
                 </div>
             </div>
+            <!-- Only for mobile view -->
+            <div id="main-carousel" class="js-flickity"
+                data-flickity-options='{"wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
+                <div class="carousel-cell"><img src="./assets/Projects/Aloha.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Los Angeles Post Card.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Gradient Fluid Poster.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Tri Ferg.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Line Art Logo.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/3D Blend Text.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Floral Text.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Retro Stripe Lettering.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Bee Logo.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Line Fill Lettering.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Well.png"></div>
+                <div class="carousel-cell"><img src="./assets/Projects/Water Color Popsicles.png"></div>
+            </div>
         </div>
     </section>
 
@@ -525,5 +542,6 @@
 </body>
 
 <script src="./index.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </html>
