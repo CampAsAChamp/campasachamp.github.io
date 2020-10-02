@@ -13,6 +13,7 @@ GLOBAL STYLES
     --id-tech-color: #006633;
 
     --thumbnail-size: 40px;
+    --mobile-thumbnail-size: 30px;
     --rounded-button-corners-size: 1000px;
     --rounded-component-corners-size: 40px;
     --animation-duration: 0.5s;
@@ -602,8 +603,8 @@ EXPERIENCE SECTION
 }
 
 .experience-thumbnail {
-    height: 40px;
-    width: 40px;
+    height: var(--thumbnail-size);
+    width: var(--thumbnail-size);
 }
 
 .card {
@@ -689,8 +690,8 @@ EXPERIENCE SECTION
 }
 
 .languages-item {
-    width: 40px;
-    height: 40px;
+    height: var(--thumbnail-size);
+    width: var(--thumbnail-size);
     margin-right: 20px;
 }
 
@@ -1320,20 +1321,12 @@ RESPONSIVE STYLING
     }
 
     .languages-item {
-        width: 30px;
-        height: 30px;
+        width: var(--mobile-thumbnail-size);
+        height: var(--mobile-thumbnail-size);
         margin-right: 14px;
     }
 
     .languages-item:last-child {
         margin: 0;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
     }
 }
