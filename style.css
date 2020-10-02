@@ -1,3 +1,5 @@
+/* TODO: Add hover animation on logo */
+
 /* 
 ==========================
 GLOBAL STYLES
@@ -82,7 +84,7 @@ ul {
 }
 
 li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 nav {
@@ -679,6 +681,7 @@ EXPERIENCE SECTION
     /* border: 5px solid #b9a2a6; */
     font-family: "Nunito", sans-serif;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .languages-bar {
