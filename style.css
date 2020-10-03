@@ -935,11 +935,11 @@ SW PROJECTS SECTION
     display: flex;
     justify-content: space-around;
     padding: 10px 15px;
-    transition: 0.25s;
+    transition: background-color 0.5s;
 }
 
 .sw-projects-button:hover {
-    transform: scale(1.1);
+    background-color: var(--yellow-color);
 }
 
 .github-button-icon {
