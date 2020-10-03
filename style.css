@@ -73,7 +73,6 @@ h4 {
 }
 
 a {
-    text-decoration: none;
 }
 
 ul {
@@ -490,6 +489,10 @@ LANDING PAGE SECTION
 #contact-me-socials {
     /* border: 5px solid #502263; */
     margin: 0 50px;
+}
+
+#contact-me-socials a {
+    text-decoration: none;
 }
 
 #contact-me-socials img {
