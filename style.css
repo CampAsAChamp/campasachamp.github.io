@@ -877,6 +877,7 @@ SW PROJECTS SECTION
 .sw-projects-title-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 .sw-project-title {
     /* border: 5px solid #af812c; */
@@ -891,7 +892,7 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-cards .languages-bar {
-    margin: 10px 0;
+    /* margin: 10px 0; */
 }
 
 .card-content {
