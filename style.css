@@ -1304,6 +1304,10 @@ RESPONSIVE STYLING
         align-items: flex-start;
     }
 
+    .sw-projects-cards .languages-bar {
+        margin-top: 1rem;
+    }
+
     .sw-project-title {
         font-size: 1.75rem;
     }
