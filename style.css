@@ -1325,6 +1325,8 @@ RESPONSIVE STYLING
 
     .sw-projects-button:hover {
         transform: none;
+        /* Removes the hover effect on mobile */
+        background-color: var(--purple-color);
     }
 
     .languages-item {
