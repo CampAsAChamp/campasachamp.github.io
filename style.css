@@ -519,7 +519,7 @@ ABOUT ME SECTION
     background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 
     grid-template-columns: 1.15fr 1fr;
     grid-template-areas: "about-me-images about-me-text";
@@ -711,7 +711,7 @@ SKILLS & TECHNOLOGIES SECTION
     /* border: 5px solid #a53b82; */
     display: grid;
     padding-top: 50px;
-    margin-top: 50px;
+    margin: 50px 0;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.svg");
     background-repeat: no-repeat;
     background-position: center;
