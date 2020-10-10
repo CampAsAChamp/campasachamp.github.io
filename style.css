@@ -283,12 +283,6 @@ IMAGES
     z-index: -1;
 }
 
-#about-me-blob {
-    position: absolute;
-    width: 50%;
-    z-index: -1;
-}
-
 #bottom-wave {
     position: absolute;
     width: 100%;
@@ -524,6 +518,8 @@ ABOUT ME SECTION
     padding-top: 50px;
     background-image: url("./assets/Organic_Shapes/About\ Me\ Blob\ Shape.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
     grid-template-columns: 1.15fr 1fr;
     grid-template-areas: "about-me-images about-me-text";
@@ -718,6 +714,8 @@ SKILLS & TECHNOLOGIES SECTION
     margin-top: 50px;
     background-image: url("./assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     grid-template-columns: 1fr;
     grid-template-areas:
