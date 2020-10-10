@@ -320,7 +320,7 @@ IMAGES
     cursor: pointer;
     border-radius: 50%; /* Creates a circle */
     opacity: 0;
-    transition: 1s;
+    transition: transform 0.5s;
 }
 
 #scroll-to-top-button:hover {
@@ -496,7 +496,7 @@ LANDING PAGE SECTION
 }
 
 #contact-me-socials img {
-    transition: transform 0.25s; /* Animation */
+    transition: transform 0.5s; /* Animation */
 }
 
 #contact-me-socials img:hover {
@@ -536,7 +536,7 @@ ABOUT ME SECTION
 }
 
 #about-me-images img {
-    transition: transform 0.25s; /* Animation */
+    transition: transform 0.5s; /* Animation */
 }
 
 #about-me-images img:hover {
@@ -818,7 +818,7 @@ GRAPHIC DESIGN SECTION
     margin-top: 10px;
     border-radius: 10px;
     vertical-align: middle;
-    transition: 0.25s;
+    transition: transform 0.25s;
 }
 
 .column img:hover {
