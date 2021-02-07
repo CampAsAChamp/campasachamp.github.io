@@ -30,6 +30,7 @@ GLOBAL STYLES
 html {
     font-size: 16px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
