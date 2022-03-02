@@ -89,7 +89,7 @@
    ```sh
    git clone https://github.com/CampAsAChamp/Personal-Website.git
    ```
-2. Open index.html in a web browser
+2. Open `index.html` in a web browser
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
