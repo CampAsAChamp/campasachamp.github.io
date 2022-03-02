@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/CampAsAChamp/msPaintAutomation">
+  <a href="https://github.com/CampAsAChamp/Personal-Website">
     <img src="assets/Purple%20S%20Logo.svg" alt="Logo" width="80" height="80">
   </a>
 
