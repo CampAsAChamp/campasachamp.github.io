@@ -85,7 +85,6 @@ li {
 }
 
 nav {
-  /* border: 5px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +94,6 @@ nav {
 }
 
 nav ul {
-  /* border: 5px solid green; */
   display: flex;
   justify-content: space-around;
   width: 45%;
@@ -377,7 +375,6 @@ LANDING PAGE SECTION
 */
 
 #landing-page-container {
-  /* border: 5px solid #ad37ca; */
   display: grid;
   margin-bottom: 150px;
   grid-template-columns: 1.5fr 1fr;
@@ -388,7 +385,6 @@ LANDING PAGE SECTION
 }
 
 #name-intro-container {
-  /* border: 5px solid #4dfc10; */
   padding-left: 25%;
   padding-top: 10%;
 
@@ -396,8 +392,6 @@ LANDING PAGE SECTION
 }
 
 #profile-pic-container {
-  /* border: 5px solid #3bb30f; */
-
   grid-area: profile-pic-container;
 }
 
@@ -418,14 +412,12 @@ LANDING PAGE SECTION
 }
 
 #contact-me-container {
-  /* border: 5px solid #267409; */
   padding-left: 250px;
 
   grid-area: contact-me-container;
 }
 
 #contact-me-bar {
-  /* border: 5px solid #33a31d; */
   display: flex;
   align-items: center;
   margin-top: 75px;
@@ -464,7 +456,6 @@ LANDING PAGE SECTION
 }
 
 #contact-me-socials {
-  /* border: 5px solid #502263; */
   margin: 0 50px;
 }
 
@@ -481,7 +472,6 @@ LANDING PAGE SECTION
 }
 
 .contact-me-item {
-  /* border: 5px solid red; */
   margin-right: 25px;
   width: 50px;
   height: 50px;
@@ -494,7 +484,6 @@ ABOUT ME SECTION
 */
 
 #about-me-container {
-  /* border: 5px solid #323d99; */
   display: grid;
   padding-bottom: 100px;
   margin-top: 50px;
@@ -509,8 +498,6 @@ ABOUT ME SECTION
 }
 
 #about-me-images {
-  /* border: 5px solid #e58282; */
-
   grid-area: about-me-images;
 }
 
@@ -534,14 +521,12 @@ ABOUT ME SECTION
 }
 
 #grad-cap-illustration {
-  /* border: 5px solid #a05e5e; */
   display: block;
   position: relative;
   width: 50%;
 }
 
 #desk-illustration {
-  /* border: 5px solid #851313; */
   display: block;
   position: relative;
   width: 50%;
@@ -555,7 +540,6 @@ EXPERIENCE SECTION
 */
 
 #experience-container {
-  /* border: 5px solid #1b420c; */
   display: grid;
 
   grid-template-columns: 1fr 1fr 1fr;
@@ -566,23 +550,18 @@ EXPERIENCE SECTION
 }
 
 #experience-header {
-  /* border: 5px solid #d8f485; */
-
   grid-area: experience-header;
 }
 
 #card1 {
-  /* border: 5px solid #a3b864; */
   grid-area: card1;
 }
 
 #card2 {
-  /* border: 5px solid #748347; */
   grid-area: card2;
 }
 
 #card3 {
-  /* border: 5px solid #4b552e; */
   grid-area: card3;
 }
 
@@ -610,14 +589,12 @@ EXPERIENCE SECTION
 }
 
 .experience-title-container {
-  /* border: 5px solid #694148; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .card-title {
-  /* border: 5px solid #832434; */
   font-family: "Nunito", sans-serif;
   font-size: 1.35rem;
   font-weight: 900;
@@ -636,34 +613,29 @@ EXPERIENCE SECTION
 }
 
 .location {
-  /* border: 5px solid #572e35; */
   margin-top: 10px;
   margin-bottom: 50px;
 }
 
 .secondary-title {
-  /* border: 5px solid #c9a7ad; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .position {
-  /* border: 5px solid #f07c90; */
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: var(--off-grey-color);
 }
 
 .supporting-text {
-  /* border: 5px solid #b9a2a6; */
   font-family: "Nunito", sans-serif;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .languages-bar {
-  /* border: 5px solid #eccdd3; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -687,7 +659,6 @@ SKILLS & TECHNOLOGIES SECTION
 */
 
 #skills-container {
-  /* border: 5px solid #a53b82; */
   display: grid;
   padding-top: 50px;
   margin: 50px 0;
@@ -703,7 +674,6 @@ SKILLS & TECHNOLOGIES SECTION
 }
 
 #skills-header {
-  /* border: 5px solid #828acf; */
   text-align: center;
   margin-bottom: 2rem;
 
@@ -711,14 +681,12 @@ SKILLS & TECHNOLOGIES SECTION
 }
 
 #skills-content {
-  /* border: 5px solid #6970a8; */
   padding-bottom: 100px;
 
   grid-area: skills-content;
 }
 
 .skills-row {
-  /* border: 5px solid #515baf; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -726,7 +694,6 @@ SKILLS & TECHNOLOGIES SECTION
 }
 
 .skills-icon-container {
-  /* border: 5px solid green; */
   display: flex;
   flex-direction: column;
 
@@ -735,7 +702,6 @@ SKILLS & TECHNOLOGIES SECTION
 }
 
 .skills-caption {
-  /* border: 5px solid blue; */
   text-align: center;
   font-weight: 900;
   font-size: 1.625rem;
@@ -748,7 +714,6 @@ GRAPHIC DESIGN SECTION
 */
 
 #graphic-design-container {
-  /* border: 5px solid #fc8e10; */
   display: grid;
   margin-bottom: 100px;
 
@@ -759,19 +724,14 @@ GRAPHIC DESIGN SECTION
 }
 
 #graphic-design-header {
-  /* border: 5px solid #e18ce2; */
-
   grid-area: graphic-design-header;
 }
 
 #graphic-design-content {
-  /* border: 5px solid #9f64a0; */
-
   grid-area: graphic-design-content;
 }
 
 .row {
-  /* border: 5px solid #64a091; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* or space-around */
@@ -780,7 +740,6 @@ GRAPHIC DESIGN SECTION
 
 /* Create four equal columns that sit next to each other */
 .column {
-  /* border: 5px solid #727e09; */
   flex: 25%;
   max-width: 25%;
   padding: 0 5px;
@@ -809,7 +768,6 @@ SW PROJECTS SECTION
 */
 
 #sw-projects-container {
-  /* border: 5px solid #585240; */
   display: grid;
   position: relative; /* For the blob background image */
 
@@ -825,8 +783,6 @@ SW PROJECTS SECTION
 }
 
 #sw-projects-header {
-  /* border: 5px solid #ad9f7c; */
-
   grid-area: sw-projects-header;
 }
 
@@ -853,25 +809,21 @@ SW PROJECTS SECTION
   margin-bottom: 1rem;
 }
 .sw-project-title {
-  /* border: 5px solid #af812c; */
   font-size: 2rem;
   font-weight: 800;
   line-height: 1;
 }
 
 .sw-projects-content {
-  /* border: 5px solid #2c4baf; */
   display: flex;
 }
 
 .sw-projects-img-container {
-  /* border: 5px solid #8b8311; */
   height: 250px;
   width: 600px;
 }
 
 .sw-projects-img {
-  /* border: 5px solid #ad29b9; */
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -879,7 +831,6 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-info-container {
-  /* border: 5px solid #ac3727; */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -888,7 +839,6 @@ SW PROJECTS SECTION
 }
 
 .sw-projects-button-row {
-  /* border: 5px solid #148019; */
   display: flex;
   justify-content: flex-end;
 }
@@ -911,32 +861,26 @@ SW PROJECTS SECTION
 }
 
 #sw-projects-card1 {
-  /* border: 5px solid #877c60; */
   grid-area: sw-projects-card1;
 }
 
 #sw-projects-card2 {
-  /* border: 5px solid #776d55; */
   grid-area: sw-projects-card2;
 }
 
 #sw-projects-card3 {
-  /* border: 5px solid #464032; */
   grid-area: sw-projects-card3;
 }
 
 #sw-projects-card4 {
-  /* border: 5px solid #3f3a2d; */
   grid-area: sw-projects-card4;
 }
 
 #sw-projects-card5 {
-  /* border: 5px solid #25221b; */
   grid-area: sw-projects-card5;
 }
 
 #sw-projects-card6 {
-  /* border: 5px solid #14130e; */
   grid-area: sw-projects-card6;
 }
 
