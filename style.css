@@ -265,11 +265,7 @@ IMAGES
 */
 
 #logo {
-  /* border: 5px solid red; */
   float: left;
-}
-
-#logo img {
   height: 8vh;
 }
 
