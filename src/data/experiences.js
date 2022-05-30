@@ -1,7 +1,8 @@
-import * as technologies from "./technologies";
 import RaytheonLogo from "assets/Company_Logos/Raytheon_Technologies_logo.svg";
-import IDTechLogo from "assets/Company_Logos/id tech.png";
 import ReazonLogo from "assets/Company_Logos/Reazon Logo.svg";
+import IDTechLogo from "assets/Company_Logos/id tech.png";
+
+import * as technologies from "data/technologies";
 
 export const RAYTHEON = "Raytheon Intelligence & Space";
 export const ARCULES = "Arcules";

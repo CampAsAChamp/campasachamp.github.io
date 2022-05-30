@@ -1,6 +1,8 @@
 import React from "react";
+
+import { SkillsRow } from "components/SkillsRow";
+
 import * as technologies from "data/technologies";
-import { SkillsRow } from "./SkillsRow";
 
 export function SkillsAndTechnologies() {
   return (
@@ -27,19 +29,9 @@ export function SkillsAndTechnologies() {
             technologies.CSS3,
           ]}
         />
+        <SkillsRow technologyNames={[technologies.DOCKER, technologies.GIT, technologies.LINUX]} />
         <SkillsRow
-          technologyNames={[
-            technologies.DOCKER,
-            technologies.GIT,
-            technologies.LINUX
-          ]}
-        />
-        <SkillsRow
-          technologyNames={[
-            technologies.ADOBE_ILLUSTRATOR,
-            technologies.ADOBE_PHOTOSHOP,
-            technologies.FIGMA
-          ]}
+          technologyNames={[technologies.ADOBE_ILLUSTRATOR, technologies.ADOBE_PHOTOSHOP, technologies.FIGMA]}
         />
       </div>
     </section>

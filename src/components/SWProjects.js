@@ -1,7 +1,10 @@
 import React from "react";
-import { projects } from "data/projects";
-import { SwProjectCard } from "./SwProjectCard";
+
 import BottomWavePic from "assets/Organic_Shapes/Bottom Wave.png";
+
+import { projects } from "data/projects";
+
+import { SwProjectCard } from "./SwProjectCard";
 
 export function SWProjects() {
   return (

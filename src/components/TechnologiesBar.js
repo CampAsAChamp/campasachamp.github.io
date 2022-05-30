@@ -1,4 +1,5 @@
 import React from "react";
+
 import { technologiesMap } from "../data/technologies";
 import "../styles/style.css";
 

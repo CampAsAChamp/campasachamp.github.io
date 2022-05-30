@@ -1,9 +1,10 @@
-import * as technologies from "./technologies";
-import SpotifyPPThumbnail from "assets/Projects/Spotify.png";
-import DiggermanThumbnail from "assets/Projects/diggerman.gif";
 import FaceSwappingThumbnail from "assets/Projects/Face Morphing.gif";
 import ObjectDetectionThumbnail from "assets/Projects/Object Detection.jpg";
 import PersonalWebsiteThumbnail from "assets/Projects/Portfolio_Thumbnail.png";
+import SpotifyPPThumbnail from "assets/Projects/Spotify.png";
+import DiggermanThumbnail from "assets/Projects/diggerman.gif";
+
+import * as technologies from "./technologies";
 
 export const SPOTIFYPP = "Spotify++";
 export const DIGGERMAN = "Diggerman";

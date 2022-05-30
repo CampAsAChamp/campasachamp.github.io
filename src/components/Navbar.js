@@ -1,4 +1,5 @@
 import React from "react";
+
 import S_Logo from "assets/S Logo.svg";
 
 export function Navbar() {

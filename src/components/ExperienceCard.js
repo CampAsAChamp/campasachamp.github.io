@@ -1,8 +1,8 @@
-import React from "react";
 import parse from "html-react-parser";
+import React from "react";
 
-import { TechnologiesBar } from "./TechnologiesBar";
 import "../styles/style.css";
+import { TechnologiesBar } from "./TechnologiesBar";
 
 export function ExperienceCard(props) {
   const { experience, index } = props;

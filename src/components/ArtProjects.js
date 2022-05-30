@@ -1,17 +1,17 @@
 import React from "react";
 
-import AlohaPic from "assets/Projects/Aloha.png";
-import LosAngelesPostCardPic from "assets/Projects/Los Angeles Post Card.png";
-import GradientFluidPosterPic from "assets/Projects/Gradient Fluid Poster.png";
-import TriFergPic from "assets/Projects/Tri Ferg.png";
-import LineArtLogoPic from "assets/Projects/Line Art Logo.png";
 import ThreeDimensionalBlendTextPic from "assets/Projects/3D Blend Text.png";
-import FloralTextPic from "assets/Projects/Floral Text.png";
-import RetroStripeLetteringPic from "assets/Projects/Retro Stripe Lettering.png";
+import AlohaPic from "assets/Projects/Aloha.png";
 import BeeLogoPic from "assets/Projects/Bee Logo.png";
+import FloralTextPic from "assets/Projects/Floral Text.png";
+import GradientFluidPosterPic from "assets/Projects/Gradient Fluid Poster.png";
+import LineArtLogoPic from "assets/Projects/Line Art Logo.png";
 import LineFillLetteringPic from "assets/Projects/Line Fill Lettering.png";
-import WellPic from "assets/Projects/Well.png";
+import LosAngelesPostCardPic from "assets/Projects/Los Angeles Post Card.png";
+import RetroStripeLetteringPic from "assets/Projects/Retro Stripe Lettering.png";
+import TriFergPic from "assets/Projects/Tri Ferg.png";
 import WaterColorPopsiclesPic from "assets/Projects/Water Color Popsicles.png";
+import WellPic from "assets/Projects/Well.png";
 
 export function ArtProjects() {
   return (
