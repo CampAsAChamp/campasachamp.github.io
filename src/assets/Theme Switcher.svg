@@ -1,0 +1,13 @@
+<svg width="55" height="28" viewBox="0 0 55 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.5" cy="14" r="4.5" fill="#707070"/>
+<line x1="14.5" y1="8" x2="14.5" y2="5" stroke="#707070" stroke-linecap="round"/>
+<line x1="20.5" y1="14" x2="23.5" y2="14" stroke="#707070" stroke-linecap="round"/>
+<line x1="14.5" y1="20" x2="14.5" y2="23" stroke="#707070" stroke-linecap="round"/>
+<line x1="8.5" y1="14" x2="5.5" y2="14" stroke="#707070" stroke-linecap="round"/>
+<line x1="10.3708" y1="9.64694" x2="8.30614" y2="7.47041" stroke="#707070" stroke-linecap="round"/>
+<line x1="18.8531" y1="9.87071" x2="21.0296" y2="7.80608" stroke="#707070" stroke-linecap="round"/>
+<line x1="18.6292" y1="18.3531" x2="20.6939" y2="20.5296" stroke="#707070" stroke-linecap="round"/>
+<line x1="10.1469" y1="18.1293" x2="7.97035" y2="20.1939" stroke="#707070" stroke-linecap="round"/>
+<circle cx="40" cy="14" r="9.5" stroke="#707070"/>
+<path d="M14 1H41V-1H14V1ZM41 27H14V29H41V27ZM14 27C6.8203 27 1 21.1797 1 14H-1C-1 22.2843 5.71573 29 14 29V27ZM54 14C54 21.1797 48.1797 27 41 27V29C49.2843 29 56 22.2843 56 14H54ZM41 1C48.1797 1 54 6.8203 54 14H56C56 5.71573 49.2843 -1 41 -1V1ZM14 -1C5.71573 -1 -1 5.71573 -1 14H1C1 6.8203 6.8203 1 14 1V-1Z" fill="#707070"/>
+</svg>
