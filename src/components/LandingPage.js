@@ -19,12 +19,32 @@ export function LandingPage() {
           <h3>Software Engineer</h3>
           <h4>If you're going to make something, why not make it pretty?</h4>
           <div id="contact-me-bar">
-            <button type="button" className="button" id="contact-me-button">
+            <button
+              type="button"
+              className="button"
+              id="contact-me-button"
+              onClick={() => {
+                var modal_bg = document.getElementsByClassName("modal-bg")[0];
+                var modal_content = document.getElementsByClassName("modal-content")[0];
+                modal_bg.classList.add("show");
+                modal_content.classList.add("show");
+              }}
+            >
               <span>Contact Me</span>
             </button>
             <div className="modal-bg">
               <div className="modal-content">
-                <span className="close">×</span>
+                <span
+                  className="close"
+                  onClick={() => {
+                    var modal_bg = document.getElementsByClassName("modal-bg")[0];
+                    var modal_content = document.getElementsByClassName("modal-content")[0];
+                    modal_bg.classList.remove("show");
+                    modal_content.classList.remove("show");
+                  }}
+                >
+                  ×
+                </span>
                 <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
                 <p>
                   <strong>📧 Email:</strong>
