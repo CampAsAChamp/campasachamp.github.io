@@ -2,8 +2,8 @@ import React from "react";
 
 import { Svg } from "components/Svg";
 
-import { technologiesMap } from "data/technologiesData";
 import { COLORS } from "data/colorsData";
+import { technologiesMap } from "data/technologiesData";
 
 export function SkillsRow(props) {
   const { technologyNames } = props;

@@ -3,6 +3,7 @@ import ReazonLogo from "assets/Company_Logos/Reazon Logo.svg";
 import IDTechLogo from "assets/Company_Logos/id tech.png";
 
 import * as technologies from "data/technologiesData";
+
 import { COLORS } from "./colorsData";
 
 export const RAYTHEON = "Raytheon Intelligence & Space";
