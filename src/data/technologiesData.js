@@ -20,6 +20,7 @@ import Linux_Icon from "assets/Dev_Icons/Linux.svg";
 import MySQL_Icon from "assets/Dev_Icons/MySQL.svg";
 import NumPy_Icon from "assets/Dev_Icons/NumPy.svg";
 import NodeJS_Icon from "assets/Dev_Icons/NodeJS.svg";
+import OpenGL_Icon from "assets/Dev_Icons/OpenGL.svg";
 import Postgres_Icon from "assets/Dev_Icons/Postgres.svg";
 import Python_Icon from "assets/Dev_Icons/Python.svg";
 import React_Icon from "assets/Dev_Icons/React.svg";
@@ -49,6 +50,7 @@ export const LINUX = "Linux";
 export const MYSQL = "MySQL";
 export const NODEJS = "NodeJS";
 export const NUMPY = "NumPy";
+export const OPEN_GL = "OpenGL";
 export const POSTGRES = "Postgres";
 export const PYTHON = "Python";
 export const REACT = "React";
@@ -166,6 +168,11 @@ const technologies = [
     name: NUMPY,
     image: NumPy_Icon,
     link: "https://numpy.org/",
+  },
+  {
+    name: OPEN_GL,
+    image: OpenGL_Icon,
+    link: "https://www.opengl.org/",
   },
   {
     name: POSTGRES,
