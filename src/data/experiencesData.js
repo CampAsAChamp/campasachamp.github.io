@@ -46,28 +46,32 @@ const experiences = [
     position: "Software Engineer 1",
     duration: "Jan 2020 - Dec 2021 (2 yrs)",
     textContent: `<li>
-                    Developed Space Mission Data Processing Framework in C++ 11 to stream and process terabytes of real-time
-                    satellite data each day with extremely high reliability and performance.
-                </li>
-                <li>
-                    Implemented modules in Space to Earth message simulation, allowing for extensive development and testing
-                    without needing Space hardware.
-                </li>
-                <li>
-                    Designed multi-threaded data infrastructure in Ground System Software to be used in Space Based Missile
-                    Warning System.
-                </li>
-                <li>
-                    Built Docker containers to break up monolithic executable, increasing scalability and optimizing speed.
-                </li>
-                <li>
-                    Created multiple unit and integration tests with mock objects using Google Test & Google Mock testing
-                    frameworks.
-                </li>
-                <li>
-                    Received program-wide performance recognition award for outstanding and impressive performance (July
-                    2020); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
-                </li>`,
+                      Worked on <a href="https://www.raytheon.com/capabilities/products/space-based-early-warning" target="_blank" rel="noopener noreferrer">Space Based Early Missile Warning Satellite</a> on the Ground Software team
+
+                  </li>
+                  <li>
+                      Developed Space Mission Data Processing <a href="https://www.raytheonintelligenceandspace.com/what-we-do/space-solutions/missile-warning-and-defense/forge" target="_blank" rel="noopener noreferrer">Framework</a> in C++ 11 to stream and process terabytes of real-time
+                      satellite data each day with extremely high reliability and performance.
+                  </li>
+                  <li>
+                      Implemented modules in Space to Earth message simulation, allowing for extensive development and testing
+                      without needing Space hardware.
+                  </li>
+                  <li>
+                      Designed multi-threaded data infrastructure in Ground System Software to be used in Space Based Missile
+                      Warning System.
+                  </li>
+                  <li>
+                      Built Docker containers to break up monolithic executable, increasing scalability and optimizing speed.
+                  </li>
+                  <li>
+                      Created multiple unit and integration tests with mock objects using Google Test & Google Mock testing
+                      frameworks.
+                  </li>
+                  <li>
+                      Received program-wide performance recognition award for outstanding and impressive performance (July
+                      2020); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
+                  </li>`,
     technologies: [technologies.CPP, technologies.C, technologies.PYTHON, technologies.DOCKER],
     logo: RaytheonLogo,
     color: COLORS.RAYTHEON,
