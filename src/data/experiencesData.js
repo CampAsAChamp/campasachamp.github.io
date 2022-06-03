@@ -1,3 +1,4 @@
+import ArculesLogo from "assets/Company_Logos/Arcules.svg";
 import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
 import ReazonLogo from "assets/Company_Logos/Reazon.svg";
 import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
@@ -21,10 +22,10 @@ const experiences = [
                     Writing microservices & REST APIs with Go, Postgres, and Redis.
                   </li>
                   <li>
-                    Building microapps for the frontend with React & Redux. Utilizing Kubernetes, Docker, Google Cloud Platform and
+                    Building microapps for the frontend with React & Redux. 
                   </li>
                   <li>
-                    Spinnaker for maintaining the services and applications.
+                    Utilizing Kubernetes, Docker, Google Cloud Platform and Spinnaker for maintaining the services and applications.
                   </li>`,
     technologies: [
       technologies.GO,
@@ -36,7 +37,7 @@ const experiences = [
       technologies.KUBERNETES,
       technologies.DOCKER,
     ],
-    logo: "",
+    logo: ArculesLogo,
     color: COLORS.ARCULES,
   },
   {
