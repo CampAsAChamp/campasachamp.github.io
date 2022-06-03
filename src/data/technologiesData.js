@@ -25,6 +25,7 @@ import Python_Icon from "assets/Dev_Icons/Python.svg";
 import React_Icon from "assets/Dev_Icons/React.svg";
 import Redis_Icon from "assets/Dev_Icons/Redis.svg";
 import Redux_Icon from "assets/Dev_Icons/Redux.svg";
+import TypeScript_Icon from "assets/Dev_Icons/TypeScript.svg";
 
 export const ADOBE_ILLUSTRATOR = "Adobe Illustrator";
 export const ADOBE_PHOTOSHOP = "Adobe Photoshop";
@@ -53,6 +54,7 @@ export const PYTHON = "Python";
 export const REACT = "React";
 export const REDIS = "Redis";
 export const REDUX = "Redux";
+export const TYPESCRIPT = "TypeScript";
 
 const technologies = [
   {
@@ -189,6 +191,11 @@ const technologies = [
     name: REDUX,
     image: Redux_Icon,
     link: "https://redux.js.org/",
+  },
+  {
+    name: TYPESCRIPT,
+    image: TypeScript_Icon,
+    link: "https://www.typescriptlang.org/",
   },
 ];
 
