@@ -2,7 +2,7 @@ import React from "react";
 
 import BottomWavePic from "assets/Organic_Shapes/Bottom Wave.png";
 
-import { projects } from "data/projects";
+import { projects } from "data/projectsData";
 
 import { SwProjectCard } from "./SwProjectCard";
 

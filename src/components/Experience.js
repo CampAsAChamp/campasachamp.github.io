@@ -2,7 +2,7 @@ import React from "react";
 
 import { ExperienceCard } from "components/ExperienceCard";
 
-import { experiences } from "data/experiences";
+import { experiences } from "data/experiencesData";
 
 export function Experience() {
   return (
