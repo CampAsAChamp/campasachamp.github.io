@@ -1,6 +1,6 @@
-import RaytheonLogo from "assets/Company_Logos/Raytheon_Technologies_logo.svg";
-import ReazonLogo from "assets/Company_Logos/Reazon Logo.svg";
-import IDTechLogo from "assets/Company_Logos/id tech.png";
+import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
+import ReazonLogo from "assets/Company_Logos/Reazon.svg";
+import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
 
 import * as technologies from "data/technologiesData";
 
@@ -17,16 +17,24 @@ const experiences = [
     location: "Irvine, CA",
     position: "Software Engineer 2",
     duration: "Jan 2022 - Present",
-    textContent: "",
+    textContent: `<li>
+                    Writing microservices & REST APIs with Go, Postgres, and Redis.
+                  </li>
+                  <li>
+                    Building microapps for the frontend with React & Redux. Utilizing Kubernetes, Docker, Google Cloud Platform and
+                  </li>
+                  <li>
+                    Spinnaker for maintaining the services and applications.
+                  </li>`,
     technologies: [
       technologies.GO,
       technologies.POSTGRES,
+      technologies.REDIS,
       technologies.REACT,
       technologies.REDUX,
       technologies.GCP,
       technologies.KUBERNETES,
       technologies.DOCKER,
-      technologies.REDIS,
     ],
     logo: "",
     color: COLORS.ARCULES,
@@ -69,21 +77,16 @@ const experiences = [
     position: "Software Engineer Co-op",
     duration: "Sept 2018 - Dec 2018 (4 mos)",
     textContent: `<li>
-                    Created a mobile web app with Node & Express for viewing device information and performing remote firmware
+                    Created a mobile web app <a href="https://www.vivostate.com/" target="_blank" rel="noopener noreferrer">ViVOstate Terminal Management System (TMS)</a> with Node & Express for viewing device information and performing remote firmware
                     updates to credit card readers in the field.
-                    <a href="https://www.vivostate.com/" target="_blank" rel="noopener noreferrer"
-                        >ViVOstate Terminal Management System (TMS)</a
-                    >
+                    
                 </li>
                 <li>
                     Built a web based barcode scanner with Angular, Javascript, HTML & CSS to allow easy lookup of a credit
                     card reader's status and specifications with a smartphone camera or laptop webcam.
                 </li>
                 <li>
-                    Added GPS location of devices on a map for quickly viewing our readers location on a map, utilizing the
-                    <a href="https://developers.google.com/maps/documentation" target="_blank" rel="noopener noreferrer"
-                        >Google Maps API</a
-                    >.
+                    Added GPS location of devices on a map for quickly viewing our readers location on a map, utilizing the <a href="https://developers.google.com/maps/documentation" target="_blank" rel="noopener noreferrer"> Google Maps API</a>.
                 </li>
                 <li>
                     Designed wireframes, mockups and UX flows with Figma for rapidly prototyping designs to stakeholders.
@@ -112,8 +115,7 @@ const experiences = [
                 <li>
                     Created Google Sheets parsing tool using the
                     <a href="https://developers.google.com/sheets/api" target="_blank" rel="noopener noreferrer"
-                    >Google Sheets API</a
-                    >for personalized site designs (students or professor).
+                    >Google Sheets API</a> for personalized site designs (students or professor).
                 </li>`,
     technologies: [
       technologies.JAVA,
