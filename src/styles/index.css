@@ -405,7 +405,7 @@ nav a:hover::after {
 }
 
 #modal-profile-pic {
-  border: 1rem solid var(--color-purple);
+  border: 10px solid var(--color-purple);
   border-radius: 100%;
   margin: 0 auto;
   display: block;
