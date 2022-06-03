@@ -465,11 +465,11 @@ nav a:hover::after {
   text-decoration: none;
 }
 
-#contact-me-socials img {
+#contact-me-socials svg {
   transition: transform 0.5s; /* Animation */
 }
 
-#contact-me-socials img:hover {
+#contact-me-socials svg:hover {
   transform: scale(1.1);
 }
 
