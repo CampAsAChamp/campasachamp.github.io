@@ -3,8 +3,9 @@ import React from "react";
 
 import GithubIcon from "assets/Dev_Icons/White/Github Logo.svg";
 
-import "../styles/style.css";
 import { TechnologiesBar } from "./TechnologiesBar";
+
+import { COLORS } from "data/colorsData";
 
 export function SwProjectCard(props) {
   const { project, index } = props;
@@ -14,7 +15,7 @@ export function SwProjectCard(props) {
       <div className="card-content">
         <div className="sw-projects-title-container">
           <div className="sw-project-title card-title">{project.name}</div>
-          <TechnologiesBar technologyNames={project.technologies} />
+          <TechnologiesBar technologyNames={project.technologies} fillColor={COLORS.PURPLE} />
         </div>
         <div className="sw-projects-content">
           <div className="sw-projects-img-container">
