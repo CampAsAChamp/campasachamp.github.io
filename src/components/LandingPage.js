@@ -5,6 +5,8 @@ import GithubLogo from "assets/Dev_Icons/Github.svg";
 import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
 import HeroImageBlobShape from "assets/Organic_Shapes/Hero Image Blob Shape.svg";
 import RealProfilePic from "assets/Real Profile Pic.png";
+import { Svg } from "./Svg";
+import { COLORS } from "data/colorsData";
 
 export function LandingPage() {
   return (
@@ -63,10 +65,10 @@ export function LandingPage() {
             </div>
             <div id="contact-me-socials">
               <a href="https://github.com/CampAsAChamp/" target="_blank" rel="noopener noreferrer">
-                <img className="contact-me-item" src={GithubLogo} alt="Github Icon" />
+                <Svg className="contact-me-item" src={GithubLogo} alt="Github Icon" fill={COLORS.PURPLE} />
               </a>
               <a href="https://www.linkedin.com/in/nick-schneider-la/" target="_blank" rel="noopener noreferrer">
-                <img className="contact-me-item" src={LinkedInLogo} alt="LinkedIn Icon" />
+                <Svg className="contact-me-item" src={LinkedInLogo} alt="LinkedIn Icon" fill={COLORS.PURPLE} />
               </a>
             </div>
           </div>
