@@ -1,11 +1,11 @@
 import parse from "html-react-parser";
 import React from "react";
 
-import GithubIcon from "assets/Dev_Icons/White/Github Logo.svg";
-
-import { TechnologiesBar } from "./TechnologiesBar";
+import GithubIcon from "assets/Dev_Icons/Github.svg";
 
 import { COLORS } from "data/colorsData";
+
+import { TechnologiesBar } from "./TechnologiesBar";
 
 export function SwProjectCard(props) {
   const { project, index } = props;
