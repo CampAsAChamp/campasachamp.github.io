@@ -112,7 +112,7 @@ const experiences = [
     company_name: REAZON,
     location: "Santa Ana, CA",
     position: "Software Engineer Intern",
-    duration: "Jan 2018 - Mar 2018",
+    duration: "Jan 2018 - Mar 2018 (3 mos)",
     textContent: `<li>
                     Implemented RCampus online classroom learning tools and RESTful APIs with Java and MySQL for universities
                     such as University of Virginia and Indiana University to use in courses.
