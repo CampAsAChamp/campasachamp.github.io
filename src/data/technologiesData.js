@@ -18,6 +18,7 @@ import JavaScript_Icon from "assets/Dev_Icons/JavaScript.svg";
 import Kubernetes_Icon from "assets/Dev_Icons/Kubernetes.svg";
 import Linux_Icon from "assets/Dev_Icons/Linux.svg";
 import MySQL_Icon from "assets/Dev_Icons/MySQL.svg";
+import NumPy_Icon from "assets/Dev_Icons/NumPy.svg";
 import NodeJS_Icon from "assets/Dev_Icons/NodeJS.svg";
 import Postgres_Icon from "assets/Dev_Icons/Postgres.svg";
 import Python_Icon from "assets/Dev_Icons/Python.svg";
@@ -136,7 +137,7 @@ const technologies = [
   },
   {
     name: NUMPY,
-    image: "",
+    image: NumPy_Icon,
   },
   {
     name: POSTGRES,
