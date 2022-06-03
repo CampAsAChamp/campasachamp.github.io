@@ -1063,19 +1063,10 @@ nav a:hover::after {
     transform: none;
   }
 
-  #experience-container {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "experience-header"
-      "card1"
-      "card2"
-      "card3";
-  }
-
   .card {
     font-size: 1.25rem;
     padding: 25px;
-    margin: 15px 0;
+    margin: 15px auto;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   }
 
@@ -1120,7 +1111,7 @@ nav a:hover::after {
     margin-bottom: 10px;
   }
 
-  .skills-icon {
+  .skills-icon-container > svg {
     max-width: 100%;
     height: auto;
     margin: 0;
