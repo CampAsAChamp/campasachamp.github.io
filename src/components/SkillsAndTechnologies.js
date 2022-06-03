@@ -2,7 +2,7 @@ import React from "react";
 
 import { SkillsRow } from "components/SkillsRow";
 
-import * as technologies from "data/technologies";
+import * as technologies from "data/technologiesData";
 
 export function SkillsAndTechnologies() {
   return (
