@@ -1,7 +1,7 @@
 import ArculesLogo from "assets/Company_Logos/Arcules.svg";
+import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
 import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
 import ReazonLogo from "assets/Company_Logos/Reazon.svg";
-import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
 
 import * as technologies from "data/technologiesData";
 
