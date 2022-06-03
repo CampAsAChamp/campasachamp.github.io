@@ -706,8 +706,7 @@ nav a:hover::after {
 .skills-icon-container {
   display: flex;
   flex-direction: column;
-
-  align-content: center;
+  align-items: center;
   margin: 0 50px;
 }
 
