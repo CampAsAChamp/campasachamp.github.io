@@ -6,6 +6,7 @@ import GithubIcon from "assets/Dev_Icons/Github.svg";
 import { COLORS } from "data/colorsData";
 
 import { TechnologiesBar } from "./TechnologiesBar";
+import { Svg } from "components/Svg";
 
 export function SwProjectCard(props) {
   const { project, index } = props;
@@ -32,7 +33,7 @@ export function SwProjectCard(props) {
                 onClick={() => window.open(project.link, "_blank")}
               >
                 View Code
-                <img className="github-button-icon" src={GithubIcon} alt="Github Icon" />
+                <Svg className="github-button-icon" src={GithubIcon} fill="white" alt="Github Icon" />
               </button>
             </div>
           </div>
