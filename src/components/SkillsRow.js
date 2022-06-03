@@ -1,6 +1,9 @@
 import React from "react";
 
-import { technologiesMap } from "data/technologies";
+import { Svg } from "components/Svg";
+
+import { technologiesMap } from "data/technologiesData";
+import { COLORS } from "data/colorsData";
 
 export function SkillsRow(props) {
   const { technologyNames } = props;
@@ -14,7 +17,7 @@ export function SkillsRow(props) {
       {technologies.map((tech) => {
         return (
           <div className="skills-icon-container" key={tech.name}>
-            <img src={tech.image} title={tech.name + " Icon"} alt={tech.name + " Icon"} />
+            <Svg src={tech.image} fill={COLORS.PURPLE} title={tech.name + " Icon"} alt={tech.name + " Icon"} />
             <div className="skills-caption">{tech.name}</div>
           </div>
         );
