@@ -12,24 +12,27 @@ export function SkillsAndTechnologies() {
       </div>
       <div id="skills-content">
         <SkillsRow
-          technologyNames={[
-            technologies.CPP,
-            technologies.C,
-            technologies.JAVA,
-            technologies.PYTHON,
-            technologies.JAVASCRIPT,
-          ]}
+          technologyNames={[technologies.GO, technologies.PYTHON, technologies.JAVA, technologies.CPP, technologies.C]}
         />
         <SkillsRow
           technologyNames={[
-            technologies.ANGULAR,
-            technologies.NODEJS,
-            technologies.EXPRESS,
+            technologies.JAVASCRIPT,
+            technologies.REACT,
+            technologies.REDUX,
             technologies.HTML5,
             technologies.CSS3,
           ]}
         />
-        <SkillsRow technologyNames={[technologies.DOCKER, technologies.GIT, technologies.LINUX]} />
+        <SkillsRow technologyNames={[technologies.POSTGRES, technologies.MYSQL]} />
+        <SkillsRow
+          technologyNames={[
+            technologies.KUBERNETES,
+            technologies.DOCKER,
+            technologies.GCP,
+            technologies.GIT,
+            technologies.LINUX,
+          ]}
+        />
         <SkillsRow
           technologyNames={[technologies.ADOBE_ILLUSTRATOR, technologies.ADOBE_PHOTOSHOP, technologies.FIGMA]}
         />
