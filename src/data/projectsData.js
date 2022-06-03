@@ -19,7 +19,7 @@ const projects = [
       technologies.NODEJS,
       technologies.EXPRESS,
       technologies.ANGULAR,
-      technologies.JAVASCRIPT,
+      technologies.TYPESCRIPT,
       technologies.HTML5,
       technologies.CSS3,
     ],
@@ -43,9 +43,7 @@ const projects = [
                     Adds additional track information the user normally doesn't have access to such as dance-ability,
                     energy, acousticness, instrumentalness, and liveness provided by the track endpoint.
                   </li>
-                  <li>
-                    Built with Node.js, Express, Angular, Typescript, HTML and CSS.
-                  </li>`,
+                 `,
     link: "https://github.com/CampAsAChamp/spicetify-themes",
     image: SpotifyPPThumbnail,
   },
@@ -88,7 +86,6 @@ const projects = [
     technologies: [technologies.PYTHON, technologies.NUMPY],
     textContent: `<li>
                     Python program that uses gradient features of an image for edge detection.
-                    imageAlTextt:"",
                   </li>
                   <li>
                     Uses sliding window classification for detecting objects based on a template generated from test images. 
