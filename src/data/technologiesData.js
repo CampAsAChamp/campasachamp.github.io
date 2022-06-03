@@ -1,30 +1,33 @@
-import FigmaIcon from "assets/Dev_Icons/Purple/Figma-logo.svg";
-import AngularIcon from "assets/Dev_Icons/Purple/angularjs-plain.svg";
-import C_Icon from "assets/Dev_Icons/Purple/c-plain.svg";
-import GCPIcon from "assets/Dev_Icons/Purple/cf.svg";
-import GoIcon from "assets/Dev_Icons/Purple/cf.svg";
-import PostgresIcon from "assets/Dev_Icons/Purple/cf.svg";
-import ReactIcon from "assets/Dev_Icons/Purple/cf.svg";
-import ReduxIcon from "assets/Dev_Icons/Purple/cf.svg";
-import CFIcon from "assets/Dev_Icons/Purple/cf.svg";
-import KubernetesIcon from "assets/Dev_Icons/Purple/cf.svg";
-import CppIcon from "assets/Dev_Icons/Purple/cplusplus-plain.svg";
-import CSS3Icon from "assets/Dev_Icons/Purple/css3-plain-wordmark.svg";
-import DockerIcon from "assets/Dev_Icons/Purple/docker-plain-wordmark.svg";
-import ExpressIcon from "assets/Dev_Icons/Purple/express-original.svg";
-import GitIcon from "assets/Dev_Icons/Purple/git-plain-wordmark.svg";
-import HTML5Icon from "assets/Dev_Icons/Purple/html5-plain-wordmark.svg";
-import IllustratorIcon from "assets/Dev_Icons/Purple/illustrator-plain.svg";
-import JavaIcon from "assets/Dev_Icons/Purple/java-plain.svg";
-import JavaScriptIcon from "assets/Dev_Icons/Purple/javascript-plain.svg";
-import LinuxIcon from "assets/Dev_Icons/Purple/linux-plain.svg";
-import MySQLIcon from "assets/Dev_Icons/Purple/mysql-plain-wordmark.svg";
-import NodeJSIcon from "assets/Dev_Icons/Purple/nodejs-original.svg";
-import PhotoshopIcon from "assets/Dev_Icons/Purple/photoshop-plain.svg";
-import PythonIcon from "assets/Dev_Icons/Purple/python-plain-wordmark.svg";
+import Adobe_Illustrator_Icon from "assets/Dev_Icons/Adobe_Illustrator.svg";
+import Adobe_Photoshop_Icon from "assets/Dev_Icons/Adobe_Photoshop.svg";
+import Adobe_XD_Icon from "assets/Dev_Icons/Adobe_XD.svg";
+import Angular_Icon from "assets/Dev_Icons/Angular.svg";
+import C_Icon from "assets/Dev_Icons/C.svg";
+import CPP_Icon from "assets/Dev_Icons/CPP.svg";
+import CSS3_Icon from "assets/Dev_Icons/CSS3.svg";
+import ColdFusion_Icon from "assets/Dev_Icons/ColdFusion.svg";
+import Docker_Icon from "assets/Dev_Icons/Docker.svg";
+import Express_Icon from "assets/Dev_Icons/Express.svg";
+import Figma_Icon from "assets/Dev_Icons/Figma.svg";
+import GCP_Icon from "assets/Dev_Icons/GCP.svg";
+import Git_Icon from "assets/Dev_Icons/Git.svg";
+import Go_Icon from "assets/Dev_Icons/Go.svg";
+import HTML5_Icon from "assets/Dev_Icons/HTML5.svg";
+import Java_Icon from "assets/Dev_Icons/Java.svg";
+import JavaScript_Icon from "assets/Dev_Icons/JavaScript.svg";
+import Kubernetes_Icon from "assets/Dev_Icons/Kubernetes.svg";
+import Linux_Icon from "assets/Dev_Icons/Linux.svg";
+import MySQL_Icon from "assets/Dev_Icons/MySQL.svg";
+import NodeJS_Icon from "assets/Dev_Icons/NodeJS.svg";
+import Postgres_Icon from "assets/Dev_Icons/Postgres.svg";
+import Python_Icon from "assets/Dev_Icons/Python.svg";
+import React_Icon from "assets/Dev_Icons/React.svg";
+import Redis_Icon from "assets/Dev_Icons/Redis.svg";
+import Redux_Icon from "assets/Dev_Icons/Redux.svg";
 
 export const ADOBE_ILLUSTRATOR = "Adobe Illustrator";
 export const ADOBE_PHOTOSHOP = "Adobe Photoshop";
+export const ADOBE_XD = "Adobe XD";
 export const ANGULAR = "Angular";
 export const C = "C";
 export const COLDFUSION = "ColdFusion";
@@ -53,15 +56,19 @@ export const REDUX = "Redux";
 const technologies = [
   {
     name: ADOBE_ILLUSTRATOR,
-    image: IllustratorIcon,
+    image: Adobe_Illustrator_Icon,
   },
   {
     name: ADOBE_PHOTOSHOP,
-    image: PhotoshopIcon,
+    image: Adobe_Photoshop_Icon,
+  },
+  {
+    name: ADOBE_XD,
+    image: Adobe_XD_Icon,
   },
   {
     name: ANGULAR,
-    image: AngularIcon,
+    image: Angular_Icon,
   },
   {
     name: C,
@@ -69,63 +76,63 @@ const technologies = [
   },
   {
     name: CPP,
-    image: CppIcon,
+    image: CPP_Icon,
   },
   {
     name: CSS3,
-    image: CSS3Icon,
+    image: CSS3_Icon,
   },
   {
     name: DOCKER,
-    image: DockerIcon,
+    image: Docker_Icon,
   },
   {
     name: EXPRESS,
-    image: ExpressIcon,
+    image: Express_Icon,
   },
   {
     name: FIGMA,
-    image: FigmaIcon,
+    image: Figma_Icon,
   },
   {
     name: GCP,
-    image: GCPIcon,
+    image: GCP_Icon,
   },
   {
     name: GIT,
-    image: GitIcon,
+    image: Git_Icon,
   },
   {
     name: GO,
-    image: GoIcon,
+    image: Go_Icon,
   },
   {
     name: HTML5,
-    image: HTML5Icon,
+    image: HTML5_Icon,
   },
   {
     name: JAVA,
-    image: JavaIcon,
+    image: Java_Icon,
   },
   {
     name: JAVASCRIPT,
-    image: JavaScriptIcon,
+    image: JavaScript_Icon,
   },
   {
     name: KUBERNETES,
-    image: KubernetesIcon,
+    image: Kubernetes_Icon,
   },
   {
     name: LINUX,
-    image: LinuxIcon,
+    image: Linux_Icon,
   },
   {
     name: MYSQL,
-    image: MySQLIcon,
+    image: MySQL_Icon,
   },
   {
     name: NODEJS,
-    image: NodeJSIcon,
+    image: NodeJS_Icon,
   },
   {
     name: NUMPY,
@@ -133,27 +140,27 @@ const technologies = [
   },
   {
     name: POSTGRES,
-    image: PostgresIcon,
+    image: Postgres_Icon,
   },
   {
     name: PYTHON,
-    image: PythonIcon,
+    image: Python_Icon,
   },
   {
     name: REACT,
-    image: ReactIcon,
+    image: React_Icon,
   },
   {
     name: REDIS,
-    image: "",
+    image: Redis_Icon,
   },
   {
     name: REDUX,
-    image: ReduxIcon,
+    image: Redux_Icon,
   },
   {
     name: COLDFUSION,
-    image: CFIcon,
+    image: ColdFusion_Icon,
   },
 ];
 
