@@ -49,7 +49,7 @@ const projects = [
   },
   {
     name: DIGGERMAN,
-    technologies: [technologies.CPP],
+    technologies: [technologies.CPP, technologies.OPEN_GL],
     textContent: `<li>
                     Designed and implemented a large 2D Dig Dug-like game in C++ driven by
                     <a href="https://www.opengl.org/" target="_blank" rel="noopener noreferrer">OpenGL</a>, utilizing
