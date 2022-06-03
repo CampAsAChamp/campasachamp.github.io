@@ -68,7 +68,7 @@ const experiences = [
                     Received program-wide performance recognition award for outstanding and impressive performance (July
                     2020); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
                 </li>`,
-    technologies: [technologies.CPP, technologies.C, technologies.DOCKER, technologies.PYTHON],
+    technologies: [technologies.CPP, technologies.C, technologies.PYTHON, technologies.DOCKER],
     logo: RaytheonLogo,
     color: COLORS.RAYTHEON,
   },
