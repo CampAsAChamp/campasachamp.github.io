@@ -1,7 +1,6 @@
 import parse from "html-react-parser";
 import React from "react";
 
-import "../styles/style.css";
 import { TechnologiesBar } from "./TechnologiesBar";
 
 export function ExperienceCard(props) {
@@ -10,7 +9,9 @@ export function ExperienceCard(props) {
   return (
     <div className="card" id={"card" + index}>
       <div className="experience-title-container">
-        <div className="employer card-title">{experience.company_name}</div>
+        <div className="employer card-title" style={{ color: experience.color }}>
+          {experience.company_name}
+        </div>
         <img className="experience-thumbnail" src={experience.logo} alt={experience.name} />
       </div>
       <div className="location">{experience.location}</div>
@@ -21,7 +22,7 @@ export function ExperienceCard(props) {
       <div className="supporting-text">
         <ul>{parse(experience.textContent)}</ul>
       </div>
-      <TechnologiesBar technologyNames={experience.technologies} />
+      <TechnologiesBar technologyNames={experience.technologies} fillColor={experience.color} />
     </div>
   );
 }
