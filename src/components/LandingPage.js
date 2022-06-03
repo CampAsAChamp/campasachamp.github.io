@@ -6,9 +6,9 @@ import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
 import HeroImageBlobShape from "assets/Organic_Shapes/Hero Image Blob Shape.svg";
 import RealProfilePic from "assets/Real Profile Pic.png";
 
-import { COLORS } from "data/colorsData";
-
 import { Svg } from "components/Svg";
+
+import { COLORS } from "data/colorsData";
 
 export function LandingPage() {
   return (
