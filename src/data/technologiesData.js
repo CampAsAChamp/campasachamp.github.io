@@ -1,12 +1,13 @@
-import GCPIcon from "assets/Dev_Icons/Base/cf.svg";
-import GoIcon from "assets/Dev_Icons/Base/cf.svg";
-import KubernetesIcon from "assets/Dev_Icons/Base/cf.svg";
-import PostgresIcon from "assets/Dev_Icons/Base/cf.svg";
-import ReactIcon from "assets/Dev_Icons/Base/cf.svg";
-import ReduxIcon from "assets/Dev_Icons/Base/cf.svg";
 import FigmaIcon from "assets/Dev_Icons/Purple/Figma-logo.svg";
 import AngularIcon from "assets/Dev_Icons/Purple/angularjs-plain.svg";
 import C_Icon from "assets/Dev_Icons/Purple/c-plain.svg";
+import GCPIcon from "assets/Dev_Icons/Purple/cf.svg";
+import GoIcon from "assets/Dev_Icons/Purple/cf.svg";
+import PostgresIcon from "assets/Dev_Icons/Purple/cf.svg";
+import ReactIcon from "assets/Dev_Icons/Purple/cf.svg";
+import ReduxIcon from "assets/Dev_Icons/Purple/cf.svg";
+import CFIcon from "assets/Dev_Icons/Purple/cf.svg";
+import KubernetesIcon from "assets/Dev_Icons/Purple/cf.svg";
 import CppIcon from "assets/Dev_Icons/Purple/cplusplus-plain.svg";
 import CSS3Icon from "assets/Dev_Icons/Purple/css3-plain-wordmark.svg";
 import DockerIcon from "assets/Dev_Icons/Purple/docker-plain-wordmark.svg";
@@ -26,12 +27,13 @@ export const ADOBE_ILLUSTRATOR = "Adobe Illustrator";
 export const ADOBE_PHOTOSHOP = "Adobe Photoshop";
 export const ANGULAR = "Angular";
 export const C = "C";
+export const COLDFUSION = "ColdFusion";
 export const CPP = "C++";
 export const CSS3 = "CSS3";
 export const DOCKER = "Docker";
 export const EXPRESS = "Express";
 export const FIGMA = "Figma";
-export const GCP = "Google Cloud Platform";
+export const GCP = "Google Cloud Platform (GCP)";
 export const GIT = "Git";
 export const GO = "Go (Golang)";
 export const HTML5 = "HTML5";
@@ -148,6 +150,10 @@ const technologies = [
   {
     name: REDUX,
     image: ReduxIcon,
+  },
+  {
+    name: COLDFUSION,
+    image: CFIcon,
   },
 ];
 

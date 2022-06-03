@@ -4,7 +4,7 @@ import PersonalWebsiteThumbnail from "assets/Projects/Portfolio_Thumbnail.png";
 import SpotifyPPThumbnail from "assets/Projects/Spotify.png";
 import DiggermanThumbnail from "assets/Projects/diggerman.gif";
 
-import * as technologies from "./technologies";
+import * as technologies from "./technologiesData";
 
 export const SPOTIFYPP = "Spotify++";
 export const DIGGERMAN = "Diggerman";

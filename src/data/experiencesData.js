@@ -2,7 +2,8 @@ import RaytheonLogo from "assets/Company_Logos/Raytheon_Technologies_logo.svg";
 import ReazonLogo from "assets/Company_Logos/Reazon Logo.svg";
 import IDTechLogo from "assets/Company_Logos/id tech.png";
 
-import * as technologies from "data/technologies";
+import * as technologies from "data/technologiesData";
+import { COLORS } from "./colorsData";
 
 export const RAYTHEON = "Raytheon Intelligence & Space";
 export const ARCULES = "Arcules";
@@ -27,6 +28,7 @@ const experiences = [
       technologies.REDIS,
     ],
     logo: "",
+    color: COLORS.ARCULES,
   },
   {
     company_name: RAYTHEON,
@@ -58,6 +60,7 @@ const experiences = [
                 </li>`,
     technologies: [technologies.CPP, technologies.C, technologies.DOCKER, technologies.PYTHON],
     logo: RaytheonLogo,
+    color: COLORS.RAYTHEON,
   },
   {
     company_name: ID_TECH,
@@ -94,6 +97,7 @@ const experiences = [
       technologies.FIGMA,
     ],
     logo: IDTechLogo,
+    color: COLORS.ID_TECH,
   },
   {
     company_name: REAZON,
@@ -118,6 +122,7 @@ const experiences = [
       technologies.CSS3,
     ],
     logo: ReazonLogo,
+    color: COLORS.REAZON,
   },
 ];
 
