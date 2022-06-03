@@ -8,8 +8,6 @@ import RealProfilePic from "assets/Real Profile Pic.png";
 
 import { Svg } from "components/Svg";
 
-import { COLORS } from "data/colorsData";
-
 export function LandingPage() {
   return (
     <>
@@ -67,10 +65,10 @@ export function LandingPage() {
             </div>
             <div id="contact-me-socials">
               <a href="https://github.com/CampAsAChamp/" target="_blank" rel="noopener noreferrer">
-                <Svg className="contact-me-item" src={GithubLogo} alt="Github Icon" fill={COLORS.PURPLE} />
+                <Svg className="contact-me-item" src={GithubLogo} alt="Github Icon" fill="#171515" />
               </a>
               <a href="https://www.linkedin.com/in/nick-schneider-la/" target="_blank" rel="noopener noreferrer">
-                <Svg className="contact-me-item" src={LinkedInLogo} alt="LinkedIn Icon" fill={COLORS.PURPLE} />
+                <Svg className="contact-me-item" src={LinkedInLogo} alt="LinkedIn Icon" fill="#0B66C2" />
               </a>
             </div>
           </div>
