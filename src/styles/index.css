@@ -296,7 +296,7 @@ nav a:hover::after {
   box-shadow: 2px 5px 10px grey;
   cursor: pointer;
   border-radius: 50%; /* Creates a circle */
-  opacity: 0;
+  opacity: 1;
   transition: transform 0.5s;
 }
 
