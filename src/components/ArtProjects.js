@@ -17,7 +17,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function ArtProjects() {
   return (
     <section id="graphic-design-container" className="page-container">
-      <ScrollAnimation animateIn="animate__fadeInRight" duration={0.5} animateOnce={true}>
+      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
         <div id="graphic-design-header" className="section-header">
           <h2>Art and Design Projects</h2>
         </div>

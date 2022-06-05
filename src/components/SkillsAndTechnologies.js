@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function SkillsAndTechnologies() {
   return (
     <section id="skills-container" className="page-container">
-      <ScrollAnimation animateIn="animate__zoomIn" duration={0.5} animateOnce={true}>
+      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
         <div id="skills-header" className="section-header">
           <h2>Skills &amp; Technologies</h2>
         </div>

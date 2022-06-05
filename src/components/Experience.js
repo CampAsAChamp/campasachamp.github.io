@@ -9,7 +9,7 @@ export function Experience() {
   return (
     <>
       <section id="experience-container" className="page-container">
-        <ScrollAnimation animateIn="animate__fadeInRight" duration={0.5} animateOnce={true}>
+        <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
           <div id="experience-header" className="section-header">
             <h2>Experience</h2>
           </div>

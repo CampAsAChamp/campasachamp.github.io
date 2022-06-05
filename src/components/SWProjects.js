@@ -10,7 +10,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function SWProjects() {
   return (
     <section id="sw-projects-container" className="page-container">
-      <ScrollAnimation animateIn="animate__fadeInRight" duration={0.5} animateOnce={true}>
+      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
         <div id="sw-projects-header" className="section-header">
           <h2>Software Projects</h2>
         </div>
