@@ -308,7 +308,7 @@ nav li a:hover::after {
   position: fixed;
   bottom: 20px;
   right: 15px;
-  z-index: 99;
+  /* z-index: 99; */
   font-size: 1.5rem;
   outline: none;
   background-color: var(--color-yellow);
