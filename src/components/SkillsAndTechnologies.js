@@ -1,9 +1,9 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import { SkillsRow } from "components/SkillsRow";
 
 import * as technologies from "data/technologiesData";
-import ScrollAnimation from "react-animate-on-scroll";
 
 export function SkillsAndTechnologies() {
   return (
@@ -26,18 +26,23 @@ export function SkillsAndTechnologies() {
             technologies.CSS3,
           ]}
         />
-        <SkillsRow technologyNames={[technologies.POSTGRES, technologies.MYSQL]} />
         <SkillsRow
           technologyNames={[
+            technologies.POSTGRES,
+            technologies.MYSQL,
             technologies.KUBERNETES,
             technologies.DOCKER,
             technologies.GCP,
-            technologies.GIT,
-            technologies.LINUX,
           ]}
         />
         <SkillsRow
-          technologyNames={[technologies.ADOBE_ILLUSTRATOR, technologies.ADOBE_PHOTOSHOP, technologies.FIGMA]}
+          technologyNames={[
+            technologies.GIT,
+            technologies.LINUX,
+            technologies.ADOBE_ILLUSTRATOR,
+            technologies.ADOBE_PHOTOSHOP,
+            technologies.FIGMA,
+          ]}
         />
       </div>
     </section>
