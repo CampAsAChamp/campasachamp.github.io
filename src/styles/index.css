@@ -717,6 +717,14 @@ nav a:hover::after {
   margin: 0 50px;
 }
 
+.skills-icon-container > a > svg {
+  transition: transform 0.25s;
+}
+
+.skills-icon-container > a > svg:hover {
+  transform: scale(1.1);
+}
+
 .skills-caption {
   text-align: center;
   font-weight: 900;
