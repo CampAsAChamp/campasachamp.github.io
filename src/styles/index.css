@@ -128,7 +128,7 @@ nav li {
   animation: navLinkFade 0.5s ease forwards;
 }
 
-nav a {
+nav li a {
   color: white;
   text-decoration: none;
   font-weight: 900;
@@ -138,7 +138,7 @@ nav a {
   transition: var(--animation-duration);
 }
 
-nav a::after {
+nav li a::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -151,11 +151,11 @@ nav a::after {
   transform-origin: right;
 }
 
-nav a:hover {
+nav li a:hover {
   color: var(--color-yellow);
 }
 
-nav a:hover::after {
+nav li a:hover::after {
   /* Moves the underline bar */
   transform: scaleX(1);
   transform-origin: left;
