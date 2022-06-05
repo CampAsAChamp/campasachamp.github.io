@@ -1,29 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Scroll } from "react-fns";
 
 export function ScrollToTopButton() {
+  const [isMounted, setIsMounted] = useState(true);
+
   return (
     <Scroll
       render={({ x, y }) => {
         // If scrolled past, then show, else don't show
-        let isScrolledPast = y > 800;
+        let isScrolledPast = y > 400;
 
         if (isScrolledPast) {
-          return (
-            <button
-              id="scroll-to-top-button"
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              className="button"
-              title="Go to top"
-            >
-              ⇪
-            </button>
-          );
+          if (!isMounted) setIsMounted(true);
         } else {
-          return "";
+          if (isMounted) setIsMounted(false);
         }
+
+        return (
+          <button
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+            className={`scroll-to-top-button button ${isMounted ? "visible" : ""}`}
+            title="Go to top"
+          >
+            ⇪
+          </button>
+        );
       }}
     />
   );

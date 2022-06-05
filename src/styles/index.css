@@ -281,7 +281,7 @@ nav a:hover::after {
   right: 0px;
 }
 
-#scroll-to-top-button {
+.scroll-to-top-button {
   display: block;
   height: 50px;
   width: 50px;
@@ -296,8 +296,14 @@ nav a:hover::after {
   box-shadow: 2px 5px 10px grey;
   cursor: pointer;
   border-radius: 50%; /* Creates a circle */
+  opacity: 0;
+  transform: translateX(15px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
   opacity: 1;
-  transition: transform 0.5s;
+  transform: translateX(0px);
 }
 
 #scroll-to-top-button:hover {
