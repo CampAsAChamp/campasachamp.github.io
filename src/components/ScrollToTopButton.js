@@ -21,7 +21,7 @@ export function ScrollToTopButton() {
             onClick={() => {
               window.scrollTo(0, 0);
             }}
-            className={`scroll-to-top-button button ${isMounted ? "visible" : ""}`}
+            className={`scroll-to-top-button button ${isMounted && "visible"}`}
             title="Go to top"
           >
             ⇪
