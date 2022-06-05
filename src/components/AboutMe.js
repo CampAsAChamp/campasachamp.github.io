@@ -10,10 +10,10 @@ export function AboutMe() {
     <section id="about-me-container" className="page-container">
       <img id="background-logo" src={Purple_S_Logo} alt="Logo Backdrop" />
       <div id="about-me-images">
-        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={100}>
+        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
           <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={200}>
+        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={50}>
           <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
         </ScrollAnimation>
       </div>
