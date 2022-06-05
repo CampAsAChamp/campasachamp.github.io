@@ -301,7 +301,7 @@ nav a:hover::after {
   transition: opacity 1s ease, transform 1s ease;
 }
 
-.scroll-to-top-button.in.visible {
+.scroll-to-top-button.visible {
   opacity: 1;
   transform: translateX(0px);
 }

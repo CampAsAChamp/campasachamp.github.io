@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { Scroll } from "react-fns";
 
-import { useMountTransition } from "hooks/useMountTransition";
-
 export function ScrollToTopButton() {
-  const [isMounted, setIsMounted] = useState(true);
-  const hasTransitionedIn = useMountTransition(isMounted, 1000);
+  const [isMounted, setIsMounted] = useState(false);
 
   return (
     <Scroll
@@ -20,17 +17,15 @@ export function ScrollToTopButton() {
         }
 
         return (
-          (hasTransitionedIn || isMounted) && (
-            <button
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              className={`scroll-to-top-button button ${hasTransitionedIn && "in"} ${isMounted && "visible"}`}
-              title="Go to top"
-            >
-              ⇪
-            </button>
-          )
+          <button
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+            className={`scroll-to-top-button button ${isMounted && "visible"}`}
+            title="Go to top"
+          >
+            ⇪
+          </button>
         );
       }}
     />
