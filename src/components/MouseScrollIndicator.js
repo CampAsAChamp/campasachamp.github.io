@@ -6,12 +6,15 @@ export function MouseScrollIndicator() {
   return (
     <Scroll
       render={({ x, y }) => {
+        let element;
+
         if (!scrolledPast && y < 400) {
-          return <div className="mouse" id="mouse-scroll-indicator" />;
+          element = <div className="mouse" id="mouse-scroll-indicator" />;
         } else {
           scrolledPast = true;
-          return "";
         }
+
+        return element;
       }}
     />
   );
