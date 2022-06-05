@@ -22,6 +22,39 @@ GLOBAL STYLES
   --rounded-component-corners-size: 40px;
   --animation-duration: 0.5s;
 }
+
+/* Light Mode */
+:root[color-mode="light"] {
+  --color-purple: #9892ff;
+
+  --surface1: #e6e6e6;
+  --surface2: #f2f2f2;
+  --surface3: #ffffff;
+  --element1: #111111;
+  --element2: #222222;
+  --element3: #333333;
+  --elementInverse: #eee;
+  --primary: #01408e;
+  --secondary: #3c5d5c;
+  --tertiary: #fff7d6;
+}
+
+/* Dark Mode */
+:root[color-mode="dark"] {
+  --color-purple: #35317d;
+
+  --surface1: #262626;
+  --surface2: #333333;
+  --surface3: #404040;
+  --element1: #eeeeee;
+  --element2: #dddddd;
+  --element3: #cccccc;
+  --elementInverse: #111;
+  --primary: #8fceff;
+  --secondary: #72faca;
+  --tertiary: #eee8a9;
+}
+
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
@@ -381,6 +414,14 @@ nav li a:hover::after {
   bottom: 20px;
   left: 15px;
   z-index: 1;
+}
+
+.light-mode {
+  background-color: pink;
+}
+
+.dark-mode {
+  background-color: dodgerblue;
 }
 
 .scroll-to-top-button {

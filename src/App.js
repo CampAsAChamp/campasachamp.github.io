@@ -13,6 +13,24 @@ import { SkillsAndTechnologies } from "components/SkillsAndTechnologies";
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => false);
 
+  if (isDarkMode) {
+    // Sets the custom HTML attribute
+    document.documentElement.setAttribute("color-mode", "dark");
+
+    //Sets the user's preference in local storage
+    localStorage.setItem("color-mode", "light");
+
+    console.log("Dark Mode");
+  } else {
+    // Sets the custom HTML attribute
+    document.documentElement.setAttribute("color-mode", "light");
+
+    // Sets the user's preference in local storage
+    localStorage.setItem("color-mode", "dark");
+
+    console.log("Light Mode");
+  }
+
   return (
     <>
       <Navbar />
