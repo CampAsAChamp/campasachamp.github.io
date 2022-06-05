@@ -218,6 +218,55 @@ nav li a:hover::after {
   background: var(--color-purple);
 }
 
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 .modal-bg {
   /* display: none; Hidden by default */
   position: fixed; /* Stay in place */
@@ -237,6 +286,13 @@ nav li a:hover::after {
   opacity: 1;
 }
 
+.pic-modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
 .modal-content {
   position: relative;
   font-size: 2rem;
@@ -247,6 +303,24 @@ nav li a:hover::after {
   border-radius: var(--rounded-component-corners-size);
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-pic-close {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: white;
+  float: right;
+  font-size: 3rem;
+  font-weight: bold;
+  transition: 0.5s ease-out;
+}
+
+.modal-pic-close:hover,
+.modal-pic-close:focus {
+  color: var(--color-purple);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .close {
