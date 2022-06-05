@@ -3,6 +3,7 @@ import React from "react";
 import Purple_S_Logo from "assets/Purple S Logo.svg";
 import GradCapIllustration from "assets/undraw_Graduation_ktn0.svg";
 import DeskIllustration from "assets/undraw_feeling_proud_qne1.svg";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function AboutMe() {
   return (
@@ -13,7 +14,9 @@ export function AboutMe() {
         <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
       </div>
       <div id="about-me-text">
-        <h2>ABOUT ME</h2>
+        <ScrollAnimation animateIn="animate__bounce" animateOnce="true" initiallyVisible="true">
+          <h2>ABOUT ME</h2>
+        </ScrollAnimation>
         <p>Hey I'm Nick, a software engineer based in Los Angeles</p>
         <p>
           I graduated from the 🎓 <strong>University of California, Irvine</strong> in 2019 with a{" "}

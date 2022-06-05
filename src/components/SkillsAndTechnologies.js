@@ -3,13 +3,16 @@ import React from "react";
 import { SkillsRow } from "components/SkillsRow";
 
 import * as technologies from "data/technologiesData";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function SkillsAndTechnologies() {
   return (
     <section id="skills-container" className="page-container">
-      <div id="skills-header" className="section-header">
-        <h2>Skills &amp; Technologies</h2>
-      </div>
+      <ScrollAnimation animateIn="animate__zoomIn" duration={0.5} animateOnce={true}>
+        <div id="skills-header" className="section-header">
+          <h2>Skills &amp; Technologies</h2>
+        </div>
+      </ScrollAnimation>
       <div id="skills-content">
         <SkillsRow
           technologyNames={[technologies.GO, technologies.PYTHON, technologies.JAVA, technologies.CPP, technologies.C]}

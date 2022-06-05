@@ -12,13 +12,16 @@ import RetroStripeLetteringPic from "assets/Projects/Retro Stripe Lettering.png"
 import TriFergPic from "assets/Projects/Tri Ferg.png";
 import WaterColorPopsiclesPic from "assets/Projects/Water Color Popsicles.png";
 import WellPic from "assets/Projects/Well.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function ArtProjects() {
   return (
     <section id="graphic-design-container" className="page-container">
-      <div id="graphic-design-header" className="section-header">
-        <h2>Art and Design Projects</h2>
-      </div>
+      <ScrollAnimation animateIn="animate__fadeInRight" duration={0.5} animateOnce={true}>
+        <div id="graphic-design-header" className="section-header">
+          <h2>Art and Design Projects</h2>
+        </div>
+      </ScrollAnimation>
       <div id="graphic-design-content">
         <div className="row">
           <div className="column">
