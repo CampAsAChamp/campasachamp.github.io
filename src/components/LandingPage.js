@@ -6,6 +6,7 @@ import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
 import HeroImageBlobShape from "assets/Organic_Shapes/Hero Image Blob Shape.svg";
 import RealProfilePic from "assets/Real Profile Pic.png";
 
+import { MouseScrollIndicator } from "components/MouseScrollIndicator";
 import { Svg } from "components/Svg";
 
 export function LandingPage() {
@@ -72,7 +73,7 @@ export function LandingPage() {
               </a>
             </div>
           </div>
-          <div className="mouse" id="mouse-scroll-indicator" />
+          <MouseScrollIndicator />
         </div>
         <div id="profile-pic-container">
           <img id="profile-pic" src={ArtProfilePic} alt="Flat Profile Pic" className="center" />
