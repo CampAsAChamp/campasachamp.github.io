@@ -8,7 +8,7 @@ export function MouseScrollIndicator() {
       render={({ x, y }) => {
         let element;
 
-        if (!scrolledPast && y < 400) {
+        if (!scrolledPast && y < 800) {
           element = <div className="mouse" id="mouse-scroll-indicator" />;
         } else {
           scrolledPast = true;
