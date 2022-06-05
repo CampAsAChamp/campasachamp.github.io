@@ -17,7 +17,7 @@ export function SkillsRow(props) {
       {technologies.map((tech) => {
         return (
           <div className="skills-icon-container" key={tech.name}>
-            <a href="https://www.google.com">
+            <a href={tech.link}>
               <Svg
                 src={tech.image}
                 width={100}
