@@ -36,7 +36,15 @@ export function LandingPage() {
             >
               <span>Contact Me</span>
             </button>
-            <div className="modal-bg">
+            <div
+              className="modal-bg"
+              onClick={() => {
+                var modal_bg = document.getElementsByClassName("modal-bg")[0];
+                var modal_content = document.getElementsByClassName("modal-content")[0];
+                modal_bg.classList.remove("show");
+                modal_content.classList.remove("show");
+              }}
+            >
               <div className="modal-content">
                 <span
                   className="close"
