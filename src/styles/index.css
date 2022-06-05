@@ -388,7 +388,7 @@ nav a:hover::after {
 
 #name-intro-container {
   padding-left: 25%;
-  padding-top: 10%;
+  padding-top: 5%;
 
   grid-area: name-intro;
 }
