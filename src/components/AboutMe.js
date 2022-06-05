@@ -10,8 +10,12 @@ export function AboutMe() {
     <section id="about-me-container" className="page-container">
       <img id="background-logo" src={Purple_S_Logo} alt="Logo Backdrop" />
       <div id="about-me-images">
-        <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
-        <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
+        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={400}>
+          <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={600}>
+          <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
+        </ScrollAnimation>
       </div>
       <div id="about-me-text">
         <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
