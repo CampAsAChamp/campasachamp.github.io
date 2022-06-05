@@ -5,7 +5,9 @@ import S_Logo from "assets/S Logo.svg";
 export function Navbar() {
   return (
     <nav>
-      <img id="logo" src={S_Logo} alt="S Logo" />
+      <a href="/">
+        <img id="logo" src={S_Logo} alt="S Logo" />
+      </a>
       <ul>
         <li>
           <a href="#about-me-images">About Me</a>
