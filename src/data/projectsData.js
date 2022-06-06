@@ -106,7 +106,7 @@ const projects = [
       technologies.FIGMA,
     ],
     textContent: `<li>
-                    Static HTML & CSS with Javascript website built to showcase my design skills along with experience and projects I've had over the years.
+                    Static React, Javascript, HTML and CSS website built to showcase my design skills along with experience and projects I've had over the years.
                   </li>
                   <li>
                     Created mockup design with Figma.
