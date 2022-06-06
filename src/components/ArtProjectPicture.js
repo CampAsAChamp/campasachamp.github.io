@@ -23,7 +23,7 @@ export function ArtProjectPicture(props) {
   return (
     <>
       <img src={imgSrc} id="myImg" alt={imgCaption} onClick={showModal} />
-      <div id="myModal" className="modal">
+      <div id="myModal" className="modal" onClick={hideModal}>
         <span className="modal-pic-close" onClick={hideModal}>
           &times;
         </span>
