@@ -335,9 +335,8 @@ nav li a:hover::after {
   width: 50%; /* Could be more or less, depending on screen size */
   margin: 10% auto; /* 10% from the top and centered */
   padding: 40px;
-  border: 1px solid var(--color-off-grey);
   border-radius: var(--rounded-component-corners-size);
-  background-color: white;
+  background-color: var(--color-card);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -368,7 +367,7 @@ nav li a:hover::after {
   position: absolute;
   top: 0;
   right: 20px;
-  color: black;
+  color: var(--color-body-text);
   float: right;
   font-size: 3rem;
   font-weight: bold;
