@@ -45,7 +45,7 @@ export function LandingPage() {
                 <span className="close" onClick={hideModal}>
                   ×
                 </span>
-                <Svg id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
+                <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
                 <p>
                   <strong>📧 Email:</strong>
                   <a href="mailto:nickschneider101@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -72,7 +72,7 @@ export function LandingPage() {
           <MouseScrollIndicator />
         </div>
         <div id="profile-pic-container">
-          <img id="profile-pic" src={ArtProfilePic} alt="Flat Profile Pic" className="center" />
+          <Svg id="profile-pic" src={ArtProfilePic} alt="Flat Profile Pic" className="center" />
         </div>
       </section>
     </>
