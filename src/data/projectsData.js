@@ -44,7 +44,7 @@ const projects = [
                     energy, acousticness, instrumentalness, and liveness provided by the track endpoint.
                   </li>
                  `,
-    link: "https://github.com/CampAsAChamp/spicetify-themes",
+    link: "https://github.com/CampAsAChamp/SpotifyPP",
     image: SpotifyPPThumbnail,
   },
   {
