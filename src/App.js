@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState } from "react";
 import DarkModeToggle from "react-dark-mode-toggle";
 
 import { AboutMe } from "components/AboutMe";
@@ -10,32 +11,43 @@ import { SWProjects } from "components/SWProjects";
 import { ScrollToTopButton } from "components/ScrollToTopButton";
 import { SkillsAndTechnologies } from "components/SkillsAndTechnologies";
 
+const DARK = "dark";
+const LIGHT = "light";
+const COLOR_MODE_KEY = "color-mode";
+
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(() => false);
+  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem(COLOR_MODE_KEY) === DARK);
 
-  if (isDarkMode) {
-    // Sets the custom HTML attribute
-    document.documentElement.setAttribute("color-mode", "dark");
+  useEffect(() => {
+    if (isDarkMode && document.documentElement.getAttribute(COLOR_MODE_KEY) !== DARK) setDarkMode();
+    else setLightMode();
+  }, []);
 
-    //Sets the user's preference in local storage
-    localStorage.setItem("color-mode", "light");
+  const setDarkMode = () => {
+    document.documentElement.setAttribute(COLOR_MODE_KEY, DARK);
+    localStorage.setItem(COLOR_MODE_KEY, DARK);
+    setIsDarkMode(true);
+  };
 
-    console.log("Dark Mode");
-  } else {
-    // Sets the custom HTML attribute
-    document.documentElement.setAttribute("color-mode", "light");
+  const setLightMode = () => {
+    document.documentElement.setAttribute(COLOR_MODE_KEY, LIGHT);
+    localStorage.setItem(COLOR_MODE_KEY, LIGHT);
+    setIsDarkMode(false);
+  };
 
-    // Sets the user's preference in local storage
-    localStorage.setItem("color-mode", "dark");
-
-    console.log("Light Mode");
-  }
+  const switchTheme = () => {
+    if (isDarkMode) {
+      setLightMode();
+    } else {
+      setDarkMode();
+    }
+  };
 
   return (
     <>
       <Navbar />
       <ScrollToTopButton />
-      <DarkModeToggle className="theme-switcher" onChange={setIsDarkMode} checked={isDarkMode} size={80} />
+      <DarkModeToggle className="theme-switcher" onChange={switchTheme} checked={isDarkMode} size={80} />
       <LandingPage />
       <AboutMe />
       <Experience />
