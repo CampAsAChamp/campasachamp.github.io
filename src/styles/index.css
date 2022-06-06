@@ -295,7 +295,7 @@ nav li a:hover::after {
 }
 
 .modal-bg {
-  /* display: none; Hidden by default */
+  display: none; /* Hidden by default*/
   position: fixed; /* Stay in place */
   width: 100%; /* Full width */
   height: 100%; /* Full height */
@@ -311,6 +311,7 @@ nav li a:hover::after {
 .modal-bg.show {
   top: 0;
   opacity: 1;
+  display: block;
 }
 
 .pic-modal-content {
@@ -328,6 +329,7 @@ nav li a:hover::after {
 }
 
 .modal-content {
+  display: none;
   position: relative;
   font-size: 2rem;
   width: 50%; /* Could be more or less, depending on screen size */
@@ -337,6 +339,10 @@ nav li a:hover::after {
   border-radius: var(--rounded-component-corners-size);
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-content.show {
+  display: block;
 }
 
 .modal-pic-close {
