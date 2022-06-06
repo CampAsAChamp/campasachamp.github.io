@@ -1153,7 +1153,7 @@ nav li a:hover::after {
   padding: 0 5px;
 }
 
-.column img {
+.column > img {
   width: 100%;
   margin-top: 10px;
   border-radius: 10px;
@@ -1161,7 +1161,7 @@ nav li a:hover::after {
   transition: transform 0.25s;
 }
 
-.column img:hover {
+.column > img:hover {
   transform: scale(1.1);
 }
 
