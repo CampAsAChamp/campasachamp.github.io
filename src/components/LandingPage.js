@@ -45,7 +45,7 @@ export function LandingPage() {
                 <span className="close" onClick={hideModal}>
                   ×
                 </span>
-                <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
+                <Svg id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
                 <p>
                   <strong>📧 Email:</strong>
                   <a href="mailto:nickschneider101@gmail.com" target="_blank" rel="noopener noreferrer">
