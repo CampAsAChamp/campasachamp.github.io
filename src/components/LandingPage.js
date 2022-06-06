@@ -47,13 +47,13 @@ export function LandingPage() {
                 </span>
                 <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
                 <p>
-                  <strong>📧 Email:</strong>
+                  <strong>📧 Email: </strong>
                   <a href="mailto:nickschneider101@gmail.com" target="_blank" rel="noopener noreferrer">
                     nickschneider101@gmail.com
                   </a>
                 </p>
                 <p>
-                  <strong>📞 Phone:</strong>
+                  <strong>📞 Phone: </strong>
                   <a href="tel:+13109531324" target="_blank" rel="noopener noreferrer">
                     (310) 953-1324
                   </a>
