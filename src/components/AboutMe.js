@@ -24,7 +24,7 @@ export function AboutMe() {
         <p>Hey I'm Nick, a software engineer based in Los Angeles</p>
         <p>
           I graduated from the 🎓 <strong>University of California, Irvine</strong> in 2019 with a{" "}
-          <strong>B.S. in Computer Science</strong> and am now working full time as a Software Engineer at 📸{" "}
+          <strong>B.S. in Computer Science</strong> and am currently working full time as a Software Engineer at 📸{" "}
           <strong>Arcules</strong>
         </p>
       </div>
