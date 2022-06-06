@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import ThreeDimensionalBlendTextPic from "assets/Projects/3D Blend Text.png";
 import AlohaPic from "assets/Projects/Aloha.png";
@@ -13,33 +14,37 @@ import TriFergPic from "assets/Projects/Tri Ferg.png";
 import WaterColorPopsiclesPic from "assets/Projects/Water Color Popsicles.png";
 import WellPic from "assets/Projects/Well.png";
 
+import { ArtProjectPicture } from "./ArtProjectPicture";
+
 export function ArtProjects() {
   return (
     <section id="graphic-design-container" className="page-container">
-      <div id="graphic-design-header" className="section-header">
-        <h2>Art and Design Projects</h2>
-      </div>
+      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
+        <div id="graphic-design-header" className="section-header">
+          <h2>Art and Design Projects</h2>
+        </div>
+      </ScrollAnimation>
       <div id="graphic-design-content">
         <div className="row">
           <div className="column">
-            <img src={AlohaPic} alt="" />
-            <img src={LosAngelesPostCardPic} alt="" />
-            <img src={GradientFluidPosterPic} alt="" />
+            <ArtProjectPicture imgSrc={AlohaPic} imgCaption={"Aloha Pic"} />
+            <ArtProjectPicture imgSrc={LosAngelesPostCardPic} imgCaption={"LA"} />
+            <ArtProjectPicture imgSrc={GradientFluidPosterPic} imgCaption={"Gradient Poster"} />
           </div>
           <div className="column">
-            <img src={TriFergPic} alt="" />
-            <img src={LineArtLogoPic} alt="" />
-            <img src={ThreeDimensionalBlendTextPic} alt="" />
+            <ArtProjectPicture imgSrc={TriFergPic} imgCaption={"Tri Ferg Poster"} />
+            <ArtProjectPicture imgSrc={LineArtLogoPic} imgCaption={"Line Art Logo Poster"} />
+            <ArtProjectPicture imgSrc={ThreeDimensionalBlendTextPic} imgCaption={"3D Blend Text"} />
           </div>
           <div className="column">
-            <img src={FloralTextPic} alt="" />
-            <img src={RetroStripeLetteringPic} alt="" />
-            <img src={BeeLogoPic} alt="" />
+            <ArtProjectPicture imgSrc={FloralTextPic} imgCaption={"Floral Text"} />
+            <ArtProjectPicture imgSrc={RetroStripeLetteringPic} imgCaption={"Retro Stripe Lettering"} />
+            <ArtProjectPicture imgSrc={BeeLogoPic} imgCaption={"Bee Logo"} />
           </div>
           <div className="column">
-            <img src={LineFillLetteringPic} alt="" />
-            <img src={WellPic} alt="" />
-            <img src={WaterColorPopsiclesPic} alt="" />
+            <ArtProjectPicture imgSrc={LineFillLetteringPic} imgCaption={"Line Fill Lettering"} />
+            <ArtProjectPicture imgSrc={WellPic} imgCaption={"Well"} />
+            <ArtProjectPicture imgSrc={WaterColorPopsiclesPic} imgCaption={"Water Color Popsicles"} />
           </div>
         </div>
         {/* Only for mobile view */}

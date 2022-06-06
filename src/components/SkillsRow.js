@@ -17,13 +17,15 @@ export function SkillsRow(props) {
       {technologies.map((tech) => {
         return (
           <div className="skills-icon-container" key={tech.name}>
-            <a href="https://www.google.com" >
+            <a href={tech.link}>
               <Svg
+                className="hvr-wobble-vertical"
                 src={tech.image}
+                width={100}
+                height={100}
                 fill={COLORS.PURPLE}
                 title={tech.name + " Icon"}
                 alt={tech.name + " Icon"}
-                loader={<span>Loading...</span>}
               />
             </a>
             <div className="skills-caption">{tech.name}</div>

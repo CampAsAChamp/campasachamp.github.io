@@ -6,9 +6,24 @@ import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
 import HeroImageBlobShape from "assets/Organic_Shapes/Hero Image Blob Shape.svg";
 import RealProfilePic from "assets/Real Profile Pic.png";
 
+import { MouseScrollIndicator } from "components/MouseScrollIndicator";
 import { Svg } from "components/Svg";
 
 export function LandingPage() {
+  const showModal = () => {
+    var modal_bg = document.getElementsByClassName("modal-bg")[0];
+    var modal_content = document.getElementsByClassName("modal-content")[0];
+    modal_bg.classList.add("show");
+    modal_content.classList.add("show");
+  };
+
+  const hideModal = () => {
+    var modal_bg = document.getElementsByClassName("modal-bg")[0];
+    var modal_content = document.getElementsByClassName("modal-content")[0];
+    modal_bg.classList.remove("show");
+    modal_content.classList.remove("show");
+  };
+
   return (
     <>
       <img id="landing-blob" src={HeroImageBlobShape} alt="" />
@@ -22,30 +37,12 @@ export function LandingPage() {
           <h3>Software Engineer</h3>
           <h4>If you're going to make something, why not make it pretty?</h4>
           <div id="contact-me-bar">
-            <button
-              type="button"
-              className="button"
-              id="contact-me-button"
-              onClick={() => {
-                var modal_bg = document.getElementsByClassName("modal-bg")[0];
-                var modal_content = document.getElementsByClassName("modal-content")[0];
-                modal_bg.classList.add("show");
-                modal_content.classList.add("show");
-              }}
-            >
+            <button type="button" className="button" id="contact-me-button" onClick={showModal}>
               <span>Contact Me</span>
             </button>
-            <div className="modal-bg">
+            <div className="modal-bg" onClick={hideModal}>
               <div className="modal-content">
-                <span
-                  className="close"
-                  onClick={() => {
-                    var modal_bg = document.getElementsByClassName("modal-bg")[0];
-                    var modal_content = document.getElementsByClassName("modal-content")[0];
-                    modal_bg.classList.remove("show");
-                    modal_content.classList.remove("show");
-                  }}
-                >
+                <span className="close" onClick={hideModal}>
                   ×
                 </span>
                 <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
@@ -72,10 +69,10 @@ export function LandingPage() {
               </a>
             </div>
           </div>
-          <div className="mouse" id="mouse-scroll-indicator" />
+          <MouseScrollIndicator />
         </div>
         <div id="profile-pic-container">
-          <img id="profile-pic" src={ArtProfilePic} alt="Flat Profile Pic" className="center" />
+          <Svg id="profile-pic" src={ArtProfilePic} alt="Flat Profile Pic" className="center" />
         </div>
       </section>
     </>

@@ -2,10 +2,14 @@ import React from "react";
 
 import S_Logo from "assets/S Logo.svg";
 
+import { Svg } from "components/Svg";
+
 export function Navbar() {
   return (
     <nav>
-      <img id="logo" src={S_Logo} alt="S Logo" />
+      <a href="/">
+        <Svg id="logo" src={S_Logo} alt="S Logo" />
+      </a>
       <ul>
         <li>
           <a href="#about-me-images">About Me</a>
