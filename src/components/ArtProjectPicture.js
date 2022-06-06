@@ -28,7 +28,6 @@ export function ArtProjectPicture(props) {
           &times;
         </span>
         <img className="pic-modal-content" id="img01" alt="" />
-        <div id="caption" />
       </div>
     </>
   );
