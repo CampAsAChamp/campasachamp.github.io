@@ -25,40 +25,31 @@ GLOBAL STYLES
 
 /* Light Mode */
 :root[color-mode="light"] {
-  --color-purple: #9892ff;
-
-  --surface1: #e6e6e6;
-  --surface2: #f2f2f2;
-  --surface3: #ffffff;
-  --element1: #111111;
-  --element2: #222222;
-  --element3: #333333;
-  --elementInverse: #eee;
-  --primary: #01408e;
-  --secondary: #3c5d5c;
-  --tertiary: #fff7d6;
+  --color-background: white;
+  --color-scrollbar: #d9d9d9;
+  --color-body-text: var(--color-off-grey);
+  --color-card-alt-text: var(--color-off-grey);
+  --color-mouse: #2f2e41;
+  --color-card: white;
 }
 
 /* Dark Mode */
 :root[color-mode="dark"] {
-  --color-purple: #35317d;
-
-  --surface1: #262626;
-  --surface2: #333333;
-  --surface3: #404040;
-  --element1: #eeeeee;
-  --element2: #dddddd;
-  --element3: #cccccc;
-  --elementInverse: #111;
-  --primary: #8fceff;
-  --secondary: #72faca;
-  --tertiary: #eee8a9;
+  --color-background: #1e272e;
+  --color-scrollbar: #2b343b;
+  --color-body-text: white;
+  --color-mouse: var(--color-yellow);
+  --color-card: #2b343b;
+  --color-card-alt-text: #a5a5a5;
+  --color-links: var(--color-purple);
+  --color-socials: white;
+  --color-logo: var(--color-purple);
 }
 
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color: var(--color-purple);
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -67,7 +58,7 @@ GLOBAL STYLES
 }
 
 *::-webkit-scrollbar-track {
-  background: #d9d9d9;
+  background: var(--color-scrollbar);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -86,11 +77,12 @@ html {
   font-size: 16px;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: var(--color-background);
 }
 
 body {
   font-family: "Nunito", sans-serif;
-  color: var(--color-off-grey);
+  color: var(--color-body-text);
   margin: 0;
 }
 
@@ -126,6 +118,10 @@ h3 {
 h4 {
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+a {
+  color: var(--color-links);
 }
 
 ul {
@@ -382,7 +378,15 @@ nav li a:hover::after {
 
 #logo {
   float: left;
+  width: auto;
   height: 8vh;
+  margin-left: 2vw;
+  fill: var(--color-logo);
+  transition: transform 1s ease;
+}
+
+#logo:hover {
+  transform: scale(1.1);
 }
 
 #landing-blob {
@@ -431,7 +435,7 @@ nav li a:hover::after {
   position: fixed;
   bottom: 20px;
   right: 15px;
-  /* z-index: 99; */
+  z-index: 1;
   font-size: 1.5rem;
   outline: none;
   background-color: var(--color-yellow);
@@ -454,7 +458,7 @@ nav li a:hover::after {
 }
 
 .mouse {
-  border: 4px solid #2f2e41;
+  border: 4px solid var(--color-mouse);
   border-radius: var(--rounded-button-corners-size);
   width: 40px;
   height: 60px;
@@ -467,7 +471,7 @@ nav li a:hover::after {
 }
 
 .mouse::after {
-  background-color: black;
+  background-color: var(--color-mouse);
   border-radius: 100%;
   content: "";
   opacity: 1;
@@ -551,6 +555,8 @@ nav li a:hover::after {
   margin: 2rem auto;
   max-width: 80%;
   padding: 0 2rem;
+  transform: unset;
+  -webkit-transform: unset;
 }
 
 #modal-profile-pic {
@@ -616,6 +622,7 @@ nav li a:hover::after {
 
 #contact-me-socials svg {
   transition: transform 0.5s; /* Animation */
+  fill: var(--color-socials);
 }
 
 #contact-me-socials svg:hover {
@@ -692,7 +699,7 @@ nav li a:hover::after {
 
 #experience-container {
   display: grid;
-
+  margin-top: 50px;
   grid-template-columns: 1fr;
 
   grid-template-areas:
@@ -732,7 +739,7 @@ nav li a:hover::after {
   width: 85%;
   display: flex;
   flex-direction: column;
-  background: white;
+  background: var(--color-card);
   position: relative;
   margin: 20px auto;
   padding: 35px;
@@ -786,7 +793,7 @@ nav li a:hover::after {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
-  color: var(--color-off-grey);
+  color: var(--color-card-alt-text);
 }
 
 .supporting-text {
@@ -1182,7 +1189,7 @@ nav li a:hover::after {
   font-weight: 400;
   font-size: 1.125rem;
 
-  background: white;
+  background: var(--color-card);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
   border-radius: var(--rounded-component-corners-size);
   transition: transform 0.5s; /* Animation */
