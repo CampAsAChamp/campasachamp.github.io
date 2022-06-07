@@ -2,17 +2,21 @@ import React from "react";
 
 export function ArtProjectPicture(props) {
   const showModal = () => {
-    var modalBackground = document.getElementById("art-modal-background");
-    var modalImg = document.getElementById("art-modal-img");
+    let modalBackground = document.getElementById("art-modal-background");
+    let modalImg = document.getElementById("art-modal-img");
 
-    modalBackground.style.display = "block";
+    modalImg.classList.add("show");
+    modalBackground.classList.add("show");
     modalImg.src = imgSrc;
     modalImg.title = altText;
   };
 
   const hideModal = () => {
-    var modalBackground = document.getElementById("art-modal-background");
-    modalBackground.style.display = "none";
+    let modalBackground = document.getElementById("art-modal-background");
+    let modalImg = document.getElementById("art-modal-img");
+
+    modalImg.classList.remove("show");
+    modalBackground.classList.remove("show");
   };
 
   const { imgSrc, altText } = props;
@@ -20,7 +24,7 @@ export function ArtProjectPicture(props) {
   return (
     <>
       <img src={imgSrc} className="art-grid-img" alt={altText} title={altText} onClick={showModal} />
-      <div id="art-modal-background" onClick={hideModal}>
+      <div className="modal-bg" id="art-modal-background" onClick={hideModal}>
         <span id="art-modal-close" onClick={hideModal}>
           &times;
         </span>

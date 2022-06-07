@@ -11,15 +11,15 @@ import { Svg } from "components/Svg";
 
 export function LandingPage() {
   const showModal = () => {
-    var modal_bg = document.getElementsByClassName("modal-bg")[0];
-    var modal_content = document.getElementsByClassName("modal-content")[0];
+    let modal_bg = document.getElementsByClassName("modal-bg")[0];
+    let modal_content = document.getElementsByClassName("modal-content")[0];
     modal_bg.classList.add("show");
     modal_content.classList.add("show");
   };
 
   const hideModal = () => {
-    var modal_bg = document.getElementsByClassName("modal-bg")[0];
-    var modal_content = document.getElementsByClassName("modal-content")[0];
+    let modal_bg = document.getElementsByClassName("modal-bg")[0];
+    let modal_content = document.getElementsByClassName("modal-content")[0];
     modal_bg.classList.remove("show");
     modal_content.classList.remove("show");
   };
