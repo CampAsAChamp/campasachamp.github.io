@@ -61,7 +61,7 @@ GLOBAL STYLES
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--color-purple);
+  background-color: var(--color-purple-550);
   border-radius: 20px;
   /* border: 3px solid orange; */
 }
