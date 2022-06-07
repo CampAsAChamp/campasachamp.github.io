@@ -315,6 +315,7 @@ nav li a:hover::after {
 }
 
 .pic-modal-content {
+  padding: 50px;
   margin: auto;
   position: fixed;
   bottom: 0;
