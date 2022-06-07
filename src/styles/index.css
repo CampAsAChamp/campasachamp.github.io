@@ -26,7 +26,6 @@ GLOBAL STYLES
 :root[color-mode="light"] {
   --color-background: white;
   --color-scrollbar-background: #d9d9d9;
-  --color-scrollbar-handle: #d9d9d9;
   --color-body-text: var(--color-off-grey);
   --color-card-alt-text: var(--color-off-grey);
   --color-mouse: #2f2e41;
@@ -64,7 +63,6 @@ GLOBAL STYLES
 *::-webkit-scrollbar-thumb {
   background-color: var(--color-purple-550);
   border-radius: 20px;
-  /* border: 3px solid orange; */
 }
 
 *,
