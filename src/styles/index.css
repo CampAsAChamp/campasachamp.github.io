@@ -27,8 +27,10 @@ GLOBAL STYLES
   --color-background: white;
   --color-scrollbar-background: #d9d9d9;
   --color-body-text: var(--color-off-grey);
-  --color-card-alt-text: var(--color-off-grey);
   --color-mouse: #2f2e41;
+  --color-card-alt-text: var(--color-off-grey);
+  --color-socials-github: #171515;
+  --color-socials-linkedin: #0b66c2;
   --color-card: white;
 }
 
@@ -40,7 +42,8 @@ GLOBAL STYLES
   --color-mouse: var(--color-yellow);
   --color-card: #2b343b;
   --color-card-alt-text: #a5a5a5;
-  --color-socials: white;
+  --color-socials-github: white;
+  --color-socials-linkedin: white;
   --color-logo: var(--color-purple);
 }
 
@@ -633,11 +636,18 @@ nav li a:hover::after {
 
 #contact-me-socials svg {
   transition: transform 0.5s; /* Animation */
-  fill: var(--color-socials);
 }
 
 #contact-me-socials svg:hover {
   transform: scale(1.1);
+}
+
+#github-logo {
+  fill: var(--color-socials-github);
+}
+
+#linkedin-logo {
+  fill: var(--color-socials-linkedin);
 }
 
 .contact-me-item {
