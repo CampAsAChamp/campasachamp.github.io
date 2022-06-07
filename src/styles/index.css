@@ -248,14 +248,14 @@ nav li a:hover::after {
   background: var(--color-purple);
 }
 
-#myImg {
+.art-grid-img {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 /* The Modal (background) */
-.modal {
+#art-modal-background {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -269,25 +269,7 @@ nav li a:hover::after {
   background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
 /* Add Animation - Zoom in the Modal */
-.pic-modal-content,
-#caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
 @keyframes zoom {
   from {
     transform: scale(0);
@@ -317,7 +299,7 @@ nav li a:hover::after {
   display: block;
 }
 
-.pic-modal-content {
+#art-modal-img {
   padding: 50px;
   margin: auto;
   position: fixed;
@@ -329,6 +311,8 @@ nav li a:hover::after {
   object-fit: contain;
   max-width: 100%;
   max-height: 100%;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 .modal-content {
@@ -347,7 +331,7 @@ nav li a:hover::after {
   display: block;
 }
 
-.modal-pic-close {
+#art-modal-close {
   position: absolute;
   top: 0;
   right: 20px;
@@ -359,8 +343,8 @@ nav li a:hover::after {
   z-index: 1;
 }
 
-.modal-pic-close:hover,
-.modal-pic-close:focus {
+#art-modal-close:hover,
+#art-modal-close:focus {
   color: var(--color-purple);
   text-decoration: none;
   cursor: pointer;

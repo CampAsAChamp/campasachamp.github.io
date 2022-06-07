@@ -2,32 +2,29 @@ import React from "react";
 
 export function ArtProjectPicture(props) {
   const showModal = () => {
-    var modal = document.getElementById("myModal");
+    var modalBackground = document.getElementById("art-modal-background");
+    var modalImg = document.getElementById("art-modal-img");
 
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-
-    modal.style.display = "block";
+    modalBackground.style.display = "block";
     modalImg.src = imgSrc;
-    captionText.innerHTML = imgCaption;
+    modalImg.title = altText;
   };
 
   const hideModal = () => {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "none";
+    var modalBackground = document.getElementById("art-modal-background");
+    modalBackground.style.display = "none";
   };
 
-  const { imgSrc, imgCaption } = props;
+  const { imgSrc, altText } = props;
 
   return (
     <>
-      <img src={imgSrc} id="myImg" alt={imgCaption} onClick={showModal} />
-      <div id="myModal" className="modal" onClick={hideModal}>
-        <span className="modal-pic-close" onClick={hideModal}>
+      <img src={imgSrc} className="art-grid-img" alt={altText} title={altText} onClick={showModal} />
+      <div id="art-modal-background" onClick={hideModal}>
+        <span id="art-modal-close" onClick={hideModal}>
           &times;
         </span>
-        <img className="pic-modal-content" id="img01" alt="" />
+        <img id="art-modal-img" alt={altText} title={altText} />
       </div>
     </>
   );
