@@ -40,7 +40,6 @@ GLOBAL STYLES
   --color-mouse: var(--color-yellow);
   --color-card: #2b343b;
   --color-card-alt-text: #a5a5a5;
-  --color-links: var(--color-purple);
   --color-socials: white;
   --color-logo: var(--color-purple);
 }
@@ -53,7 +52,7 @@ GLOBAL STYLES
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 20px;
 }
 
 *::-webkit-scrollbar-track {
@@ -62,6 +61,7 @@ GLOBAL STYLES
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--color-purple-550);
+  border: 3px solid var(--color-scrollbar-background);
   border-radius: 20px;
 }
 
