@@ -25,7 +25,8 @@ GLOBAL STYLES
 /* Light Mode */
 :root[color-mode="light"] {
   --color-background: white;
-  --color-scrollbar: #d9d9d9;
+  --color-scrollbar-background: #d9d9d9;
+  --color-scrollbar-handle: #d9d9d9;
   --color-body-text: var(--color-off-grey);
   --color-card-alt-text: var(--color-off-grey);
   --color-mouse: #2f2e41;
@@ -35,7 +36,7 @@ GLOBAL STYLES
 /* Dark Mode */
 :root[color-mode="dark"] {
   --color-background: #1e272e;
-  --color-scrollbar: #2b343b;
+  --color-scrollbar-background: #2b343b;
   --color-body-text: white;
   --color-mouse: var(--color-yellow);
   --color-card: #2b343b;
@@ -57,7 +58,7 @@ GLOBAL STYLES
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--color-scrollbar);
+  background: var(--color-scrollbar-background);
 }
 
 *::-webkit-scrollbar-thumb {
