@@ -630,9 +630,9 @@ nav li a:hover::after {
   margin: 0 50px;
 }
 
-#contact-me-socials a {
+/* #contact-me-socials a {
   text-decoration: none;
-}
+} */
 
 #contact-me-socials svg {
   transition: transform 0.5s; /* Animation */
