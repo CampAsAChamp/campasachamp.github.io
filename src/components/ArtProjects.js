@@ -27,24 +27,24 @@ export function ArtProjects() {
       <div id="graphic-design-content">
         <div className="row">
           <div className="column">
-            <ArtProjectPicture imgSrc={AlohaPic} imgCaption={"Aloha Pic"} />
-            <ArtProjectPicture imgSrc={LosAngelesPostCardPic} imgCaption={"LA"} />
-            <ArtProjectPicture imgSrc={GradientFluidPosterPic} imgCaption={"Gradient Poster"} />
+            <ArtProjectPicture imgSrc={AlohaPic} altText="Aloha Pic" />
+            <ArtProjectPicture imgSrc={LosAngelesPostCardPic} altText="LA" />
+            <ArtProjectPicture imgSrc={GradientFluidPosterPic} altText="Gradient Poster" />
           </div>
           <div className="column">
-            <ArtProjectPicture imgSrc={TriFergPic} imgCaption={"Tri Ferg Poster"} />
-            <ArtProjectPicture imgSrc={LineArtLogoPic} imgCaption={"Line Art Logo Poster"} />
-            <ArtProjectPicture imgSrc={ThreeDimensionalBlendTextPic} imgCaption={"3D Blend Text"} />
+            <ArtProjectPicture imgSrc={TriFergPic} altText="Tri Ferg Poster" />
+            <ArtProjectPicture imgSrc={LineArtLogoPic} altText="Line Art Logo Poster" />
+            <ArtProjectPicture imgSrc={ThreeDimensionalBlendTextPic} altText="3D Blend Text" />
           </div>
           <div className="column">
-            <ArtProjectPicture imgSrc={FloralTextPic} imgCaption={"Floral Text"} />
-            <ArtProjectPicture imgSrc={RetroStripeLetteringPic} imgCaption={"Retro Stripe Lettering"} />
-            <ArtProjectPicture imgSrc={BeeLogoPic} imgCaption={"Bee Logo"} />
+            <ArtProjectPicture imgSrc={FloralTextPic} altText="Floral Text" />
+            <ArtProjectPicture imgSrc={RetroStripeLetteringPic} altText="Retro Stripe Lettering" />
+            <ArtProjectPicture imgSrc={BeeLogoPic} altText="Bee Logo" />
           </div>
           <div className="column">
-            <ArtProjectPicture imgSrc={LineFillLetteringPic} imgCaption={"Line Fill Lettering"} />
-            <ArtProjectPicture imgSrc={WellPic} imgCaption={"Well"} />
-            <ArtProjectPicture imgSrc={WaterColorPopsiclesPic} imgCaption={"Water Color Popsicles"} />
+            <ArtProjectPicture imgSrc={LineFillLetteringPic} altText="Line Fill Lettering" />
+            <ArtProjectPicture imgSrc={WellPic} altText="Well" />
+            <ArtProjectPicture imgSrc={WaterColorPopsiclesPic} altText="Water Color Popsicles" />
           </div>
         </div>
         {/* Only for mobile view */}
@@ -54,40 +54,40 @@ export function ArtProjects() {
           data-flickity-options='{"wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'
         >
           <div className="carousel-cell">
-            <img src={AlohaPic} alt="" />
+            <img src={AlohaPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={LosAngelesPostCardPic} alt="" />
+            <img src={LosAngelesPostCardPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={GradientFluidPosterPic} alt="" />
+            <img src={GradientFluidPosterPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={TriFergPic} alt="" />
+            <img src={TriFergPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={LineArtLogoPic} alt="" />
+            <img src={LineArtLogoPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={ThreeDimensionalBlendTextPic} alt="" />
+            <img src={ThreeDimensionalBlendTextPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={FloralTextPic} alt="" />
+            <img src={FloralTextPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={RetroStripeLetteringPic} alt="" />
+            <img src={RetroStripeLetteringPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={BeeLogoPic} alt="" />
+            <img src={BeeLogoPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={LineFillLetteringPic} alt="" />
+            <img src={LineFillLetteringPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={WellPic} alt="" />
+            <img src={WellPic} altText="" />
           </div>
           <div className="carousel-cell">
-            <img src={WaterColorPopsiclesPic} alt="" />
+            <img src={WaterColorPopsiclesPic} altText="" />
           </div>
         </div>
       </div>
