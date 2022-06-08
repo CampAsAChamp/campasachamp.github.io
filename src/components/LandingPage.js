@@ -10,19 +10,21 @@ import { MouseScrollIndicator } from "components/MouseScrollIndicator";
 import { Svg } from "components/Svg";
 
 export function LandingPage() {
-  const showModal = () => {
-    let modal_bg = document.getElementsByClassName("modal-bg")[0];
-    let modal_content = document.getElementsByClassName("modal-content")[0];
-    modal_bg.classList.add("show");
-    modal_content.classList.add("show");
-  };
+  function showModal() {
+    let modalBackground = document.getElementById("contact-me-modal-background");
+    let modalContent = document.getElementsByClassName("modal-content")[0];
 
-  const hideModal = () => {
-    let modal_bg = document.getElementsByClassName("modal-bg")[0];
-    let modal_content = document.getElementsByClassName("modal-content")[0];
-    modal_bg.classList.remove("show");
-    modal_content.classList.remove("show");
-  };
+    modalBackground.classList.add("show");
+    modalContent.classList.add("show");
+  }
+
+  function hideModal() {
+    let modalBackground = document.getElementById("contact-me-modal-background");
+    let modalContent = document.getElementsByClassName("modal-content")[0];
+
+    modalBackground.classList.remove("show");
+    modalContent.classList.remove("show");
+  }
 
   return (
     <>
@@ -40,7 +42,7 @@ export function LandingPage() {
             <button type="button" className="button" id="contact-me-button" onClick={showModal}>
               <span>Contact Me</span>
             </button>
-            <div className="modal-bg" onClick={hideModal}>
+            <div className="modal-bg" id="contact-me-modal-background" onClick={hideModal}>
               <div className="modal-content">
                 <span id="contact-me-modal-close" onClick={hideModal}>
                   ×
