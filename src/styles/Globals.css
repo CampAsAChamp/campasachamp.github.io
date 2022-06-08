@@ -146,3 +146,6 @@ li {
 .modal-bg.show {
   display: block;
 }
+
+@media screen and (max-width: 1100px) {
+}
