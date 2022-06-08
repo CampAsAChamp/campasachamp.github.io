@@ -12,7 +12,7 @@ import { Svg } from "components/Svg";
 export function LandingPage() {
   function showModal() {
     let modalBackground = document.getElementById("contact-me-modal-background");
-    let modalContent = document.getElementsByClassName("modal-content")[0];
+    let modalContent = document.getElementById("contact-me-modal-content");
 
     modalBackground.classList.add("show");
     modalContent.classList.add("show");
@@ -20,7 +20,7 @@ export function LandingPage() {
 
   function hideModal() {
     let modalBackground = document.getElementById("contact-me-modal-background");
-    let modalContent = document.getElementsByClassName("modal-content")[0];
+    let modalContent = document.getElementById("contact-me-modal-content");
 
     modalBackground.classList.remove("show");
     modalContent.classList.remove("show");
@@ -43,7 +43,7 @@ export function LandingPage() {
               <span>Contact Me</span>
             </button>
             <div className="modal-bg" id="contact-me-modal-background" onClick={hideModal}>
-              <div className="modal-content">
+              <div id="contact-me-modal-content">
                 <span id="contact-me-modal-close" onClick={hideModal}>
                   ×
                 </span>
