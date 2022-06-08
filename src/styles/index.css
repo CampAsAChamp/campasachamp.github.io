@@ -636,7 +636,7 @@ ABOUT ME SECTION
   padding-bottom: 100px;
   margin-top: 50px;
   padding-top: 50px;
-  background-image: url("assets/Organic_Shapes/About\ Me\ Blob\ Shape.svg");
+  background-image: url("assets/Organic_Shapes/About_Me_Blob_Shape.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -819,7 +819,7 @@ SKILLS & TECHNOLOGIES SECTION
   display: grid;
   padding-top: 50px;
   margin: 50px 0;
-  background-image: url("assets/Organic_Shapes/Skills\ and\ Technologies\ Blob\ Shape.svg");
+  background-image: url("assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1404,7 +1404,7 @@ RESPONSIVE STYLING
   }
 
   #about-me-container {
-    background-image: url("assets/Organic_Shapes/Phone\ About\ Me\ Blob\ Shape.svg");
+    background-image: url("assets/Organic_Shapes/Phone_About_Me_Blob_Shape.svg");
 
     padding-bottom: 50px;
     margin-bottom: 50px;

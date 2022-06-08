@@ -1,14 +1,14 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-import Purple_S_Logo from "assets/Purple S Logo.svg";
-import GradCapIllustration from "assets/undraw_Graduation_ktn0.svg";
-import DeskIllustration from "assets/undraw_feeling_proud_qne1.svg";
+import DeskIllustration from "assets/Illustrations/Desk_Illustration.svg";
+import GradCapIllustration from "assets/Illustrations/Graduation_Illustration.svg";
+import S_Logo_Purple from "assets/S_Logo_Purple.svg";
 
 export function AboutMe() {
   return (
     <section id="about-me-container" className="page-container">
-      <img id="background-logo" src={Purple_S_Logo} alt="Logo Backdrop" />
+      <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
       <div id="about-me-images">
         <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
           <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />

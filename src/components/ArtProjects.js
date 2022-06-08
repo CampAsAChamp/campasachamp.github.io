@@ -1,17 +1,17 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-import ThreeDimensionalBlendTextPic from "assets/Projects/3D Blend Text.png";
+import ThreeDimensionalBlendTextPic from "assets/Projects/3D_Blend_Text.png";
 import AlohaPic from "assets/Projects/Aloha.png";
-import BeeLogoPic from "assets/Projects/Bee Logo.png";
-import FloralTextPic from "assets/Projects/Floral Text.png";
-import GradientFluidPosterPic from "assets/Projects/Gradient Fluid Poster.png";
-import LineArtLogoPic from "assets/Projects/Line Art Logo.png";
-import LineFillLetteringPic from "assets/Projects/Line Fill Lettering.png";
-import LosAngelesPostCardPic from "assets/Projects/Los Angeles Post Card.png";
-import RetroStripeLetteringPic from "assets/Projects/Retro Stripe Lettering.png";
-import TriFergPic from "assets/Projects/Tri Ferg.png";
-import WaterColorPopsiclesPic from "assets/Projects/Water Color Popsicles.png";
+import BeeLogoPic from "assets/Projects/Bee_Logo.png";
+import FloralTextPic from "assets/Projects/Floral_Text.png";
+import GradientFluidPosterPic from "assets/Projects/Gradient_Fluid_Poster.png";
+import LineArtLogoPic from "assets/Projects/Line_Art_Logo.png";
+import LineFillLetteringPic from "assets/Projects/Line_Fill_Lettering.png";
+import LosAngelesPostCardPic from "assets/Projects/Los_Angeles_Post_Card.png";
+import RetroStripeLetteringPic from "assets/Projects/Retro_Stripe_Lettering.png";
+import TriFergPic from "assets/Projects/Tri_Ferg.png";
+import WaterColorPopsiclesPic from "assets/Projects/Water_Color_Popsicles.png";
 import WellPic from "assets/Projects/Well.png";
 
 import { ArtProjectPicture } from "./ArtProjectPicture";
