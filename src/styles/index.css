@@ -220,10 +220,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  COMPONENTS
-  ==========================
-  */
+==========================
+COMPONENTS
+==========================
+*/
 
 .page-container {
   padding: 0 1em;
@@ -252,32 +252,6 @@ nav li a:hover::after {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-/* The Modal (background) */
-/* #art-modal-background {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-} */
-
-#art-modal-background.show {
-  display: block;
-}
-
-/* Add Animation - Zoom in the Modal */
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
 }
 
 .modal-bg {
@@ -316,20 +290,14 @@ nav li a:hover::after {
   display: block;
 }
 
-#contact-me-modal-content {
-  display: none;
-  position: relative;
-  font-size: 2rem;
-  width: 50%; /* Could be more or less, depending on screen size */
-  margin: 10% auto; /* 10% from the top and centered */
-  padding: 40px;
-  border-radius: var(--rounded-component-corners-size);
-  background-color: var(--color-card);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#contact-me-modal-content.show {
-  display: block;
+/* Add Animation - Zoom in the Modal */
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 #art-modal-close {
@@ -351,6 +319,22 @@ nav li a:hover::after {
   cursor: pointer;
 }
 
+#contact-me-modal-content {
+  display: none;
+  position: relative;
+  font-size: 2rem;
+  width: 50%; /* Could be more or less, depending on screen size */
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 40px;
+  border-radius: var(--rounded-component-corners-size);
+  background-color: var(--color-card);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact-me-modal-content.show {
+  display: block;
+}
+
 #contact-me-modal-close {
   position: absolute;
   top: 0;
@@ -370,10 +354,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  IMAGES
-  ==========================
-  */
+==========================
+IMAGES
+===========================
+*/
 
 #logo {
   float: left;
@@ -523,10 +507,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  LANDING PAGE SECTION
-  ==========================
-  */
+==========================
+LANDING PAGE SECTION
+==========================
+*/
 
 #landing-page-container {
   display: grid;
@@ -642,10 +626,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  ABOUT ME SECTION
-  ==========================
-  */
+==========================
+ABOUT ME SECTION
+==========================
+*/
 
 #about-me-container {
   display: grid;
@@ -698,10 +682,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  EXPERIENCE SECTION
-  ==========================
-  */
+==========================
+EXPERIENCE SECTION
+==========================
+*/
 
 #experience-container {
   display: grid;
@@ -826,10 +810,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==============================
-  SKILLS & TECHNOLOGIES SECTION
-  ==============================
-  */
+==============================
+SKILLS & TECHNOLOGIES SECTION
+==============================
+*/
 
 #skills-container {
   display: grid;
@@ -872,14 +856,6 @@ nav li a:hover::after {
   align-items: center;
   margin: 0 50px;
 }
-
-/* .skills-icon-container > a > svg {
-  transition: transform 0.25s;
-}
-
-.skills-icon-container > a > svg:hover {
-  transform: scale(1.1);
-} */
 
 /* Bob */
 @-webkit-keyframes hvr-bob {
@@ -1110,10 +1086,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  GRAPHIC DESIGN SECTION
-  ==========================
-  */
+==========================
+GRAPHIC DESIGN SECTION
+==========================
+*/
 
 #graphic-design-container {
   display: grid;
@@ -1164,10 +1140,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  SW PROJECTS SECTION
-  ==========================
-  */
+==========================
+SW PROJECTS SECTION
+==========================
+*/
 
 #sw-projects-container {
   display: grid;
@@ -1287,10 +1263,10 @@ nav li a:hover::after {
 }
 
 /* 
-  ==========================
-  RESPONSIVE STYLING
-  ==========================
-  */
+==========================
+RESPONSIVE STYLING
+==========================
+*/
 
 @media screen and (max-width: 1100px) {
   html {
