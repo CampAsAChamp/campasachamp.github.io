@@ -1,0 +1,123 @@
+#sw-projects-container {
+  display: grid;
+  position: relative; /* For the blob background image */
+
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "sw-projects-header"
+    "sw-projects-card1"
+    "sw-projects-card2"
+    "sw-projects-card3"
+    "sw-projects-card4"
+    "sw-projects-card5"
+    "sw-projects-card6";
+}
+
+#sw-projects-header {
+  grid-area: sw-projects-header;
+}
+
+.sw-projects-cards {
+  width: 85%;
+  margin: 25px auto;
+  padding: 40px;
+  font-weight: 400;
+  font-size: 1.125rem;
+
+  background: var(--color-card);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  border-radius: var(--rounded-component-corners-size);
+  transition: transform 0.5s; /* Animation */
+}
+
+.sw-projects-cards:hover {
+  transform: scale(1.1);
+}
+
+.sw-projects-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.sw-project-title {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.sw-projects-content {
+  display: flex;
+}
+
+.sw-projects-img-container {
+  height: 250px;
+  width: 600px;
+}
+
+.sw-projects-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: var(--rounded-component-corners-size);
+}
+
+.sw-projects-info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.sw-projects-button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sw-projects-button {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+  transition: background-color 0.5s;
+}
+
+.sw-projects-button:hover {
+  background-color: var(--color-yellow);
+}
+
+.github-button-icon {
+  height: 21px;
+  width: 21px;
+  margin-left: 10px;
+}
+
+#bottom-wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+}
+
+#sw-projects-card1 {
+  grid-area: sw-projects-card1;
+}
+
+#sw-projects-card2 {
+  grid-area: sw-projects-card2;
+}
+
+#sw-projects-card3 {
+  grid-area: sw-projects-card3;
+}
+
+#sw-projects-card4 {
+  grid-area: sw-projects-card4;
+}
+
+#sw-projects-card5 {
+  grid-area: sw-projects-card5;
+}
+
+#sw-projects-card6 {
+  grid-area: sw-projects-card6;
+}

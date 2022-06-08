@@ -4,6 +4,8 @@ import S_Logo from "assets/S_Logo.svg";
 
 import { Svg } from "components/Svg";
 
+import "styles/Navbar.css";
+
 export function Navbar() {
   return (
     <nav>

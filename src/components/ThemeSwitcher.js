@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import DarkModeToggle from "react-dark-mode-toggle";
 
+import "styles/ThemeSwitcher.css";
+
 const DARK = "dark";
 const LIGHT = "light";
 const COLOR_MODE_KEY = "color-mode";

@@ -14,7 +14,9 @@ import TriFergPic from "assets/Projects/Tri_Ferg.png";
 import WaterColorPopsiclesPic from "assets/Projects/Water_Color_Popsicles.png";
 import WellPic from "assets/Projects/Well.png";
 
-import { ArtProjectPicture } from "./ArtProjectPicture";
+import { ArtProjectPicture } from "components/ArtProjectPicture";
+
+import "styles/ArtProjects.css";
 
 export function ArtProjects() {
   return (

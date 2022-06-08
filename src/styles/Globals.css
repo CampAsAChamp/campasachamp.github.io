@@ -1,0 +1,148 @@
+:root {
+  --color-purple: hsl(243, 100%, 69%); /* #6c63ff */
+  --color-purple-550: hsl(243, 100%, 64%);
+  --color-off-grey: #707070;
+  --color-yellow: #ffc261;
+  --color-arcules: #0cb4df;
+  --color-reazon: #00acee;
+  --color-raytheon: #ce1126;
+  --color-id-tech: #006633;
+
+  --thumbnail-size: 40px;
+  --language-item-size: 35px;
+  --mobile-thumbnail-size: 30px;
+  --rounded-button-corners-size: 1000px;
+  --rounded-component-corners-size: 40px;
+  --animation-duration: 0.5s;
+}
+
+/* Light Mode */
+:root[color-mode="light"] {
+  --color-background: white;
+  --color-scrollbar-background: #d9d9d9;
+  --color-body-text: var(--color-off-grey);
+  --color-mouse: #2f2e41;
+  --color-card-alt-text: var(--color-off-grey);
+  --color-socials-github: #171515;
+  --color-socials-linkedin: #0b66c2;
+  --color-card: white;
+}
+
+/* Dark Mode */
+:root[color-mode="dark"] {
+  --color-background: #1e272e;
+  --color-scrollbar-background: #2b343b;
+  --color-body-text: white;
+  --color-mouse: var(--color-yellow);
+  --color-card: #2b343b;
+  --color-card-alt-text: #a5a5a5;
+  --color-socials-github: white;
+  --color-socials-linkedin: white;
+  --color-logo: var(--color-purple);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: var(--color-background);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: var(--color-body-text);
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 131px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3.125rem;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--color-purple);
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+.page-container {
+  padding: 0 1em;
+}
+
+.section-header {
+  text-transform: uppercase;
+}
+
+.button {
+  border-radius: var(--rounded-button-corners-size);
+  border: none;
+  text-align: center;
+  font: 900 large "Nunito";
+  font-size: 1.125rem;
+  margin: 5px;
+  text-transform: uppercase;
+
+  color: white;
+  cursor: pointer;
+  outline: none;
+  background: var(--color-purple);
+}
+
+.modal-bg {
+  display: none; /* Hidden by default*/
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+.modal-bg.show {
+  display: block;
+}

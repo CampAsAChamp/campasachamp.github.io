@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Scroll } from "react-fns";
 
+import "styles/ScrollToTopButton.css";
+
 export function ScrollToTopButton() {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -21,7 +23,8 @@ export function ScrollToTopButton() {
             onClick={() => {
               window.scrollTo(0, 0);
             }}
-            className={`scroll-to-top-button button ${isMounted && "visible"}`}
+            className={`button ${isMounted && "show"}`}
+            id="scroll-to-top-button"
             title="Go to top"
           >
             ⇪

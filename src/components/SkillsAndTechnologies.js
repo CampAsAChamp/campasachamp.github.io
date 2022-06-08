@@ -5,6 +5,8 @@ import { SkillsRow } from "components/SkillsRow";
 
 import * as technologies from "data/technologiesData";
 
+import "styles/SkillsAndTechnologies.css";
+
 export function SkillsAndTechnologies() {
   return (
     <section id="skills-container" className="page-container">

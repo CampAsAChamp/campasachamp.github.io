@@ -3,9 +3,11 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import BottomWavePic from "assets/Organic_Shapes/Bottom_Wave.png";
 
+import { SwProjectCard } from "components/SwProjectCard";
+
 import { projects } from "data/projectsData";
 
-import { SwProjectCard } from "./SwProjectCard";
+import "styles/SwProjects.css";
 
 export function SWProjects() {
   return (

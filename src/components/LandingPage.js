@@ -9,6 +9,8 @@ import RealProfilePic from "assets/Real_Profile_Pic.png";
 import { MouseScrollIndicator } from "components/MouseScrollIndicator";
 import { Svg } from "components/Svg";
 
+import "styles/LandingPage.css";
+
 export function LandingPage() {
   function showModal() {
     let modalBackground = document.getElementById("contact-me-modal-background");
