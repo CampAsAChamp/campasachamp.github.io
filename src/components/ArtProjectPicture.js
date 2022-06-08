@@ -1,23 +1,25 @@
 import React from "react";
 
+
 export function ArtProjectPicture(props) {
-  const showModal = () => {
+  function showModal() {
     let modalBackground = document.getElementById("art-modal-background");
     let modalImg = document.getElementById("art-modal-img");
 
-    modalImg.classList.add("show");
     modalBackground.classList.add("show");
+    modalImg.classList.add("show");
+
     modalImg.src = imgSrc;
     modalImg.title = altText;
-  };
+  }
 
-  const hideModal = () => {
+  function hideModal() {
     let modalBackground = document.getElementById("art-modal-background");
     let modalImg = document.getElementById("art-modal-img");
 
-    modalImg.classList.remove("show");
     modalBackground.classList.remove("show");
-  };
+    modalImg.classList.remove("show");
+  }
 
   const { imgSrc, altText } = props;
 

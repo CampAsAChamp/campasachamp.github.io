@@ -296,6 +296,7 @@ nav li a:hover::after {
 }
 
 #art-modal-img {
+  display: none;
   padding: 50px;
   margin: auto;
   position: fixed;
@@ -309,6 +310,10 @@ nav li a:hover::after {
   max-height: 100%;
   animation-name: zoom;
   animation-duration: 0.6s;
+}
+
+#art-modal-img.show {
+  display: block;
 }
 
 .modal-content {
