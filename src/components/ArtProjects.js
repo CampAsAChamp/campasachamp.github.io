@@ -54,40 +54,40 @@ export function ArtProjects() {
           data-flickity-options='{"wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'
         >
           <div className="carousel-cell">
-            <img src={AlohaPic} altText="" />
+            <img src={AlohaPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={LosAngelesPostCardPic} altText="" />
+            <img src={LosAngelesPostCardPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={GradientFluidPosterPic} altText="" />
+            <img src={GradientFluidPosterPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={TriFergPic} altText="" />
+            <img src={TriFergPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={LineArtLogoPic} altText="" />
+            <img src={LineArtLogoPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={ThreeDimensionalBlendTextPic} altText="" />
+            <img src={ThreeDimensionalBlendTextPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={FloralTextPic} altText="" />
+            <img src={FloralTextPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={RetroStripeLetteringPic} altText="" />
+            <img src={RetroStripeLetteringPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={BeeLogoPic} altText="" />
+            <img src={BeeLogoPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={LineFillLetteringPic} altText="" />
+            <img src={LineFillLetteringPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={WellPic} altText="" />
+            <img src={WellPic} alt="" />
           </div>
           <div className="carousel-cell">
-            <img src={WaterColorPopsiclesPic} altText="" />
+            <img src={WaterColorPopsiclesPic} alt="" />
           </div>
         </div>
       </div>
