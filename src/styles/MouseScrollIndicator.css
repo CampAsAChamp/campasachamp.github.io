@@ -65,4 +65,7 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #mouse-scroll-indicator {
+    display: none;
+  }
 }

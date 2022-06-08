@@ -103,4 +103,48 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #graphic-design-container {
+    margin-bottom: 100px;
+
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "graphic-design-header"
+      "graphic-design-content";
+  }
+
+  #graphic-design-header {
+    margin-bottom: 15px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  .row {
+    display: none;
+  }
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .column img:hover {
+    transform: none;
+  }
+
+  #main-carousel {
+    display: block;
+  }
+
+  .flickity-viewport {
+    transition: height 0.2s;
+  }
+
+  .carousel-cell {
+    width: 100%;
+  }
+
+  .carousel-cell img {
+    height: 100%;
+    width: 100%;
+    border-radius: var(--rounded-component-corners-size);
+  }
 }

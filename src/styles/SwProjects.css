@@ -123,4 +123,75 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #sw-projects-container {
+    margin-bottom: 0;
+
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "sw-projects-header"
+      "sw-projects-card1"
+      "sw-projects-card2"
+      "sw-projects-card3"
+      "sw-projects-card4"
+      "sw-projects-card5"
+      "sw-projects-card6";
+  }
+
+  .sw-projects-cards {
+    font-size: 1.25rem;
+    width: 100%;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .sw-projects-cards:hover {
+    transform: none;
+  }
+
+  /* Blue */
+  .sw-projects-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  /* Red */
+  .sw-projects-info-container {
+    height: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  /* Black */
+  .sw-projects-title-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sw-projects-cards .languages-bar {
+    margin-top: 1rem;
+  }
+
+  .sw-project-title {
+    font-size: 1.75rem;
+  }
+
+  .sw-projects-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sw-projects-img-container {
+    height: auto;
+    width: auto;
+  }
+
+  .sw-projects-button:hover {
+    /* Removes the hover effect on mobile */
+    background-color: var(--color-purple);
+  }
 }

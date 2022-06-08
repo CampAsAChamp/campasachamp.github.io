@@ -116,4 +116,50 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #landing-blob {
+    width: 60%;
+  }
+
+  #landing-page-container {
+    margin-bottom: 50px;
+
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "profile-pic-container"
+      "name-intro";
+  }
+
+  #contact-me-bar {
+    justify-content: space-between;
+  }
+
+  #contact-me-socials {
+    margin: 0;
+  }
+
+  .contact-me-item {
+    margin: 0 5px;
+  }
+
+  #contact-me-button {
+    padding: 10px 15px;
+  }
+
+  #contact-me-socials img:hover {
+    transform: none;
+  }
+
+  #modal-profile-pic {
+    border-width: 0.5rem;
+    max-width: 80%;
+  }
+
+  #name-intro-container {
+    padding-left: 0;
+  }
+
+  #profile-pic {
+    max-width: 80%;
+  }
 }

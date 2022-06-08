@@ -148,4 +148,30 @@ li {
 }
 
 @media screen and (max-width: 1100px) {
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+    line-height: 38px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .page-container {
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
 }
