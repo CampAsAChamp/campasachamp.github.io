@@ -11,7 +11,6 @@ import { SkillsAndTechnologies } from "components/SkillsAndTechnologies";
 import { ThemeSwitcher } from "components/ThemeSwitcher";
 
 import "styles/Globals.css";
-import "styles/Responsive.css";
 import "styles/Scrollbar.css";
 
 function App() {
