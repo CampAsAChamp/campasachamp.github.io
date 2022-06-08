@@ -23,7 +23,7 @@ export function Navbar() {
           <a href="#skills-header">Skills</a>
         </li>
         <li>
-          <a href="#graphic-design-header">Art &amp; Design</a>
+          <a href="#graphic-design-header">Art & Design</a>
         </li>
         <li>
           <a href="#sw-projects-header">Projects</a>
