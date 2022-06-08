@@ -351,7 +351,7 @@ nav li a:hover::after {
   cursor: pointer;
 }
 
-.close {
+#contact-me-modal-close {
   position: absolute;
   top: 0;
   right: 20px;
@@ -359,11 +359,11 @@ nav li a:hover::after {
   float: right;
   font-size: 3rem;
   font-weight: bold;
-  transition: 0.5s ease-out;
+  transition: 0.25s ease-out;
 }
 
-.close:hover,
-.close:focus {
+#contact-me-modal-close:hover,
+#contact-me-modal-close:focus {
   color: var(--color-purple);
   text-decoration: none;
   cursor: pointer;

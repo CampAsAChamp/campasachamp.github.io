@@ -42,7 +42,7 @@ export function LandingPage() {
             </button>
             <div className="modal-bg" onClick={hideModal}>
               <div className="modal-content">
-                <span className="close" onClick={hideModal}>
+                <span id="contact-me-modal-close" onClick={hideModal}>
                   ×
                 </span>
                 <img id="modal-profile-pic" src={RealProfilePic} alt="Nick Schneider" />
