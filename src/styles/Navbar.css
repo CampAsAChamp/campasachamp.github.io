@@ -119,7 +119,7 @@ nav li a:hover::after {
     opacity: 0;
   }
 
-  nav a {
+  nav li a {
     font-size: 3rem;
   }
 
