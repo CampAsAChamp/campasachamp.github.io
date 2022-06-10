@@ -17,9 +17,8 @@ export function Navbar() {
     nav.classList.add("nav-active");
     burger.classList.add("toggle");
 
-    // When the modal is shown, we want a fixed body
+    // When the modal is shown, we want a fixed body so we can't scroll away in the background
     document.body.style.position = "fixed";
-    document.body.style.top = `-${window.scrollY}px`;
     setIsNavOpen(true);
   }
 
@@ -31,8 +30,8 @@ export function Navbar() {
     nav.classList.remove("nav-active");
     burger.classList.remove("toggle");
 
+    // When the modal is closed, we want the page and all scrolling to go back to normal
     document.body.style.position = "";
-    document.body.style.top = "";
     setIsNavOpen(false);
   }
 
