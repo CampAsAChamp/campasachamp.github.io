@@ -49,7 +49,6 @@ export function ArtProjects() {
             <ArtProjectPicture imgSrc={WaterColorPopsiclesPic} altText="Water Color Popsicles" />
           </div>
         </div>
-        {/* Only for mobile view */}
         <div
           id="main-carousel"
           className="js-flickity"
