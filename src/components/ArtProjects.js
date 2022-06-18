@@ -64,8 +64,6 @@ export function ArtProjects() {
           loop={true}
           navigation={{ enabled: true }}
           pagination={{ clickable: true }}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
             <img src={AlohaPic} alt="" />
