@@ -23,8 +23,8 @@
   padding: 0 5px;
 }
 
-/* Create four equal columns that sit next to each other */
 .column {
+  /* Create four equal columns that sit next to each other */
   flex: 25%;
   max-width: 25%;
   padding: 0 5px;
@@ -102,6 +102,10 @@
   cursor: pointer;
 }
 
+.swiper {
+  display: none;
+}
+
 @media screen and (max-width: 1100px) {
   #graphic-design-container {
     margin-bottom: 100px;
@@ -121,30 +125,32 @@
     display: none;
   }
 
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-
-  .column img:hover {
-    transform: none;
-  }
-
-  #main-carousel {
+  .swiper {
     display: block;
+    width: 85vw;
   }
 
-  .flickity-viewport {
-    transition: height 0.2s;
-  }
-
-  .carousel-cell {
-    width: 100%;
-  }
-
-  .carousel-cell img {
+  .swiper-slide img {
+    border-radius: var(--rounded-component-corners-size);
     height: 100%;
     width: 100%;
+  }
+
+  .swiper-pagination {
+    /* By default it uses position absolute which we don't want because we want the pagination bar below the images*/
+    position: unset;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
     border-radius: var(--rounded-component-corners-size);
+    background: var(--color-art-swiper-buttons);
+    color: var(--color-purple);
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 2rem;
+    font-weight: 900;
   }
 }

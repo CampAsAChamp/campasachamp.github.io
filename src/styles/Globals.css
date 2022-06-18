@@ -21,11 +21,12 @@
   --color-background: white;
   --color-scrollbar-background: #d9d9d9;
   --color-body-text: var(--color-off-grey);
+  --color-card: white;
+  --color-art-swiper-buttons: rgba(255, 255, 255, 0.6);
   --color-mouse: #2f2e41;
   --color-card-alt-text: var(--color-off-grey);
   --color-socials-github: #171515;
   --color-socials-linkedin: #0b66c2;
-  --color-card: white;
 }
 
 /* Dark Mode */
@@ -33,8 +34,9 @@
   --color-background: #1e272e;
   --color-scrollbar-background: #2b343b;
   --color-body-text: white;
-  --color-mouse: var(--color-yellow);
   --color-card: #2b343b;
+  --color-art-swiper-buttons: rgba(43, 52, 59, 0.3);
+  --color-mouse: var(--color-yellow);
   --color-card-alt-text: #a5a5a5;
   --color-socials-github: white;
   --color-socials-linkedin: white;

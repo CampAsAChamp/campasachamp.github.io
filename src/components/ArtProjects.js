@@ -1,5 +1,11 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/effect-cards";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import ThreeDimensionalBlendTextPic from "assets/Projects/Art/3D_Blend_Text.svg";
 import AlohaPic from "assets/Projects/Art/Aloha.png";
@@ -49,48 +55,55 @@ export function ArtProjects() {
             <ArtProjectPicture imgSrc={WaterColorPopsiclesPic} altText="Water Color Popsicles" />
           </div>
         </div>
-        <div
-          id="main-carousel"
-          className="js-flickity"
-          data-flickity-options='{"wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'
+        {/* For Mobile Only */}
+        <Swiper
+          spaceBetween={50}
+          grabCursor={true}
+          modules={[Navigation, Pagination]}
+          autoHeight={true}
+          loop={true}
+          navigation={{ enabled: true }}
+          pagination={{ clickable: true }}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
         >
-          <div className="carousel-cell">
+          <SwiperSlide>
             <img src={AlohaPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={LosAngelesPostCardPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={GradientFluidPosterPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={TriFergPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={LineArtLogoPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={ThreeDimensionalBlendTextPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={FloralTextPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={RetroStripeLetteringPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={BeeLogoPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={LineFillLetteringPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={WellPic} alt="" />
-          </div>
-          <div className="carousel-cell">
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={WaterColorPopsiclesPic} alt="" />
-          </div>
-        </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );
