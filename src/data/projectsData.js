@@ -1,8 +1,8 @@
-import DiggermanThumbnail from "assets/Projects/Diggerman.gif";
-import FaceSwappingThumbnail from "assets/Projects/Face_Morphing.gif";
-import ObjectDetectionThumbnail from "assets/Projects/Object_Detection.jpg";
-import PersonalWebsiteThumbnail from "assets/Projects/Portfolio_Thumbnail.png";
-import SpotifyPPThumbnail from "assets/Projects/Spotify.png";
+import DiggermanThumbnail from "assets/Projects/Software/Diggerman.gif";
+import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.gif";
+import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.jpg";
+import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.png";
+import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.png";
 
 import * as technologies from "./technologiesData";
 

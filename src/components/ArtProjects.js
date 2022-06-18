@@ -1,18 +1,18 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-import ThreeDimensionalBlendTextPic from "assets/Projects/3D_Blend_Text.png";
-import AlohaPic from "assets/Projects/Aloha.png";
-import BeeLogoPic from "assets/Projects/Bee_Logo.png";
-import FloralTextPic from "assets/Projects/Floral_Text.png";
-import GradientFluidPosterPic from "assets/Projects/Gradient_Fluid_Poster.png";
-import LineArtLogoPic from "assets/Projects/Line_Art_Logo.png";
-import LineFillLetteringPic from "assets/Projects/Line_Fill_Lettering.png";
-import LosAngelesPostCardPic from "assets/Projects/Los_Angeles_Post_Card.png";
-import RetroStripeLetteringPic from "assets/Projects/Retro_Stripe_Lettering.png";
-import TriFergPic from "assets/Projects/Tri_Ferg.png";
-import WaterColorPopsiclesPic from "assets/Projects/Water_Color_Popsicles.png";
-import WellPic from "assets/Projects/Well.png";
+import ThreeDimensionalBlendTextPic from "assets/Projects/Art/3D_Blend_Text.svg";
+import AlohaPic from "assets/Projects/Art/Aloha.png";
+import BeeLogoPic from "assets/Projects/Art/Bee_Logo.svg";
+import FloralTextPic from "assets/Projects/Art/Floral_Text.png";
+import GradientFluidPosterPic from "assets/Projects/Art/Gradient_Fluid_Poster.svg";
+import LineArtLogoPic from "assets/Projects/Art/Line_Art_Logo.svg";
+import LineFillLetteringPic from "assets/Projects/Art/Line_Fill_Lettering.svg";
+import LosAngelesPostCardPic from "assets/Projects/Art/Los_Angeles_Post_Card.png";
+import RetroStripeLetteringPic from "assets/Projects/Art/Retro_Stripe_Lettering.svg";
+import TriFergPic from "assets/Projects/Art/Tri_Ferg.svg";
+import WaterColorPopsiclesPic from "assets/Projects/Art/Water_Color_Popsicles.svg";
+import WellPic from "assets/Projects/Art/Well.png";
 
 import { ArtProjectPicture } from "components/ArtProjectPicture";
 
