@@ -2,6 +2,7 @@
   display: grid;
   padding-top: 50px;
   margin: 50px 0;
+  aspect-ratio: 16/9;
   background-image: url("assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +49,6 @@
 
 @media screen and (max-width: 1100px) {
   #skills-container {
-    background-image: none;
     padding-top: 0;
 
     grid-template-columns: 1fr;
