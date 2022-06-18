@@ -48,40 +48,6 @@
   left: 30%;
 }
 
-#contact-me-modal-content {
-  display: none;
-  position: relative;
-  font-size: 2rem;
-  width: 50%; /* Could be more or less, depending on screen size */
-  margin: 10% auto; /* 10% from the top and centered */
-  padding: 40px;
-  border-radius: var(--rounded-component-corners-size);
-  background-color: var(--color-card);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#contact-me-modal-content.show {
-  display: block;
-}
-
-#contact-me-modal-close {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  color: var(--color-body-text);
-  float: right;
-  font-size: 3rem;
-  font-weight: bold;
-  transition: 0.25s ease-out;
-}
-
-#contact-me-modal-close:hover,
-#contact-me-modal-close:focus {
-  color: var(--color-purple);
-  text-decoration: none;
-  cursor: pointer;
-}
-
 #background-logo {
   position: absolute;
   width: 50%;
@@ -113,13 +79,5 @@
 
   #about-me-images img:hover {
     transform: none;
-  }
-
-  .modal-content {
-    word-wrap: break-word;
-    font-size: 1.35rem;
-    width: 80%; /* Could be more or less, depending on screen size */
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
   }
 }
