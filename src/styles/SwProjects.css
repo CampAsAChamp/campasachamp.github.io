@@ -78,11 +78,6 @@
   display: flex;
   justify-content: space-around;
   padding: 10px 15px;
-  transition: background-color 0.5s;
-}
-
-.sw-projects-button:hover {
-  background-color: var(--color-yellow);
 }
 
 .github-button-icon {
