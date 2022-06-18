@@ -36,5 +36,5 @@ export function ThemeSwitcher() {
     }
   };
 
-  return <DarkModeToggle className="theme-switcher" onChange={switchTheme} checked={isDarkMode} size={80} />;
+  return <DarkModeToggle className="theme-switcher" onChange={switchTheme} checked={isDarkMode} size={"5em"} />;
 }

@@ -10,7 +10,8 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  align-items: center;
+  width: 48%;
   list-style-type: none;
 }
 

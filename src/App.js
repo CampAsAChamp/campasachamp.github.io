@@ -8,7 +8,6 @@ import { Navbar } from "components/Navbar";
 import { SWProjects } from "components/SWProjects";
 import { ScrollToTopButton } from "components/ScrollToTopButton";
 import { SkillsAndTechnologies } from "components/SkillsAndTechnologies";
-import { ThemeSwitcher } from "components/ThemeSwitcher";
 
 import "styles/Globals.css";
 import "styles/Scrollbar.css";
@@ -18,7 +17,6 @@ function App() {
     <>
       <Navbar />
       <ScrollToTopButton />
-      <ThemeSwitcher />
       <LandingPage />
       <AboutMe />
       <Experience />

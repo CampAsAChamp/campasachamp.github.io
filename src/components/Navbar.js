@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import S_Logo from "assets/S_Logo.svg";
 
 import { Svg } from "components/Svg";
+import { ThemeSwitcher } from "components/ThemeSwitcher";
 
 import "styles/Navbar.css";
 
@@ -45,6 +46,7 @@ export function Navbar() {
         <Svg id="logo" src={S_Logo} alt="S Logo" />
       </a>
       <ul>
+        <ThemeSwitcher />
         <li>
           <a href="#about-me-images" onClick={closeNavModal}>
             About Me
