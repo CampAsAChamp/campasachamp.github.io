@@ -1,8 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-import BottomWavePic from "assets/Organic_Shapes/Bottom_Wave.png";
-
 import { SwProjectCard } from "components/SwProjectCard";
 
 import { projects } from "data/projectsData";
@@ -20,7 +18,6 @@ export function SWProjects() {
       {projects.map((project, index) => {
         return <SwProjectCard key={project.name} index={index + 1} project={project} />;
       })}
-      <img id="bottom-wave" src={BottomWavePic} alt="" />
     </section>
   );
 }

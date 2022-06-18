@@ -1,6 +1,12 @@
 #sw-projects-container {
   display: grid;
-  position: relative; /* For the blob background image */
+  padding-bottom: 50px;
+  aspect-ratio: 16/9;
+  width: 100%;
+  background-image: url("assets/Organic_Shapes/Bottom_Wave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -39,6 +45,7 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
 .sw-project-title {
   font-size: 2rem;
   font-weight: 800;
@@ -86,13 +93,6 @@
   margin-left: 10px;
 }
 
-#bottom-wave {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  z-index: -1;
-}
-
 #sw-projects-card1 {
   grid-area: sw-projects-card1;
 }
@@ -120,18 +120,7 @@
 @media screen and (max-width: 1100px) {
   #sw-projects-container {
     margin-bottom: 0;
-
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "sw-projects-header"
-      "sw-projects-card1"
-      "sw-projects-card2"
-      "sw-projects-card3"
-      "sw-projects-card4"
-      "sw-projects-card5"
-      "sw-projects-card6";
   }
-
   .sw-projects-cards {
     font-size: 1.25rem;
     width: 90%;
@@ -144,7 +133,6 @@
     transform: none;
   }
 
-  /* Blue */
   .sw-projects-content {
     flex-direction: column;
     align-items: center;
@@ -152,7 +140,6 @@
     height: 100%;
   }
 
-  /* Red */
   .sw-projects-info-container {
     height: 100%;
     margin-left: 0;
@@ -160,7 +147,6 @@
     justify-content: space-between;
   }
 
-  /* Black */
   .sw-projects-title-container {
     flex-direction: column;
     align-items: flex-start;
@@ -183,10 +169,5 @@
   .sw-projects-img-container {
     height: auto;
     width: auto;
-  }
-
-  .sw-projects-button:hover {
-    /* Removes the hover effect on mobile */
-    background-color: var(--color-purple);
   }
 }
