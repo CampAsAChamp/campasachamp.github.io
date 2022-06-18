@@ -30,8 +30,10 @@ export function SwProjectCard(props) {
             <div className="sw-projects-button-row">
               <button
                 type="button"
-                className="button sw-projects-button"
-                onClick={() => window.open(project.link, "_blank")}
+                className="button sw-projects-button hvr-wobble-vertical"
+                onClick={() => {
+                  window.open(project.link, "_blank");
+                }}
               >
                 View Code
                 <Svg className="github-button-icon" src={GithubIcon} fill="white" alt="Github Icon" />
