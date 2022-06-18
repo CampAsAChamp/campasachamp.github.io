@@ -29,7 +29,7 @@ export function ArtProjects() {
     <section id="graphic-design-container" className="page-container">
       <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
         <div id="graphic-design-header" className="section-header">
-          <h2>Art and Design Projects</h2>
+          <h2>Art & Design Projects</h2>
         </div>
       </ScrollAnimation>
       <div id="graphic-design-content">
