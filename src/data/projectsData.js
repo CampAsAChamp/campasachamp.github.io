@@ -1,7 +1,9 @@
-import DiggermanThumbnailMp4 from "assets/Projects/Software/Diggerman.mp4";
-import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webm";
-import FaceSwappingThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
-import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webm";
+import DiggermanVideoThumbnailMp4 from "assets/Projects/Software/Diggerman.mp4";
+import DiggermanVideoThumbnail from "assets/Projects/Software/Diggerman.webm";
+import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webp";
+import FaceSwappingVideoThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
+import FaceSwappingVideoThumbnail from "assets/Projects/Software/Face_Morphing.webm";
+import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webp";
 import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
 import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
 import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
@@ -69,7 +71,8 @@ const projects = [
                   </li>`,
     link: "https://github.com/CampAsAChamp/DiggerMan",
     thumbnail: DiggermanThumbnail,
-    thumbnailMp4: DiggermanThumbnailMp4,
+    videoThumbnail: DiggermanVideoThumbnail,
+    videoThumbnailMp4: DiggermanVideoThumbnailMp4,
     isVideo: true,
   },
   {
@@ -84,7 +87,8 @@ const projects = [
                   </li>`,
     link: "https://github.com/CampAsAChamp/FaceSwap",
     thumbnail: FaceSwappingThumbnail,
-    thumbnailMp4: FaceSwappingThumbnailMp4,
+    videoThumbnail: FaceSwappingVideoThumbnail,
+    videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
     isVideo: true,
   },
   {
