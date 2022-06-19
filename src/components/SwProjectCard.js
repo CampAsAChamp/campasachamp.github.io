@@ -21,16 +21,7 @@ export function SwProjectCard(props) {
         </div>
         <div className="sw-projects-content">
           <div className="sw-projects-thumbnail-container">
-            {project.isVideo ? (
-              <video className="sw-projects-thumbnail" autoPlay loop muted playsInline>
-                <source src={project.videoThumbnailMp4} type="video/mp4" alt={project.name} title={project.name} />
-                <source src={project.videoThumbnail} type="video/webm" alt={project.name} title={project.name} />
-                <img alt={project.thumbnail} title={project.name} />
-                Your browser does not support the video tag.
-              </video>
-            ) : (
-              <img className="sw-projects-thumbnail" src={project.thumbnail} alt={project.name} title={project.name} />
-            )}
+            <img className="sw-projects-thumbnail" src={project.thumbnail} alt={project.name} title={project.name} />
           </div>
           <div className="sw-projects-info-container">
             <div className="sw-projects-text">
