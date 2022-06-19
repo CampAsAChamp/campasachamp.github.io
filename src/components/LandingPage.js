@@ -38,8 +38,9 @@ export function LandingPage() {
             <br />
             SCHNEIDER
           </h1>
-          <h3>Software Engineer</h3>
-          <h4>If you're going to make something, why not make it pretty?</h4>
+          <div id="software-engineer">Software Engineer</div>
+          <br />
+          <div id="subtitle">If you're going to make something, why not make it pretty?</div>
           <div id="contact-me-bar">
             <button type="button" className="button" id="contact-me-button" onClick={showModal}>
               <span>Contact Me</span>
