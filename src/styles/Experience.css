@@ -1,0 +1,154 @@
+#experience-container {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "experience-header"
+    "card1"
+    "card2"
+    "card3"
+    "card4";
+}
+
+#experience-header {
+  grid-area: experience-header;
+}
+
+#card1 {
+  grid-area: card1;
+}
+
+#card2 {
+  grid-area: card2;
+}
+
+#card3 {
+  grid-area: card3;
+}
+
+#card4 {
+  grid-area: card4;
+}
+
+.experience-thumbnail {
+  height: var(--thumbnail-size);
+  width: var(--thumbnail-size);
+}
+
+.card {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-card);
+  position: relative;
+  margin: 20px auto;
+  padding: 35px;
+  font-size: 1rem;
+
+  border-radius: var(--rounded-component-corners-size);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.5s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.experience-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+#raytheon-title {
+  color: var(--color-raytheon);
+}
+
+#id-tech-title {
+  color: var(--color-id-tech);
+}
+
+#reazon-title {
+  color: var(--color-reazon);
+}
+
+.location {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.secondary-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.position {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-card-alt-text);
+}
+
+.supporting-text {
+  font-family: "Nunito", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.languages-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: auto;
+}
+
+.languages-item {
+  height: var(--language-item-size);
+  width: var(--language-item-size);
+  margin-right: 20px;
+}
+
+.languages-item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    width: 90%;
+    font-size: 1.25rem;
+    padding: 25px;
+    margin: 15px auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .card:hover {
+    /* Removes the hover animation on mobile */
+    transform: none;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .location {
+    margin-bottom: 30px;
+  }
+
+  .languages-item {
+    width: var(--mobile-thumbnail-size);
+    height: var(--mobile-thumbnail-size);
+    margin-right: 14px;
+  }
+
+  .languages-item:last-child {
+    margin: 0;
+  }
+}
