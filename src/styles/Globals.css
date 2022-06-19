@@ -24,6 +24,7 @@
   --color-scrollbar-background: #d9d9d9;
   --color-body-text: var(--color-off-grey);
   --color-card: white;
+  --color-art-swiper-bullets: var(--color-purple);
   --color-art-swiper-buttons: rgba(255, 255, 255, 0.6);
   --color-mouse: #2f2e41;
   --color-card-alt-text: var(--color-off-grey);
@@ -37,6 +38,7 @@
   --color-scrollbar-background: #2b343b;
   --color-body-text: white;
   --color-card: #2b343b;
+  --color-art-swiper-bullets: white;
   --color-art-swiper-buttons: rgba(43, 52, 59, 0.3);
   --color-mouse: var(--color-yellow);
   --color-card-alt-text: #a5a5a5;

@@ -147,4 +147,8 @@
     font-size: 2rem;
     font-weight: 900;
   }
+
+  .swiper-pagination-bullet {
+    background-color: var(--color-art-swiper-bullets);
+  }
 }
