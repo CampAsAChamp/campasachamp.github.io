@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/CampAsAChamp/Personal-Website">
-    <img src="assets/Purple%20S%20Logo.svg" alt="Logo" width="80" height="80">
+    <img src="src/assets/S_Logo_Purple.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Personal Website</h3>
@@ -116,4 +116,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-shield]: https://img.shields.io/github/license/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
 [license-url]: https://github.com/CampAsAChamp/msPaintAutomation/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: assets/website_screenshot.png
+[product-screenshot]: src/assets/website_screenshot.png
