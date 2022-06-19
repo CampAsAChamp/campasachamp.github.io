@@ -1,4 +1,6 @@
+import DiggermanThumbnailMp4 from "assets/Projects/Software/Diggerman.mp4";
 import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webm";
+import FaceSwappingThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
 import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webm";
 import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
 import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
@@ -67,6 +69,7 @@ const projects = [
                   </li>`,
     link: "https://github.com/CampAsAChamp/DiggerMan",
     thumbnail: DiggermanThumbnail,
+    thumbnailMp4: DiggermanThumbnailMp4,
     isVideo: true,
   },
   {
@@ -81,6 +84,7 @@ const projects = [
                   </li>`,
     link: "https://github.com/CampAsAChamp/FaceSwap",
     thumbnail: FaceSwappingThumbnail,
+    thumbnailMp4: FaceSwappingThumbnailMp4,
     isVideo: true,
   },
   {

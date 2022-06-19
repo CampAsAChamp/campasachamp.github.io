@@ -24,6 +24,7 @@ export function SwProjectCard(props) {
             {project.isVideo ? (
               <video className="sw-projects-img" autoPlay loop muted playsInline>
                 <source src={project.thumbnail} type="video/webm" alt={project.name} title={project.name} />
+                <source src={project.thumbnailMp4} type="video/mp4" alt={project.name} title={project.name} />
               </video>
             ) : (
               <img className="sw-projects-img" src={project.thumbnail} alt={project.name} title={project.name} />
