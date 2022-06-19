@@ -18,7 +18,9 @@ const experiences = [
     location: "Irvine, CA",
     position: "Software Engineer 2",
     duration: "Jan 2022 - Present",
-    textContent: `Currently working on the platform team
+    textContent: `<li>
+                    Currently working on the platform team
+                  </li>
                   <li>
                     Writing microservices & REST APIs with Go, Postgres, and Redis.
                   </li>
