@@ -67,10 +67,22 @@ export function LandingPage() {
             </div>
             <div id="contact-me-socials">
               <a href="https://github.com/CampAsAChamp/" target="_blank" rel="noopener noreferrer">
-                <Svg className="contact-me-item" id="github-logo" src={GithubLogo} alt="Github Icon" />
+                <Svg
+                  className="contact-me-item"
+                  id="github-logo"
+                  src={GithubLogo}
+                  alt="Github Icon"
+                  title="Github Icon"
+                />
               </a>
               <a href="https://www.linkedin.com/in/nick-schneider-la/" target="_blank" rel="noopener noreferrer">
-                <Svg className="contact-me-item" id="linkedin-logo" src={LinkedInLogo} alt="LinkedIn Icon" />
+                <Svg
+                  className="contact-me-item"
+                  id="linkedin-logo"
+                  src={LinkedInLogo}
+                  alt="LinkedIn Icon"
+                  title="LinkedIn Icon"
+                />
               </a>
             </div>
           </div>

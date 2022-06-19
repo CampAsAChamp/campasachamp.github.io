@@ -43,7 +43,7 @@ export function Navbar() {
   return (
     <nav>
       <a href="/">
-        <Svg id="logo" src={S_Logo} alt="S Logo" />
+        <Svg id="logo" src={S_Logo} alt="Home" title="Home" />
       </a>
       <ul>
         <ThemeSwitcher />
