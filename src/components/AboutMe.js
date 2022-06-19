@@ -9,27 +9,27 @@ import "styles/AboutMe.css";
 
 export function AboutMe() {
   return (
-    <section id="about-me-container" className="page-container">
-      <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
-      <div id="about-me-images">
-        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
-          <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={50}>
-          <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
-        </ScrollAnimation>
-      </div>
-      <div id="about-me-text">
-        <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce={true}>
+      <section id="about-me-container" className="page-container">
+        <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
+        <div id="about-me-images">
+          <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
+            <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={50}>
+            <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
+          </ScrollAnimation>
+        </div>
+        <div id="about-me-text">
           <h2>ABOUT ME</h2>
-        </ScrollAnimation>
-        <p>Hey I'm Nick, a software engineer based in Los Angeles</p>
-        <p>
-          I graduated from the 🎓 <strong>University of California, Irvine</strong> in 2019 with a{" "}
-          <strong>B.S. in Computer Science</strong> and am currently working full time as a Software Engineer at 📸{" "}
-          <strong>Arcules</strong>
-        </p>
-      </div>
-    </section>
+          <p>Hey I'm Nick, a software engineer based in Los Angeles</p>
+          <p>
+            I graduated from the 🎓 <strong>University of California, Irvine</strong> in 2019 with a{" "}
+            <strong>B.S. in Computer Science</strong> and am currently working full time as a Software Engineer at 📸{" "}
+            <strong>Arcules</strong>
+          </p>
+        </div>
+      </section>
+    </ScrollAnimation>
   );
 }

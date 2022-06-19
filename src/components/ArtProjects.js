@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -27,11 +26,9 @@ import "styles/ArtProjects.css";
 export function ArtProjects() {
   return (
     <section id="graphic-design-container" className="page-container">
-      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
-        <div id="graphic-design-header" className="section-header">
-          <h2>Art & Design Projects</h2>
-        </div>
-      </ScrollAnimation>
+      <div id="graphic-design-header" className="section-header">
+        <h2>Art & Design Projects</h2>
+      </div>
       <div id="graphic-design-content">
         <div className="row">
           <div className="column">

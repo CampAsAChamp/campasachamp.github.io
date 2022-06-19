@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 
 import { SkillsRow } from "components/SkillsRow";
 
@@ -10,11 +9,9 @@ import "styles/SkillsAndTechnologies.css";
 export function SkillsAndTechnologies() {
   return (
     <section id="skills-container" className="page-container">
-      <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
-        <div id="skills-header" className="section-header">
-          <h2>Skills & Technologies</h2>
-        </div>
-      </ScrollAnimation>
+      <div id="skills-header" className="section-header">
+        <h2>Skills & Technologies</h2>
+      </div>
       <div id="skills-content">
         <SkillsRow
           technologyNames={[technologies.GO, technologies.PYTHON, technologies.JAVA, technologies.CPP, technologies.C]}
