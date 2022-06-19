@@ -22,7 +22,7 @@ export function SwProjectCard(props) {
         <div className="sw-projects-content">
           <div className="sw-projects-img-container">
             {project.isVideo ? (
-              <video className="sw-projects-img" autoPlay loop muted playsInline>
+              <video className="sw-projects-img" autoPlay loop muted playsInline controls>
                 <source src={project.thumbnail} type="video/webm" alt={project.name} title={project.name} />
                 <source src={project.thumbnailMp4} type="video/mp4" alt={project.name} title={project.name} />
                 Your browser does not support the video tag.
