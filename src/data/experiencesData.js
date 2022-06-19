@@ -18,11 +18,12 @@ const experiences = [
     location: "Irvine, CA",
     position: "Software Engineer 2",
     duration: "Jan 2022 - Present",
-    textContent: `<li>
+    textContent: `Currently working on the platform team
+                  <li>
                     Writing microservices & REST APIs with Go, Postgres, and Redis.
                   </li>
                   <li>
-                    Building microapps for the frontend with React & Redux. 
+                    Working on the frontend with React & Redux. 
                   </li>
                   <li>
                     Utilizing Kubernetes, Docker, Google Cloud Platform and Spinnaker for maintaining the services and applications.
