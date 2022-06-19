@@ -12,7 +12,7 @@ export function SkillsAndTechnologies() {
     <section id="skills-container" className="page-container">
       <ScrollAnimation animateIn="animate__bounce" animateOnce={true} initiallyVisible={true}>
         <div id="skills-header" className="section-header">
-          <h2>Skills &amp; Technologies</h2>
+          <h2>Skills & Technologies</h2>
         </div>
       </ScrollAnimation>
       <div id="skills-content">
