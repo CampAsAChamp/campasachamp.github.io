@@ -21,7 +21,13 @@ export function SwProjectCard(props) {
         </div>
         <div className="sw-projects-content">
           <div className="sw-projects-img-container">
-            <img className="sw-projects-img" src={project.image} alt={project.imageAltText} />
+            {project.isVideo ? (
+              <video className="sw-projects-img" autoPlay loop muted playsInline>
+                <source src={project.thumbnail} type="video/webm" alt={project.name} title={project.name} />
+              </video>
+            ) : (
+              <img className="sw-projects-img" src={project.thumbnail} alt={project.name} title={project.name} />
+            )}
           </div>
           <div className="sw-projects-info-container">
             <div className="sw-projects-text">

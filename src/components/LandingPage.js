@@ -4,7 +4,7 @@ import ArtProfilePic from "assets/Art_Profile_Pic.svg";
 import GithubLogo from "assets/Dev_Icons/Github.svg";
 import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
 import HeroImageBlobShape from "assets/Organic_Shapes/Hero_Image_Blob_Shape.svg";
-import RealProfilePic from "assets/Real_Profile_Pic.png";
+import RealProfilePic from "assets/Real_Profile_Pic.webp";
 
 import { MouseScrollIndicator } from "components/MouseScrollIndicator";
 import { Svg } from "components/Svg";

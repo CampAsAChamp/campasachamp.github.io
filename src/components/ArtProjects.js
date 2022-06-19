@@ -8,17 +8,17 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import ThreeDimensionalBlendTextPic from "assets/Projects/Art/3D_Blend_Text.svg";
-import AlohaPic from "assets/Projects/Art/Aloha.png";
+import AlohaPic from "assets/Projects/Art/Aloha.webp";
 import BeeLogoPic from "assets/Projects/Art/Bee_Logo.svg";
-import FloralTextPic from "assets/Projects/Art/Floral_Text.png";
+import FloralTextPic from "assets/Projects/Art/Floral_Text.webp";
 import GradientFluidPosterPic from "assets/Projects/Art/Gradient_Fluid_Poster.svg";
 import LineArtLogoPic from "assets/Projects/Art/Line_Art_Logo.svg";
 import LineFillLetteringPic from "assets/Projects/Art/Line_Fill_Lettering.svg";
-import LosAngelesPostCardPic from "assets/Projects/Art/Los_Angeles_Post_Card.png";
+import LosAngelesPostCardPic from "assets/Projects/Art/Los_Angeles_Post_Card.webp";
 import RetroStripeLetteringPic from "assets/Projects/Art/Retro_Stripe_Lettering.svg";
 import TriFergPic from "assets/Projects/Art/Tri_Ferg.svg";
 import WaterColorPopsiclesPic from "assets/Projects/Art/Water_Color_Popsicles.svg";
-import WellPic from "assets/Projects/Art/Well.png";
+import WellPic from "assets/Projects/Art/Well.webp";
 
 import { ArtProjectPicture } from "components/ArtProjectPicture";
 

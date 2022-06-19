@@ -1,8 +1,8 @@
-import DiggermanThumbnail from "assets/Projects/Software/Diggerman.gif";
-import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.gif";
-import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.jpg";
-import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.png";
-import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.png";
+import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webm";
+import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webm";
+import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
+import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
+import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
 
 import * as technologies from "./technologiesData";
 
@@ -45,7 +45,7 @@ const projects = [
                   </li>
                  `,
     link: "https://github.com/CampAsAChamp/SpotifyPP",
-    image: SpotifyPPThumbnail,
+    thumbnail: SpotifyPPThumbnail,
   },
   {
     name: DIGGERMAN,
@@ -66,7 +66,8 @@ const projects = [
                     Implemented gold nuggets, score system and hidden oil barrels power ups.
                   </li>`,
     link: "https://github.com/CampAsAChamp/DiggerMan",
-    image: DiggermanThumbnail,
+    thumbnail: DiggermanThumbnail,
+    isVideo: true,
   },
   {
     name: FACE_SWAPPING,
@@ -79,7 +80,8 @@ const projects = [
                     still maintaining the facial structure.
                   </li>`,
     link: "https://github.com/CampAsAChamp/FaceSwap",
-    image: FaceSwappingThumbnail,
+    thumbnail: FaceSwappingThumbnail,
+    isVideo: true,
   },
   {
     name: OBJECT_AND_FACE_DETECTION_SYSTEM,
@@ -94,7 +96,7 @@ const projects = [
                     Can detect any object including faces given test data.
                   </li>`,
     link: "https://github.com/CampAsAChamp/ObjectDetection",
-    image: ObjectDetectionThumbnail,
+    thumbnail: ObjectDetectionThumbnail,
   },
   {
     name: PERSONAL_WEBSITE,
@@ -112,7 +114,7 @@ const projects = [
                     Created mockup design with Figma.
                   </li>`,
     link: "https://github.com/CampAsAChamp/Personal-Website",
-    image: PersonalWebsiteThumbnail,
+    thumbnail: PersonalWebsiteThumbnail,
   },
 ];
 
