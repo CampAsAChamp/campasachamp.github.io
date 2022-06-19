@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import { Svg } from "components/Svg";
 
@@ -13,23 +14,25 @@ export function SkillsRow(props) {
   });
 
   return (
-    <div className="skills-row">
-      {technologies.map((tech) => {
-        return (
-          <div className="skills-icon-container" key={tech.name}>
-            <a href={tech.link}>
-              <Svg
-                className="skills-icon hvr-wobble-vertical"
-                src={tech.image}
-                fill={COLORS.PURPLE}
-                title={tech.name + " Icon"}
-                alt={tech.name + " Icon"}
-              />
-            </a>
-            <div className="skills-caption">{tech.name}</div>
-          </div>
-        );
-      })}
-    </div>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce>
+      <div className="skills-row">
+        {technologies.map((tech) => {
+          return (
+            <div className="skills-icon-container" key={tech.name}>
+              <a href={tech.link}>
+                <Svg
+                  className="skills-icon hvr-wobble-vertical"
+                  src={tech.image}
+                  fill={COLORS.PURPLE}
+                  title={tech.name + " Icon"}
+                  alt={tech.name + " Icon"}
+                />
+              </a>
+              <div className="skills-caption">{tech.name}</div>
+            </div>
+          );
+        })}
+      </div>
+    </ScrollAnimation>
   );
 }

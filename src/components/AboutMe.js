@@ -9,14 +9,14 @@ import "styles/AboutMe.css";
 
 export function AboutMe() {
   return (
-    <ScrollAnimation animateIn="animate__slideInUp" animateOnce={true}>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce>
       <section id="about-me-container" className="page-container">
         <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
         <div id="about-me-images">
-          <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
+          <ScrollAnimation animateIn="animate__backInLeft" animateOnce>
             <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true} delay={50}>
+          <ScrollAnimation animateIn="animate__backInLeft" animateOnce delay={50}>
             <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
           </ScrollAnimation>
         </div>
