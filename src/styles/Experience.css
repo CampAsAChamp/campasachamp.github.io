@@ -62,21 +62,8 @@
 }
 
 .card-title {
-  font-family: "Nunito", sans-serif;
   font-size: 1.35rem;
   font-weight: 900;
-}
-
-#raytheon-title {
-  color: var(--color-raytheon);
-}
-
-#id-tech-title {
-  color: var(--color-id-tech);
-}
-
-#reazon-title {
-  color: var(--color-reazon);
 }
 
 .location {
@@ -91,14 +78,12 @@
 }
 
 .position {
-  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
   color: var(--color-card-alt-text);
 }
 
 .supporting-text {
-  font-family: "Nunito", sans-serif;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -130,7 +115,6 @@
   }
 
   .card:hover {
-    /* Removes the hover animation on mobile */
     transform: none;
   }
 
