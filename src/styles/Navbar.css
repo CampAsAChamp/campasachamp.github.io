@@ -1,5 +1,6 @@
 nav {
   display: flex;
+  margin: 0 2vw;
   justify-content: space-between;
   align-items: center;
   height: 12vh;
@@ -86,7 +87,6 @@ nav li a:hover::after {
   float: left;
   width: auto;
   height: 8vh;
-  margin-left: 2vw;
   fill: var(--color-logo);
 }
 
