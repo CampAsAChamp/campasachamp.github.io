@@ -13,8 +13,8 @@
 }
 
 #skills-header {
-  text-align: center;
   grid-area: skills-header;
+  margin-bottom: 50px;
 }
 
 #skills-content {
@@ -55,7 +55,7 @@
   }
 
   #skills-header {
-    text-align: left;
+    margin-bottom: 25px;
   }
 
   #skills-content {
