@@ -27,6 +27,7 @@
   --color-art-swiper-bullets: var(--color-purple);
   --color-art-swiper-buttons: rgba(255, 255, 255, 0.6);
   --color-mouse: #2f2e41;
+  --color-scroll-to-top-button-box-shadow: 2px 5px 10px grey;
   --color-card-alt-text: var(--color-off-grey);
   --color-socials-github: #171515;
   --color-socials-linkedin: #0b66c2;
@@ -41,6 +42,7 @@
   --color-art-swiper-bullets: white;
   --color-art-swiper-buttons: rgba(43, 52, 59, 0.3);
   --color-mouse: var(--color-yellow);
+  --color-scroll-to-top-button-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   --color-card-alt-text: #a5a5a5;
   --color-socials-github: white;
   --color-socials-linkedin: white;

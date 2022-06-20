@@ -10,9 +10,9 @@
   outline: none;
   background-color: var(--color-yellow);
   color: black;
-  box-shadow: 2px 5px 10px grey;
+  box-shadow: var(--color-scroll-to-top-button-box-shadow);
   cursor: pointer;
-  border-radius: 50%; /* Creates a circle */
+  border-radius: 50%;
   opacity: 0;
   transform: translateX(15px);
   transition: opacity 1s ease, transform 1s ease;
