@@ -28,6 +28,19 @@
   -webkit-transform: unset;
 }
 
+#software-engineer {
+  font-weight: 700;
+  font-size: 2.25rem;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 #contact-me-modal-profile-pic {
   border: 10px solid var(--color-purple);
   border-radius: 100%;
@@ -162,6 +175,10 @@
       "nav"
       "profile-pic-container"
       "name-intro";
+  }
+
+  #software-engineer {
+    font-size: 2rem;
   }
 
   #contact-me-bar {
