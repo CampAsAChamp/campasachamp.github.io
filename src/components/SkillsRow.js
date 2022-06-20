@@ -14,7 +14,7 @@ export function SkillsRow(props) {
   });
 
   return (
-    <ScrollAnimation animateIn="animate__slideInUp" animateOnce>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce offset={100}>
       <div className="skills-row">
         {technologies.map((tech) => {
           return (
