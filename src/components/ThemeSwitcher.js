@@ -9,11 +9,24 @@ const LIGHT = "light";
 const COLOR_MODE_KEY = "color-mode";
 
 export function ThemeSwitcher() {
-  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem(COLOR_MODE_KEY) === DARK);
+  let localStorageTheme = localStorage.getItem(COLOR_MODE_KEY);
 
+  // Check for the OS theme if no localStorage theme
+  if (!localStorageTheme) {
+    const osDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    localStorageTheme = osDarkTheme ? DARK : LIGHT;
+  }
+
+  const [isDarkMode, setIsDarkMode] = useState(localStorageTheme === DARK);
+
+  // Initialize theme
   useEffect(() => {
-    if (isDarkMode && document.documentElement.getAttribute(COLOR_MODE_KEY) !== DARK) setDarkMode();
-    else setLightMode();
+    if (isDarkMode) {
+      setDarkMode();
+    } else {
+      setLightMode();
+    }
   }, []);
 
   const setDarkMode = () => {
