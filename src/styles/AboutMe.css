@@ -25,6 +25,10 @@
   transform: scale(1.1);
 }
 
+#about-me-header {
+  text-align: center;
+}
+
 #about-me-text {
   font-weight: 400;
   font-size: 1.75rem;
