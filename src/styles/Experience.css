@@ -42,24 +42,6 @@
   justify-content: space-between;
 }
 
-.card {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: 20px auto;
-  padding: 35px;
-  font-size: 1rem;
-  background: var(--color-card);
-  border-radius: var(--rounded-component-corners-size);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
-  transition: transform 0.5s;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
 .card-title {
   font-size: 1.35rem;
   font-weight: 900;
