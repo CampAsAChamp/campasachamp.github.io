@@ -63,9 +63,10 @@
 
 ### Built With
 
+* [React](https://reactjs.org/)
+* [Javascript](https://www.javascript.com/)
 * [HTML5](https://html.spec.whatwg.org/multipage/)
 * [CSS3](https://www.w3.org/TR/CSS/#css)
-* [Javascript](https://www.javascript.com/)
 * [Figma](https://www.figma.com/)
 * [Netlify](https://www.netlify.com/)
 
@@ -79,11 +80,18 @@
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/CampAsAChamp/Personal-Website.git
-   ```
-2. Open `index.html` in a web browser
-
+    ```sh
+    git clone https://github.com/CampAsAChamp/Personal-Website.git
+    ```
+2. Navigate into the repo and run
+    ```sh
+    npm install 
+    ```
+3. Start the website with
+    ```sh
+    npm run start
+    ```
+4. Open your web browser (if not automatically done for you) to `localhost:3000`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
