@@ -9,7 +9,7 @@ import "styles/AboutMe.css";
 
 export function AboutMe() {
   return (
-    <ScrollAnimation animateIn="animate__slideInUp" animateOnce>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce offset={1000}>
       <section id="about-me-container" className="page-container">
         <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
         <div id="about-me-images">

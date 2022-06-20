@@ -9,7 +9,7 @@ import "styles/SkillsAndTechnologies.css";
 
 export function SkillsAndTechnologies() {
   return (
-    <ScrollAnimation animateIn="animate__slideInUp" animateOnce>
+    <ScrollAnimation animateIn="animate__slideInUp" animateOnce offset={1000}>
       <section id="skills-container" className="page-container">
         <div id="skills-header" className="section-header">
           <h2>Skills & Technologies</h2>
