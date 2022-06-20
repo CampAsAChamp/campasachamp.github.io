@@ -1,4 +1,5 @@
 import "animate.css/animate.min.css";
+import React from "react";
 
 import { AboutMe } from "components/AboutMe";
 import { ArtProjects } from "components/ArtProjects";
