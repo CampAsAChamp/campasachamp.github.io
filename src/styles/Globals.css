@@ -121,6 +121,7 @@ li {
 
 .section-header {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .button {
