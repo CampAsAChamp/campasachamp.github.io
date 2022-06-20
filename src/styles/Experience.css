@@ -36,6 +36,12 @@
   width: var(--thumbnail-size);
 }
 
+.experience-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card {
   width: 85%;
   display: flex;
@@ -53,12 +59,6 @@
 
 .card:hover {
   transform: scale(1.1);
-}
-
-.experience-title-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .card-title {
