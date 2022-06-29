@@ -1,7 +1,5 @@
 #experience-container {
   display: grid;
-  margin-top: 50px;
-  grid-template-columns: 1fr;
 
   grid-template-areas:
     "experience-header"
@@ -9,6 +7,8 @@
     "card2"
     "card3"
     "card4";
+  grid-template-columns: 1fr;
+  margin-top: 50px;
 }
 
 #experience-header {
@@ -37,8 +37,8 @@
 }
 
 .experience-title-container {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -53,33 +53,33 @@
 }
 
 .secondary-title {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
 .position {
-  font-weight: 700;
-  font-size: 1.15rem;
   color: var(--color-card-alt-text);
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .supporting-text {
-  margin-top: 1em;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .languages-bar {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   margin-top: auto;
 }
 
 .languages-item {
   height: var(--language-item-size);
-  width: var(--language-item-size);
   margin-right: 20px;
+  width: var(--language-item-size);
 }
 
 .languages-item:last-child {
@@ -96,9 +96,9 @@
   }
 
   .languages-item {
-    width: var(--mobile-thumbnail-size);
     height: var(--mobile-thumbnail-size);
     margin-right: 14px;
+    width: var(--mobile-thumbnail-size);
   }
 
   .languages-item:last-child {

@@ -43,29 +43,29 @@
   }
 }
 .hvr-bob {
-  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
 }
 
 .hvr-bob:hover,
 .hvr-bob:focus,
 .hvr-bob:active {
-  -webkit-animation-name: hvr-bob-float, hvr-bob;
-  animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: 0.3s, 1.5s;
-  animation-duration: 0.3s, 1.5s;
   -webkit-animation-delay: 0s, 0.3s;
   animation-delay: 0s, 0.3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
-  animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
-  animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
 }
 
 /* Wobble Top */
@@ -124,25 +124,25 @@
 }
 
 .hvr-wobble-top {
-  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
+  vertical-align: middle;
 }
 
 .hvr-wobble-top:hover,
 .hvr-wobble-top:focus,
 .hvr-wobble-top:active {
-  -webkit-animation-name: hvr-wobble-top;
-  animation-name: hvr-wobble-top;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 
 /* Wobble Vertical */
@@ -199,56 +199,56 @@
   }
 }
 .hvr-wobble-vertical {
-  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
 }
 .hvr-wobble-vertical:hover,
 .hvr-wobble-vertical:focus,
 .hvr-wobble-vertical:active {
-  -webkit-animation-name: hvr-wobble-vertical;
-  animation-name: hvr-wobble-vertical;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 
 /* Bounce To Right */
 .hvr-bounce-to-right {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  vertical-align: middle;
 }
 .hvr-bounce-to-right:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background: var(--color-yellow);
   border-radius: var(--rounded-button-corners-size);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  z-index: -1;
 }
 .hvr-bounce-to-right:hover,
 .hvr-bounce-to-right:focus,

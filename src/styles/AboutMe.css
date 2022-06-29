@@ -1,16 +1,16 @@
 #about-me-container {
-  display: grid;
-  padding-bottom: 100px;
-  margin-top: 50px;
-  padding-top: 50px;
   aspect-ratio: 16/9;
   background-image: url("assets/Organic_Shapes/About_Me_Blob_Shape.svg");
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  grid-template-areas: "about-me-images about-me-text";
 
   grid-template-columns: 1.15fr 1fr;
-  grid-template-areas: "about-me-images about-me-text";
+  margin-top: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 #about-me-images {
@@ -30,14 +30,14 @@
 }
 
 #about-me-text {
-  font-weight: 400;
   font-size: 1.75rem;
-  line-height: 38px;
-
-  padding-top: 150px;
-  padding-right: 10%;
+  font-weight: 400;
 
   grid-area: about-me-text;
+  line-height: 38px;
+  padding-right: 10%;
+
+  padding-top: 150px;
 }
 
 #grad-cap-illustration {
@@ -48,39 +48,39 @@
 
 #desk-illustration {
   display: block;
+  left: 30%;
   position: relative;
   width: 50%;
-  left: 30%;
 }
 
 #background-logo {
-  position: absolute;
-  width: 50%;
   opacity: 0.1;
-  z-index: -1;
+  position: absolute;
   right: 0px;
+  width: 50%;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1100px) {
   #about-me-container {
-    background-image: url("assets/Organic_Shapes/Phone_About_Me_Blob_Shape.svg");
     aspect-ratio: 9/16;
-
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-
-    grid-template-columns: 1fr;
-    grid-template-rows: 4.6fr;
+    background-image: url("assets/Organic_Shapes/Phone_About_Me_Blob_Shape.svg");
     grid-template-areas:
       "about-me-images"
       "about-me-text";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 4.6fr;
+    margin-bottom: 50px;
+
+    padding-bottom: 50px;
   }
 
   #about-me-text {
-    padding-top: 25px;
-    padding-right: 0;
     font-size: 1.5rem;
     line-height: 22px;
+    padding-right: 0;
+    padding-top: 25px;
   }
 
   #about-me-images img:hover {

@@ -1,18 +1,17 @@
 #landing-page-container {
   display: grid;
-  margin-bottom: 150px;
-  grid-template-columns: 1.5fr 1fr;
 
   grid-template-areas:
     "nav nav"
     "name-intro profile-pic-container";
+  grid-template-columns: 1.5fr 1fr;
+  margin-bottom: 150px;
 }
 
 #name-intro-container {
+  grid-area: name-intro;
   padding-left: 10%;
   padding-top: 5%;
-
-  grid-area: name-intro;
 }
 
 #profile-pic-container {
@@ -29,59 +28,58 @@
 }
 
 #software-engineer {
-  font-weight: 700;
   font-size: 2.25rem;
+  font-weight: 700;
+  margin-block-end: 0;
 
   margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 #subtitle {
-  font-weight: 400;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #contact-me-modal-profile-pic {
   border: 10px solid var(--color-purple);
   border-radius: 100%;
-  margin: 0 auto;
   display: block;
-  max-width: 30%;
   height: auto;
+  margin: 0 auto;
+  max-width: 30%;
 }
 
 #contact-me-container {
-  padding-left: 250px;
-
   grid-area: contact-me-container;
+  padding-left: 250px;
 }
 
 #contact-me-bar {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-top: 75px;
 }
 
 #contact-me-button {
+  color: white;
   font-size: 1.625rem;
   padding: 15px 20px;
-  color: white;
 }
 
 #contact-me-button span {
+  cursor: pointer;
   display: inline-block;
   position: relative;
-  cursor: pointer;
   transition: 0.5s;
 }
 
 #contact-me-button span::after {
-  content: "\00bb"; /* Makes an arrow >> */
   color: var(--color-yellow);
+  content: "\00bb"; /* Makes an arrow >> */
   opacity: 0;
   position: absolute;
-  top: 0;
   right: -20px;
+  top: 0;
   transition: 0.5s;
 }
 
@@ -95,15 +93,15 @@
 }
 
 #contact-me-modal-content {
+  background-color: var(--color-card);
+  border-radius: var(--rounded-component-corners-size);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: none;
-  position: relative;
   font-size: 2rem;
-  width: 50%; /* Could be more or less, depending on screen size */
   margin: 10% auto; /* 10% from the top and centered */
   padding: 40px;
-  border-radius: var(--rounded-component-corners-size);
-  background-color: var(--color-card);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  width: 50%; /* Could be more or less, depending on screen size */
 }
 
 #contact-me-modal-content.show {
@@ -111,21 +109,21 @@
 }
 
 #contact-me-modal-close {
-  position: absolute;
-  top: 0;
-  right: 20px;
   color: var(--color-body-text);
   float: right;
   font-size: 3rem;
   font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 0;
   transition: 0.25s ease-out;
 }
 
 #contact-me-modal-close:hover,
 #contact-me-modal-close:focus {
   color: var(--color-purple);
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #contact-me-socials {
@@ -149,16 +147,16 @@
 }
 
 .contact-me-item {
+  height: 50px;
   margin-right: 25px;
   width: 50px;
-  height: 50px;
 }
 
 #landing-blob {
   position: absolute;
-  width: 50%;
-  top: 0px;
   right: 0px;
+  top: 0px;
+  width: 50%;
   z-index: -1;
 }
 
@@ -168,13 +166,13 @@
   }
 
   #landing-page-container {
-    margin-bottom: 50px;
-
-    grid-template-columns: 1fr;
     grid-template-areas:
       "nav"
       "profile-pic-container"
       "name-intro";
+
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
   }
 
   #software-engineer {
@@ -204,9 +202,9 @@
   #contact-me-modal-content {
     word-wrap: break-word;
     font-size: 1.65rem;
-    width: 85%; /* Could be more or less, depending on screen size */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 50px 20px;
+    width: 85%; /* Could be more or less, depending on screen size */
   }
 
   #contact-me-modal-profile-pic {

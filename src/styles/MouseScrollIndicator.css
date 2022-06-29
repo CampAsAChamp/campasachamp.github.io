@@ -1,31 +1,31 @@
 .mouse {
   border: 4px solid var(--color-mouse);
   border-radius: var(--rounded-button-corners-size);
-  width: 40px;
-  height: 60px;
-  position: absolute;
   bottom: 0%;
+  height: 60px;
   left: 50%;
+  position: absolute;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: 0.75s;
+  width: 40px;
 }
 
 .mouse::after {
+  -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+  animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
   background-color: var(--color-mouse);
   border-radius: 100%;
   content: "";
-  opacity: 1;
-  width: 4px;
   height: 4px;
-  position: absolute;
-  top: 5px;
   left: 50%;
   margin-left: -2px;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
   -webkit-transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
   transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
-  -webkit-animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
-  animation: scroll 2s -1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+  width: 4px;
 }
 
 @-webkit-keyframes scroll {
@@ -35,14 +35,14 @@
     transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
   }
   10% {
+    opacity: 1;
     -webkit-transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
     transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
-    opacity: 1;
   }
   100% {
+    opacity: 0.01;
     -webkit-transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
     transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
-    opacity: 0.01;
   }
 }
 
@@ -53,14 +53,14 @@
     transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
   }
   10% {
+    opacity: 1;
     -webkit-transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
     transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px);
-    opacity: 1;
   }
   100% {
+    opacity: 0.01;
     -webkit-transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
     transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px);
-    opacity: 0.01;
   }
 }
 

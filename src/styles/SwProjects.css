@@ -1,15 +1,10 @@
 #sw-projects-container {
-  display: grid;
-  padding-bottom: 50px;
-
   aspect-ratio: 16/9;
-  width: 100%;
   background-image: url("assets/Organic_Shapes/Bottom_Wave.svg");
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-
-  grid-template-columns: 1fr;
+  display: grid;
   grid-template-areas:
     "sw-projects-header"
     "sw-projects-card1"
@@ -18,6 +13,10 @@
     "sw-projects-card4"
     "sw-projects-card5"
     "sw-projects-card6";
+
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
 #sw-projects-header {
@@ -46,18 +45,18 @@
 }
 
 .sw-projects-thumbnail {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
   border-radius: var(--rounded-component-corners-size);
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .sw-projects-info-container {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  width: 100%;
+  justify-content: space-between;
   margin-left: 40px;
+  width: 100%;
 }
 
 .sw-projects-button-row {
@@ -73,8 +72,8 @@
 
 .github-button-icon {
   height: 21px;
-  width: 21px;
   margin-left: 10px;
+  width: 21px;
 }
 
 #sw-projects-card1 {
@@ -107,8 +106,8 @@
   }
 
   .sw-projects-content {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   .sw-projects-info-container {
@@ -117,8 +116,8 @@
   }
 
   .sw-projects-title-container {
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
   }
 
   .sw-projects-card .languages-bar {
@@ -135,9 +134,9 @@
   }
 
   .sw-projects-thumbnail {
-    width: auto;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    width: auto;
   }
 
   .sw-projects-text {

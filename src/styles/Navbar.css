@@ -1,48 +1,48 @@
 nav {
-  display: flex;
-  margin: 0 2vw;
-  justify-content: space-between;
   align-items: center;
-  height: 12vh;
+  display: flex;
 
   grid-area: nav;
+  height: 12vh;
+  justify-content: space-between;
+  margin: 0 2vw;
 }
 
 nav ul {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 48%;
   list-style-type: none;
+  width: 48%;
 }
 
 nav li {
+  animation: navLinkFade 0.5s ease forwards;
   float: left;
   margin-bottom: 0;
-  animation: navLinkFade 0.5s ease forwards;
 }
 
 nav li a {
   color: white;
-  text-decoration: none;
-  font-weight: 900;
   font-size: 1.5vw;
+  font-weight: 900;
 
   position: relative;
+  text-decoration: none;
   transition: var(--animation-duration);
 }
 
 nav li a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-  top: 100%;
-  left: 0%;
   background: var(--color-yellow);
-  transition: transform 0.5s;
+  content: "";
+  height: 3px;
+  left: 0%;
+  position: absolute;
+  top: 100%;
   transform: scaleX(0);
   transform-origin: right;
+  transition: transform 0.5s;
+  width: 100%;
 }
 
 nav li a:hover {
@@ -64,12 +64,12 @@ nav li a:hover::after {
 }
 
 .line {
-  width: 25px;
-  height: 5px;
-  border-radius: var(--rounded-button-corners-size);
   background-color: white;
+  border-radius: var(--rounded-button-corners-size);
+  height: 5px;
   margin: 5px;
   transition: all 0.5s ease;
+  width: 25px;
 }
 
 @keyframes navLinkFade {
@@ -84,10 +84,10 @@ nav li a:hover::after {
 }
 
 #logo {
-  float: left;
-  width: auto;
-  height: 8vh;
   fill: var(--color-logo);
+  float: left;
+  height: 8vh;
+  width: auto;
 }
 
 @media screen and (max-width: 1100px) {
@@ -96,18 +96,18 @@ nav li a:hover::after {
   }
 
   nav ul {
-    position: fixed;
-    right: 0;
-    height: 100%;
-    padding: 20px 0;
-    top: 0;
+    align-items: center;
     background-color: rgb(108, 99, 255, 0.95);
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    width: 100%;
     z-index: 1;
   }
 
@@ -120,9 +120,9 @@ nav li a:hover::after {
   }
 
   .hamburger-menu {
-    margin-right: 2vw;
-    display: block;
     cursor: pointer;
+    display: block;
+    margin-right: 2vw;
     z-index: 1;
   }
 
