@@ -57,12 +57,6 @@ export function LandingPage() {
                     nickschneider101@gmail.com
                   </a>
                 </p>
-                <p>
-                  <strong>📞 Phone: </strong>
-                  <a href="tel:+13109531324" target="_blank" rel="noopener noreferrer">
-                    (310) 953-1324
-                  </a>
-                </p>
               </div>
             </div>
             <div id="contact-me-socials">
