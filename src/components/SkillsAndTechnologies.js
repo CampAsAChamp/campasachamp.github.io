@@ -21,7 +21,6 @@ export function SkillsAndTechnologies() {
               technologies.PYTHON,
               technologies.JAVA,
               technologies.CPP,
-              technologies.C,
             ]}
           />
           <SkillsRow
