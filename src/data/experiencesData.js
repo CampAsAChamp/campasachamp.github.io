@@ -19,10 +19,10 @@ const experiences = [
     position: "Software Engineer 2",
     duration: "Jan 2022 - Present",
     textContent: `<li>
-                    Currently working on the platform team
+                    Currently working on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> team across the whole stack
                   </li>
                   <li>
-                    Writing microservices & REST APIs with Go, Postgres, and Redis.
+                    Writing microservices & REST APIs with Go, and Postgres.
                   </li>
                   <li>
                     Working on the frontend with React & Redux. 
@@ -33,7 +33,6 @@ const experiences = [
     technologies: [
       technologies.GO,
       technologies.POSTGRES,
-      technologies.REDIS,
       technologies.REACT,
       technologies.REDUX,
       technologies.GCP,
@@ -59,9 +58,6 @@ const experiences = [
                   </li>
                   <li>
                       Optimized statistical feature generation algorithm leading to a 83% improvement in runtime.
-                  </li>
-                  <li>
-                      Containerized our applications through writing Docker & Compose files as well as working with and inside containers.
                   </li>
                   <li>
                       Received program-wide performance recognition award for outstanding and impressive performance (July 2020, June 2021, Sept 2021); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
@@ -113,8 +109,8 @@ const experiences = [
                 </li>`,
     technologies: [
       technologies.JAVA,
-      technologies.JAVASCRIPT,
       technologies.MYSQL,
+      technologies.JAVASCRIPT,
       technologies.HTML5,
       technologies.CSS3,
     ],
