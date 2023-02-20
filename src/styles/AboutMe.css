@@ -27,6 +27,7 @@
 
 #about-me-header {
   text-align: center;
+  color: var(--color-section-header);
 }
 
 #about-me-text {

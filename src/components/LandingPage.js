@@ -33,7 +33,7 @@ export function LandingPage() {
       <img id="landing-blob" src={HeroImageBlobShape} alt="" />
       <section id="landing-page-container" className="page-container">
         <div id="name-intro-container">
-          <h1>
+          <h1 id="name">
             NICK
             <br />
             SCHNEIDER

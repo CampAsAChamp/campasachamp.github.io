@@ -14,6 +14,10 @@
   padding-top: 5%;
 }
 
+#name {
+  color: var(--color-name);
+}
+
 #profile-pic-container {
   grid-area: profile-pic-container;
 }

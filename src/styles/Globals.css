@@ -31,6 +31,8 @@
   --color-card-alt-text: var(--color-off-grey);
   --color-socials-github: #171515;
   --color-socials-linkedin: #0b66c2;
+  --color-name: var(--color-purple);
+  --color-section-header: var(--color-purple);
 }
 
 /* Dark Mode */
@@ -47,6 +49,8 @@
   --color-socials-github: white;
   --color-socials-linkedin: white;
   --color-logo: var(--color-purple);
+  --color-name: var(--color-yellow);
+  --color-section-header: var(--color-yellow);
 }
 
 *,
@@ -110,6 +114,7 @@ li {
 .section-header {
   text-align: center;
   text-transform: uppercase;
+  color: var(--color-section-header);
 }
 
 .button {
