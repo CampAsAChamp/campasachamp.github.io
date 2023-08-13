@@ -1,3 +1,4 @@
+import ChickFilAThumbnail from "assets/Projects/Software/Chick_Fil_A.webp"
 import DiggermanVideoThumbnailMp4 from "assets/Projects/Software/Diggerman.mp4";
 import DiggermanVideoThumbnail from "assets/Projects/Software/Diggerman.webm";
 import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webp";
@@ -10,15 +11,9 @@ import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
 
 import * as technologies from "./technologiesData";
 
-export const SPOTIFYPP = "Spotify++";
-export const DIGGERMAN = "Diggerman";
-export const FACE_SWAPPING = "Face Swapping";
-export const OBJECT_AND_FACE_DETECTION_SYSTEM = "Object & Face Detection System";
-export const PERSONAL_WEBSITE = "Personal Website";
-
 const projects = [
   {
-    name: SPOTIFYPP,
+    name: "Spotify++",
     technologies: [
       technologies.NODEJS,
       technologies.EXPRESS,
@@ -52,7 +47,7 @@ const projects = [
     thumbnail: SpotifyPPThumbnail,
   },
   {
-    name: DIGGERMAN,
+    name: "Diggerman",
     technologies: [technologies.CPP, technologies.OPEN_GL],
     textContent: `<li>
                     Designed and implemented a large 2D Dig Dug-like game in C++ driven by
@@ -76,23 +71,29 @@ const projects = [
     isVideo: true,
   },
   {
-    name: FACE_SWAPPING,
-    technologies: [technologies.PYTHON, technologies.NUMPY],
-    textContent: `<li>
-                    Piecewise affine warping, computes an affine transformation for triangles placed along the face.
+    name: "Los Angeles Chick Fil A Scraper",
+    technologies: [
+      technologies.PYTHON,
+      technologies.GITHUB
+    ],
+    textContent: `
+                  <li>
+                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app on to claim my free Chick Fil A sandwich.
                   </li>
                   <li>
-                    Morphs a face into another one or can swap parts of a face(eyes, mouth, nose) to another face while
-                    still maintaining the facial structure.
-                  </li>`,
-    link: "https://github.com/CampAsAChamp/FaceSwap",
-    thumbnail: FaceSwappingThumbnail,
-    videoThumbnail: FaceSwappingVideoThumbnail,
-    videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
-    isVideo: true,
+                    Free Chick Fil A is available if one of the following criteria for the sports teams are met
+                  </li>
+                  <ul>
+                  <li>Los Angeles Angeles score 7 or more runs at home</li>
+                  <li>Anaheim Ducks score 5 or more goals at home</li>
+                  <li>LAFC wins at home</li>
+                    </ul>
+                  `,
+    link: "https://github.com/CampAsAChamp/los-angeles-chick-fil-a-scraper",
+    thumbnail: ChickFilAThumbnail,
   },
   {
-    name: OBJECT_AND_FACE_DETECTION_SYSTEM,
+    name: "Object & Face Detection System",
     technologies: [technologies.PYTHON, technologies.NUMPY],
     textContent: `<li>
                     Python program that uses gradient features of an image for edge detection.
@@ -107,7 +108,7 @@ const projects = [
     thumbnail: ObjectDetectionThumbnail,
   },
   {
-    name: PERSONAL_WEBSITE,
+    name: "Personal Website",
     technologies: [
       technologies.REACT,
       technologies.JAVASCRIPT,
@@ -124,6 +125,22 @@ const projects = [
     link: "https://github.com/CampAsAChamp/Personal-Website",
     thumbnail: PersonalWebsiteThumbnail,
   },
+  {
+    name: "Face Swapping",
+    technologies: [technologies.PYTHON, technologies.NUMPY],
+    textContent: `<li>
+                    Piecewise affine warping, computes an affine transformation for triangles placed along the face.
+                  </li>
+                  <li>
+                    Morphs a face into another one or can swap parts of a face(eyes, mouth, nose) to another face while
+                    still maintaining the facial structure.
+                  </li>`,
+    link: "https://github.com/CampAsAChamp/FaceSwap",
+    thumbnail: FaceSwappingThumbnail,
+    videoThumbnail: FaceSwappingVideoThumbnail,
+    videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
+    isVideo: true,
+  }
 ];
 
 const projectMap = new Map();
