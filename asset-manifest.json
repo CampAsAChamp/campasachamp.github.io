@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.52d75946.css",
-    "main.js": "/static/js/main.059c7795.js",
+    "main.css": "/static/css/main.3e48cc7c.css",
+    "main.js": "/static/js/main.4933e5c7.js",
     "static/media/Diggerman.mp4": "/static/media/Diggerman.b30d64ca003f404031a6.mp4",
     "static/media/Los_Angeles_Post_Card.webp": "/static/media/Los_Angeles_Post_Card.d093a26476df7e493721.webp",
     "static/media/Floral_Text.webp": "/static/media/Floral_Text.61ab6133ce210187685f.webp",
@@ -20,6 +20,7 @@
     "static/media/S_Logo.svg": "/static/media/S_Logo.3c15c51fd11e545bbcf99a1e38fa5f57.svg",
     "static/media/Diggerman.webp": "/static/media/Diggerman.ef68cc469da9a5e73db5.webp",
     "static/media/Aloha.webp": "/static/media/Aloha.1e9c46c7789727497d09.webp",
+    "static/media/Chick_Fil_A.webp": "/static/media/Chick_Fil_A.970e115788d7b7e54922.webp",
     "static/media/Water_Color_Popsicles.svg": "/static/media/Water_Color_Popsicles.71b4ee6c01cb6e5f074d387e983e63d0.svg",
     "static/media/Line_Art_Logo.svg": "/static/media/Line_Art_Logo.ac51b045f08da66eb81abe13cddbf0e3.svg",
     "static/media/Desk_Illustration.svg": "/static/media/Desk_Illustration.c290c17734ada89a8d637fc188fc0816.svg",
@@ -40,7 +41,7 @@
     "static/media/Go.svg": "/static/media/Go.370310b43c120ba091b4cc6e48cff926.svg",
     "static/media/Raytheon.svg": "/static/media/Raytheon.3a2a0a5a37361abf622091921bce4e3a.svg",
     "static/media/NodeJS.svg": "/static/media/NodeJS.242dfefe3603d9159f0ec08d823d4254.svg",
-    "static/media/Github.svg": "/static/media/Github.de59e6dbdf84dc70984be40dff8960eb.svg",
+    "static/media/GitHub.svg": "/static/media/GitHub.de59e6dbdf84dc70984be40dff8960eb.svg",
     "static/media/Java.svg": "/static/media/Java.3aaa2741ba799c67bd11c8a1974a130c.svg",
     "static/media/Adobe_Photoshop.svg": "/static/media/Adobe_Photoshop.13802ad160b51b4243125b0383a6bec5.svg",
     "static/media/Tri_Ferg.svg": "/static/media/Tri_Ferg.eca043f3d480b18b8750f1474dafd1c3.svg",
@@ -70,11 +71,11 @@
     "static/media/Angular.svg": "/static/media/Angular.5a143e4752b181220127b4fe8b7322df.svg",
     "static/media/Hero_Image_Blob_Shape.svg": "/static/media/Hero_Image_Blob_Shape.fa40b4cabdb2630740fd03a87da99c11.svg",
     "static/media/Phone_About_Me_Blob_Shape.svg": "/static/media/Phone_About_Me_Blob_Shape.82dfa7b36520a2e54da7.svg",
-    "main.52d75946.css.map": "/static/css/main.52d75946.css.map",
-    "main.059c7795.js.map": "/static/js/main.059c7795.js.map"
+    "main.3e48cc7c.css.map": "/static/css/main.3e48cc7c.css.map",
+    "main.4933e5c7.js.map": "/static/js/main.4933e5c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d75946.css",
-    "static/js/main.059c7795.js"
+    "static/css/main.3e48cc7c.css",
+    "static/js/main.4933e5c7.js"
   ]
 }
