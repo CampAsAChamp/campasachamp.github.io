@@ -11,6 +11,7 @@ import Express_Icon from "assets/Dev_Icons/Express.svg";
 import Figma_Icon from "assets/Dev_Icons/Figma.svg";
 import GCP_Icon from "assets/Dev_Icons/GCP.svg";
 import Git_Icon from "assets/Dev_Icons/Git.svg";
+import GitHub_Icon from "assets/Dev_Icons/GitHub.svg";
 import Go_Icon from "assets/Dev_Icons/Go.svg";
 import HTML5_Icon from "assets/Dev_Icons/HTML5.svg";
 import Java_Icon from "assets/Dev_Icons/Java.svg";
@@ -41,6 +42,7 @@ export const EXPRESS = "Express";
 export const FIGMA = "Figma";
 export const GCP = "Google Cloud Platform";
 export const GIT = "Git";
+export const GITHUB = "GitHub";
 export const GO = "Go";
 export const HTML5 = "HTML5";
 export const JAVA = "Java";
@@ -123,6 +125,11 @@ const technologies = [
     name: GIT,
     image: Git_Icon,
     link: "https://git-scm.com/",
+  },
+  {
+    name: GITHUB,
+    image: GitHub_Icon,
+    link: "https://github.com/",
   },
   {
     name: GO,
