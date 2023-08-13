@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/CampAsAChamp/Personal-Website">
+  <a href="https://github.com/CampAsAChamp/campasachamp.github.io">
     <img src="src/assets/S_Logo_Purple.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,14 +12,14 @@
   <p align="center">
     Portfolio Website to visually show off my work in my career and free time
     <br />
-    <a href="https://nickschneider.co/">https://nickschneider.co/</a>
+    <a href="https://campasachamp.github.io/">https://campasachamp.github.io/</a>
     <br />
     <br />
-    <a href="https://nickschneider.co/">View Website</a>
+    <a href="https://campasachamp.github.io/">View Website</a>
     ·
-    <a href="https://github.com/CampAsAChamp/Personal-Website/issues">Report Bug</a>
+    <a href="https://github.com/CampAsAChamp/campasachamp.github.io/issues">Report Bug</a>
     ·
-    <a href="https://github.com/CampAsAChamp/Personal-Website/issues">Request Feature</a>
+    <a href="https://github.com/CampAsAChamp/campasachamp.github.io/issues">Request Feature</a>
   </p>
 </div>
 
@@ -79,7 +79,7 @@
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/CampAsAChamp/Personal-Website.git
+    git clone https://github.com/CampAsAChamp/campasachamp.github.io.git
     ```
 2. Navigate into the repo and run
     ```sh
@@ -93,12 +93,27 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+### Deploying to GitHub Pages
+1. Push the React app to the GitHub repository
+
+    ```shell
+    $ npm run deploy
+    ```
+
+    > That will cause the `predeploy` and `deploy` scripts defined in `package.json` to run.
+    >
+    > Under the hood, the `predeploy` script will build a distributable version of the React app and store it in a folder named `build`. Then, the `deploy` script will push the contents of that folder to a new commit on the `gh-pages` branch of the GitHub repository, creating that branch if it doesn't already exist.
+
+    > By default, the new commit on the `gh-pages` branch will have a commit message of "Updates". You can [specify a custom commit message](https://github.com/gitname/react-gh-pages/issues/80#issuecomment-1042449820) via the `-m` option, like this:
+    > ```shell
+    > $ npm run deploy -- -m "Deploy React app to GitHub Pages"
+    > ```
+
+Now the GitHub repository contains a branch named `gh-pages`, which contains the files that make up the distributable version of the React app.
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-1. View the site live at https://nickschneider.co/
+1. View the site live at https://campasachamp.github.io/
 
 <!-- LICENSE -->
 ## License
@@ -108,17 +123,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
-[contributors-url]: https://github.com/CampAsAChamp/msPaintAutomation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
-[forks-url]: https://github.com/CampAsAChamp/msPaintAutomation/network/members
-[stars-shield]: https://img.shields.io/github/stars/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
-[stars-url]: https://github.com/CampAsAChamp/msPaintAutomation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
-[issues-url]: https://github.com/CampAsAChamp/msPaintAutomation/issues
-[license-shield]: https://img.shields.io/github/license/CampAsAChamp/msPaintAutomation.svg?style=for-the-badge
-[license-url]: https://github.com/CampAsAChamp/msPaintAutomation/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: src/assets/website_screenshot.png
