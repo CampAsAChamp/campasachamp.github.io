@@ -1,7 +1,7 @@
 import parse from "html-react-parser";
 import React from "react";
 
-import GithubIcon from "assets/Dev_Icons/Github.svg";
+import GitHubIcon from "assets/Dev_Icons/GitHub.svg";
 
 import { Svg } from "components/Svg";
 
@@ -35,7 +35,7 @@ export function SwProjectCard(props) {
               }}
             >
               View Code
-              <Svg className="github-button-icon" src={GithubIcon} fill="white" alt="Github Icon" />
+              <Svg className="github-button-icon" src={GitHubIcon} fill="white" alt="Github Icon" />
             </button>
           </div>
         </div>
