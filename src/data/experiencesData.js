@@ -57,7 +57,7 @@ const experiences = [
                       Implemented modules in Space to Earth message simulation with Python & C++, allowing for extensive development and testing without needing Space hardware.
                   </li>
                   <li>
-                      Optimized statistical feature generation algorithm leading to a 83% improvement in runtime.
+                      Optimized statistical feature generation algorithm leading to a 43% improvement in runtime.
                   </li>
                   <li>
                       Received program-wide performance recognition award for outstanding and impressive performance (July 2020, June 2021, Sept 2021); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
