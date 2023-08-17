@@ -78,7 +78,7 @@ const projects = [
     ],
     textContent: `
                   <li>
-                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app on to claim my free Chick Fil A sandwich.
+                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app to claim my free Chick Fil A sandwich.
                   </li>
                   <li>
                     Free Chick Fil A is available if one of the following criteria for the sports teams are met
