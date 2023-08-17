@@ -84,7 +84,7 @@ const projects = [
                     Free Chick Fil A is available if one of the following criteria for the sports teams are met
                   </li>
                   <ul>
-                  <li>Los Angeles Angeles score 7 or more runs at home</li>
+                  <li>Los Angeles Angels score 7 or more runs at home</li>
                   <li>Anaheim Ducks score 5 or more goals at home</li>
                   <li>LAFC wins at home</li>
                     </ul>
