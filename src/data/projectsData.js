@@ -122,7 +122,7 @@ const projects = [
                   <li>
                     Created mockup design with Figma.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/Personal-Website",
+    link: "https://github.com/CampAsAChamp/campasachamp.github.io",
     thumbnail: PersonalWebsiteThumbnail,
   },
   {
