@@ -69,7 +69,7 @@ export function LandingPage() {
                   title="Github Icon"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/nick-schneider-la/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/nick-schneider-swe/" target="_blank" rel="noopener noreferrer">
                 <Svg
                   className="contact-me-item"
                   id="linkedin-logo"
