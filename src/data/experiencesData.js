@@ -19,17 +19,21 @@ const experiences = [
     position: "Software Engineer 2",
     duration: "Jan 2022 - Present",
     textContent: `<li>
-                    Currently working on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> team across the whole stack
+                    Currently working on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> (video surveillance as a service) team across the whole stack
                   </li>
                   <li>
-                    Writing microservices & REST APIs with Go, and Postgres.
+                    Developed and maintained a service and scheduler for creating detailed customer device usage reports for further analysis and insights using Go, Postgres, and Google Cloud Platform.
                   </li>
                   <li>
-                    Working on the frontend with React & Redux. 
+                    Designed and implemented set of microservices for our Back Office portal, which streamlined the quote/order creation process for the Sales Ops team, resulting in a significantly faster sales pipeline.
                   </li>
                   <li>
-                    Utilizing Kubernetes, Docker, Google Cloud Platform and Spinnaker for maintaining the services and applications.
-                  </li>`,
+                    Created a Kubernetes CronJob to generate and distribute hourly device health status reports for 10,000+ devices, per request from our largest customer.
+                  </li>
+                  <li>
+                    Enhanced user experience of the app by revamping the application flow, adding localization infrastructure and quality-of-life features using React, Redux, and react-intl.
+                  </li>
+                  `,
     technologies: [
       technologies.GO,
       technologies.POSTGRES,
