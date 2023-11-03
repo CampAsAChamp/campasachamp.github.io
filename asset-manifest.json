@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3e48cc7c.css",
-    "main.js": "/static/js/main.ac0be959.js",
+    "main.js": "/static/js/main.b6457e89.js",
     "static/media/Diggerman.mp4": "/static/media/Diggerman.b30d64ca003f404031a6.mp4",
     "static/media/Los_Angeles_Post_Card.webp": "/static/media/Los_Angeles_Post_Card.d093a26476df7e493721.webp",
     "static/media/Floral_Text.webp": "/static/media/Floral_Text.61ab6133ce210187685f.webp",
@@ -40,6 +40,7 @@
     "static/media/Arcules.svg": "/static/media/Arcules.6588f3f4723dc8d15036502619de25d3.svg",
     "static/media/Go.svg": "/static/media/Go.370310b43c120ba091b4cc6e48cff926.svg",
     "static/media/Raytheon.svg": "/static/media/Raytheon.3a2a0a5a37361abf622091921bce4e3a.svg",
+    "static/media/GraphQL.svg": "/static/media/GraphQL.d7776950211dfcb8adf15066b3e0062a.svg",
     "static/media/NodeJS.svg": "/static/media/NodeJS.242dfefe3603d9159f0ec08d823d4254.svg",
     "static/media/GitHub.svg": "/static/media/GitHub.de59e6dbdf84dc70984be40dff8960eb.svg",
     "static/media/Java.svg": "/static/media/Java.3aaa2741ba799c67bd11c8a1974a130c.svg",
@@ -50,10 +51,13 @@
     "static/media/JavaScript.svg": "/static/media/JavaScript.8627487cf69bf9c3381cdfb469913696.svg",
     "static/media/Adobe_Illustrator.svg": "/static/media/Adobe_Illustrator.1de66e446f4e788a0868df55e91bb713.svg",
     "static/media/Python.svg": "/static/media/Python.ad1ad5297c031fe97fb08882bf250c42.svg",
+    "static/media/AWS.svg": "/static/media/AWS.e462c4053913efc2bb09bded46ab1308.svg",
     "static/media/Express.svg": "/static/media/Express.5507c246ae52d536de47658759b48e1a.svg",
     "static/media/Docker.svg": "/static/media/Docker.51c22ca2b653e7555ec95c69e461a621.svg",
+    "static/media/Spring.svg": "/static/media/Spring.d0a9d82c47286a50de9fe5c166e53eb6.svg",
     "static/media/Adobe_XD.svg": "/static/media/Adobe_XD.9d0f5d3c60aa775ee7470d49e9b9746d.svg",
     "static/media/TypeScript.svg": "/static/media/TypeScript.88799ec237ef2446605d91b18a92b0f4.svg",
+    "static/media/Intuit.svg": "/static/media/Intuit.3b0ff119c63690f9286245137be38baf.svg",
     "static/media/GCP.svg": "/static/media/GCP.733e1eff0ffa71534593d72ea5c51f3c.svg",
     "static/media/HTML5.svg": "/static/media/HTML5.498107b5b89f79b06a0398f7d5761828.svg",
     "static/media/ColdFusion.svg": "/static/media/ColdFusion.87c12452cc9373cff9adf55dad7117fb.svg",
@@ -72,10 +76,10 @@
     "static/media/Hero_Image_Blob_Shape.svg": "/static/media/Hero_Image_Blob_Shape.fa40b4cabdb2630740fd03a87da99c11.svg",
     "static/media/Phone_About_Me_Blob_Shape.svg": "/static/media/Phone_About_Me_Blob_Shape.82dfa7b36520a2e54da7.svg",
     "main.3e48cc7c.css.map": "/static/css/main.3e48cc7c.css.map",
-    "main.ac0be959.js.map": "/static/js/main.ac0be959.js.map"
+    "main.b6457e89.js.map": "/static/js/main.b6457e89.js.map"
   },
   "entrypoints": [
     "static/css/main.3e48cc7c.css",
-    "static/js/main.ac0be959.js"
+    "static/js/main.b6457e89.js"
   ]
 }
