@@ -1,9 +1,10 @@
 export const COLORS = {
-  PURPLE: "#6c63ff",
-  OFF_GREY: "#707070",
-  YELLOW: "#f2d541",
   ARCULES: "#0cb4df",
-  REAZON: "#00acee",
-  RAYTHEON: "#ce1126",
   ID_TECH: "#006633",
+  INTUIT: "#236CFF",
+  OFF_GREY: "#707070",
+  PURPLE: "#6c63ff",
+  RAYTHEON: "#ce1126",
+  REAZON: "#00acee",
+  YELLOW: "#f2d541",
 };

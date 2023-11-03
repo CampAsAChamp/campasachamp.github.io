@@ -2,6 +2,7 @@ import Adobe_Illustrator_Icon from "assets/Dev_Icons/Adobe_Illustrator.svg";
 import Adobe_Photoshop_Icon from "assets/Dev_Icons/Adobe_Photoshop.svg";
 import Adobe_XD_Icon from "assets/Dev_Icons/Adobe_XD.svg";
 import Angular_Icon from "assets/Dev_Icons/Angular.svg";
+import AWS_Icon from "assets/Dev_Icons/AWS.svg"
 import C_Icon from "assets/Dev_Icons/C.svg";
 import CPP_Icon from "assets/Dev_Icons/CPP.svg";
 import CSS3_Icon from "assets/Dev_Icons/CSS3.svg";
@@ -12,6 +13,7 @@ import Figma_Icon from "assets/Dev_Icons/Figma.svg";
 import GCP_Icon from "assets/Dev_Icons/GCP.svg";
 import Git_Icon from "assets/Dev_Icons/Git.svg";
 import GitHub_Icon from "assets/Dev_Icons/GitHub.svg";
+import GraphQL_Icon from "assets/Dev_Icons/GraphQL.svg"
 import Go_Icon from "assets/Dev_Icons/Go.svg";
 import HTML5_Icon from "assets/Dev_Icons/HTML5.svg";
 import Java_Icon from "assets/Dev_Icons/Java.svg";
@@ -27,12 +29,14 @@ import Python_Icon from "assets/Dev_Icons/Python.svg";
 import React_Icon from "assets/Dev_Icons/React.svg";
 import Redis_Icon from "assets/Dev_Icons/Redis.svg";
 import Redux_Icon from "assets/Dev_Icons/Redux.svg";
+import Spring_Icon from "assets/Dev_Icons/Spring.svg"
 import TypeScript_Icon from "assets/Dev_Icons/TypeScript.svg";
 
 export const ADOBE_ILLUSTRATOR = "Adobe Illustrator";
 export const ADOBE_PHOTOSHOP = "Adobe Photoshop";
 export const ADOBE_XD = "Adobe XD";
 export const ANGULAR = "Angular";
+export const AWS = "Amazon Web Services";
 export const C = "C";
 export const COLDFUSION = "ColdFusion";
 export const CPP = "C++";
@@ -43,6 +47,7 @@ export const FIGMA = "Figma";
 export const GCP = "Google Cloud Platform";
 export const GIT = "Git";
 export const GITHUB = "GitHub";
+export const GRAPHQL = "GraphQL";
 export const GO = "Go";
 export const HTML5 = "HTML5";
 export const JAVA = "Java";
@@ -58,6 +63,7 @@ export const PYTHON = "Python";
 export const REACT = "React";
 export const REDIS = "Redis";
 export const REDUX = "Redux";
+export const SPRING = "Spring";
 export const TYPESCRIPT = "TypeScript";
 
 const technologies = [
@@ -80,6 +86,11 @@ const technologies = [
     name: ANGULAR,
     image: Angular_Icon,
     link: "https://angular.io/",
+  },
+  {
+    name: AWS,
+    image: AWS_Icon,
+    link: "https://aws.amazon.com/",
   },
   {
     name: C,
@@ -130,6 +141,11 @@ const technologies = [
     name: GITHUB,
     image: GitHub_Icon,
     link: "https://github.com/",
+  },
+  {
+    name: GRAPHQL,
+    image: GraphQL_Icon,
+    link: "https://graphql.org/",
   },
   {
     name: GO,
@@ -205,6 +221,11 @@ const technologies = [
     name: REDUX,
     image: Redux_Icon,
     link: "https://redux.js.org/",
+  },
+  {
+    name: SPRING,
+    image: Spring_Icon,
+    link: "https://spring.io/",
   },
   {
     name: TYPESCRIPT,

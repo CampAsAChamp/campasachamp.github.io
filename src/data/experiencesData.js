@@ -1,4 +1,5 @@
 import ArculesLogo from "assets/Company_Logos/Arcules.svg";
+import IntuitLogo from "assets/Company_Logos/Intuit.svg"
 import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
 import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
 import ReazonLogo from "assets/Company_Logos/Reazon.svg";
@@ -10,16 +11,39 @@ import { COLORS } from "./colorsData";
 export const RAYTHEON = "Raytheon Intelligence & Space";
 export const ARCULES = "Arcules";
 export const ID_TECH = "ID Tech";
+export const INTUIT = "Intuit";
 export const REAZON = "Reazon Systems";
 
 const experiences = [
   {
+    company_name: INTUIT,
+    location: "San Diego, CA",
+    position: "Software Engineer 2",
+    duration: "Oct 2023 - Present",
+    textContent: `<li>
+                    Currently working on the <a href="https://www.intuit.com/strategy/#bigbet-2" target="_blank" rel="noopener noreferrer">Virtual Expert Platform</a> on the appointment scheduling team.
+                  </li>
+                  `,
+    technologies: [
+      technologies.JAVA,
+      technologies.SPRING,
+      technologies.REACT,
+      technologies.REDUX,
+      technologies.GRAPHQL,
+      technologies.AWS,
+      technologies.KUBERNETES,
+      technologies.DOCKER,
+    ],
+    logo: IntuitLogo,
+    color: COLORS.INTUIT,
+  },
+  {
     company_name: ARCULES,
     location: "Irvine, CA",
-    position: "Software Engineer 2",
-    duration: "Jan 2022 - Present",
+    position: "Software Engineer",
+    duration: "Jan 2022 - Oct 2023 (1 yr 10 mos)",
     textContent: `<li>
-                    Currently working on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> (video surveillance as a service) team across the whole stack
+                    Worked on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> (video surveillance as a service) team across the whole stack.
                   </li>
                   <li>
                     Developed and maintained a service and scheduler for creating detailed customer device usage reports for further analysis and insights using Go, Postgres, and Google Cloud Platform.
