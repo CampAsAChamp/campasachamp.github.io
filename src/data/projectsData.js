@@ -13,6 +13,52 @@ import * as technologies from "./technologiesData";
 
 const projects = [
   {
+    name: "Los Angeles Chick Fil A Scraper",
+    technologies: [
+      technologies.PYTHON,
+      technologies.GITHUB
+    ],
+    textContent: `
+                  <li>
+                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app to claim my free Chick Fil A sandwich.
+                  </li>
+                  <li>
+                    Free Chick Fil A is available if one of the following criteria for the sports teams are met
+                  </li>
+                  <ul>
+                  <li>Los Angeles Angels score 7 or more runs at home</li>
+                  <li>Anaheim Ducks score 5 or more goals at home</li>
+                  <li>LAFC wins at home</li>
+                    </ul>
+                  `,
+    link: "https://github.com/CampAsAChamp/los-angeles-chick-fil-a-scraper",
+    thumbnail: ChickFilAThumbnail,
+  },
+  {
+    name: "Diggerman",
+    technologies: [technologies.CPP, technologies.OPEN_GL],
+    textContent: `<li>
+                    Designed and implemented a large 2D Dig Dug-like game in C++ driven by
+                    <a href="https://www.opengl.org/" target="_blank" rel="noopener noreferrer">OpenGL</a>, utilizing
+                    A.I. enemies and sprites with light animations.
+                  </li>
+                  <li>
+                    Coordinated with team members to realize the groups design goals.
+                  </li>
+                  <li>
+                    Added logic for digging through the game board, as well as falling boulders to be an obstacle and
+                    kill the player if the player wasn't moving.
+                  </li>
+                  <li>
+                    Implemented gold nuggets, score system and hidden oil barrels power ups.
+                  </li>`,
+    link: "https://github.com/CampAsAChamp/DiggerMan",
+    thumbnail: DiggermanThumbnail,
+    videoThumbnail: DiggermanVideoThumbnail,
+    videoThumbnailMp4: DiggermanVideoThumbnailMp4,
+    isVideo: true,
+  },
+  {
     name: "Spotify++",
     technologies: [
       technologies.NODEJS,
@@ -45,52 +91,6 @@ const projects = [
                  `,
     link: "https://github.com/CampAsAChamp/SpotifyPP",
     thumbnail: SpotifyPPThumbnail,
-  },
-  {
-    name: "Diggerman",
-    technologies: [technologies.CPP, technologies.OPEN_GL],
-    textContent: `<li>
-                    Designed and implemented a large 2D Dig Dug-like game in C++ driven by
-                    <a href="https://www.opengl.org/" target="_blank" rel="noopener noreferrer">OpenGL</a>, utilizing
-                    A.I. enemies and sprites with light animations.
-                  </li>
-                  <li>
-                    Coordinated with team members to realize the groups design goals.
-                  </li>
-                  <li>
-                    Added logic for digging through the game board, as well as falling boulders to be an obstacle and
-                    kill the player if the player wasn't moving.
-                  </li>
-                  <li>
-                    Implemented gold nuggets, score system and hidden oil barrels power ups.
-                  </li>`,
-    link: "https://github.com/CampAsAChamp/DiggerMan",
-    thumbnail: DiggermanThumbnail,
-    videoThumbnail: DiggermanVideoThumbnail,
-    videoThumbnailMp4: DiggermanVideoThumbnailMp4,
-    isVideo: true,
-  },
-  {
-    name: "Los Angeles Chick Fil A Scraper",
-    technologies: [
-      technologies.PYTHON,
-      technologies.GITHUB
-    ],
-    textContent: `
-                  <li>
-                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app to claim my free Chick Fil A sandwich.
-                  </li>
-                  <li>
-                    Free Chick Fil A is available if one of the following criteria for the sports teams are met
-                  </li>
-                  <ul>
-                  <li>Los Angeles Angels score 7 or more runs at home</li>
-                  <li>Anaheim Ducks score 5 or more goals at home</li>
-                  <li>LAFC wins at home</li>
-                    </ul>
-                  `,
-    link: "https://github.com/CampAsAChamp/los-angeles-chick-fil-a-scraper",
-    thumbnail: ChickFilAThumbnail,
   },
   {
     name: "Object & Face Detection System",
