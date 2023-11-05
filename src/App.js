@@ -22,8 +22,8 @@ function App() {
       <AboutMe />
       <Experience />
       <SkillsAndTechnologies />
-      <ArtProjects />
       <SWProjects />
+      <ArtProjects />
     </>
   );
 }

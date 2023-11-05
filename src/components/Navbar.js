@@ -63,13 +63,13 @@ export function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#graphic-design-header" onClick={closeNavModal}>
-            Art & Design
+          <a href="#sw-projects-header" onClick={closeNavModal}>
+            Projects
           </a>
         </li>
         <li>
-          <a href="#sw-projects-header" onClick={closeNavModal}>
-            Projects
+          <a href="#graphic-design-header" onClick={closeNavModal}>
+            Art & Design
           </a>
         </li>
       </ul>
