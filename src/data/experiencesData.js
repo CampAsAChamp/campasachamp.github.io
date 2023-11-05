@@ -21,7 +21,7 @@ const experiences = [
     position: "Software Engineer 2",
     duration: "Oct 2023 - Present",
     textContent: `<li>
-                    Currently working on the <a href="https://www.intuit.com/strategy/#bigbet-2" target="_blank" rel="noopener noreferrer">Virtual Expert Platform</a> on the appointment scheduling team.
+                    Currently working as a full stack software engineer on the appointment scheduling team for TurboTax's <a href="https://www.intuit.com/strategy/#bigbet-2" target="_blank" rel="noopener noreferrer">Virtual Expert Platform</a>.
                   </li>
                   `,
     technologies: [
@@ -85,7 +85,7 @@ const experiences = [
                       Implemented modules in Space to Earth message simulation with Python & C++, allowing for extensive development and testing without needing Space hardware.
                   </li>
                   <li>
-                      Optimized statistical feature generation algorithm leading to a 43% improvement in runtime.
+                      Optimized statistical feature generation algorithm from systems engineers leading to a 90% improvement in runtime (~200 μs to ~20 μs).
                   </li>
                   <li>
                       Received program-wide performance recognition award for outstanding and impressive performance (July 2020, June 2021, Sept 2021); Recognition Awards for collaboration (June 2020, Aug 2020, Jan 2021).
@@ -103,7 +103,7 @@ const experiences = [
                     Created responsive mobile web app <a href="https://www.vivostate.com/" target="_blank" rel="noopener noreferrer">ViVOstate Terminal Management System (TMS)</a> with Node, Express, and Angular for viewing credit card reader device information and performing remote firmware updates in the field.
                 </li>
                 <li>
-                    Built a web based barcode scanner to allow easy lookup of a device's status and specs using a smartphone/laptop camera, resulting in a 78% faster average task time.
+                    Built a web based barcode scanner to allow easy lookup of a device's status and specs using a smartphone/laptop camera, resulting in a 44% faster average task time.
                 </li>
                 <li>
                     Added GPS location tracking for quickly viewing devices on a map, utilizing the <a href="https://developers.google.com/maps/documentation" target="_blank" rel="noopener noreferrer"> Google Maps API</a>.
