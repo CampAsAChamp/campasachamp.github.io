@@ -20,7 +20,7 @@ const projects = [
     ],
     textContent: `
                   <li>
-                    Cron job that checks all of the Los Angeles sports teams scores each morning using Python and GitHub actions (for the automatic cron job) to see if any of them qualify for free Chick Fil A sandwiches and sends me an email as a reminder to check my app to claim the coupon
+                    Cron job that checks all of the Los Angeles sports teams scores each morning using Python and GitHub actions (for running the cron job automatically) to see if any of them qualify for free Chick Fil A sandwiches and sends me an email as a reminder to check my app to claim the coupon
                   </li>
                   <li>
                     Free Chick Fil A is available if one of the following criteria for the sports teams are met
