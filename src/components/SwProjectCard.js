@@ -20,7 +20,11 @@ export function SwProjectCard(props) {
       </div>
       <div className="sw-projects-content">
         <div className="sw-projects-thumbnail-container">
-          <img className="sw-projects-thumbnail" src={project.thumbnail} alt={project.name} title={project.name} />
+          {
+            project.isVideo ?
+              <video className="sw-projects-thumbnail" src={project.videoThumbnail} alt={project.name} title={project.name} autoplay="autoplay" loop="loop" muted="muted" /> :
+              <img className="sw-projects-thumbnail" src={project.thumbnail} alt={project.name} title={project.name} />
+          }
         </div>
         <div className="sw-projects-info-container">
           <div className="sw-projects-text">
