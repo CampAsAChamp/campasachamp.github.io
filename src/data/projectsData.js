@@ -13,14 +13,14 @@ import * as technologies from "./technologiesData";
 
 const projects = [
   {
-    name: "Los Angeles Chick Fil A Scraper",
+    name: "Los Angeles Sports Chick Fil A Scraper",
     technologies: [
       technologies.PYTHON,
       technologies.GITHUB
     ],
     textContent: `
                   <li>
-                    Service that checks for free Chick Fil A each day at 8 AM PST using Python and GitHub Actions (for the automatic cron job) and sends me an email as a reminder to check my Chick Fil A app to claim my free Chick Fil A sandwich.
+                    Cron job that checks all of the Los Angeles sports teams scores each morning using Python and GitHub actions (for the automatic cron job) to see if any of them qualify for free Chick Fil A sandwiches and sends me an email as a reminder to check my app to claim the coupon
                   </li>
                   <li>
                     Free Chick Fil A is available if one of the following criteria for the sports teams are met
@@ -31,7 +31,7 @@ const projects = [
                   <li>LAFC wins at home</li>
                     </ul>
                   `,
-    link: "https://github.com/CampAsAChamp/los-angeles-chick-fil-a-scraper",
+    link: "https://github.com/CampAsAChamp/los-angeles-sports-chick-fil-a-scraper",
     thumbnail: ChickFilAThumbnail,
   },
   {
