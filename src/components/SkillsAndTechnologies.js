@@ -45,8 +45,6 @@ export function SkillsAndTechnologies() {
             technologyNames={[
               technologies.GIT,
               technologies.LINUX,
-              technologies.ADOBE_ILLUSTRATOR,
-              technologies.ADOBE_PHOTOSHOP,
               technologies.FIGMA,
             ]}
           />
