@@ -31,8 +31,6 @@ const experiences = [
       technologies.REDUX,
       technologies.GRAPHQL,
       technologies.AWS,
-      technologies.KUBERNETES,
-      technologies.DOCKER,
     ],
     logo: IntuitLogo,
     color: COLORS.INTUIT,
