@@ -16,6 +16,7 @@
     "swiper": "^8.2.4"
   },
   "scripts": {
+    "prebuild": "npm install --force",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
