@@ -18,8 +18,9 @@ export function SkillsAndTechnologies() {
           <SkillsRow
             technologyNames={[
               technologies.GO,
-              technologies.PYTHON,
               technologies.JAVA,
+              technologies.SPRING,
+              technologies.PYTHON,
               technologies.CPP,
             ]}
           />
@@ -35,7 +36,6 @@ export function SkillsAndTechnologies() {
           <SkillsRow
             technologyNames={[
               technologies.POSTGRES,
-              technologies.MYSQL,
               technologies.KUBERNETES,
               technologies.DOCKER,
               technologies.GCP,
