@@ -61,12 +61,7 @@
 
 ### Built With
 
-* [React](https://reactjs.org/)
-* [Javascript](https://www.javascript.com/)
-* [HTML5](https://html.spec.whatwg.org/multipage/)
-* [CSS3](https://www.w3.org/TR/CSS/#css)
-* [Figma](https://www.figma.com/)
-* [Netlify](https://www.netlify.com/)
+[![My Skills](https://skillicons.dev/icons?i=react,js,html,css,figma,netlify)](https://skillicons.dev)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
