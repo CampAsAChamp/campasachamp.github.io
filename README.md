@@ -61,7 +61,7 @@
 
 ### Built With
 
-[![My Skills](https://skillicons.dev/icons?i=react,js,html,css,figma,netlify)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,js,html,css,figma,netlify,cloudflare)](https://skillicons.dev)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
