@@ -11,7 +11,6 @@
     "react-dom": "^18.3.1",
     "react-fns": "^1.4.0",
     "react-inlinesvg": "^3.0.0",
-    "react-scripts": "5.0.1",
     "swiper": "^8.2.4"
   },
   "scripts": {
@@ -44,11 +43,12 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.38",
     "prettier": "^2.6.2",
     "prettier-plugin-css-order": "^1.2.0",
+    "react-scripts": "^5.0.1",
     "source-map-explorer": "^2.5.2"
   }
 }
