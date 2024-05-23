@@ -5,6 +5,7 @@ import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webp";
 import FaceSwappingVideoThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
 import FaceSwappingVideoThumbnail from "assets/Projects/Software/Face_Morphing.webm";
 import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webp";
+import HomeServerThumbnail from "assets/Projects/Software/Home_Server.png"
 import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
 import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
 import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
@@ -108,6 +109,22 @@ const projects = [
     thumbnail: ObjectDetectionThumbnail,
   },
   {
+    name: "Face Swapping",
+    technologies: [technologies.PYTHON, technologies.NUMPY],
+    textContent: `<li>
+                    Piecewise affine warping, computes an affine transformation for triangles placed along the face.
+                  </li>
+                  <li>
+                    Morphs a face into another one or can swap parts of a face(eyes, mouth, nose) to another face while
+                    still maintaining the facial structure.
+                  </li>`,
+    link: "https://github.com/CampAsAChamp/FaceSwap",
+    thumbnail: FaceSwappingThumbnail,
+    videoThumbnail: FaceSwappingVideoThumbnail,
+    videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
+    isVideo: true,
+  },
+  {
     name: "Personal Website",
     technologies: [
       technologies.REACT,
@@ -126,21 +143,23 @@ const projects = [
     thumbnail: PersonalWebsiteThumbnail,
   },
   {
-    name: "Face Swapping",
-    technologies: [technologies.PYTHON, technologies.NUMPY],
+    name: "Home Server",
+    technologies: [
+      technologies.UBUNTU,
+      technologies.LINUX,
+      technologies.DOCKER,
+      technologies.NGINX,
+      technologies.MONGODB,
+      technologies.POSTGRES,
+      technologies.REDIS,
+      technologies.CLOUDFLARE
+    ],
     textContent: `<li>
-                    Piecewise affine warping, computes an affine transformation for triangles placed along the face.
-                  </li>
-                  <li>
-                    Morphs a face into another one or can swap parts of a face(eyes, mouth, nose) to another face while
-                    still maintaining the facial structure.
+                    My Home Server for file storage, photo, movie, tv management & serving, with many other bells and whistles.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/FaceSwap",
-    thumbnail: FaceSwappingThumbnail,
-    videoThumbnail: FaceSwappingVideoThumbnail,
-    videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
-    isVideo: true,
-  }
+    link: "https://github.com/CampAsAChamp/home-server",
+    thumbnail: HomeServerThumbnail,
+  },
 ];
 
 const projectMap = new Map();

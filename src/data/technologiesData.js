@@ -4,6 +4,7 @@ import Adobe_XD_Icon from "assets/Dev_Icons/Adobe_XD.svg";
 import Angular_Icon from "assets/Dev_Icons/Angular.svg";
 import AWS_Icon from "assets/Dev_Icons/AWS.svg"
 import C_Icon from "assets/Dev_Icons/C.svg";
+import Cloudflare_Icon from "assets/Dev_Icons/Cloudflare.svg";
 import CPP_Icon from "assets/Dev_Icons/CPP.svg";
 import CSS3_Icon from "assets/Dev_Icons/CSS3.svg";
 import ColdFusion_Icon from "assets/Dev_Icons/ColdFusion.svg";
@@ -20,7 +21,9 @@ import Java_Icon from "assets/Dev_Icons/Java.svg";
 import JavaScript_Icon from "assets/Dev_Icons/JavaScript.svg";
 import Kubernetes_Icon from "assets/Dev_Icons/Kubernetes.svg";
 import Linux_Icon from "assets/Dev_Icons/Linux.svg";
+import MongoDB_Icon from "assets/Dev_Icons/MongoDB.svg";
 import MySQL_Icon from "assets/Dev_Icons/MySQL.svg";
+import Nginx_Icon from "assets/Dev_Icons/Nginx.svg"
 import NodeJS_Icon from "assets/Dev_Icons/NodeJS.svg";
 import NumPy_Icon from "assets/Dev_Icons/NumPy.svg";
 import OpenGL_Icon from "assets/Dev_Icons/OpenGL.svg";
@@ -31,6 +34,7 @@ import Redis_Icon from "assets/Dev_Icons/Redis.svg";
 import Redux_Icon from "assets/Dev_Icons/Redux.svg";
 import Spring_Icon from "assets/Dev_Icons/Spring.svg"
 import TypeScript_Icon from "assets/Dev_Icons/TypeScript.svg";
+import Ubuntu_Icon from "assets/Dev_Icons/Ubuntu.svg"
 
 export const ADOBE_ILLUSTRATOR = "Adobe Illustrator";
 export const ADOBE_PHOTOSHOP = "Adobe Photoshop";
@@ -38,6 +42,7 @@ export const ADOBE_XD = "Adobe XD";
 export const ANGULAR = "Angular";
 export const AWS = "Amazon Web Services";
 export const C = "C";
+export const CLOUDFLARE = "Cloudflare";
 export const COLDFUSION = "ColdFusion";
 export const CPP = "C++";
 export const CSS3 = "CSS3";
@@ -54,7 +59,9 @@ export const JAVA = "Java";
 export const JAVASCRIPT = "JavaScript";
 export const KUBERNETES = "Kubernetes";
 export const LINUX = "Linux";
+export const MONGODB = "MongoDB";
 export const MYSQL = "MySQL";
+export const NGINX = "Nginx";
 export const NODEJS = "NodeJS";
 export const NUMPY = "NumPy";
 export const OPEN_GL = "OpenGL";
@@ -65,6 +72,7 @@ export const REDIS = "Redis";
 export const REDUX = "Redux";
 export const SPRING = "Spring";
 export const TYPESCRIPT = "TypeScript";
+export const UBUNTU = "Ubuntu";
 
 const technologies = [
   {
@@ -96,6 +104,11 @@ const technologies = [
     name: C,
     image: C_Icon,
     link: "http://www.open-std.org/jtc1/sc22/wg14/",
+  },
+  {
+    name: CLOUDFLARE,
+    image: Cloudflare_Icon,
+    link: "https://www.cloudflare.com/",
   },
   {
     name: COLDFUSION,
@@ -178,9 +191,19 @@ const technologies = [
     link: "https://www.kernel.org/",
   },
   {
+    name: MONGODB,
+    image: MongoDB_Icon,
+    link: "https://www.mongodb.com/",
+  },
+  {
     name: MYSQL,
     image: MySQL_Icon,
     link: "https://www.mysql.com/",
+  },
+  {
+    name: NGINX,
+    image: Nginx_Icon,
+    link: "https://nginx.org/en/",
   },
   {
     name: NODEJS,
@@ -231,6 +254,11 @@ const technologies = [
     name: TYPESCRIPT,
     image: TypeScript_Icon,
     link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: UBUNTU,
+    image: Ubuntu_Icon,
+    link: "https://ubuntu.com/",
   },
 ];
 
