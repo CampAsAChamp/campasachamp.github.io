@@ -5,7 +5,7 @@ import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webp";
 import FaceSwappingVideoThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
 import FaceSwappingVideoThumbnail from "assets/Projects/Software/Face_Morphing.webm";
 import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webp";
-import HomeServerThumbnail from "assets/Projects/Software/Home_Server.png"
+import HomeServerThumbnail from "assets/Projects/Software/Home_Server.webp"
 import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
 import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
 import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
