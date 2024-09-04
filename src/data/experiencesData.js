@@ -23,6 +23,12 @@ const experiences = [
     textContent: `<li>
                     Currently working as a full stack software engineer on the appointment scheduling team for TurboTax's <a href="https://www.intuit.com/strategy/#bigbet-2" target="_blank" rel="noopener noreferrer">Virtual Expert Platform</a>.
                   </li>
+                  <li>
+                    Launched Attribute Based Routing to match customers to tax experts at a more granular level, driving a 11% reduction in TurboTax Live customer service time without impact to quality and 6% increase in same-day tax filings (contributing to $5.3M savings).
+                  </li>
+                  <li>
+                    Decoupled TurboTax Live from Amazon Connect, saving 1100 hours per year by eliminating the need for personal queues and licenses to be created by Ops team.
+                  </li>
                   `,
     technologies: [
       technologies.JAVA,
