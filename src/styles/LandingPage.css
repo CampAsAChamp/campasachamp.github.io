@@ -135,11 +135,12 @@
 }
 
 #contact-me-socials svg {
-  transition: transform 0.5s; /* Animation */
+  transition: transform 0.5s, fill 0.5s;
 }
 
 #contact-me-socials svg:hover {
   transform: scale(1.1);
+  fill: var(--color-socials-hover);
 }
 
 #github-logo {

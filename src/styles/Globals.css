@@ -3,6 +3,7 @@
 :root {
   --color-purple: hsl(243, 100%, 69%); /* #6c63ff */
   --color-purple-550: hsl(243, 100%, 64%);
+  --color-white: white;
   --color-off-grey: #707070;
   --color-yellow: #ffc261;
   --color-arcules: #0cb4df;
@@ -20,17 +21,18 @@
 
 /* Light Mode */
 :root[color-mode="light"] {
-  --color-background: white;
+  --color-background: var(--color-white);
   --color-scrollbar-background: #d9d9d9;
   --color-body-text: var(--color-off-grey);
-  --color-card: white;
+  --color-card: var(--color-white);
   --color-art-swiper-bullets: var(--color-purple);
   --color-art-swiper-buttons: rgba(255, 255, 255, 0.6);
   --color-mouse: #2f2e41;
   --color-scroll-to-top-button-box-shadow: 2px 5px 10px grey;
   --color-card-alt-text: var(--color-off-grey);
-  --color-socials-github: #171515;
-  --color-socials-linkedin: #0b66c2;
+  --color-socials-github: var(--color-off-grey);
+  --color-socials-linkedin: var(--color-off-grey);
+  --color-socials-hover: var(--color-purple);
   --color-name: var(--color-purple);
   --color-section-header: var(--color-purple);
 }
@@ -39,15 +41,16 @@
 :root[color-mode="dark"] {
   --color-background: #1e272e;
   --color-scrollbar-background: #2b343b;
-  --color-body-text: white;
+  --color-body-text: var(--color-white);
   --color-card: #2b343b;
-  --color-art-swiper-bullets: white;
+  --color-art-swiper-bullets: var(--color-white);
   --color-art-swiper-buttons: rgba(43, 52, 59, 0.3);
   --color-mouse: var(--color-yellow);
   --color-scroll-to-top-button-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   --color-card-alt-text: #a5a5a5;
-  --color-socials-github: white;
-  --color-socials-linkedin: white;
+  --color-socials-github: var(--color-white);
+  --color-socials-linkedin: var(--color-white);
+  --color-socials-hover: var(--color-yellow);
   --color-logo: var(--color-purple);
   --color-name: var(--color-yellow);
   --color-section-header: var(--color-yellow);
