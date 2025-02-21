@@ -19,7 +19,7 @@ import TriFergPic from "assets/Projects/Art/Tri_Ferg.svg";
 import WaterColorPopsiclesPic from "assets/Projects/Art/Water_Color_Popsicles.svg";
 import WellPic from "assets/Projects/Art/Well.webp";
 
-import { ArtProjectPicture } from "components/ArtProjectPicture";
+import { ArtProjectPicture } from "components/ArtProjects/ArtProjectPicture";
 
 import "styles/ArtProjects.css";
 

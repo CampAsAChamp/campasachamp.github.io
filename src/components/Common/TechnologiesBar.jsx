@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Svg } from "components/Svg";
+import { Svg } from "components/Common/Svg";
 
-import { technologiesMap } from "../data/technologiesData";
+import { technologiesMap } from "../../data/technologies";
 
 export function TechnologiesBar(props) {
   // Technologies is an array of strings listing the name of each technology

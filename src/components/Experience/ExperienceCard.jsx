@@ -1,7 +1,7 @@
 import parse from "html-react-parser";
 import React from "react";
 
-import { TechnologiesBar } from "./TechnologiesBar";
+import { TechnologiesBar } from "../Common/TechnologiesBar";
 
 export function ExperienceCard(props) {
   const { experience, index } = props;

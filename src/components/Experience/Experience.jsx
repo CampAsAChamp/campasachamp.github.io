@@ -1,8 +1,8 @@
 import React from "react";
 
-import { ExperienceCard } from "components/ExperienceCard";
+import { ExperienceCard } from "components/Experience/ExperienceCard";
 
-import { experiences } from "data/experiencesData";
+import { experiences } from "data/experiences";
 
 import "styles/Experience.css";
 

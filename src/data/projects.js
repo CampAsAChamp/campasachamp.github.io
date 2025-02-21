@@ -10,7 +10,7 @@ import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.
 import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
 import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
 
-import * as technologies from "./technologiesData";
+import * as technologies from "./technologies";
 
 const projects = [
   {

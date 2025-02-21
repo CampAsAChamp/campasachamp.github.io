@@ -4,9 +4,9 @@ import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
 import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
 import ReazonLogo from "assets/Company_Logos/Reazon.svg";
 
-import * as technologies from "data/technologiesData";
+import * as technologies from "data/technologies";
 
-import { COLORS } from "./colorsData";
+import { COLORS } from "data/colors";
 
 export const RAYTHEON = "Raytheon Intelligence & Space";
 export const ARCULES = "Arcules";

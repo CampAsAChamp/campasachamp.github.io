@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 import S_Logo from "assets/S_Logo.svg";
 
-import { Svg } from "components/Svg";
-import { ThemeSwitcher } from "components/ThemeSwitcher";
+import { Svg } from "components/Common/Svg";
+import { ThemeSwitcher } from "components/NavBar/ThemeSwitcher";
 
 import "styles/Navbar.css";
 

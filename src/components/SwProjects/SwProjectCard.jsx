@@ -3,11 +3,11 @@ import React from "react";
 
 import GitHubIcon from "assets/Dev_Icons/GitHub.svg";
 
-import { Svg } from "components/Svg";
+import { Svg } from "components/Common/Svg";
 
-import { COLORS } from "data/colorsData";
+import { COLORS } from "data/colors";
 
-import { TechnologiesBar } from "./TechnologiesBar";
+import { TechnologiesBar } from "components/Common/TechnologiesBar";
 
 export function SwProjectCard(props) {
   const { project, index } = props;

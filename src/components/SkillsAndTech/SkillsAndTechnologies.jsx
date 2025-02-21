@@ -1,8 +1,8 @@
 import React from "react";
 
-import { SkillsRow } from "components/SkillsRow";
+import { SkillsRow } from "components/SkillsAndTech/SkillsRow";
 
-import * as technologies from "data/technologiesData";
+import * as technologies from "data/technologies";
 
 import "styles/SkillsAndTechnologies.css";
 

@@ -1,8 +1,8 @@
 import React from "react";
 
-import { SwProjectCard } from "components/SwProjectCard";
+import { SwProjectCard } from "components/SwProjects/SwProjectCard";
 
-import { projects } from "data/projectsData";
+import { projects } from "data/projects";
 
 import "styles/SwProjects.css";
 

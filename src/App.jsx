@@ -1,14 +1,14 @@
 import "animate.css/animate.min.css";
 import React from "react";
 
-import { AboutMe } from "components/AboutMe";
-import { ArtProjects } from "components/ArtProjects";
-import { Experience } from "components/Experience";
-import { LandingPage } from "components/LandingPage";
-import { Navbar } from "components/Navbar";
-import { SWProjects } from "components/SWProjects";
-import { ScrollToTopButton } from "components/ScrollToTopButton";
-import { SkillsAndTechnologies } from "components/SkillsAndTechnologies";
+import { AboutMe } from "components/AboutMe/AboutMe";
+import { ArtProjects } from "components/ArtProjects/ArtProjects";
+import { Experience } from "components/Experience/Experience";
+import { LandingPage } from "components/LandingPage/LandingPage";
+import { Navbar } from "components/NavBar/Navbar";
+import { SWProjects } from "components/SwProjects/SwProjects";
+import { ScrollToTopButton } from "components/Common/ScrollToTopButton";
+import { SkillsAndTechnologies } from "components/SkillsAndTech/SkillsAndTechnologies";
 
 import "styles/Globals.css";
 import "styles/Scrollbar.css";
