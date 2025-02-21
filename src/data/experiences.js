@@ -14,7 +14,7 @@ export const ID_TECH = "ID Tech";
 export const INTUIT = "Intuit";
 export const REAZON = "Reazon Systems";
 
-const experiences = [
+export const experiences = [
   {
     company_name: INTUIT,
     location: "San Diego, CA",
@@ -157,4 +157,4 @@ experiences.forEach((item) => {
   experienceMap.set(item.company_name, item);
 });
 
-export { experiences, experienceMap };
+export { experienceMap };
