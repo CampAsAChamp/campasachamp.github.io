@@ -19,7 +19,7 @@ export function SkillsRow(props) {
           <div className="skills-icon-container" key={tech.name}>
             <a href={tech.link}>
               <Svg
-                className="skills-icon hvr-wobble-vertical"
+                className="skills-icon hvr-grow-rotate"
                 src={tech.image}
                 fill={COLORS.PURPLE}
                 title={tech.name + " Icon"}
