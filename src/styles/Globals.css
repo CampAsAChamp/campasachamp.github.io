@@ -63,16 +63,16 @@
 }
 
 html {
-  background-color: var(--color-background);
   box-sizing: border-box;
-  font-size: 16px;
+  background-color: var(--color-background);
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
+  margin: 0;
   color: var(--color-body-text);
   font-family: "Nunito", sans-serif;
-  margin: 0;
 }
 
 html,
@@ -81,18 +81,18 @@ body {
 }
 
 h1 {
-  font-size: 6rem;
-  font-weight: 900;
-  line-height: 131px;
-  margin-block-end: 0;
   margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 131px;
 }
 
 h2 {
-  font-size: 3.125rem;
-  font-weight: 900;
-  margin-block-end: 0;
   margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 900;
+  font-size: 3.125rem;
 }
 
 a {
@@ -100,19 +100,19 @@ a {
 }
 
 ul {
-  list-style-position: inside;
-  margin-block-end: 0em;
   margin-block-start: 0em;
+  margin-block-end: 0em;
   padding-left: 0;
+  list-style-position: inside;
 }
 
 li {
   margin-bottom: 0.5em;
 }
 
- /* Second Level */
- ul ul{
-  margin-left:2em;
+/* Second Level */
+ul ul {
+  margin-left: 2em;
 }
 
 .page-container {
@@ -120,38 +120,38 @@ li {
 }
 
 .section-header {
+  color: var(--color-section-header);
   text-align: center;
   text-transform: uppercase;
-  color: var(--color-section-header);
 }
 
 .button {
-  background: var(--color-purple);
-  border: none;
-  border-radius: var(--rounded-button-corners-size);
-
-  color: white;
   cursor: pointer;
-  font: 900 large "Nunito";
-  font-size: 1.125rem;
   margin: 5px;
   outline: none;
+  border: none;
+  border-radius: var(--rounded-button-corners-size);
+  background: var(--color-purple);
+
+  color: white;
+  font: 900 large "Nunito";
+  font-size: 1.125rem;
   text-align: center;
   text-transform: uppercase;
 }
 
 .card {
-  background: var(--color-card);
-  border-radius: var(--rounded-component-corners-size);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
   display: flex;
-  flex-direction: column;
-  font-size: 1rem;
-  margin: 20px auto;
-  padding: 35px;
   position: relative;
+  flex-direction: column;
   transition: transform 0.5s;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  border-radius: var(--rounded-component-corners-size);
+  background: var(--color-card);
+  padding: 35px;
   width: 80%;
+  font-size: 1rem;
 }
 
 .card:hover {
@@ -159,14 +159,14 @@ li {
 }
 
 .modal-bg {
-  background-color: rgba(0, 0, 0, 0.8);
   display: none;
-  height: 100%;
-  left: 0;
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
 }
 
 .modal-bg.show {
@@ -198,11 +198,11 @@ li {
   }
 
   .card {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-    font-size: 1.25rem;
     margin: 15px auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     padding: 25px;
     width: 90%;
+    font-size: 1.25rem;
   }
 
   .card:hover {
