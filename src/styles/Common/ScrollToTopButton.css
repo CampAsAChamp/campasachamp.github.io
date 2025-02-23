@@ -1,26 +1,26 @@
 #scroll-to-top-button {
-  background-color: var(--color-yellow);
-  border-radius: 50%;
-  bottom: 20px;
-  box-shadow: var(--color-scroll-to-top-button-box-shadow);
-  color: black;
-  cursor: pointer;
   display: block;
-  font-size: 1.5rem;
-  height: 50px;
-  opacity: 0;
-  outline: none;
   position: fixed;
   right: 15px;
+  bottom: 20px;
   transform: translateX(15px);
-  transition: opacity 1s ease, transform 1s ease;
-  width: 50px;
+  opacity: 0;
   z-index: 1;
+  transition: opacity 1s ease, transform 1s ease;
+  cursor: pointer;
+  outline: none;
+  box-shadow: var(--color-scroll-to-top-button-box-shadow);
+  border-radius: 50%;
+  background-color: var(--color-yellow);
+  width: 50px;
+  height: 50px;
+  color: black;
+  font-size: 1.5rem;
 }
 
 #scroll-to-top-button.show {
-  opacity: 1;
   transform: translateX(0px);
+  opacity: 1;
 }
 
 #scroll-to-top-button:hover {

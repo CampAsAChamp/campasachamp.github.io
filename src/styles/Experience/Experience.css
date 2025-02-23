@@ -1,5 +1,6 @@
 #experience-container {
   display: grid;
+  grid-template-columns: 1fr;
 
   grid-template-areas:
     "experience-header"
@@ -7,7 +8,6 @@
     "card2"
     "card3"
     "card4";
-  grid-template-columns: 1fr;
   margin-top: 50px;
 }
 
@@ -32,54 +32,54 @@
 }
 
 .experience-thumbnail {
-  height: var(--thumbnail-size);
   width: var(--thumbnail-size);
+  height: var(--thumbnail-size);
 }
 
 .experience-title-container {
-  align-items: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card-title {
-  font-size: 1.35rem;
   font-weight: 900;
+  font-size: 1.35rem;
 }
 
 .location {
-  font-style: italic;
   margin-bottom: 25px;
+  font-style: italic;
 }
 
 .secondary-title {
-  align-items: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .position {
   color: var(--color-card-alt-text);
-  font-size: 1.15rem;
   font-weight: 700;
+  font-size: 1.15rem;
 }
 
 .supporting-text {
-  margin-bottom: 1em;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .languages-bar {
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: auto;
 }
 
 .languages-item {
-  height: var(--language-item-size);
   margin-right: 20px;
   width: var(--language-item-size);
+  height: var(--language-item-size);
 }
 
 .languages-item:last-child {
@@ -96,9 +96,9 @@
   }
 
   .languages-item {
-    height: var(--mobile-thumbnail-size);
     margin-right: 14px;
     width: var(--mobile-thumbnail-size);
+    height: var(--mobile-thumbnail-size);
   }
 
   .languages-item:last-child {
