@@ -12,7 +12,7 @@ export function AboutMe() {
       <div id="about-me-images">
         <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
         <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
-      </div >
+      </div>
       <div id="about-me-text">
         <div id="about-me-header">
           <h2>ABOUT ME</h2>

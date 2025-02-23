@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export function ArtProjectPicture(props) {
+export function ArtProjectPicture({ imgSrc, altText }) {
   function showModal() {
     let modalBackground = document.getElementById("art-modal-background");
     let modalImg = document.getElementById("art-modal-img");
@@ -21,11 +21,10 @@ export function ArtProjectPicture(props) {
     modalImg.classList.remove("show");
   }
 
-  const { imgSrc, altText } = props;
-
   return (
     <>
       <img src={imgSrc} className="art-grid-img" alt={altText} title={altText} onClick={showModal} />
+      {/* Modal 👇 */}
       <div className="modal-bg" id="art-modal-background" onClick={hideModal}>
         <span id="art-modal-close" onClick={hideModal}>
           &times;
