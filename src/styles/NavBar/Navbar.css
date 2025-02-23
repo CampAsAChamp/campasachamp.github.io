@@ -1,6 +1,5 @@
 nav {
   display: flex;
-
   grid-area: nav;
   justify-content: space-between;
   align-items: center;
@@ -23,19 +22,23 @@ nav li {
 }
 
 nav li a {
-  position: relative;
   transition: var(--animation-duration);
-  color: white;
+  color: var(--color-white);
   font-weight: 900;
   font-size: 1.5vw;
   text-decoration: none;
 }
 
+nav li a:hover {
+  color: var(--color-yellow);
+}
+
+/* Bottom bar under for on hover */
 nav li a::after {
   position: absolute;
   top: 100%;
   left: 0%;
-  transform: scaleX(0);
+  transform: scaleX(0); /* Moves from left to right */
   transform-origin: right;
   transition: transform 0.5s;
   background: var(--color-yellow);
@@ -44,12 +47,8 @@ nav li a::after {
   content: "";
 }
 
-nav li a:hover {
-  color: var(--color-yellow);
-}
-
 nav li a:hover::after {
-  /* Moves the underline bar */
+  /* Moves the underline bar to 'unhide' it */
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -66,7 +65,7 @@ nav li a:hover::after {
   transition: all 0.5s ease;
   margin: 5px;
   border-radius: var(--rounded-button-corners-size);
-  background-color: white;
+  background-color: var(--color-white);
   width: 25px;
   height: 5px;
 }

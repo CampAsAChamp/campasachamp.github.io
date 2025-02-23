@@ -4,6 +4,7 @@ import S_Logo from "assets/S_Logo.svg";
 
 import { Svg } from "components/Common/Svg";
 import { ThemeSwitcher } from "components/NavBar/ThemeSwitcher";
+import { HamburgerMenu } from "components/NavBar/HamburgerMenu";
 
 import "styles/NavBar/Navbar.css";
 
@@ -73,11 +74,7 @@ export function Navbar() {
           </a>
         </li>
       </ul>
-      <div className="hamburger-menu" onClick={navSlide}>
-        <div className="line" id="line1" />
-        <div className="line" id="line2" />
-        <div className="line" id="line3" />
-      </div>
+      <HamburgerMenu navSlide={navSlide} />
     </nav>
   );
 }
