@@ -1,7 +1,7 @@
 import React from "react";
 import { Scroll } from "react-fns";
 
-import "styles/MouseScrollIndicator.css";
+import "styles/LandingPage/MouseScrollIndicator.css";
 
 export function MouseScrollIndicator() {
   let scrolledPast = false;

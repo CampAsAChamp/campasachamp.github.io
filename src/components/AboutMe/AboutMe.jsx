@@ -3,7 +3,7 @@ import DeskIllustration from "assets/Illustrations/Desk_Illustration.svg";
 import GradCapIllustration from "assets/Illustrations/Graduation_Illustration.svg";
 import S_Logo_Purple from "assets/S_Logo_Purple.svg";
 
-import "styles/AboutMe.css";
+import "styles/AboutMe/AboutMe.css";
 
 export function AboutMe() {
   return (

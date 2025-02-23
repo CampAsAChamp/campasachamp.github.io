@@ -10,8 +10,8 @@ import { SWProjects } from "components/SwProjects/SwProjects";
 import { ScrollToTopButton } from "components/Common/ScrollToTopButton";
 import { SkillsAndTechnologies } from "components/SkillsAndTech/SkillsAndTechnologies";
 
-import "styles/Globals.css";
-import "styles/Scrollbar.css";
+import "styles/Common/Globals.css";
+import "styles/Common/Scrollbar.css";
 
 function App() {
   return (

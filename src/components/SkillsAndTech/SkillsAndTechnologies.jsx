@@ -4,7 +4,7 @@ import { SkillsRow } from "components/SkillsAndTech/SkillsRow";
 
 import * as technologies from "data/technologies";
 
-import "styles/SkillsAndTechnologies.css";
+import "styles/SkillsAndTech/SkillsAndTechnologies.css";
 
 export function SkillsAndTechnologies() {
   return (

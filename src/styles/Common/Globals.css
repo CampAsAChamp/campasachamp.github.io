@@ -1,4 +1,4 @@
-@import "styles/hover.css";
+@import "styles/Common/hover.css";
 
 :root {
   --color-purple: hsl(243, 100%, 69%); /* #6c63ff */

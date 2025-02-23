@@ -21,7 +21,7 @@ import WellPic from "assets/Projects/Art/Well.webp";
 
 import { ArtProjectPicture } from "components/ArtProjects/ArtProjectPicture";
 
-import "styles/ArtProjects.css";
+import "styles/ArtProjects/ArtProjects.css";
 
 export function ArtProjects() {
   return (

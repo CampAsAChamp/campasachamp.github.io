@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import DarkModeToggle from "react-dark-mode-toggle";
 
-import "styles/ThemeSwitcher.css";
+import "styles/NavBar/ThemeSwitcher.css";
 
 const DARK = "dark";
 const LIGHT = "light";

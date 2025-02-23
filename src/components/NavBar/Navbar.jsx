@@ -5,7 +5,7 @@ import S_Logo from "assets/S_Logo.svg";
 import { Svg } from "components/Common/Svg";
 import { ThemeSwitcher } from "components/NavBar/ThemeSwitcher";
 
-import "styles/Navbar.css";
+import "styles/NavBar/Navbar.css";
 
 export function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);

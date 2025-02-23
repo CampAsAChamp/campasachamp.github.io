@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Scroll } from "react-fns";
 
-import "styles/ScrollToTopButton.css";
+import "styles/Common/ScrollToTopButton.css";
 
 export function ScrollToTopButton() {
   const [isMounted, setIsMounted] = useState(false);

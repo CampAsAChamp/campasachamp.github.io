@@ -4,7 +4,7 @@ import { ExperienceCard } from "components/Experience/ExperienceCard";
 
 import { experiences } from "data/experiences";
 
-import "styles/Experience.css";
+import "styles/Experience/Experience.css";
 
 export function Experience() {
   return (

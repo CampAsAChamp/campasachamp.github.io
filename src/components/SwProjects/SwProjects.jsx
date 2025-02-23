@@ -4,7 +4,7 @@ import { SwProjectCard } from "components/SwProjects/SwProjectCard";
 
 import { projects } from "data/projects";
 
-import "styles/SwProjects.css";
+import "styles/SwProjects/SwProjects.css";
 
 export function SWProjects() {
   return (

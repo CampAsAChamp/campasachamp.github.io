@@ -9,7 +9,7 @@ import RealProfilePic from "assets/Real_Profile_Pic.webp";
 import { MouseScrollIndicator } from "components/LandingPage/MouseScrollIndicator";
 import { Svg } from "components/Common/Svg";
 
-import "styles/LandingPage.css";
+import "styles/LandingPage/LandingPage.css";
 
 export function LandingPage() {
   function showModal() {
