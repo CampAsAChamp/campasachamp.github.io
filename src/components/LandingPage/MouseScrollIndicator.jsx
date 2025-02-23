@@ -1,23 +1,14 @@
-import React from "react";
-import { Scroll } from "react-fns";
+import React, { useEffect, useState } from "react";
+
+import useScrollPosition from "hooks/useScrollPosition";
 
 import "styles/LandingPage/MouseScrollIndicator.css";
 
 export function MouseScrollIndicator() {
-  let scrolledPast = false;
-  return (
-    <Scroll
-      render={({ x, y }) => {
-        let element;
+  const scrollPosition = useScrollPosition();
 
-        if (!scrolledPast && y < 800) {
-          element = <div className="mouse" id="mouse-scroll-indicator" />;
-        } else {
-          scrolledPast = true;
-        }
+  // TODO: Add to this so it doesn't re-render if we scroll back up
+  const showMouse = scrollPosition.y < 400;
 
-        return element;
-      }}
-    />
-  );
+  return <div className={`${!showMouse && "show"}`} id="mouse-scroll-indicator" />;
 }
