@@ -33,13 +33,13 @@ export function SwProjectCard(props) {
           <div className="sw-projects-button-row">
             <button
               type="button"
-              className="button sw-projects-button hvr-wobble-vertical"
+              className="button sw-projects-button"
               onClick={() => {
                 window.open(project.link, "_blank");
               }}
             >
-              View Code
               <Svg className="github-button-icon" src={GitHubIcon} fill="white" alt="Github Icon" />
+              <span>View Code</span>
             </button>
           </div>
         </div>
