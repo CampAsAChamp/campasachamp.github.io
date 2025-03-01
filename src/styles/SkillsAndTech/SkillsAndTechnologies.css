@@ -68,6 +68,10 @@
   transform-origin: left;
 }
 
+.skills-icon-container a:hover + .skills-caption {
+  color: var(--color-yellow);
+}
+
 .skills-icon-container a:hover + .skills-caption::after {
   transform: scaleX(1);
   transform-origin: left;
