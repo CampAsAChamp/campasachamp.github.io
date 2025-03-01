@@ -1,7 +1,5 @@
 #sw-projects-container {
   display: grid;
-
-  grid-template-columns: 1fr;
   grid-template-areas:
     "sw-projects-header"
     "sw-projects-card1"
@@ -10,6 +8,8 @@
     "sw-projects-card4"
     "sw-projects-card5"
     "sw-projects-card6";
+
+  grid-template-columns: 1fr;
   padding-bottom: 100px;
   width: 100%;
 }
@@ -25,8 +25,8 @@
 }
 
 .sw-project-title {
-  font-weight: 800;
   font-size: 2rem;
+  font-weight: 800;
   line-height: 1;
 }
 
@@ -35,15 +35,15 @@
 }
 
 .sw-projects-thumbnail-container {
-  width: 600px;
   height: 250px;
+  width: 600px;
 }
 
 .sw-projects-thumbnail {
   border-radius: var(--rounded-component-corners-size);
-  width: 100%;
   height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .sw-projects-info-container {
@@ -66,9 +66,9 @@
 }
 
 .github-button-icon {
+  height: 21px;
   margin-left: 10px;
   width: 21px;
-  height: 21px;
 }
 
 #sw-projects-card1 {
@@ -101,18 +101,18 @@
   }
 
   .sw-projects-content {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   .sw-projects-info-container {
-    margin-top: 10px;
     margin-left: 0;
+    margin-top: 10px;
   }
 
   .sw-projects-title-container {
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
   }
 
   .sw-projects-card .languages-bar {
@@ -124,14 +124,14 @@
   }
 
   .sw-projects-thumbnail-container {
-    width: auto;
     height: auto;
+    width: auto;
   }
 
   .sw-projects-thumbnail {
-    width: auto;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    width: auto;
   }
 
   .sw-projects-text {
