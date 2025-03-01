@@ -11,6 +11,7 @@ export const useScrollPosition = () => {
     window.addEventListener("scroll", handleScroll);
     handleScroll(); // Initial scroll position on mount
 
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
