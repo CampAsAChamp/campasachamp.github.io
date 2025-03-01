@@ -3,7 +3,7 @@
   border-radius: 50%;
   bottom: 20px;
   box-shadow: var(--color-scroll-to-top-button-box-shadow);
-  color: black;
+  color: var(--color-background);
   cursor: pointer;
   display: block;
   font-size: 1.5rem;
