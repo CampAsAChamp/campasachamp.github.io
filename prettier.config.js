@@ -33,7 +33,7 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   arrowParens: 'always',
-  printWidth: 130,
+  printWidth: 140,
   tabWidth: 2,
   proseWrap: 'always',
 };
