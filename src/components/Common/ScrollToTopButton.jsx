@@ -24,7 +24,7 @@ export function ScrollToTopButton() {
       id="scroll-to-top-button"
       title="Go to top"
     >
-      ⇪
+      ↑
     </button>
   );
 }
