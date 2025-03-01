@@ -13,9 +13,7 @@ export function SkillsAndTechnologies() {
         <h2>Skills & Technologies</h2>
       </div>
       <div id="skills-content">
-        <SkillsRow
-          technologyNames={[technologies.GO, technologies.JAVA, technologies.SPRING, technologies.PYTHON, technologies.CPP]}
-        />
+        <SkillsRow technologyNames={[technologies.GO, technologies.JAVA, technologies.SPRING, technologies.PYTHON, technologies.CPP]} />
         <SkillsRow
           technologyNames={[
             technologies.TYPESCRIPT,

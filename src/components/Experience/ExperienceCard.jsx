@@ -12,12 +12,7 @@ export function ExperienceCard(props) {
         <div className="employer card-title" style={{ color: experience.color }}>
           {experience.company_name}
         </div>
-        <img
-          className="experience-thumbnail"
-          src={experience.logo}
-          alt={experience.company_name}
-          title={experience.company_name}
-        />
+        <img className="experience-thumbnail" src={experience.logo} alt={experience.company_name} title={experience.company_name} />
       </div>
       <div className="location">{experience.location}</div>
       <div className="secondary-title">
