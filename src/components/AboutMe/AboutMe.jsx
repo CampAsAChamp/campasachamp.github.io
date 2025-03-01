@@ -1,4 +1,5 @@
 import React from "react";
+import AnteaterIllustration from "assets/Illustrations/Anteater_Illustration.webp";
 import DeskIllustration from "assets/Illustrations/Desk_Illustration.svg";
 import GradCapIllustration from "assets/Illustrations/Graduation_Illustration.svg";
 import S_Logo_Purple from "assets/S_Logo_Purple.svg";
@@ -12,6 +13,7 @@ export function AboutMe() {
       <div id="about-me-images">
         <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
         <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
+        <img id="anteater-illustration" src={AnteaterIllustration} alt="Anteater Illustration" />
       </div>
       <div id="about-me-text">
         <div id="about-me-header">

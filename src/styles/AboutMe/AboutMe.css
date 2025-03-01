@@ -14,7 +14,32 @@
 }
 
 #about-me-images {
-  grid-area: about-me-images;
+  display: grid;
+  gap: 50px;
+  grid-area: about-me-images; /* Refers to larger grid fro the about-me container */
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+}
+
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
 }
 
 #about-me-images img {
@@ -26,8 +51,8 @@
 }
 
 #about-me-header {
-  text-align: center;
   color: var(--color-section-header);
+  text-align: center;
 }
 
 #about-me-text {
@@ -42,16 +67,16 @@
 }
 
 #grad-cap-illustration {
-  display: block;
+  /* display: block;
   position: relative;
-  width: 50%;
+  width: 50%; */
 }
 
 #desk-illustration {
-  display: block;
+  /* display: block;
   left: 30%;
   position: relative;
-  width: 50%;
+  width: 50%; */
 }
 
 #background-logo {
