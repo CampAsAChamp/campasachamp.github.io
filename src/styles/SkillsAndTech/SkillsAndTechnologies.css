@@ -44,7 +44,33 @@
 .skills-caption {
   font-size: 1.625rem;
   font-weight: 900;
+  position: relative;
   text-align: center;
+  transition: var(--animation-duration);
+}
+
+/* Bottom bar under for on hover */
+.skills-caption::after {
+  background: var(--color-yellow);
+  content: "";
+  height: 3px;
+  left: 0%;
+  position: absolute;
+  top: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  width: 100%;
+}
+
+.skills-caption:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.skills-icon-container a:hover + .skills-caption::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 @media screen and (max-width: 1100px) {
