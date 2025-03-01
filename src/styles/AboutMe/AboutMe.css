@@ -98,4 +98,9 @@
   #about-me-images img:hover {
     transform: none;
   }
+
+  #background-logo {
+    width: 100%;
+    left: 0;
+  }
 }
