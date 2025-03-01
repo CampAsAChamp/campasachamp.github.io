@@ -24,6 +24,7 @@ export function SkillsAndTechnologies() {
         />
         <SkillsRow
           technologyNames={[
+            technologies.TYPESCRIPT,
             technologies.JAVASCRIPT,
             technologies.REACT,
             technologies.REDUX,
