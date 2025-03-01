@@ -35,6 +35,7 @@ export const experiences = [
       technologies.SPRING,
       technologies.REACT,
       technologies.REDUX,
+      technologies.TYPESCRIPT,
       technologies.GRAPHQL,
       technologies.AWS,
     ],
