@@ -17,7 +17,7 @@ const projects = [
     name: "Los Angeles Sports Chick Fil A Scraper",
     technologies: [
       technologies.PYTHON,
-      technologies.GITHUB
+      technologies.GITHUB_ACTIONS
     ],
     textContent: `
                   <li>
