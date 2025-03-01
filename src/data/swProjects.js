@@ -1,24 +1,21 @@
-import ChickFilAThumbnail from "assets/Projects/Software/Chick_Fil_A.webp"
-import DiggermanVideoThumbnailMp4 from "assets/Projects/Software/Diggerman.mp4";
-import DiggermanVideoThumbnail from "assets/Projects/Software/Diggerman.webm";
-import DiggermanThumbnail from "assets/Projects/Software/Diggerman.webp";
-import FaceSwappingVideoThumbnailMp4 from "assets/Projects/Software/Face_Morphing.mp4";
-import FaceSwappingVideoThumbnail from "assets/Projects/Software/Face_Morphing.webm";
-import FaceSwappingThumbnail from "assets/Projects/Software/Face_Morphing.webp";
-import HomeServerThumbnail from "assets/Projects/Software/Home_Server.webp"
-import ObjectDetectionThumbnail from "assets/Projects/Software/Object_Detection.webp";
-import PersonalWebsiteThumbnail from "assets/Projects/Software/Portfolio_Thumbnail.webp";
-import SpotifyPPThumbnail from "assets/Projects/Software/Spotify.webp";
+import ChickFilAThumbnail from 'assets/Projects/Software/Chick_Fil_A.webp';
+import DiggermanVideoThumbnailMp4 from 'assets/Projects/Software/Diggerman.mp4';
+import DiggermanVideoThumbnail from 'assets/Projects/Software/Diggerman.webm';
+import DiggermanThumbnail from 'assets/Projects/Software/Diggerman.webp';
+import FaceSwappingVideoThumbnailMp4 from 'assets/Projects/Software/Face_Morphing.mp4';
+import FaceSwappingVideoThumbnail from 'assets/Projects/Software/Face_Morphing.webm';
+import FaceSwappingThumbnail from 'assets/Projects/Software/Face_Morphing.webp';
+import HomeServerThumbnail from 'assets/Projects/Software/Home_Server.webp';
+import ObjectDetectionThumbnail from 'assets/Projects/Software/Object_Detection.webp';
+import PersonalWebsiteThumbnail from 'assets/Projects/Software/Portfolio_Thumbnail.webp';
+import SpotifyPPThumbnail from 'assets/Projects/Software/Spotify.webp';
 
-import * as technologies from "./technologies";
+import * as technologies from './technologies';
 
 const projects = [
   {
-    name: "Los Angeles Sports Chick Fil A Scraper",
-    technologies: [
-      technologies.PYTHON,
-      technologies.GITHUB_ACTIONS
-    ],
+    name: 'Los Angeles Sports Chick Fil A Scraper',
+    technologies: [technologies.PYTHON, technologies.GITHUB_ACTIONS],
     textContent: `
                   <li>
                     Cron job that checks all of the Los Angeles sports teams scores each morning using Python and GitHub actions (for running the cron job automatically) to see if any of them qualify for free Chick Fil A sandwiches and sends me an email as a reminder to check my app to claim the coupon
@@ -32,11 +29,11 @@ const projects = [
                   <li>LAFC wins at home</li>
                     </ul>
                   `,
-    link: "https://github.com/CampAsAChamp/los-angeles-sports-chick-fil-a-scraper",
+    link: 'https://github.com/CampAsAChamp/los-angeles-sports-chick-fil-a-scraper',
     thumbnail: ChickFilAThumbnail,
   },
   {
-    name: "Diggerman",
+    name: 'Diggerman',
     technologies: [technologies.CPP, technologies.OPEN_GL],
     textContent: `<li>
                     Designed and implemented a large 2D Dig Dug-like game in C++ driven by
@@ -53,14 +50,14 @@ const projects = [
                   <li>
                     Implemented gold nuggets, score system and hidden oil barrels power ups.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/DiggerMan",
+    link: 'https://github.com/CampAsAChamp/DiggerMan',
     thumbnail: DiggermanThumbnail,
     videoThumbnail: DiggermanVideoThumbnail,
     videoThumbnailMp4: DiggermanVideoThumbnailMp4,
     isVideo: true,
   },
   {
-    name: "Spotify++",
+    name: 'Spotify++',
     technologies: [
       technologies.NODEJS,
       technologies.EXPRESS,
@@ -90,11 +87,11 @@ const projects = [
                     energy, acousticness, instrumentalness, and liveness provided by the track endpoint.
                   </li>
                  `,
-    link: "https://github.com/CampAsAChamp/SpotifyPP",
+    link: 'https://github.com/CampAsAChamp/SpotifyPP',
     thumbnail: SpotifyPPThumbnail,
   },
   {
-    name: "Object & Face Detection System",
+    name: 'Object & Face Detection System',
     technologies: [technologies.PYTHON, technologies.NUMPY],
     textContent: `<li>
                     Python program that uses gradient features of an image for edge detection.
@@ -105,11 +102,11 @@ const projects = [
                   <li>
                     Can detect any object including faces given test data.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/ObjectDetection",
+    link: 'https://github.com/CampAsAChamp/ObjectDetection',
     thumbnail: ObjectDetectionThumbnail,
   },
   {
-    name: "Face Swapping",
+    name: 'Face Swapping',
     technologies: [technologies.PYTHON, technologies.NUMPY],
     textContent: `<li>
                     Piecewise affine warping, computes an affine transformation for triangles placed along the face.
@@ -118,32 +115,26 @@ const projects = [
                     Morphs a face into another one or can swap parts of a face(eyes, mouth, nose) to another face while
                     still maintaining the facial structure.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/FaceSwap",
+    link: 'https://github.com/CampAsAChamp/FaceSwap',
     thumbnail: FaceSwappingThumbnail,
     videoThumbnail: FaceSwappingVideoThumbnail,
     videoThumbnailMp4: FaceSwappingVideoThumbnailMp4,
     isVideo: true,
   },
   {
-    name: "Personal Website",
-    technologies: [
-      technologies.REACT,
-      technologies.JAVASCRIPT,
-      technologies.HTML5,
-      technologies.CSS3,
-      technologies.FIGMA,
-    ],
+    name: 'Personal Website',
+    technologies: [technologies.REACT, technologies.JAVASCRIPT, technologies.HTML5, technologies.CSS3, technologies.FIGMA],
     textContent: `<li>
                     Static React, Javascript, HTML and CSS website built to showcase my design skills along with experience and projects I've had over the years.
                   </li>
                   <li>
                     Created mockup design with Figma.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/campasachamp.github.io",
+    link: 'https://github.com/CampAsAChamp/campasachamp.github.io',
     thumbnail: PersonalWebsiteThumbnail,
   },
   {
-    name: "Home Server",
+    name: 'Home Server',
     technologies: [
       technologies.UBUNTU,
       technologies.LINUX,
@@ -152,12 +143,12 @@ const projects = [
       technologies.MONGODB,
       technologies.POSTGRES,
       technologies.REDIS,
-      technologies.CLOUDFLARE
+      technologies.CLOUDFLARE,
     ],
     textContent: `<li>
                     My Home Server for file storage, photo, movie, tv management & serving, with many other bells and whistles.
                   </li>`,
-    link: "https://github.com/CampAsAChamp/home-server",
+    link: 'https://github.com/CampAsAChamp/home-server',
     thumbnail: HomeServerThumbnail,
   },
 ];

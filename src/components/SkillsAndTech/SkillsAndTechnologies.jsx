@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { SkillsRow } from "components/SkillsAndTech/SkillsRow";
+import { SkillsRow } from 'components/SkillsAndTech/SkillsRow';
 
-import * as technologies from "data/technologies";
+import * as technologies from 'data/technologies';
 
-import "styles/SkillsAndTech/SkillsAndTechnologies.css";
+import 'styles/SkillsAndTech/SkillsAndTechnologies.css';
 
 export function SkillsAndTechnologies() {
   return (
@@ -14,13 +14,7 @@ export function SkillsAndTechnologies() {
       </div>
       <div id="skills-content">
         <SkillsRow
-          technologyNames={[
-            technologies.GO,
-            technologies.JAVA,
-            technologies.SPRING,
-            technologies.PYTHON,
-            technologies.CPP,
-          ]}
+          technologyNames={[technologies.GO, technologies.JAVA, technologies.SPRING, technologies.PYTHON, technologies.CPP]}
         />
         <SkillsRow
           technologyNames={[
@@ -32,21 +26,8 @@ export function SkillsAndTechnologies() {
             technologies.CSS3,
           ]}
         />
-        <SkillsRow
-          technologyNames={[
-            technologies.POSTGRES,
-            technologies.KUBERNETES,
-            technologies.DOCKER,
-            technologies.GCP,
-          ]}
-        />
-        <SkillsRow
-          technologyNames={[
-            technologies.GIT,
-            technologies.LINUX,
-            technologies.FIGMA,
-          ]}
-        />
+        <SkillsRow technologyNames={[technologies.POSTGRES, technologies.KUBERNETES, technologies.DOCKER, technologies.GCP]} />
+        <SkillsRow technologyNames={[technologies.GIT, technologies.LINUX, technologies.FIGMA]} />
       </div>
     </section>
   );

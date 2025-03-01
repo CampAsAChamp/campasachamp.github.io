@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import { Svg } from "components/Common/Svg";
+import { Svg } from 'components/Common/Svg';
 
-import { COLORS } from "data/colors";
-import { technologiesMap } from "data/technologies";
+import { COLORS } from 'data/colors';
+import { technologiesMap } from 'data/technologies';
 
 export function SkillsRow(props) {
   const { technologyNames } = props;
@@ -22,8 +22,8 @@ export function SkillsRow(props) {
                 className="skills-icon hvr-grow-rotate"
                 src={tech.image}
                 fill={COLORS.PURPLE}
-                title={tech.name + " Icon"}
-                alt={tech.name + " Icon"}
+                title={tech.name + ' Icon'}
+                alt={tech.name + ' Icon'}
               />
             </a>
             <div className="skills-caption">{tech.name}</div>

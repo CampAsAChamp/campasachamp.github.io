@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { SwProjectCard } from "components/SwProjects/SwProjectCard";
+import { SwProjectCard } from 'components/SwProjects/SwProjectCard';
 
-import { projects } from "data/swProjects";
+import { projects } from 'data/swProjects';
 
-import "styles/SwProjects/SwProjects.css";
+import 'styles/SwProjects/SwProjects.css';
 
 export function SWProjects() {
   return (

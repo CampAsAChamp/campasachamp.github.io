@@ -1,13 +1,13 @@
 #skills-container {
-  background-image: url("assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg");
+  background-image: url('assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg');
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
   display: grid;
 
   grid-template-areas:
-    "skills-header"
-    "skills-content";
+    'skills-header'
+    'skills-content';
   margin: 50px 0;
   padding-top: 50px;
 }
@@ -52,7 +52,7 @@
 /* Bottom bar under for on hover */
 .skills-caption::after {
   background: var(--color-yellow);
-  content: "";
+  content: '';
   height: 3px;
   left: 0%;
   position: absolute;

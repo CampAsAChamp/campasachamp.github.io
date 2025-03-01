@@ -1,13 +1,13 @@
-import parse from "html-react-parser";
-import React from "react";
+import parse from 'html-react-parser';
+import React from 'react';
 
-import { TechnologiesBar } from "../Common/TechnologiesBar";
+import { TechnologiesBar } from '../Common/TechnologiesBar';
 
 export function ExperienceCard(props) {
   const { experience, index } = props;
 
   return (
-    <div className="card" id={"card" + index}>
+    <div className="card" id={'card' + index}>
       <div className="experience-title-container">
         <div className="employer card-title" style={{ color: experience.color }}>
           {experience.company_name}

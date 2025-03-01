@@ -1,31 +1,31 @@
-import React from "react";
+import React from 'react';
 
-import ArtProfilePic from "assets/Art_Profile_Pic.svg";
-import GitHubLogo from "assets/Dev_Icons/GitHub.svg";
-import LinkedInLogo from "assets/Dev_Icons/LinkedIn.svg";
-import HeroImageBlobShape from "assets/Organic_Shapes/Hero_Image_Blob_Shape.svg";
-import RealProfilePic from "assets/Real_Profile_Pic.webp";
+import ArtProfilePic from 'assets/Art_Profile_Pic.svg';
+import GitHubLogo from 'assets/Dev_Icons/GitHub.svg';
+import LinkedInLogo from 'assets/Dev_Icons/LinkedIn.svg';
+import HeroImageBlobShape from 'assets/Organic_Shapes/Hero_Image_Blob_Shape.svg';
+import RealProfilePic from 'assets/Real_Profile_Pic.webp';
 
-import { MouseScrollIndicator } from "components/LandingPage/MouseScrollIndicator";
-import { Svg } from "components/Common/Svg";
+import { MouseScrollIndicator } from 'components/LandingPage/MouseScrollIndicator';
+import { Svg } from 'components/Common/Svg';
 
-import "styles/LandingPage/LandingPage.css";
+import 'styles/LandingPage/LandingPage.css';
 
 export function LandingPage() {
   function showModal() {
-    let modalBackground = document.getElementById("contact-me-modal-background");
-    let modalContent = document.getElementById("contact-me-modal-content");
+    let modalBackground = document.getElementById('contact-me-modal-background');
+    let modalContent = document.getElementById('contact-me-modal-content');
 
-    modalBackground.classList.add("show");
-    modalContent.classList.add("show");
+    modalBackground.classList.add('show');
+    modalContent.classList.add('show');
   }
 
   function hideModal() {
-    let modalBackground = document.getElementById("contact-me-modal-background");
-    let modalContent = document.getElementById("contact-me-modal-content");
+    let modalBackground = document.getElementById('contact-me-modal-background');
+    let modalContent = document.getElementById('contact-me-modal-content');
 
-    modalBackground.classList.remove("show");
-    modalContent.classList.remove("show");
+    modalBackground.classList.remove('show');
+    modalContent.classList.remove('show');
   }
 
   return (
@@ -61,13 +61,7 @@ export function LandingPage() {
             </div>
             <div id="contact-me-socials">
               <a href="https://github.com/CampAsAChamp/" target="_blank" rel="noopener noreferrer">
-                <Svg
-                  className="contact-me-item"
-                  id="github-logo"
-                  src={GitHubLogo}
-                  alt="Github Icon"
-                  title="Github Icon"
-                />
+                <Svg className="contact-me-item" id="github-logo" src={GitHubLogo} alt="Github Icon" title="Github Icon" />
               </a>
               <a href="https://www.linkedin.com/in/nick-schneider-swe/" target="_blank" rel="noopener noreferrer">
                 <Svg

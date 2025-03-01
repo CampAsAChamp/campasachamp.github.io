@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { ExperienceCard } from "components/Experience/ExperienceCard";
+import { ExperienceCard } from 'components/Experience/ExperienceCard';
 
-import { experiences } from "data/experiences";
+import { experiences } from 'data/experiences';
 
-import "styles/Experience/Experience.css";
+import 'styles/Experience/Experience.css';
 
 export function Experience() {
   return (

@@ -1,19 +1,19 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from "react";
-import DarkModeToggle from "react-dark-mode-toggle";
+import React, { useEffect, useState } from 'react';
+import DarkModeToggle from 'react-dark-mode-toggle';
 
-import "styles/NavBar/ThemeSwitcher.css";
+import 'styles/NavBar/ThemeSwitcher.css';
 
-const DARK = "dark";
-const LIGHT = "light";
-const COLOR_MODE_KEY = "color-mode";
+const DARK = 'dark';
+const LIGHT = 'light';
+const COLOR_MODE_KEY = 'color-mode';
 
 export function ThemeSwitcher() {
   let localStorageTheme = localStorage.getItem(COLOR_MODE_KEY);
 
   // Check for the OS theme if no localStorage theme
   if (!localStorageTheme) {
-    const osDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const osDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     localStorageTheme = osDarkTheme ? DARK : LIGHT;
   }
@@ -49,5 +49,5 @@ export function ThemeSwitcher() {
     }
   };
 
-  return <DarkModeToggle className="theme-switcher" onChange={switchTheme} checked={isDarkMode} size={"5em"} />;
+  return <DarkModeToggle className="theme-switcher" onChange={switchTheme} checked={isDarkMode} size={'5em'} />;
 }

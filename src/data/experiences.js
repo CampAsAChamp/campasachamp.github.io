@@ -1,25 +1,25 @@
-import ArculesLogo from "assets/Company_Logos/Arcules.svg";
-import IntuitLogo from "assets/Company_Logos/Intuit.svg"
-import IDTechLogo from "assets/Company_Logos/ID_Tech.svg";
-import RaytheonLogo from "assets/Company_Logos/Raytheon.svg";
-import ReazonLogo from "assets/Company_Logos/Reazon.svg";
+import ArculesLogo from 'assets/Company_Logos/Arcules.svg';
+import IntuitLogo from 'assets/Company_Logos/Intuit.svg';
+import IDTechLogo from 'assets/Company_Logos/ID_Tech.svg';
+import RaytheonLogo from 'assets/Company_Logos/Raytheon.svg';
+import ReazonLogo from 'assets/Company_Logos/Reazon.svg';
 
-import * as technologies from "data/technologies";
+import * as technologies from 'data/technologies';
 
-import { COLORS } from "data/colors";
+import { COLORS } from 'data/colors';
 
-export const RAYTHEON = "Raytheon Intelligence & Space";
-export const ARCULES = "Arcules";
-export const ID_TECH = "ID Tech";
-export const INTUIT = "Intuit";
-export const REAZON = "Reazon Systems";
+export const RAYTHEON = 'Raytheon Intelligence & Space';
+export const ARCULES = 'Arcules';
+export const ID_TECH = 'ID Tech';
+export const INTUIT = 'Intuit';
+export const REAZON = 'Reazon Systems';
 
 export const experiences = [
   {
     company_name: INTUIT,
-    location: "San Diego, CA",
-    position: "Software Engineer 2",
-    duration: "Oct 2023 - Present",
+    location: 'San Diego, CA',
+    position: 'Software Engineer 2',
+    duration: 'Oct 2023 - Present',
     textContent: `<li>
                     Currently working as a full stack software engineer on the appointment scheduling team for TurboTax's <a href="https://www.intuit.com/strategy/#bigbet-2" target="_blank" rel="noopener noreferrer">Virtual Expert Platform</a>.
                   </li>
@@ -44,9 +44,9 @@ export const experiences = [
   },
   {
     company_name: ARCULES,
-    location: "Irvine, CA",
-    position: "Software Engineer",
-    duration: "Jan 2022 - Oct 2023 (1 yr 10 mos)",
+    location: 'Irvine, CA',
+    position: 'Software Engineer',
+    duration: 'Jan 2022 - Oct 2023 (1 yr 10 mos)',
     textContent: `<li>
                     Worked on the <a href="https://manage.arcules.com/login/" target="_blank" rel="noopener noreferrer">product</a> (video surveillance as a service) team across the whole stack.
                   </li>
@@ -77,9 +77,9 @@ export const experiences = [
   },
   {
     company_name: RAYTHEON,
-    location: "Los Angeles, CA",
-    position: "Software Engineer 1",
-    duration: "Jan 2020 - Dec 2021 (2 yrs)",
+    location: 'Los Angeles, CA',
+    position: 'Software Engineer 1',
+    duration: 'Jan 2020 - Dec 2021 (2 yrs)',
     textContent: `<li>
                       Worked on <a href="https://www.raytheon.com/capabilities/products/space-based-early-warning" target="_blank" rel="noopener noreferrer">Space Based Early Missile Warning Satellite</a> on the Ground Software team
                   </li>
@@ -101,9 +101,9 @@ export const experiences = [
   },
   {
     company_name: ID_TECH,
-    location: "Cypress, CA",
-    position: "Software Engineer Co-op",
-    duration: "Sept 2018 - Dec 2018 (4 mos)",
+    location: 'Cypress, CA',
+    position: 'Software Engineer Co-op',
+    duration: 'Sept 2018 - Dec 2018 (4 mos)',
     textContent: `<li>
                     Created responsive mobile web app <a href="https://www.vivostate.com/" target="_blank" rel="noopener noreferrer">ViVOstate Terminal Management System (TMS)</a> with Node, Express, and Angular for viewing credit card reader device information and performing remote firmware updates in the field.
                 </li>
@@ -116,20 +116,15 @@ export const experiences = [
                 <li>
                     Designed wireframes, mockups and UX flows with Figma for rapidly prototyping designs to stakeholders.
                 </li>`,
-    technologies: [
-      technologies.NODEJS,
-      technologies.EXPRESS,
-      technologies.ANGULAR,
-      technologies.FIGMA,
-    ],
+    technologies: [technologies.NODEJS, technologies.EXPRESS, technologies.ANGULAR, technologies.FIGMA],
     logo: IDTechLogo,
     color: COLORS.ID_TECH,
   },
   {
     company_name: REAZON,
-    location: "Santa Ana, CA",
-    position: "Software Engineer Intern",
-    duration: "Jan 2018 - Mar 2018 (3 mos)",
+    location: 'Santa Ana, CA',
+    position: 'Software Engineer Intern',
+    duration: 'Jan 2018 - Mar 2018 (3 mos)',
     textContent: `<li>
                     Implemented RCampus online classroom learning tools and RESTful APIs with Java and MySQL for universities such as University of Virginia and Indiana University to use in courses.
                 </li>
@@ -137,13 +132,7 @@ export const experiences = [
                     Created Google Sheets parsing tool using the
                     <a href="https://developers.google.com/sheets/api" target="_blank" rel="noopener noreferrer">Google Sheets API</a> for personalized site designs.
                 </li>`,
-    technologies: [
-      technologies.JAVA,
-      technologies.MYSQL,
-      technologies.JAVASCRIPT,
-      technologies.HTML5,
-      technologies.CSS3,
-    ],
+    technologies: [technologies.JAVA, technologies.MYSQL, technologies.JAVASCRIPT, technologies.HTML5, technologies.CSS3],
     logo: ReazonLogo,
     color: COLORS.REAZON,
   },

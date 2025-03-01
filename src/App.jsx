@@ -1,17 +1,17 @@
-import "animate.css/animate.min.css";
-import React from "react";
+import 'animate.css/animate.min.css';
+import React from 'react';
 
-import { AboutMe } from "components/AboutMe/AboutMe";
-import { ArtProjects } from "components/ArtProjects/ArtProjects";
-import { Experience } from "components/Experience/Experience";
-import { LandingPage } from "components/LandingPage/LandingPage";
-import { Navbar } from "components/NavBar/Navbar";
-import { SWProjects } from "components/SwProjects/SwProjects";
-import { ScrollToTopButton } from "components/Common/ScrollToTopButton";
-import { SkillsAndTechnologies } from "components/SkillsAndTech/SkillsAndTechnologies";
+import { AboutMe } from 'components/AboutMe/AboutMe';
+import { ArtProjects } from 'components/ArtProjects/ArtProjects';
+import { Experience } from 'components/Experience/Experience';
+import { LandingPage } from 'components/LandingPage/LandingPage';
+import { Navbar } from 'components/NavBar/Navbar';
+import { SWProjects } from 'components/SwProjects/SwProjects';
+import { ScrollToTopButton } from 'components/Common/ScrollToTopButton';
+import { SkillsAndTechnologies } from 'components/SkillsAndTech/SkillsAndTechnologies';
 
-import "styles/Common/Globals.css";
-import "styles/Common/Scrollbar.css";
+import 'styles/Common/Globals.css';
+import 'styles/Common/Scrollbar.css';
 
 function App() {
   return (

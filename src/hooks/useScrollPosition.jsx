@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 export const useScrollPosition = () => {
   const [scrollPosition, setScrollPosition] = useState({ x: 0, y: 0 });
@@ -8,11 +8,11 @@ export const useScrollPosition = () => {
       setScrollPosition({ x: window.scrollX, y: window.scrollY });
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     handleScroll(); // Initial scroll position on mount
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 

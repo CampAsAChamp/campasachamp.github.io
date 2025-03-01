@@ -28,7 +28,7 @@
   background-color: var(--color-mouse);
   width: 4px;
   height: 4px;
-  content: "";
+  content: '';
 }
 
 #mouse-scroll-indicator.show {

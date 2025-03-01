@@ -1,4 +1,4 @@
-@import "styles/Common/hover.css";
+@import 'styles/Common/hover.css';
 
 :root {
   --color-purple: hsl(243, 100%, 69%); /* #6c63ff */
@@ -20,7 +20,7 @@
 }
 
 /* Light Mode */
-:root[color-mode="light"] {
+:root[color-mode='light'] {
   --color-background: var(--color-white);
   --color-scrollbar-background: #d9d9d9;
   --color-body-text: var(--color-off-grey);
@@ -38,7 +38,7 @@
 }
 
 /* Dark Mode */
-:root[color-mode="dark"] {
+:root[color-mode='dark'] {
   --color-background: #1e272e;
   --color-scrollbar-background: #2b343b;
   --color-body-text: var(--color-white);
@@ -72,7 +72,7 @@ html {
 body {
   margin: 0;
   color: var(--color-body-text);
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 html,
@@ -134,7 +134,7 @@ ul ul {
   background: var(--color-purple);
 
   color: white;
-  font: 900 large "Nunito";
+  font: 900 large 'Nunito';
   font-size: 1.125rem;
   text-align: center;
   text-transform: uppercase;

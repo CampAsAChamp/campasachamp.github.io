@@ -2,8 +2,8 @@
   display: grid;
 
   grid-template-areas:
-    "nav nav"
-    "name-intro profile-pic-container";
+    'nav nav'
+    'name-intro profile-pic-container';
   grid-template-columns: 1.5fr 1fr;
   margin-bottom: 150px;
 }
@@ -78,7 +78,7 @@
 
 #contact-me-button span::after {
   color: var(--color-yellow);
-  content: "\00ab"; /* Makes an arrow >> */
+  content: '\00ab'; /* Makes an arrow >> */
   opacity: 0;
   position: absolute;
   right: -20px;
@@ -98,7 +98,9 @@
 #contact-me-modal-content {
   background-color: var(--color-card);
   border-radius: var(--rounded-component-corners-size);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: none;
   font-size: 2rem;
   margin: 10% auto; /* 10% from the top and centered */
@@ -134,7 +136,9 @@
 }
 
 #contact-me-socials svg {
-  transition: transform 0.5s, fill 0.5s;
+  transition:
+    transform 0.5s,
+    fill 0.5s;
 }
 
 #contact-me-socials svg:hover {
@@ -171,9 +175,9 @@
 
   #landing-page-container {
     grid-template-areas:
-      "nav"
-      "profile-pic-container"
-      "name-intro";
+      'nav'
+      'profile-pic-container'
+      'name-intro';
     grid-template-columns: 1fr;
     margin-bottom: 50px;
   }

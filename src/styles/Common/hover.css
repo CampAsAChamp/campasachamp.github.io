@@ -267,7 +267,7 @@
   transition-timing-function: ease-out;
   border-radius: var(--rounded-button-corners-size);
   background: var(--color-yellow);
-  content: "";
+  content: '';
 }
 .hvr-bounce-to-right:hover,
 .hvr-bounce-to-right:focus,

@@ -23,8 +23,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -47,17 +45,13 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 ![product-screenshot]
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -65,57 +59,63 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/CampAsAChamp/campasachamp.github.io.git
-    ```
+   ```sh
+   git clone https://github.com/CampAsAChamp/campasachamp.github.io.git
+   ```
 2. Navigate into the repo and run
-    ```sh
-    npm install 
-    ```
+   ```sh
+   npm install
+   ```
 3. Start the website with
-    ```sh
-    npm run start
-    ```
+   ```sh
+   npm run start
+   ```
 4. Open your web browser (if not automatically done for you) to `localhost:3000`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Deploying to GitHub Pages
+
 1. Push the React app to the GitHub repository
 
-    ```shell
-    $ npm run deploy
-    ```
+   ```shell
+   $ npm run deploy
+   ```
 
-    > That will cause the `predeploy` and `deploy` scripts defined in `package.json` to run.
-    >
-    > Under the hood, the `predeploy` script will build a distributable version of the React app and store it in a folder named `build`. Then, the `deploy` script will push the contents of that folder to a new commit on the `gh-pages` branch of the GitHub repository, creating that branch if it doesn't already exist.
+   > That will cause the `predeploy` and `deploy` scripts defined in `package.json` to run.
+   >
+   > Under the hood, the `predeploy` script will build a distributable version of the React app and store it in a folder named
+   > `build`. Then, the `deploy` script will push the contents of that folder to a new commit on the `gh-pages` branch of the
+   > GitHub repository, creating that branch if it doesn't already exist.
 
-    > By default, the new commit on the `gh-pages` branch will have a commit message of "Updates". You can [specify a custom commit message](https://github.com/gitname/react-gh-pages/issues/80#issuecomment-1042449820) via the `-m` option, like this:
-    > ```shell
-    > $ npm run deploy -- -m "Deploy React app to GitHub Pages"
-    > ```
+   > By default, the new commit on the `gh-pages` branch will have a commit message of "Updates". You can
+   > [specify a custom commit message](https://github.com/gitname/react-gh-pages/issues/80#issuecomment-1042449820) via the `-m`
+   > option, like this:
+   >
+   > ```shell
+   > $ npm run deploy -- -m "Deploy React app to GitHub Pages"
+   > ```
 
-Now the GitHub repository contains a branch named `gh-pages`, which contains the files that make up the distributable version of the React app.
+Now the GitHub repository contains a branch named `gh-pages`, which contains the files that make up the distributable version of
+the React app.
 
 ## Usage
 
 1. View the site live at https://campasachamp.github.io/
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 [product-screenshot]: src/assets/website_screenshot.png
