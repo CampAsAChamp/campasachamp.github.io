@@ -12,8 +12,8 @@ export function AboutMe() {
       <img id="background-logo" src={S_Logo_Purple} alt="Logo Backdrop" />
       <div id="about-me-images">
         <img id="grad-cap-illustration" src={GradCapIllustration} alt="Graduation Cap" />
+        <img id="anteater-illustration" className="hvr-grow-rotate" src={AnteaterIllustration} alt="Anteater Illustration" />
         <img id="desk-illustration" src={DeskIllustration} alt="Desk Illustration" />
-        <img id="anteater-illustration" src={AnteaterIllustration} alt="Anteater Illustration" />
       </div>
       <div id="about-me-text">
         <div id="about-me-header">

@@ -15,38 +15,37 @@
 
 #about-me-images {
   display: grid;
-  gap: 50px;
   grid-area: about-me-images; /* Refers to larger grid fro the about-me container */
-  grid-template-areas:
-    'header header header header'
-    'main main . sidebar'
-    'footer footer footer footer';
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-}
 
-.item-a {
-  grid-area: header;
-}
-.item-b {
-  grid-area: main;
-}
-.item-c {
-  grid-area: sidebar;
-}
-.item-d {
-  grid-area: footer;
-}
-
-.container {
-  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 #about-me-images img {
-  transition: transform 0.5s; /* Animation */
+  transition: transform 0.5s;
 }
 
-#about-me-images img:hover {
+#grad-cap-illustration {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+}
+
+#grad-cap-illustration:hover {
+  transform: scale(1.1);
+}
+
+#anteater-illustration {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 100%;
+}
+
+#desk-illustration {
+  grid-area: 2 / 1 / 3 / 3;
+  width: 50%;
+  justify-self: center;
+}
+
+#desk-illustration:hover {
   transform: scale(1.1);
 }
 
@@ -64,19 +63,6 @@
   padding-right: 10%;
 
   padding-top: 150px;
-}
-
-#grad-cap-illustration {
-  /* display: block;
-  position: relative;
-  width: 50%; */
-}
-
-#desk-illustration {
-  /* display: block;
-  left: 30%;
-  position: relative;
-  width: 50%; */
 }
 
 #background-logo {
