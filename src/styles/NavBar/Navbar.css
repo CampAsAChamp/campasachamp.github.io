@@ -61,10 +61,10 @@ nav li a:hover::after {
   display: none;
 }
 
-.line {
+.hamburger-menu-line {
   background-color: var(--color-white);
   border-radius: var(--rounded-button-corners-size);
-  height: 50px;
+  height: 5px;
   margin: 5px;
   transition: all 0.5s ease;
   width: 25px;
@@ -124,13 +124,13 @@ nav li a:hover::after {
     z-index: 1;
   }
 
-  .toggle #line1 {
+  .toggle #hamburger-menu-line1 {
     transform: rotate(-45deg) translate(-8px, 6px);
   }
-  .toggle #line2 {
+  .toggle #hamburger-menu-line2 {
     opacity: 0;
   }
-  .toggle #line3 {
+  .toggle #hamburger-menu-line3 {
     transform: rotate(45deg) translate(-8px, -6px);
   }
 }
