@@ -7,8 +7,9 @@ import "styles/LandingPage/MouseScrollIndicator.css";
 export function MouseScrollIndicator() {
   const scrollPosition = useScrollPosition();
 
-  // TODO: Add to this so it doesn't re-render if we scroll back up
-  const showMouse = scrollPosition.y < 400;
+  const showMouse = scrollPosition.y > 400
 
-  return <div className={`${!showMouse && "show"}`} id="mouse-scroll-indicator" />;
+  const className = showMouse ? "show" : ""
+
+  return <div className={className} id="mouse-scroll-indicator" />;
 }
