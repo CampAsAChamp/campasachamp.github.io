@@ -15,7 +15,7 @@ export function ScrollToTopButton() {
   // * NOTE: Conditional rendering handled by the CSS
   // * Initial opacity is 0, and adding the show class sets the opacity to 1
   // * This allows us to animate the conditional rendering
-  const showScrollToTopButton = scrollPosition.y > 400;
+  const showScrollToTopButton = scrollPosition.y > 400
 
   return (
     <button
