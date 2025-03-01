@@ -1,14 +1,14 @@
 #skills-container {
+  background-image: url("assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
   display: grid;
 
   grid-template-areas:
     "skills-header"
     "skills-content";
   margin: 50px 0;
-  background-image: url("assets/Organic_Shapes/Skills_and_Technologies_Blob_Shape.svg");
-  /* background-position: center; */
-  background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 50px;
 }
 
@@ -30,20 +30,20 @@
 }
 
 .skills-icon-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0 50px;
 }
 
 .skills-icon {
-  width: 100px;
   height: auto;
+  width: 100px;
 }
 
 .skills-caption {
-  font-weight: 900;
   font-size: 1.625rem;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -72,9 +72,9 @@
   }
 
   .skills-icon-container > svg {
+    height: auto;
     margin: 0;
     max-width: 100%;
-    height: auto;
   }
 
   .skills-caption {
