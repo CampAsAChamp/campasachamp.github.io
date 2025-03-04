@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -27,7 +28,9 @@ export function ArtProjects() {
   return (
     <section id="graphic-design-container" className="page-container">
       <div id="graphic-design-header" className="section-header">
-        <h2>Art & Design Projects</h2>
+        <ScrollAnimation animateIn="animate__jackInTheBox" animateOnce>
+          <h2>Art & Design Projects</h2>
+        </ScrollAnimation>
       </div>
       <div id="graphic-design-content">
         <div className="row">

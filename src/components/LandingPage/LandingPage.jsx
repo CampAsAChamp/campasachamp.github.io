@@ -64,7 +64,13 @@ export function LandingPage() {
                 <Svg className="contact-me-item" id="github-logo" src={GitHubLogo} alt="Github Icon" title="Github Icon" />
               </a>
               <a href="https://www.linkedin.com/in/nick-schneider-swe/" target="_blank" rel="noopener noreferrer">
-                <Svg className="contact-me-item" id="linkedin-logo" src={LinkedInLogo} alt="LinkedIn Icon" title="LinkedIn Icon" />
+                <Svg
+                  className="contact-me-item"
+                  id="linkedin-logo"
+                  src={LinkedInLogo}
+                  alt="LinkedIn Icon"
+                  title="LinkedIn Icon"
+                />
               </a>
             </div>
           </div>
